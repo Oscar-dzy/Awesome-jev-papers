@@ -36,13 +36,13 @@ Jev is not an acronym. The name refers to economist William Stanley Jevons. Type
 
 | Category | Entries |
 |---|---:|
-| Core JEV sources | 2 |
+| Core JEV sources | 3 |
 | Benchmarks and evaluation | 4 |
 | Applications | 6 |
 | Technical articles | 2 |
-| **Total** | **14** |
+| **Total** | **15** |
 
-Of the 14 entries, **9 are Jev-specific or Jev-style academic preprints** and **5 are research-oriented technical articles or reports**.
+Of the 15 entries, **10 are Jev-specific or Jev-style academic preprints** and **5 are research-oriented technical articles or reports**.
 
 ## 🔥 Core JEV Sources
 
@@ -53,6 +53,9 @@ Of the 14 entries, **9 are Jev-specific or Jev-style academic preprints** and **
 
 - 🔥 **[Workflow evals](https://evals.typesafe.ai/)** — TypeSafe AI, *Live technical evaluation report, 2026*. **Tier A.**
   - This first-party report describes four structured automation evaluations and the harness design used to compare Jev with generative models. Policies are decomposed into independent typed judgments and deterministic code, then scored against consensus probabilities from large external models. It is essential for understanding TypeSafe's headline claims, but its reference labels, task construction, and author affiliation make independent validation necessary.
+
+- **[Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem](https://arxiv.org/abs/2609.30216)** — Guoming Ling, Muen Xue, and Zijian Ye, *arXiv preprint, 2026*. **Tier A.**
+  - Described by its authors as the first data-driven survey and analysis of Jev's application ecosystem, this preprint examines 2,170 public GitHub projects collected through September 22, 2026. It reports rapid early growth, maps application domains and decision-use patterns, and distinguishes the distribution of projects from public attention. Jev itself is the subject of the study; the repository analysis does not establish how many deployments are used in production.
 
 ## 📊 Benchmarks and Evaluation
 
