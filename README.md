@@ -3,7 +3,7 @@
 <p align="center"><strong>An evidence-aware map of Jev and typed probabilistic decision research.</strong></p>
 
 <p align="center">
-  <strong>84 entries</strong> · <strong>77 academic preprints</strong> · Last verified <strong>2026-10-03</strong> · <a href="LICENSE">CC0 1.0</a>
+  <strong>85 entries</strong> · <strong>77 academic preprints</strong> · Last verified <strong>2026-10-03</strong> · <a href="LICENSE">CC0 1.0</a>
 </p>
 
 A curated collection of papers, preprints, technical reports, evaluations, and research-oriented articles about **Jev**, TypeSafe AI's first **System One Model**, and the research questions around typed probabilistic decisions.
@@ -41,11 +41,11 @@ Jev is not an acronym. The name refers to economist William Stanley Jevons. Type
 |---|---:|
 | Core JEV sources | 6 |
 | Benchmarks and evaluation | 33 |
-| Applications | 42 |
+| Applications | 43 |
 | Technical articles | 3 |
-| **Total** | **84** |
+| **Total** | **85** |
 
-Of the 84 entries, **77 are Jev-specific or Jev-style academic preprints** and **7 are research-oriented technical articles or reports**.
+Of the 85 entries, **77 are Jev-specific or Jev-style academic preprints** and **8 are research-oriented technical articles or reports**.
 
 All **77 academic entries** include their arXiv **v1** submission timestamp in UTC, displayed to the minute.
 
@@ -303,6 +303,9 @@ All **77 academic entries** include their arXiv **v1** submission timestamp in U
 
 - **[LLM2Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them](https://arxiv.org/abs/2610.02076)**<br>📅 <strong>2026-10-01 17:15 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yinheng Li and Justin Wagle
   - LLM2Jev reads probabilities over numeric candidate identifiers from existing LLMs and optionally fine-tunes them with a tree-factorized selection loss and KL anchors. Experiments on two Qwen scales find that a stronger backbone already competes with community decision models, while adaptation mainly helps weaker models and particular tasks. It is included as a Jev-style inference and training framework that preserves conversational behavior and tests when dedicated tuning is actually useful.
+
+- **[WaterSheep 0.1.0: Typed Decisions with Calibrated Probabilities from a Single Encoder Pass](https://doi.org/10.13140/RG.2.2.28606.45122)**<br>📅 <strong>2026-10-01</strong> · Preprint · <strong>Tier A</strong> · Samrat Dutta
+  - WaterSheep is an open decision model that accepts Jev's request format and adds a fourth question type, multi-label selection. It fine-tunes a ModernBERT-base encoder with a small scoring head that reads one marker position per candidate answer, so every option gets a probability from a single forward pass, and it fits one calibration temperature per question type. The author reports accuracy and expected calibration error on an in-distribution split and on held-out public datasets. It is included as an openly licensed Jev-style model whose results are first-party and not independently reproduced.
 
 ## 🧭 Technical Articles
 
