@@ -1,20 +1,20 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "verified_on": "2026-10-09",
   "timezone": "Asia/Shanghai",
   "previous_readme_cutoff": "2026-10-07",
-  "coverage_note": "Verification-date snapshot; does not claim all submissions on the cutoff date were announced or indexed. Expanded API date syntax is UTC; every retained record was also checked to be within the local cutoff date.",
+  "coverage_note": "Verification-date snapshot; does not claim all submissions on the cutoff date were announced or indexed. Expanded API date syntax is UTC; every retained record was also checked to be within the local cutoff date. One user-suggested ResearchGate preprint was verified separately through DataCite and author documentation; arXiv query counts remain unchanged.",
   "counts": {
-    "distinct_academic_candidates": 145,
-    "academic_included": 123,
+    "distinct_academic_candidates": 146,
+    "academic_included": 124,
     "academic_excluded": 22,
-    "academic_added": 21,
+    "academic_added": 22,
     "academic_revised": 3,
     "technical_sources": 13,
     "technical_added": 4,
-    "total_entries": 136,
+    "total_entries": 137,
     "categories": {
-      "Foundations & General Decision Models": 28,
+      "Foundations & General Decision Models": 29,
       "Natural Language Processing & Information Retrieval": 17,
       "Multimodal Learning & Perception": 8,
       "Embodied AI & Reinforcement Learning": 10,
@@ -23,7 +23,9 @@
       "AI for Science, Healthcare & Education": 10,
       "Networks, Databases & Engineering": 11,
       "Computational Social Science & Human Decisions": 8
-    }
+    },
+    "arxiv_preprints": 123,
+    "non_arxiv_preprints": 1
   },
   "queries": {
     "jev": {
@@ -3886,6 +3888,89 @@
       "change": "added",
       "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
       "inclusion_basis": "Explicitly verified Jev-style non-generative probability interface or model evaluation"
+    },
+    {
+      "id": "doi:10.13140/RG.2.2.28606.45122",
+      "title": "WaterSheep 0.1.0: Typed Decisions with Calibrated Probabilities from a Single Encoder Pass",
+      "authors": [
+        "Samrat Dutta"
+      ],
+      "published": null,
+      "publication_year": 2026,
+      "publication_date_status": "Exact publication date not verified.",
+      "updated": null,
+      "journal_ref": "",
+      "doi": "10.13140/RG.2.2.28606.45122",
+      "url": "https://doi.org/10.13140/RG.2.2.28606.45122",
+      "source": "ResearchGate",
+      "retrieved_by": [
+        "user_suggestion",
+        "author_linkedin_paper_link",
+        "datacite"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "ResearchGate preprint",
+      "change": "added",
+      "inclusion_basis": "Author-documented open Jev-style typed-probability model with Jev-compatible API; a separately registered preprint, not a standalone code entry.",
+      "metadata_verification": "DataCite DOI registry confirms exact title, author, 2026 publication year, Preprint type and Unpublished publisher. No exact publication date is supplied.",
+      "full_text_verified": false,
+      "full_text_limitation": "ResearchGate DOI landing page returned HTTP 403; paper full text could not be read.",
+      "summary_basis": "Author project documentation; empirical figures are author-reported and have not been checked against the paper full text or independently reproduced.",
+      "summaries": {
+        "en": "WaterSheep fine-tunes ModernBERT with a decision head and question-type temperature scaling for Noul, Choice, Score, and multi-label probabilities. The [author's project documentation](https://github.com/SamratDuttaOfficial/WaterSheep) reports 77.8% in-distribution accuracy and 61.2% on held-out datasets, with ECE of 0.026 and 0.043. It is included as an open Jev-style model with a compatible API; English-only support, input truncation, and weaker rating performance limit its use. The DOI verifies preprint metadata; this summary relies on project documentation because the paper's full text was inaccessible.",
+        "zh-CN": "WaterSheep 在 ModernBERT 上微调决策头，并按问题类型进行温度缩放，为 Noul、Choice、Score 和多标签任务输出概率。[作者项目说明](https://github.com/SamratDuttaOfficial/WaterSheep)报告分布内准确率为 77.8%，留出数据集准确率为 61.2%，对应 ECE 为 0.026 和 0.043。本文作为开放的 Jev 风格模型被收录，并提供兼容接口；仅支持英语、长输入截断和评分任务表现较弱限制了其用途。DOI 已确认预印本元数据；由于论文全文无法访问，本摘要依据作者项目说明整理。"
+      },
+      "supplementary_urls": [
+        "https://github.com/SamratDuttaOfficial/WaterSheep",
+        "https://huggingface.co/samratduttaofficial/WaterSheep"
+      ],
+      "metadata_url": "https://api.datacite.org/dois/10.13140/RG.2.2.28606.45122",
+      "registry_metadata": {
+        "doi": "10.13140/rg.2.2.28606.45122",
+        "creators": [
+          {
+            "name": "Samrat Dutta",
+            "affiliation": [],
+            "nameIdentifiers": []
+          }
+        ],
+        "titles": [
+          {
+            "title": "WaterSheep 0.1.0: Typed Decisions with Calibrated Probabilities from a Single Encoder Pass"
+          }
+        ],
+        "publisher": "Unpublished",
+        "publicationYear": 2026,
+        "types": {
+          "ris": "RPRT",
+          "bibtex": "article",
+          "citeproc": "article-journal",
+          "schemaOrg": "ScholarlyArticle",
+          "resourceType": "Preprint",
+          "resourceTypeGeneral": "Text"
+        },
+        "dates": [],
+        "url": "https://www.researchgate.net/doi/10.13140/RG.2.2.28606.45122",
+        "created": "2026-10-01T21:17:13.000Z",
+        "registered": "2026-10-01T21:17:14.000Z"
+      },
+      "date_note": "DOI registration at 2026-10-01T21:17:14.000Z is evidence of registration only; not used as the paper publication date or ordering key.",
+      "author_reported_results": {
+        "in_distribution": {
+          "accuracy": 0.778,
+          "ece": 0.026
+        },
+        "held_out_datasets": {
+          "accuracy": 0.612,
+          "ece": 0.043
+        }
+      },
+      "evidence_hashes": {
+        "datacite_response_sha256": "8d2170bdb38d91c57891a69c54418dac6d72231ad0866917ed4ed3f7033ca6b7",
+        "author_readme_sha256": "b41f645b5837c24aa92f872d3ee16f563887d3beae8ee2a0734bb14d52a8eae3"
+      }
     }
   ],
   "technical_sources": [
@@ -4316,6 +4401,25 @@
       "url": "https://arxiv.org/abs/2610.11392",
       "status": 200,
       "dates": []
+    },
+    {
+      "id": "doi:10.13140/RG.2.2.28606.45122",
+      "kind": "doi_metadata",
+      "url": "https://api.datacite.org/dois/10.13140/RG.2.2.28606.45122",
+      "status": 200
+    },
+    {
+      "id": "doi:10.13140/RG.2.2.28606.45122",
+      "kind": "preprint_landing_page",
+      "url": "https://www.researchgate.net/doi/10.13140/RG.2.2.28606.45122",
+      "status": 403,
+      "full_text_verified": false
+    },
+    {
+      "id": "doi:10.13140/RG.2.2.28606.45122",
+      "kind": "author_project_documentation",
+      "url": "https://raw.githubusercontent.com/SamratDuttaOfficial/WaterSheep/main/README.md",
+      "status": 200
     }
   ],
   "technical_link_retrievals": [
@@ -4454,13 +4558,14 @@
     "Older retained academic summaries were preserved unless an updated arXiv version was identified.",
     "The two Vals AI reports share benchmark data; the second is not an independent replication.",
     "Technical source retrieval failures do not imply unavailable pages when a successful web-reader check is recorded.",
-    "AIMultiple article retains its displayed 5 October revision date; its downloadable data advertises an 8 October update."
+    "AIMultiple article retains its displayed 5 October revision date; its downloadable data advertises an 8 October update.",
+    "WaterSheep full text could not be accessed (ResearchGate HTTP 403). DataCite confirms preprint metadata and year only; summary and results come from author project documentation. DOI registration is not treated as publication date."
   ],
   "organization": {
     "basis": "primary_research_domain",
     "cross_domain_policy": "Assign each work once by its main research question or application; describe secondary connections in the summary.",
     "date_order": "ascending within each domain; arXiv v1 UTC timestamp or non-arXiv publication/explicit report-update date",
-    "undated_policy": "Place after dated entries in a separate Undated Live Reports subsection.",
+    "undated_policy": "Place after dated entries: year-only works in Publication Date Unverified; live reports in Undated Live Reports. DOI registration dates are not publication dates.",
     "domains": [
       {
         "name": "Foundations & General Decision Models",

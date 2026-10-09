@@ -5,7 +5,7 @@
 <p align="center"><strong>An evidence-aware map of Jev and typed probabilistic decision research.</strong></p>
 
 <p align="center">
-  <strong>136 entries</strong> · <strong>123 academic preprints</strong> · Last verified <strong>2026-10-09</strong> · <a href="LICENSE">CC0 1.0</a>
+  <strong>137 entries</strong> · <strong>124 academic preprints</strong> · Last verified <strong>2026-10-09</strong> · <a href="LICENSE">CC0 1.0</a>
 </p>
 
 A curated collection of papers, preprints, technical reports, evaluations, and research-oriented articles about **Jev**, TypeSafe AI's first **System One Model**, and the research questions around typed probabilistic decisions.
@@ -14,7 +14,7 @@ Jev is not an acronym. The name refers to economist William Stanley Jevons. Type
 
 > **Scope.** This repository collects research literature, not implementations. Standalone GitHub repositories, model pages, demos, videos, generic news, and marketing-only posts are excluded. A code or model link may appear only as supplementary material for an included paper.
 
-> **Evidence status.** Jev is a very new, closed-weight commercial model. As of 9 October 2026, no peer-reviewed TypeSafe architecture or Reinforcement Learning for Calibrated Decisions (RLCD) paper was located. Independent work such as OpenJev-RLCD studies its own training method and does not disclose Jev's proprietary algorithm. All academic items below are listed as arXiv preprints; first-party performance claims remain vendor-reported unless independently reproduced.
+> **Evidence status.** Jev is a very new, closed-weight commercial model. As of 9 October 2026, no peer-reviewed TypeSafe architecture or Reinforcement Learning for Calibrated Decisions (RLCD) paper was located. Independent work such as OpenJev-RLCD studies its own training method and does not disclose Jev's proprietary algorithm. Academic items below are preprints: 123 on arXiv and one on ResearchGate. First-party performance claims remain author- or vendor-reported unless independently reproduced.
 
 ## Contents
 
@@ -40,7 +40,7 @@ Jev is not an acronym. The name refers to economist William Stanley Jevons. Type
 - **Tier B — Evaluation / benchmark:** Jev or a clearly identified Jev-style model is a measured system, baseline, or explicit comparator.
 - 🔥 marks a foundational source or especially important independent evaluation. It is used sparingly.
 - `Preprint` means that no conference or journal publication was verified at the cutoff date.
-- 📅 **Date:** the bold UTC timestamp is the arXiv **v1** submission time; date-only labels are publication dates for non-arXiv sources unless explicitly marked as an updated report. Dated entries within each domain run from earliest to latest. Undated live reports follow the dated entries in a separate subsection. Titles, authors, and summaries reflect the latest version verified by the cutoff; `arXiv v1` labels the date, not the version summarized.
+- 📅 **Date:** the bold UTC timestamp is the arXiv **v1** submission time; date-only labels are publication dates for non-arXiv sources unless explicitly marked as an updated report. Dated entries within each domain run from earliest to latest. Works with only a verified year follow dated entries in a **Publication Date Unverified** subsection; undated live reports use a separate **Undated Live Reports** subsection. DOI registration dates are not used as publication dates. Titles, authors, and summaries reflect the latest version verified by the cutoff; `arXiv v1` labels the date, not the version summarized.
 
 ## Repository Statistics
 
@@ -48,7 +48,7 @@ Jev is not an acronym. The name refers to economist William Stanley Jevons. Type
 
 | Research domain | Entries |
 |---|---:|
-| [Foundations & General Decision Models](#foundations-decision-models) | 28 |
+| [Foundations & General Decision Models](#foundations-decision-models) | 29 |
 | [Natural Language Processing & Information Retrieval](#nlp-information-retrieval) | 17 |
 | [Multimodal Learning & Perception](#multimodal-perception) | 8 |
 | [Embodied AI & Reinforcement Learning](#embodied-ai-reinforcement-learning) | 10 |
@@ -57,11 +57,11 @@ Jev is not an acronym. The name refers to economist William Stanley Jevons. Type
 | [AI for Science, Healthcare & Education](#science-healthcare-education) | 10 |
 | [Networks, Databases & Engineering](#networks-databases-engineering) | 11 |
 | [Computational Social Science & Human Decisions](#social-science-human-decisions) | 8 |
-| **Total** | **136** |
+| **Total** | **137** |
 
-Of the 136 entries, **123 are Jev-specific or Jev-style academic preprints** and **13 are research-oriented technical articles or reports**.
+Of the 137 entries, **124 are Jev-specific or Jev-style academic preprints** (123 on arXiv and one on ResearchGate) and **13 are research-oriented technical articles or reports**.
 
-All **123 academic entries** include their arXiv **v1** submission timestamp in UTC, displayed to the minute. Domain counts include all source types and count each work once.
+All **123 arXiv entries** include their **v1** submission timestamp in UTC, displayed to the minute. The ResearchGate preprint has a verified year but no verified exact publication date. Domain counts include all source types and count each work once.
 
 <a id="foundations-decision-models"></a>
 
@@ -154,6 +154,11 @@ Model architectures, training and inference methods, ecosystem overviews, and ev
 
 - **[Specialized Decision Models vs. General-Purpose LLMs: Benchmarking Jev Across Knowledge, Reasoning, and Multilingual Tasks](https://arxiv.org/abs/2610.11978)**<br>📅 <strong>2026-10-08 13:52 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Xing Li, Qingcheng Chang, Jinzhong Ning, Changfeng Xu, Shenlong Zhang, Yijia Zhang, Ling Luo, and Hongfei Lin
   - The authors compare Jev with nineteen LLMs across thirteen knowledge, reasoning, and multilingual multiple-choice benchmarks. Jev is competitive on knowledge and commonsense, but scores below every comparator on MathQA, exposing a substantial weakness in multistep calculation. It is included as a broad direct benchmark; the model tiers were not all evaluated under one uniform protocol, and probability-based escalation remains future work.
+
+### Publication Date Unverified
+
+- **[WaterSheep 0.1.0: Typed Decisions with Calibrated Probabilities from a Single Encoder Pass](https://doi.org/10.13140/RG.2.2.28606.45122)**<br>◉ <strong>2026 · Exact date unverified</strong> · ResearchGate preprint · <strong>Tier A</strong> · Samrat Dutta
+  - WaterSheep fine-tunes ModernBERT with a decision head and question-type temperature scaling for Noul, Choice, Score, and multi-label probabilities. The [author's project documentation](https://github.com/SamratDuttaOfficial/WaterSheep) reports 77.8% in-distribution accuracy and 61.2% on held-out datasets, with ECE of 0.026 and 0.043. It is included as an open Jev-style model with a compatible API; English-only support, input truncation, and weaker rating performance limit its use. The DOI verifies preprint metadata; this summary relies on project documentation because the paper's full text was inaccessible.
 
 <a id="nlp-information-retrieval"></a>
 
@@ -549,11 +554,13 @@ Social-science annotation and replication, cultural values, population simulatio
 
 **Cutoff:** 9 October 2026 (Asia/Shanghai).
 
-**Organization:** the list is grouped by primary research domain. This reorganization preserves the 9 October source-verification cutoff, all 136 entries, their metadata and summaries, and the original inclusion decisions.
+**Organization:** the list is grouped by primary research domain and contains 137 entries as of the 9 October verification cutoff. The original 136 entries retain their metadata, summaries, and inclusion decisions; WaterSheep is the separately documented addition below.
 
 The 9 October update reconciled the previous README with the complete arXiv API result set for `all:Jev` (102 records). An expanded query for `typed decision`, `Jev-style`, `Reinforcement Learning for Calibrated Decisions`, `System One`, `Laya`, `System-1`, `Jev-like`, `RLCD`, `typed probabilistic`, and `decision models`, restricted to submissions from 15 September through the search date, returned 119 records. Together the queries yielded 145 distinct academic candidates, including all 102 previously listed preprints. After screening, 123 were retained and 22 excluded, adding 21 academic entries. Four additions have September v1 dates: the biosecurity-relevant reliability audit, Emo-Jev, SeLMRoute, and the Certo caching study. They are newly included records, not newly submitted October papers.
 
-Current arXiv metadata was checked for every retained academic entry. New entries and three revised papers were checked against original abstract pages, with targeted full-text checks for Jev's role, experimental conclusions, and ambiguous inclusion decisions. The revisions update the title and findings of Type-Safe Is Not Error-Free, JevOut's complete author list and expanded evaluation, and the semantic-query optimization study. Titles and summaries describe the verified version; v1 timestamps remain the ordering key. No conference or journal publication metadata was verified for these records, so all remain labeled as arXiv preprints.
+Current arXiv metadata was checked for every retained arXiv entry. New entries and three revised papers were checked against original abstract pages, with targeted full-text checks for Jev's role, experimental conclusions, and ambiguous inclusion decisions. The revisions update the title and findings of Type-Safe Is Not Error-Free, JevOut's complete author list and expanded evaluation, and the semantic-query optimization study. Titles and summaries describe the verified version; v1 timestamps remain the ordering key. No conference or journal publication metadata was verified for these records, so all remain labeled as arXiv preprints.
+
+A user-suggested addition, [WaterSheep 0.1.0](https://doi.org/10.13140/RG.2.2.28606.45122), was verified separately through [DataCite's DOI metadata](https://api.datacite.org/dois/10.13140/RG.2.2.28606.45122) and the [author's project documentation](https://github.com/SamratDuttaOfficial/WaterSheep). DataCite identifies Samrat Dutta, publication year 2026, and an unpublished preprint on ResearchGate. It provides no exact publication date; the DOI registration timestamp of 1 October 2026 is not used as a publication date. ResearchGate returned HTTP 403, so the full text was not verified and the summary explicitly attributes results to the author's documentation. This adds one non-arXiv academic candidate and one included preprint, bringing the combined totals to 146 candidates, 124 included preprints, and 137 entries.
 
 Primary-source web discovery added four technical reports: Vals AI's Jev evaluation and its Mercury Decide follow-up, a three-arm scheduling experiment, and TypeSafe's candidate-screening case study. Their summaries distinguish shared evaluation data, small or unpublished test sets, and vendor-reported results from independent replication. TypeSafe's blog and targeted OpenReview and ACL Anthology searches did not establish a peer-reviewed TypeSafe architecture or proprietary RLCD paper. Existing technical links were rechecked where accessible; direct-retrieval failures and web-reader checks are recorded separately.
 
@@ -565,7 +572,7 @@ Google Scholar was not programmatically queried; Scopus and Web of Science were 
 
 ### Verification Policy
 
-Each included academic item is checked against an original arXiv, conference, journal, or publisher page for title, author list, year, venue/status, URL, and actual role of Jev. A preprint is never labeled as a conference paper without an official proceedings record. Duplicate arXiv/publisher versions are represented by one entry, preferring the published version when verified.
+Academic metadata is checked against an original arXiv, conference, journal, publisher, or DOI-registry record for title, author list, year, venue/status, and URL. Jev's role is checked against the paper or author-provided documentation; any reliance on supplementary documentation because full text is inaccessible is disclosed. A preprint is never labeled as a conference paper without an official proceedings record. Duplicate arXiv/publisher versions are represented by one entry, preferring the published version when verified.
 
 Links and counts should be rechecked whenever the list changes. See [CONTRIBUTING.md](CONTRIBUTING.md) for the required submission and review format.
 

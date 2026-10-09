@@ -5,7 +5,7 @@
 <p align="center"><strong>关注证据质量的 Jev 与类型化概率决策研究文献导航。</strong></p>
 
 <p align="center">
-  <strong>136 条文献</strong> · <strong>123 篇学术预印本</strong> · 最近核验 <strong>2026-10-09</strong> · <a href="LICENSE">CC0 1.0</a>
+  <strong>137 条文献</strong> · <strong>124 篇学术预印本</strong> · 最近核验 <strong>2026-10-09</strong> · <a href="LICENSE">CC0 1.0</a>
 </p>
 
 本仓库精选与 **Jev**（TypeSafe AI 的首个 **System One Model**）及类型化概率决策相关的论文、预印本、技术报告、评测和研究性文章。
@@ -14,7 +14,7 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 > **收录范围。** 本仓库收集研究文献，不收录独立实现。独立 GitHub 仓库、模型页面、演示、视频、普通新闻和纯营销文章均不在范围内。代码或模型链接仅可作为已收录论文的补充材料。
 
-> **证据状态。** Jev 是近期推出的闭源权重商业模型。截至 2026 年 10 月 9 日，尚未找到经过同行评审的 TypeSafe 架构论文或 Reinforcement Learning for Calibrated Decisions（RLCD，面向校准决策的强化学习）论文。OpenJev-RLCD 等独立研究探索的是各自的训练方法，并未披露 Jev 的专有算法。下列学术条目均列为 arXiv 预印本；第一方性能结论在获得独立复现前，仍属于厂商报告。
+> **证据状态。** Jev 是近期推出的闭源权重商业模型。截至 2026 年 10 月 9 日，尚未找到经过同行评审的 TypeSafe 架构论文或 Reinforcement Learning for Calibrated Decisions（RLCD，面向校准决策的强化学习）论文。OpenJev-RLCD 等独立研究探索的是各自的训练方法，并未披露 Jev 的专有算法。下列学术条目均为预印本，其中 123 篇来自 arXiv，1 篇来自 ResearchGate。第一方性能结论在获得独立复现前，仍属于作者或厂商报告。
 
 > **阅读语言。** 本页提供完整中文摘要和说明。论文或文章的正式题名与作者姓名保留原文，便于检索和引用。中英文版本的分类、顺序、日期和来源链接保持一致。
 
@@ -44,7 +44,7 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 - **Tier B — 评测与基准：** 将 Jev 或明确的 Jev 风格模型作为被测系统、基线或明确的对照对象。
 - 🔥 表示奠基性来源或特别重要的独立评测，仅少量使用。
 - `Preprint`（预印本）表示截至核验日期，尚未核实其会议或期刊发表记录。
-- 📅 **日期：** 加粗的 UTC 时间戳为 arXiv **v1** 提交时间；仅标注日期的非 arXiv 来源使用发布日期，明确标注“报告更新”的条目除外。每个领域内均按时间从早到晚排列。缺少日期的动态报告单列于该领域有日期条目之后。题名、作者和摘要反映截至核验日期所确认的最新版本；`arXiv v1` 仅说明日期来源，并非摘要对应的版本。
+- 📅 **日期：** 加粗的 UTC 时间戳为 arXiv **v1** 提交时间；仅标注日期的非 arXiv 来源使用发布日期，明确标注“报告更新”的条目除外。每个领域内均按时间从早到晚排列。仅核实年份的文献放在有日期条目之后的“发布日期待核实”小节；无日期的动态报告使用单独的“无日期动态报告”小节。DOI 注册日期不作为论文发布日期。题名、作者和摘要反映截至核验日期所确认的最新版本；`arXiv v1` 仅说明日期来源，并非摘要对应的版本。
 
 <a id="repository-statistics"></a>
 
@@ -54,7 +54,7 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 | 研究领域 | 条目数 |
 |---|---:|
-| [基础方法与通用决策模型](#foundations-decision-models) | 28 |
+| [基础方法与通用决策模型](#foundations-decision-models) | 29 |
 | [自然语言处理与信息检索](#nlp-information-retrieval) | 17 |
 | [多模态学习与感知](#multimodal-perception) | 8 |
 | [具身智能与强化学习](#embodied-ai-reinforcement-learning) | 10 |
@@ -63,11 +63,11 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 | [科学、医疗与教育中的 AI](#science-healthcare-education) | 10 |
 | [网络、数据库与工程应用](#networks-databases-engineering) | 11 |
 | [计算社会科学与人类决策](#social-science-human-decisions) | 8 |
-| **总计** | **136** |
+| **总计** | **137** |
 
-136 条文献中，**123 篇为 Jev 专题或 Jev 风格的学术预印本**，**13 篇为研究性技术文章或报告**。
+137 条文献中，**124 篇为 Jev 专题或 Jev 风格的学术预印本**（123 篇来自 arXiv，1 篇来自 ResearchGate），**13 篇为研究性技术文章或报告**。
 
-全部 **123 篇学术文献**均列出 arXiv **v1** 的 UTC 提交时间，精确到分钟。领域统计包含所有来源类型，每项工作只计数一次。
+全部 **123 篇 arXiv 文献**均列出 **v1** 的 UTC 提交时间，精确到分钟。ResearchGate 预印本已核实年份，尚未核实具体发布日期。领域统计包含所有来源类型，每项工作只计数一次。
 
 <a id="foundations-decision-models"></a>
 
@@ -160,6 +160,11 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 - **[Specialized Decision Models vs. General-Purpose LLMs: Benchmarking Jev Across Knowledge, Reasoning, and Multilingual Tasks](https://arxiv.org/abs/2610.11978)**<br>📅 <strong>2026-10-08 13:52 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Xing Li, Qingcheng Chang, Jinzhong Ning, Changfeng Xu, Shenlong Zhang, Yijia Zhang, Ling Luo, and Hongfei Lin
   - 作者在十三个知识、推理和多语言选择题基准上，将 Jev 与十九个 LLM 比较。Jev 在知识与常识方面具有竞争力，但在 MathQA 上低于所有对照，暴露出多步计算上的明显弱点。本文提供广泛的直接基准比较；不同档位的模型并非全部在统一协议下评估，基于概率的升级处理仍属于未来工作。
+
+### 发布日期待核实
+
+- **[WaterSheep 0.1.0: Typed Decisions with Calibrated Probabilities from a Single Encoder Pass](https://doi.org/10.13140/RG.2.2.28606.45122)**<br>◉ <strong>2026 · 具体日期待核实</strong> · ResearchGate 预印本 · <strong>Tier A</strong> · Samrat Dutta
+  - WaterSheep 在 ModernBERT 上微调决策头，并按问题类型进行温度缩放，为 Noul、Choice、Score 和多标签任务输出概率。[作者项目说明](https://github.com/SamratDuttaOfficial/WaterSheep)报告分布内准确率为 77.8%，留出数据集准确率为 61.2%，对应 ECE 为 0.026 和 0.043。本文作为开放的 Jev 风格模型被收录，并提供兼容接口；仅支持英语、长输入截断和评分任务表现较弱限制了其用途。DOI 已确认预印本元数据；由于论文全文无法访问，本摘要依据作者项目说明整理。
 
 <a id="nlp-information-retrieval"></a>
 
@@ -557,11 +562,13 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 **截止日期：** 2026 年 10 月 9 日（Asia/Shanghai）。
 
-**组织方式：** 按主要研究领域分组。本次重组保留了 10 月 9 日的来源核验截止日期、全部 136 条文献及其元数据与摘要信息，以及原有收录决定。
+**组织方式：** 按主要研究领域分组，截至 10 月 9 日核验时共收录 137 条文献。原有 136 条文献的元数据、摘要信息和收录决定保持不变；新增的 WaterSheep 在下文单独说明。
 
 10 月 9 日的更新将原有 README 与 arXiv API 对 `all:Jev` 返回的完整结果集（102 条记录）进行核对。扩展检索使用 `typed decision`、`Jev-style`、`Reinforcement Learning for Calibrated Decisions`、`System One`、`Laya`、`System-1`、`Jev-like`、`RLCD`、`typed probabilistic` 和 `decision models`，将提交时间限定在 9 月 15 日至检索当天，共返回 119 条记录。两组检索合计得到 145 篇不同的学术候选文献，覆盖此前收录的全部 102 篇预印本。筛选后保留 123 篇、排除 22 篇，新增 21 篇学术文献。其中四篇新增文献的 v1 日期在 9 月：与生物安全相关的可靠性审计、Emo-Jev、SeLMRoute 和 Certo 缓存研究。它们是本次新收录的记录，并非 10 月新提交的论文。
 
-每篇保留的学术文献均核对了当前 arXiv 元数据。新增条目和三篇修订论文均查阅了原始摘要页面，并针对 Jev 的角色、实验结论和存疑的收录决定进行了定向全文核查。修订内容包括 Type-Safe Is Not Error-Free 的题名与发现、JevOut 的完整作者名单与扩展评测，以及语义查询优化研究。题名与摘要描述已核验的版本，v1 时间戳仍作为排序依据。尚未核实这些记录的会议或期刊发表元数据，因此全部保留 arXiv 预印本标识。
+每篇保留的 arXiv 文献均核对了当前元数据。新增条目和三篇修订论文均查阅了原始摘要页面，并针对 Jev 的角色、实验结论和存疑的收录决定进行了定向全文核查。修订内容包括 Type-Safe Is Not Error-Free 的题名与发现、JevOut 的完整作者名单与扩展评测，以及语义查询优化研究。题名与摘要描述已核验的版本，v1 时间戳仍作为排序依据。尚未核实这些记录的会议或期刊发表元数据，因此全部保留 arXiv 预印本标识。
+
+另行补充了用户推荐的 [WaterSheep 0.1.0](https://doi.org/10.13140/RG.2.2.28606.45122)，通过 [DataCite DOI 元数据](https://api.datacite.org/dois/10.13140/RG.2.2.28606.45122)和[作者项目说明](https://github.com/SamratDuttaOfficial/WaterSheep)进行核验。DataCite 确认作者为 Samrat Dutta、年份为 2026，类型为 ResearchGate 上尚未正式发表的预印本。登记信息没有具体发布日期；2026 年 10 月 1 日的 DOI 注册时间不作为论文发布日期。ResearchGate 返回 HTTP 403，因此尚未核验全文，摘要已明确将实验结果归因于作者说明。此次新增一篇非 arXiv 学术候选文献并予以收录，合计为 146 篇候选文献、124 篇已收录预印本和 137 条文献。
 
 通过一手网页来源检索，新增四份技术报告：Vals AI 的 Jev 评测及后续 Mercury Decide 评测、一项三组调度实验，以及 TypeSafe 的候选人筛选案例研究。摘要区分了共享评测数据、小规模或未公开测试集、厂商报告与独立复现。对 TypeSafe 博客以及 OpenReview、ACL Anthology 的定向检索，均未确认存在经过同行评审的 TypeSafe 架构论文或专有 RLCD 论文。对于可访问的现有技术链接，也进行了复核；直接抓取失败与通过网页阅读工具完成的核验分别记录。
 
@@ -575,7 +582,7 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 ### 核验规则
 
-每篇收录的学术文献均对照原始 arXiv、会议、期刊或出版机构页面，核查题名、完整作者名单、年份、发表渠道或状态、网址，以及 Jev 在工作中的实际角色。没有官方论文集记录时，不将预印本标为会议论文。同一工作的 arXiv 与出版版本合并为一个条目；如已核验正式出版版本，则优先采用该版本。
+学术元数据对照原始 arXiv、会议、期刊、出版机构页面或 DOI 登记记录，核查题名、完整作者名单、年份、发表渠道或状态与网址。Jev 在工作中的实际角色依据论文或作者提供的说明核查；若因全文无法访问而使用补充说明，则明确披露。没有官方论文集记录时，不将预印本标为会议论文。同一工作的 arXiv 与出版版本合并为一个条目；如已核验正式出版版本，则优先采用该版本。
 
 每次修改文献列表时，都应重新检查链接与数量。提交和审核格式详见[贡献指南（英文）](CONTRIBUTING.md)。
 

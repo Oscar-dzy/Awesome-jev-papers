@@ -45,7 +45,7 @@ Assign each entry to one primary research domain in the README:
 
 Choose the domain that best describes the work's main research question or application. Use the method and experimental setting, not just a title keyword or input modality. For example, medical multimodal decisions belong to Science, Healthcare & Education, while general visual decision models belong to Multimodal Learning & Perception. Content moderation and adversarial evaluations belong to Trustworthy AI & Security. Cross-domain work appears once; its summary can explain secondary connections.
 
-Place benchmarks, methods, applications, and technical reports together within their research domain. Keep the source label and inclusion tier on each entry. Sort dated entries from earliest to latest using the arXiv v1 UTC timestamp, or the publication date for non-arXiv sources; explicitly labeled updated reports use the displayed update date. Keep the original v1 date when a preprint is revised. Place live reports without a verified publication date after dated entries in an **Undated Live Reports** subsection.
+Place benchmarks, methods, applications, and technical reports together within their research domain. Keep the source label and inclusion tier on each entry. Sort dated entries from earliest to latest using the arXiv v1 UTC timestamp, or the publication date for non-arXiv sources; explicitly labeled updated reports use the displayed update date. Keep the original v1 date when a preprint is revised. Place works with only a verified publication year after dated entries in a **Publication Date Unverified** subsection. Do not substitute a DOI registration date for the publication date. Place live reports without a verified publication date in an **Undated Live Reports** subsection.
 
 ## Required Submission Information
 
@@ -70,7 +70,7 @@ If a venue cannot be confirmed from an official proceedings or publisher page, u
 Before proposing an entry:
 
 1. Open and read the primary source, not only the search result or abstract snippet.
-2. Confirm the title, authors, year, venue/status, and canonical URL.
+2. Confirm the title, authors, year, venue/status, and canonical URL. For non-arXiv preprints, an original DOI-registry record can verify bibliographic metadata. If full text is inaccessible, disclose that limitation and attribute any summary to the specific author-provided documentation used.
 3. Identify exactly how Jev appears in the work: subject, evaluated model, baseline, application component, or conceptual relation.
 4. Prefer links in this order: official conference/journal page, arXiv, OpenReview, author or organization page.
 5. Search both language versions for the title and arXiv/DOI identifier to prevent duplicates.
