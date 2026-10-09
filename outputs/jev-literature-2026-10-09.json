@@ -1,0 +1,4512 @@
+{
+  "schema_version": 2,
+  "verified_on": "2026-10-09",
+  "timezone": "Asia/Shanghai",
+  "previous_readme_cutoff": "2026-10-07",
+  "coverage_note": "Verification-date snapshot; does not claim all submissions on the cutoff date were announced or indexed. Expanded API date syntax is UTC; every retained record was also checked to be within the local cutoff date.",
+  "counts": {
+    "distinct_academic_candidates": 145,
+    "academic_included": 123,
+    "academic_excluded": 22,
+    "academic_added": 21,
+    "academic_revised": 3,
+    "technical_sources": 13,
+    "technical_added": 4,
+    "total_entries": 136,
+    "categories": {
+      "Foundations & General Decision Models": 28,
+      "Natural Language Processing & Information Retrieval": 17,
+      "Multimodal Learning & Perception": 8,
+      "Embodied AI & Reinforcement Learning": 10,
+      "Agents & Workflow Automation": 13,
+      "Trustworthy AI & Security": 31,
+      "AI for Science, Healthcare & Education": 10,
+      "Networks, Databases & Engineering": 11,
+      "Computational Social Science & Human Decisions": 8
+    }
+  },
+  "queries": {
+    "jev": {
+      "total": 102,
+      "retrieved": 102,
+      "query": "all:Jev",
+      "url": "https://export.arxiv.org/api/query?search_query=all%3AJev&start=0&max_results=500&sortBy=lastUpdatedDate&sortOrder=descending",
+      "arxiv_ids": [
+        "2610.11978",
+        "2610.11901",
+        "2610.08089",
+        "2610.11692",
+        "2609.30243",
+        "2610.11436",
+        "2610.11392",
+        "2610.11379",
+        "2609.26758",
+        "2610.11135",
+        "2610.10978",
+        "2610.10321",
+        "2610.09937",
+        "2610.10615",
+        "2610.09328",
+        "2610.09188",
+        "2610.00346",
+        "2610.08775",
+        "2610.08675",
+        "2610.07953",
+        "2610.06625",
+        "2610.07716",
+        "2610.03387",
+        "2609.26550",
+        "2610.06425",
+        "2610.06354",
+        "2609.37470",
+        "2609.34024",
+        "2610.02076",
+        "2610.04985",
+        "2609.36399",
+        "2609.33401",
+        "2610.04345",
+        "2610.03935",
+        "2610.03324",
+        "2610.03073",
+        "2609.23136",
+        "2610.02586",
+        "2610.02516",
+        "2610.02048",
+        "2610.01834",
+        "2610.01231",
+        "2610.02267",
+        "2610.01079",
+        "2610.01006",
+        "2609.40241",
+        "2610.00437",
+        "2609.39496",
+        "2610.00381",
+        "2610.00376",
+        "2609.38850",
+        "2609.38827",
+        "2609.33874",
+        "2609.37647",
+        "2609.36965",
+        "2609.29769",
+        "2609.36154",
+        "2609.36115",
+        "2609.36059",
+        "2609.35342",
+        "2609.35293",
+        "2609.35286",
+        "2609.34969",
+        "2609.34963",
+        "2609.34862",
+        "2609.34261",
+        "2609.34227",
+        "2609.34180",
+        "2609.33971",
+        "2609.33689",
+        "2609.33609",
+        "2609.33538",
+        "2609.33209",
+        "2610.08829",
+        "2609.28919",
+        "2609.22753",
+        "2609.32160",
+        "2609.31142",
+        "2609.30922",
+        "2609.30706",
+        "2609.30216",
+        "2609.30186",
+        "2609.29429",
+        "2609.29283",
+        "2609.28940",
+        "2609.28613",
+        "2609.28587",
+        "2609.27678",
+        "2609.27607",
+        "2609.27535",
+        "2609.27331",
+        "2609.24965",
+        "2609.26532",
+        "2609.25845",
+        "2606.22807",
+        "2610.00213",
+        "2609.24395",
+        "2609.24052",
+        "2609.23986",
+        "2609.23959",
+        "2609.23886",
+        "2409.18443"
+      ],
+      "response_sha256": "98ad5611eb6de4b7042843dc9f48bed2c4fe1f5372595d6650ad93512a8d09ec"
+    },
+    "expanded": {
+      "total": 119,
+      "retrieved": 119,
+      "query": "(all:\"typed decision\" OR all:\"Jev-style\" OR all:\"Reinforcement Learning for Calibrated Decisions\" OR all:\"System One\" OR all:Laya OR all:\"System-1\" OR all:\"Jev-like\" OR all:RLCD OR all:\"typed probabilistic\" OR all:\"decision models\") AND submittedDate:[202609150000 TO 202610092359]",
+      "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%22typed+decision%22+OR+all%3A%22Jev-style%22+OR+all%3A%22Reinforcement+Learning+for+Calibrated+Decisions%22+OR+all%3A%22System+One%22+OR+all%3ALaya+OR+all%3A%22System-1%22+OR+all%3A%22Jev-like%22+OR+all%3ARLCD+OR+all%3A%22typed+probabilistic%22+OR+all%3A%22decision+models%22%29+AND+submittedDate%3A%5B202609150000+TO+202610092359%5D&start=0&max_results=500&sortBy=lastUpdatedDate&sortOrder=descending",
+      "arxiv_ids": [
+        "2610.12292",
+        "2610.11978",
+        "2610.11901",
+        "2610.08089",
+        "2610.06950",
+        "2610.11692",
+        "2609.30243",
+        "2610.11462",
+        "2610.11436",
+        "2610.11392",
+        "2609.26758",
+        "2610.11316",
+        "2610.11135",
+        "2610.10321",
+        "2610.09937",
+        "2610.09896",
+        "2610.09683",
+        "2610.09188",
+        "2610.00346",
+        "2610.09057",
+        "2610.08775",
+        "2610.08155",
+        "2610.07953",
+        "2610.06625",
+        "2610.07730",
+        "2610.07716",
+        "2610.03387",
+        "2610.07586",
+        "2610.07327",
+        "2610.07177",
+        "2610.06744",
+        "2610.06354",
+        "2609.34024",
+        "2610.05107",
+        "2610.02076",
+        "2609.33401",
+        "2610.04345",
+        "2610.03935",
+        "2610.03324",
+        "2610.03073",
+        "2609.23136",
+        "2610.02586",
+        "2610.02516",
+        "2610.02486",
+        "2610.02046",
+        "2610.02293",
+        "2610.01601",
+        "2610.01231",
+        "2610.01218",
+        "2610.02267",
+        "2610.01079",
+        "2610.01006",
+        "2610.00831",
+        "2609.40241",
+        "2610.00437",
+        "2609.39496",
+        "2609.39334",
+        "2610.00381",
+        "2610.00376",
+        "2609.39111",
+        "2609.38850",
+        "2609.38827",
+        "2609.32591",
+        "2609.37832",
+        "2609.37647",
+        "2609.36965",
+        "2609.29769",
+        "2609.36154",
+        "2609.36116",
+        "2609.36059",
+        "2609.35342",
+        "2609.35293",
+        "2609.35217",
+        "2609.34963",
+        "2609.34862",
+        "2609.34736",
+        "2609.34247",
+        "2609.34227",
+        "2609.34180",
+        "2609.33971",
+        "2609.33843",
+        "2609.33689",
+        "2609.33671",
+        "2609.33609",
+        "2609.33538",
+        "2609.33282",
+        "2609.33209",
+        "2609.33150",
+        "2609.32932",
+        "2609.32893",
+        "2609.22753",
+        "2609.32409",
+        "2609.32191",
+        "2609.32160",
+        "2609.35865",
+        "2609.31142",
+        "2609.30922",
+        "2609.30706",
+        "2609.30454",
+        "2609.30216",
+        "2609.30186",
+        "2609.25498",
+        "2609.29429",
+        "2609.29283",
+        "2609.28940",
+        "2609.28613",
+        "2609.28182",
+        "2609.28587",
+        "2609.27607",
+        "2609.24574",
+        "2609.26532",
+        "2610.00213",
+        "2609.24395",
+        "2609.24170",
+        "2609.24052",
+        "2609.23986",
+        "2609.23959",
+        "2609.23886",
+        "2609.23513"
+      ],
+      "response_sha256": "cbfd8e02226d4f2421d69f80cf9ee5f7bfe694843f0ee59e92b27ecf9585665d"
+    }
+  },
+  "discovery_queries": [
+    "Jev October 2026 arxiv",
+    "site:arxiv.org/abs/ Jev 8 Oct 2026",
+    "site:arxiv.org/abs/ Jev 7 Oct 2026",
+    "site:typesafe.ai Jev research October 2026",
+    "Jev October 2026 site:openreview.net",
+    "Jev October 2026 site:aclanthology.org",
+    "site:vals.ai Jev 2026"
+  ],
+  "academic_records": [
+    {
+      "id": "2409.18443",
+      "title": "Investigating the Impact of Sovereign Credit Rating Downgrade on the US Equity Market",
+      "authors": [
+        "Japheth Torsar Jev"
+      ],
+      "published": "2024-09-26T09:28:49Z",
+      "updated": "2024-09-26T09:28:49Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2409.18443",
+      "version_url": "https://arxiv.org/abs/2409.18443v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "exclude",
+      "reason": "Unrelated sovereign-credit study; Jev is an author-name keyword hit."
+    },
+    {
+      "id": "2606.22807",
+      "title": "KaLM-Reranker-V1: Fast but Not Late Interaction for Compressed Document Reranking",
+      "authors": [
+        "Xinping Zhao",
+        "Jiaxin Xu",
+        "Ziqi Dai",
+        "Xin Zhang",
+        "Huiyao Chen",
+        "Shouzheng Huang",
+        "Xianhao Xiong",
+        "Danyu Tang",
+        "Xinshuo Hu",
+        "Guohong Fu",
+        "Meishan Zhang",
+        "Baotian Hu"
+      ],
+      "published": "2026-06-22T03:36:31Z",
+      "updated": "2026-09-22T06:59:06Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2606.22807",
+      "version_url": "https://arxiv.org/abs/2606.22807v3",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "exclude",
+      "reason": "General reranking method; Jev occurs in a supplementary collection URL, without a verified direct Jev study."
+    },
+    {
+      "id": "2609.22753",
+      "title": "Replacing Large Language Models with Jev Decision Models for Low-Latency Edge Service Orchestration",
+      "authors": [
+        "Delong Li",
+        "Xu Wang",
+        "Haochen Gong",
+        "Rui Lang",
+        "Guangsheng Yu"
+      ],
+      "published": "2026-09-19T04:26:37Z",
+      "updated": "2026-09-26T10:20:17Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.22753",
+      "version_url": "https://arxiv.org/abs/2609.22753v2",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Networks, Databases & Engineering",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.23136",
+      "title": "Intent Interpretation at RIC Timescales: Jev Decision Models versus Large Language Models in 6G Open RAN",
+      "authors": [
+        "Delong Li",
+        "Xu Wang",
+        "Haochen Gong",
+        "Rui Lang",
+        "Guangsheng Yu"
+      ],
+      "published": "2026-09-19T17:06:36Z",
+      "updated": "2026-10-02T04:27:18Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.23136",
+      "version_url": "https://arxiv.org/abs/2609.23136v2",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Networks, Databases & Engineering",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.23513",
+      "title": "Critical Touching of Temporal Entanglement Transitions",
+      "authors": [
+        "Ting-Long Wang",
+        "Shi-Xin Zhang",
+        "Shuai Yin",
+        "Yi-Fan Jiang"
+      ],
+      "published": "2026-09-20T09:56:34Z",
+      "updated": "2026-09-20T09:56:34Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.23513",
+      "version_url": "https://arxiv.org/abs/2609.23513v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Unrelated quantum temporal-entanglement study."
+    },
+    {
+      "id": "2609.23886",
+      "title": "this-that-model-1.0: A typed decision model that decides in 30 ms, for a millionth of a cent",
+      "authors": [
+        "Zehua Cheng",
+        "Wei Dai",
+        "Jiahao Sun"
+      ],
+      "published": "2026-09-20T21:43:03Z",
+      "updated": "2026-09-20T21:43:03Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.23886",
+      "version_url": "https://arxiv.org/abs/2609.23886v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.23959",
+      "title": "Open-Jev Judgments on CallScreenBench: Calibrated One-Pass Scam Screening with a Small Language Model",
+      "authors": [
+        "Simiao Ren",
+        "Kidus Zewde",
+        "Xingyu Shen",
+        "Yuchen Zhou",
+        "Dennis Ng",
+        "Ankit Raj",
+        "Tommy Duong",
+        "Yuxin Zhang",
+        "Neo Tiangratanakul"
+      ],
+      "published": "2026-09-21T00:09:24Z",
+      "updated": "2026-09-21T00:09:24Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.23959",
+      "version_url": "https://arxiv.org/abs/2609.23959v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.23986",
+      "title": "Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents",
+      "authors": [
+        "Dongming Jiang",
+        "Yi Li",
+        "Bingzhe Li"
+      ],
+      "published": "2026-09-21T01:43:12Z",
+      "updated": "2026-09-21T01:43:12Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.23986",
+      "version_url": "https://arxiv.org/abs/2609.23986v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Agents & Workflow Automation",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.24052",
+      "title": "Calibrated Decisions at Scale: Converting Police Crash Narratives into Probabilistic Crash Variables with a System One Model (Jev)",
+      "authors": [
+        "Amir Rafe",
+        "Subasish Das"
+      ],
+      "published": "2026-09-21T03:24:47Z",
+      "updated": "2026-09-21T03:24:47Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.24052",
+      "version_url": "https://arxiv.org/abs/2609.24052v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "AI for Science, Healthcare & Education",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.24170",
+      "title": "An Unexpected Robot Policy: Early Evaluations of GPT-6 Astra on RoboDojo and Beyond",
+      "authors": [
+        "Wenbo Zhang",
+        "Kaixuan Wang",
+        "Yutao Ouyang",
+        "Xiaoyu Huang",
+        "Liyang Li",
+        "Kailun Su",
+        "Weiyang Jin",
+        "Wenhao Chai",
+        "Haotian Liang",
+        "Zhiyang Dou",
+        "Yue Chen",
+        "Tianxing Chen"
+      ],
+      "published": "2026-09-21T06:39:47Z",
+      "updated": "2026-09-21T06:39:47Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.24170",
+      "version_url": "https://arxiv.org/abs/2609.24170v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Generative robot policy evaluation; System 1 terminology does not establish a Jev-style probability interface."
+    },
+    {
+      "id": "2609.24395",
+      "title": "JEVQA - Video Quality from Metadata, Bitstream, and Pixel Features with a General-Purpose Decision Model",
+      "authors": [
+        "Werner Robitza"
+      ],
+      "published": "2026-09-21T10:45:00Z",
+      "updated": "2026-09-21T10:45:00Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.24395",
+      "version_url": "https://arxiv.org/abs/2609.24395v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Multimodal Learning & Perception",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.24574",
+      "title": "Evaluating Decision Models for Text Annotation in Computational Social Science",
+      "authors": [
+        "Hazem Ibrahim",
+        "Yasir Zaki"
+      ],
+      "published": "2026-09-21T13:41:54Z",
+      "updated": "2026-09-23T08:36:11Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.24574",
+      "version_url": "https://arxiv.org/abs/2609.24574v2",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Computational Social Science & Human Decisions",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.00213",
+      "title": "Counting the Uncounted: Population-Level Surveillance of Documented Pregnancy and Fetal Harm in Police Crash Narratives with a System One Model (Jev)",
+      "authors": [
+        "Amir Rafe",
+        "Subasish Das"
+      ],
+      "published": "2026-09-21T14:25:17Z",
+      "updated": "2026-09-21T14:25:17Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.00213",
+      "version_url": "https://arxiv.org/abs/2610.00213v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "AI for Science, Healthcare & Education",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.24965",
+      "title": "Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences",
+      "authors": [
+        "Boyuan Deng",
+        "Shuyi Fan",
+        "Hongyang Zhang",
+        "Xinhong Xie"
+      ],
+      "published": "2026-09-21T17:51:50Z",
+      "updated": "2026-09-23T04:04:31Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.24965",
+      "version_url": "https://arxiv.org/abs/2609.24965v2",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "AI for Science, Healthcare & Education",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.25498",
+      "title": "Universal Fractal Natural Language Decision Map: Real-Time Edge Triage Across Heterogeneous Domains",
+      "authors": [
+        "Volkan Dağlı",
+        "Zerrin Dağlı",
+        "Dağhan Dağlı"
+      ],
+      "published": "2026-09-21T23:57:31Z",
+      "updated": "2026-09-24T12:54:18Z",
+      "journal_ref": "",
+      "doi": "10.5281/zenodo.22939253",
+      "url": "https://arxiv.org/abs/2609.25498",
+      "version_url": "https://arxiv.org/abs/2609.25498v2",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.25845",
+      "title": "Visual Jev: Accurate and Efficient Decisions from Shared Visual Context",
+      "authors": [
+        "Guanxu Yu",
+        "Yuhang Yao"
+      ],
+      "published": "2026-09-22T08:12:29Z",
+      "updated": "2026-09-22T08:12:29Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.25845",
+      "version_url": "https://arxiv.org/abs/2609.25845v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Multimodal Learning & Perception",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.26532",
+      "title": "REFLEX with Jev for Efficient Selective Control in LLM Agents",
+      "authors": [
+        "Tiantong Wu",
+        "Wei Yang Bryan Lim"
+      ],
+      "published": "2026-09-22T14:54:02Z",
+      "updated": "2026-09-22T14:54:02Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.26532",
+      "version_url": "https://arxiv.org/abs/2609.26532v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Agents & Workflow Automation",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.26550",
+      "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+      "authors": [
+        "Yubo Li",
+        "Yidi Miao",
+        "Ramayya Krishnan",
+        "Rema Padman"
+      ],
+      "published": "2026-09-22T15:05:56Z",
+      "updated": "2026-10-06T00:32:50Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.26550",
+      "version_url": "https://arxiv.org/abs/2609.26550v4",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.26758",
+      "title": "Type-Safe Is Not Error-Free: Typed Decision Models Follow the Option Name, Not the Definition Bound to It",
+      "authors": [
+        "Yu Sun",
+        "Junhao Xu",
+        "Jiajia Shi",
+        "Zijin Yang"
+      ],
+      "published": "2026-09-22T17:38:12Z",
+      "updated": "2026-10-08T06:34:45Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.26758",
+      "version_url": "https://arxiv.org/abs/2609.26758v3",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "revised",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.27331",
+      "title": "JEV-Star: Fast, Low-Cost StarCraft II Control with Language-Model Planning",
+      "authors": [
+        "Weiyu Ma",
+        "Liangbing Zhao",
+        "Yongcheng Zeng",
+        "Jian Zhao"
+      ],
+      "published": "2026-09-23T04:09:10Z",
+      "updated": "2026-09-23T04:09:10Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.27331",
+      "version_url": "https://arxiv.org/abs/2609.27331v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Embodied AI & Reinforcement Learning",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.27535",
+      "title": "KITE: Scaling Jev Population Experiments with Sparse Flagship Calibration",
+      "authors": [
+        "Hengyu Li"
+      ],
+      "published": "2026-09-23T08:28:15Z",
+      "updated": "2026-09-23T08:28:15Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.27535",
+      "version_url": "https://arxiv.org/abs/2609.27535v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Computational Social Science & Human Decisions",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.27607",
+      "title": "Can Jev Judge Radiology Reports? Evaluating a System One Model for Clinical Factuality",
+      "authors": [
+        "Jiaju Huang",
+        "Hao Yang",
+        "Xinyu Ma",
+        "Xinglong Liang",
+        "Kunyan Cai",
+        "Junqiang Ma",
+        "Shaobin Chen",
+        "Yue Sun",
+        "Tao Tan"
+      ],
+      "published": "2026-09-23T09:26:46Z",
+      "updated": "2026-09-23T09:26:46Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.27607",
+      "version_url": "https://arxiv.org/abs/2609.27607v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "AI for Science, Healthcare & Education",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.27678",
+      "title": "Same Scores, Different Decisions: Evaluating JEV and Language Models for Legal Document Understanding",
+      "authors": [
+        "Fan Zhang",
+        "Yankai Chen",
+        "Zhuohan Xie",
+        "Yixi Zhou",
+        "Sijia Peng",
+        "Lei Fan",
+        "Xinhua Ji",
+        "Cunyuan Zheng",
+        "Huangyong Shan",
+        "Philip S. Yu",
+        "Xue Liu",
+        "Yu Chen",
+        "Preslav Nakov",
+        "Songwei He"
+      ],
+      "published": "2026-09-23T10:53:01Z",
+      "updated": "2026-09-23T10:53:01Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.27678",
+      "version_url": "https://arxiv.org/abs/2609.27678v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.28587",
+      "title": "NumericJev: Jev-like LLM Numerical Decoding with Multiway Decision Trees",
+      "authors": [
+        "Weiwei Ye",
+        "Hangchen Liu",
+        "Renhe Jiang"
+      ],
+      "published": "2026-09-23T13:53:39Z",
+      "updated": "2026-09-23T13:53:39Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.28587",
+      "version_url": "https://arxiv.org/abs/2609.28587v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.28182",
+      "title": "Finite-Sample Probabilistic Safety Certification for AI-Based Grid-Edge Coordination",
+      "authors": [
+        "Yihong Zhou",
+        "Hanbin Yang",
+        "Thomas Morstyn"
+      ],
+      "published": "2026-09-23T14:24:46Z",
+      "updated": "2026-09-23T14:24:46Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.28182",
+      "version_url": "https://arxiv.org/abs/2609.28182v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "General safety certification of grid-control models without a verified Jev role."
+    },
+    {
+      "id": "2609.28613",
+      "title": "Decision Hijacking: Prompt Injection Attacks on Jev's Typed Probabilistic Decisions",
+      "authors": [
+        "Tiantong Wu",
+        "Wei Yang Bryan Lim"
+      ],
+      "published": "2026-09-23T17:47:53Z",
+      "updated": "2026-09-23T17:47:53Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.28613",
+      "version_url": "https://arxiv.org/abs/2609.28613v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.28919",
+      "title": "Harness Tokenomics: A Router for the Enterprise Agentic Control Plane",
+      "authors": [
+        "Ted Kwartler",
+        "Alan Aqrawi",
+        "Arian Abbasi"
+      ],
+      "published": "2026-09-24T02:00:20Z",
+      "updated": "2026-09-26T20:27:51Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.28919",
+      "version_url": "https://arxiv.org/abs/2609.28919v2",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Agents & Workflow Automation",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.28940",
+      "title": "Calibrated Decision Models for Autonomous Penetration-Testing Harnesses: JEV and Laya as System One Decision Layers for LLM-Driven Pentest Agents",
+      "authors": [
+        "Joas Antonio dos Santos Barbosa"
+      ],
+      "published": "2026-09-24T02:47:20Z",
+      "updated": "2026-09-24T02:47:20Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.28940",
+      "version_url": "https://arxiv.org/abs/2609.28940v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.29283",
+      "title": "From Text Decisions to Pixels: An Study of Jev-Style Visual Choice Model",
+      "authors": [
+        "Xunlan Zhou",
+        "Xianliang Yang",
+        "Li Zhao"
+      ],
+      "published": "2026-09-24T09:19:05Z",
+      "updated": "2026-09-24T09:19:05Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.29283",
+      "version_url": "https://arxiv.org/abs/2609.29283v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Multimodal Learning & Perception",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.29429",
+      "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+      "authors": [
+        "Ruoqi Guo",
+        "Yi Liu",
+        "Gelei Deng",
+        "Yuekang Li",
+        "Lida Zhao",
+        "Yutao Wu",
+        "Simin Chen",
+        "Ying Zhang",
+        "Leo Yu Zhang"
+      ],
+      "published": "2026-09-24T11:49:30Z",
+      "updated": "2026-09-24T11:49:30Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.29429",
+      "version_url": "https://arxiv.org/abs/2609.29429v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.29769",
+      "title": "JEV vs. LLMs as Rubric Judges: Cheaper, Faster, and Wrong in the Same Places",
+      "authors": [
+        "Delip Rao",
+        "Chris Callison-Burch"
+      ],
+      "published": "2026-09-24T13:16:21Z",
+      "updated": "2026-09-28T21:11:07Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.29769",
+      "version_url": "https://arxiv.org/abs/2609.29769v2",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.30186",
+      "title": "Jev-Mobile: Jev as an Executor for Mobile GUI Agents",
+      "authors": [
+        "Linghua Zhang"
+      ],
+      "published": "2026-09-24T17:30:32Z",
+      "updated": "2026-09-24T17:30:32Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.30186",
+      "version_url": "https://arxiv.org/abs/2609.30186v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Embodied AI & Reinforcement Learning",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.30216",
+      "title": "Jev in the Wild: A Data-Driven Analysis of the Jev Model's Functionality, Applications and Ecosystem",
+      "authors": [
+        "Guoming Ling",
+        "Muen Xue",
+        "Zijian Ye"
+      ],
+      "published": "2026-09-24T17:46:08Z",
+      "updated": "2026-09-24T17:46:08Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.30216",
+      "version_url": "https://arxiv.org/abs/2609.30216v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.30243",
+      "title": "JevOut: Natural Context Can Flip Decision Models",
+      "authors": [
+        "Zixiang Xu",
+        "Zirui Song",
+        "Chiyu Zhang",
+        "Xiuying Chen",
+        "Xi Liu",
+        "Xiyang Hu",
+        "Yue Zhao"
+      ],
+      "published": "2026-09-24T17:57:07Z",
+      "updated": "2026-10-08T08:43:50Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.30243",
+      "version_url": "https://arxiv.org/abs/2609.30243v2",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "revised",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.30454",
+      "title": "Auditing System-1 Models on Biosecurity-Relevant Benchmarks: Calibration, Selective Prediction, and Permutation Instability in a Non-Generative Model",
+      "authors": [
+        "Kimon Antonios Provatas",
+        "Ilias Georgakopoulos-Soares"
+      ],
+      "published": "2026-09-24T18:46:53Z",
+      "updated": "2026-09-24T18:46:53Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.30454",
+      "version_url": "https://arxiv.org/abs/2609.30454v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2609.30706",
+      "title": "LAVOIR: Teaching a Single-Pass Decision Encoder When and What to Ask with Amortized Value of Information",
+      "authors": [
+        "Furkan Yilmaz",
+        "Habibe Aleyna Tasdemir",
+        "Muhammed Faruk Gozay"
+      ],
+      "published": "2026-09-25T02:31:02Z",
+      "updated": "2026-09-25T02:31:02Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.30706",
+      "version_url": "https://arxiv.org/abs/2609.30706v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.30922",
+      "title": "JevSoup: System-One Routing for Training-Free LoRA Composition",
+      "authors": [
+        "Xiuying Wang",
+        "Jiahua Cheng",
+        "Shuotian Li",
+        "Yufan Cheng",
+        "Bowen Deng",
+        "Zhexuan Bai",
+        "Yichen Li"
+      ],
+      "published": "2026-09-25T07:37:28Z",
+      "updated": "2026-09-25T07:37:28Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.30922",
+      "version_url": "https://arxiv.org/abs/2609.30922v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.31142",
+      "title": "JevAdvBench: A Benchmark and Black-Box Attacks for Reinforcement Learning for Calibrated Decisions Models",
+      "authors": [
+        "Jianyi Hu",
+        "Hangtao Zhang",
+        "Yi Liu",
+        "Yeqi Zeng",
+        "Li Zeng",
+        "Xianlong Wang",
+        "Rui Wang",
+        "Leo Yu Zhang"
+      ],
+      "published": "2026-09-25T11:32:19Z",
+      "updated": "2026-09-25T11:32:19Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.31142",
+      "version_url": "https://arxiv.org/abs/2609.31142v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.35865",
+      "title": "PACT: Pairwise-Anchored Calibrated Tuning for Single-Token Typed Decisions",
+      "authors": [
+        "Yida Lin"
+      ],
+      "published": "2026-09-26T01:07:09Z",
+      "updated": "2026-09-26T01:07:09Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.35865",
+      "version_url": "https://arxiv.org/abs/2609.35865v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.32160",
+      "title": "Typed Decision Models: An Early Evidence Audit and Evaluation Checklist",
+      "authors": [
+        "Lijuan Tang",
+        "Yuemeng Zheng"
+      ],
+      "published": "2026-09-26T02:28:14Z",
+      "updated": "2026-09-26T02:28:14Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.32160",
+      "version_url": "https://arxiv.org/abs/2609.32160v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.32191",
+      "title": "Spiral Harmonic Products",
+      "authors": [
+        "Hai Zhang",
+        "Yongsheng Zhang"
+      ],
+      "published": "2026-09-26T03:32:20Z",
+      "updated": "2026-09-26T03:32:20Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.32191",
+      "version_url": "https://arxiv.org/abs/2609.32191v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Unrelated harmonic-map mathematics."
+    },
+    {
+      "id": "2609.32409",
+      "title": "Recovery-Directed Symbolic Distillation of Neural Likelihoods",
+      "authors": [
+        "Kianté Fernandez",
+        "Xinwei Li"
+      ],
+      "published": "2026-09-26T09:32:17Z",
+      "updated": "2026-09-26T09:32:17Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.32409",
+      "version_url": "https://arxiv.org/abs/2609.32409v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Classical cognitive diffusion decision models, not Jev or typed language decision models."
+    },
+    {
+      "id": "2609.32591",
+      "title": "Think Fast, Plan Selectively: Adaptive Deliberation for Efficient Data-Driven MPC",
+      "authors": [
+        "Yi Xian Goh",
+        "Sze Jue Yang",
+        "Hao Luan"
+      ],
+      "published": "2026-09-26T13:10:00Z",
+      "updated": "2026-09-30T02:14:08Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.32591",
+      "version_url": "https://arxiv.org/abs/2609.32591v2",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Dual-process continuous model-predictive control, without a verified Jev-style interface."
+    },
+    {
+      "id": "2609.32893",
+      "title": "Worlds Next Door. V. A Candidate Solar System Scale Super-Jupiter in the 61 Cygni Binary System",
+      "authors": [
+        "Aniket Sanghi",
+        "Billy Quarles",
+        "Andrea S. J. Lin",
+        "Cheyanne Shariat",
+        "Pierre Kervella",
+        "James Mang",
+        "Dimitri Mawet",
+        "Mark R. Giovinazzi",
+        "Arvind F. Gupta",
+        "Charles Beichman",
+        "Bertrand Mennesson",
+        "Mathilde Mâlin",
+        "Jerry W. Xuan",
+        "Liton Majumdar",
+        "Jack J. Lissauer",
+        "Mark Wyatt",
+        "William O. Balmer",
+        "Eduardo Bendek",
+        "Kevin Wagner"
+      ],
+      "published": "2026-09-26T19:30:08Z",
+      "updated": "2026-09-26T19:30:08Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.32893",
+      "version_url": "https://arxiv.org/abs/2609.32893v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Unrelated stellar-companion study; system-one phrasing is a keyword collision."
+    },
+    {
+      "id": "2609.32932",
+      "title": "Counting on Thinking: Tracing Evidence Integration in Language Models",
+      "authors": [
+        "Jingming Xue",
+        "Robert C. Wilson",
+        "Huadong Xiong"
+      ],
+      "published": "2026-09-26T20:44:25Z",
+      "updated": "2026-09-26T20:44:25Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.32932",
+      "version_url": "https://arxiv.org/abs/2609.32932v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Generative LLM evidence-integration study; no verified direct Jev role."
+    },
+    {
+      "id": "2610.08829",
+      "title": "Emo-Jev: Probabilistic Reasoning for Emotion Classification with Jev",
+      "authors": [
+        "Yazhou Zhang",
+        "Junhao Yu"
+      ],
+      "published": "2026-09-27T01:35:32Z",
+      "updated": "2026-09-27T01:35:32Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.08829",
+      "version_url": "https://arxiv.org/abs/2610.08829v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2609.33150",
+      "title": "Generalization Dynamics of LM Pre-training",
+      "authors": [
+        "Jiaxin Wen",
+        "Zhengxuan Wu",
+        "Dawn Song",
+        "Lijie Chen"
+      ],
+      "published": "2026-09-27T03:24:21Z",
+      "updated": "2026-09-27T03:24:21Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33150",
+      "version_url": "https://arxiv.org/abs/2609.33150v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "General language-model pretraining dynamics, not Jev-specific research."
+    },
+    {
+      "id": "2609.33209",
+      "title": "Beyond Calibration: Do a Typed-Decision Model's Probabilities Obey the Probability Axioms?",
+      "authors": [
+        "Keyi Li",
+        "Yihao He",
+        "Quanyi Li"
+      ],
+      "published": "2026-09-27T04:48:59Z",
+      "updated": "2026-09-27T04:48:59Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33209",
+      "version_url": "https://arxiv.org/abs/2609.33209v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.33282",
+      "title": "Multi-Dimensional Comparative Scale Construction for Efficient Personalized Subjective Judgment in High-Traffic Applications",
+      "authors": [
+        "Xianglong Shi",
+        "Shifeng Liu",
+        "Sirui Zhao",
+        "Shengming Yuan",
+        "Enhong Chen"
+      ],
+      "published": "2026-09-27T06:39:04Z",
+      "updated": "2026-09-27T06:39:04Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33282",
+      "version_url": "https://arxiv.org/abs/2609.33282v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "SubJudge performs personalized scalar scoring; the checked full text establishes no TypeSafe or explicitly identified Jev-style connection."
+    },
+    {
+      "id": "2609.33401",
+      "title": "Evaluating System One Models for Agent Security Decisions: Reliability, Calibration, and Selective Automation",
+      "authors": [
+        "Yixuan Liu"
+      ],
+      "published": "2026-09-27T09:30:13Z",
+      "updated": "2026-10-03T10:00:43Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33401",
+      "version_url": "https://arxiv.org/abs/2609.33401v3",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.33538",
+      "title": "Jev Matches 7B Language Models for Speech-Neuroprosthesis Rescoring",
+      "authors": [
+        "Gabriele Cinà"
+      ],
+      "published": "2026-09-27T13:04:23Z",
+      "updated": "2026-09-27T13:04:23Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33538",
+      "version_url": "https://arxiv.org/abs/2609.33538v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "AI for Science, Healthcare & Education",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.33609",
+      "title": "You Only Edit Once: Incentivizing In-Context Capability of LLMs via Local Demonstration Refinement",
+      "authors": [
+        "Jiarong Wen",
+        "Qi Wang",
+        "Yun Qu",
+        "Yixiu Mao",
+        "Heming Zou",
+        "Haoang Chi",
+        "Lizhou Cai",
+        "Yiqin Lv",
+        "Kaiyu Zhang",
+        "Yuhang Jiang",
+        "Xiangyang Ji"
+      ],
+      "published": "2026-09-27T14:26:28Z",
+      "updated": "2026-09-27T14:26:28Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33609",
+      "version_url": "https://arxiv.org/abs/2609.33609v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Jev-LDE is a demonstration-editing policy; the checked full text establishes no TypeSafe or matching typed-probability interface connection."
+    },
+    {
+      "id": "2609.33671",
+      "title": "COGNIT-Guard: Calibrated Standalone Direct-Decision Guardrails with Heterogeneous CPU-NPU Confidence Cascading under Explicit Latency and False-Positive Constraints",
+      "authors": [
+        "Hao Chen"
+      ],
+      "published": "2026-09-27T15:32:15Z",
+      "updated": "2026-09-27T15:32:15Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33671",
+      "version_url": "https://arxiv.org/abs/2609.33671v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.33689",
+      "title": "Type-Safe Decision Frameworks for Agentic 5G Control: A Theory-Driven Testbed Characterization of Where They Can Be Applied",
+      "authors": [
+        "Michail-Alexandros Kourtis",
+        "George Xilouris"
+      ],
+      "published": "2026-09-27T15:51:26Z",
+      "updated": "2026-09-27T15:51:26Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33689",
+      "version_url": "https://arxiv.org/abs/2609.33689v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Networks, Databases & Engineering",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.33843",
+      "title": "Laya as a Typed Probabilistic Assessor: An Independent Reproduction and a Preregistered Study of Calibration and Selective Escalation",
+      "authors": [
+        "Gowthamkumar Nandakishore"
+      ],
+      "published": "2026-09-27T18:53:26Z",
+      "updated": "2026-09-27T18:53:26Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33843",
+      "version_url": "https://arxiv.org/abs/2609.33843v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.37470",
+      "title": "Probability Contracts: Accuracy, Coherence, and Decisions Across LLM Interfaces",
+      "authors": [
+        "Han Chen",
+        "Yingrui Li"
+      ],
+      "published": "2026-09-27T19:07:58Z",
+      "updated": "2026-10-05T02:22:13Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.37470",
+      "version_url": "https://arxiv.org/abs/2609.37470v2",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.33874",
+      "title": "JET: Justification Evaluation in Transformer",
+      "authors": [
+        "Shenghao Ding"
+      ],
+      "published": "2026-09-27T19:50:08Z",
+      "updated": "2026-09-29T19:41:00Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33874",
+      "version_url": "https://arxiv.org/abs/2609.33874v2",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.33971",
+      "title": "Do System One Decisions Add Up? A Study of Probabilistic Coherence",
+      "authors": [
+        "Saman Sarker Joy"
+      ],
+      "published": "2026-09-27T22:15:56Z",
+      "updated": "2026-09-27T22:15:56Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.33971",
+      "version_url": "https://arxiv.org/abs/2609.33971v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.34024",
+      "title": "Jev in Medicine: A Benchmark Evaluation",
+      "authors": [
+        "Alfredo Madrid-García",
+        "Beatriz Merino-Barbancho"
+      ],
+      "published": "2026-09-27T23:33:04Z",
+      "updated": "2026-10-04T19:31:32Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.34024",
+      "version_url": "https://arxiv.org/abs/2609.34024v3",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "AI for Science, Healthcare & Education",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.34180",
+      "title": "Decision Readouts for Text-Mediated Video Anomaly Detection: An Exploratory Evaluation of Jev and Qwen",
+      "authors": [
+        "Xukui Qin",
+        "Youting Wang",
+        "Xinjie He",
+        "Ziyang Luo",
+        "Runxiong Wu",
+        "Yan-Syuan Chen",
+        "Zhongyao Chu"
+      ],
+      "published": "2026-09-28T02:58:55Z",
+      "updated": "2026-09-28T02:58:55Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.34180",
+      "version_url": "https://arxiv.org/abs/2609.34180v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Multimodal Learning & Perception",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.34227",
+      "title": "When Does Selection Replace Extraction? A Pre-Registered Test of Agent Memory with a Typed Decision Model",
+      "authors": [
+        "Rishabh Sharma",
+        "Rishika Lall"
+      ],
+      "published": "2026-09-28T03:34:07Z",
+      "updated": "2026-09-28T03:34:07Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.34227",
+      "version_url": "https://arxiv.org/abs/2609.34227v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Agents & Workflow Automation",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.34247",
+      "title": "SALMONN-duo: Adaptive Dual-System Coordination for Full-Duplex Voice Agents",
+      "authors": [
+        "Wenyi Yu",
+        "Siyin Wang",
+        "Terumi Chiba",
+        "Xianzhao Chen",
+        "Xiaohai Tian",
+        "Jun Zhang",
+        "Lu Lu",
+        "Chao Zhang"
+      ],
+      "published": "2026-09-28T03:53:05Z",
+      "updated": "2026-09-28T03:53:05Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.34247",
+      "version_url": "https://arxiv.org/abs/2609.34247v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Full-duplex generative voice-agent coordination, not a typed probabilistic Jev interface."
+    },
+    {
+      "id": "2609.34261",
+      "title": "RoboICL: Embodied In-Context Learning with GPT-6 Astra",
+      "authors": [
+        "Fangcheng Liu",
+        "Yeqing Shen",
+        "Anda Cheng",
+        "Weishi Mi",
+        "Chao Tang",
+        "Chenyuan Liu",
+        "Yushun Xiang",
+        "Tingguang Li",
+        "Yong-Lu Li",
+        "Yehui Tang"
+      ],
+      "published": "2026-09-28T04:07:36Z",
+      "updated": "2026-09-28T04:07:36Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.34261",
+      "version_url": "https://arxiv.org/abs/2609.34261v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Embodied AI & Reinforcement Learning",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.34736",
+      "title": "SeLMRoute: Probabilistic Semantic Evidence for Large Language Model Routing",
+      "authors": [
+        "Vasilis Perifanis",
+        "Nikolaos Pavlidis",
+        "Symeon Symeonidis"
+      ],
+      "published": "2026-09-28T09:31:45Z",
+      "updated": "2026-09-28T09:31:45Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.34736",
+      "version_url": "https://arxiv.org/abs/2609.34736v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Agents & Workflow Automation",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2609.34862",
+      "title": "JEV as a Judge for Agent Trace Security: An Empirical Comparison with Generative LLM Judges",
+      "authors": [
+        "Zhiqiang Wang",
+        "Yichao Gao"
+      ],
+      "published": "2026-09-28T10:51:04Z",
+      "updated": "2026-09-28T10:51:04Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.34862",
+      "version_url": "https://arxiv.org/abs/2609.34862v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.34963",
+      "title": "JevVibe: Efficient Classification-Guided Secure Code Generation",
+      "authors": [
+        "Arshak Rezvani",
+        "Sasha Behrouzi",
+        "Ahmad-Reza Sadeghi"
+      ],
+      "published": "2026-09-28T11:47:38Z",
+      "updated": "2026-09-28T11:47:38Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.34963",
+      "version_url": "https://arxiv.org/abs/2609.34963v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.34969",
+      "title": "NavJev: Efficient Vision-Language Navigation via Action-Centric Visual Compression and Discriminative Action-Semantic Memory",
+      "authors": [
+        "Kai Sheng",
+        "Liuyi Wang",
+        "Jinlong Li",
+        "Haojie Dai",
+        "Chengju Liu",
+        "Qijun Chen"
+      ],
+      "published": "2026-09-28T11:50:35Z",
+      "updated": "2026-09-28T11:50:35Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.34969",
+      "version_url": "https://arxiv.org/abs/2609.34969v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Embodied AI & Reinforcement Learning",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.35217",
+      "title": "A Hierarchy of Entropy-Shapley Games for Multivariate Predictive Uncertainty",
+      "authors": [
+        "Niklas Koenen",
+        "Claudia Battistin",
+        "Jeriek Van den Abeele",
+        "Martin Jullum"
+      ],
+      "published": "2026-09-28T14:04:38Z",
+      "updated": "2026-09-28T14:04:38Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.35217",
+      "version_url": "https://arxiv.org/abs/2609.35217v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "General predictive-uncertainty attribution with no verified direct Jev role."
+    },
+    {
+      "id": "2609.35286",
+      "title": "The Argument and the Letterhead: Source-Position Coherence in AI Evaluation",
+      "authors": [
+        "Michele Loi"
+      ],
+      "published": "2026-09-28T14:34:23Z",
+      "updated": "2026-09-28T14:34:23Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.35286",
+      "version_url": "https://arxiv.org/abs/2609.35286v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Computational Social Science & Human Decisions",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.35293",
+      "title": "Decide, Don't Generate: Competitive Dimensional ABSA with Jev's Typed Decisions",
+      "authors": [
+        "Yiqun Zhang",
+        "Peidong Wang",
+        "Zihan Wang",
+        "Shi Feng"
+      ],
+      "published": "2026-09-28T14:37:08Z",
+      "updated": "2026-09-28T14:37:08Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.35293",
+      "version_url": "https://arxiv.org/abs/2609.35293v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.35342",
+      "title": "Jev thinks \"I don't know'', but doesn't say it: Introducing Sys1Cal-v1 Dataset for Probability Calibration",
+      "authors": [
+        "Riccardo Porcedda"
+      ],
+      "published": "2026-09-28T14:59:07Z",
+      "updated": "2026-09-28T14:59:07Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.35342",
+      "version_url": "https://arxiv.org/abs/2609.35342v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.36059",
+      "title": "Mnemon: Raw Records, Fast Judgments, Slow Thoughts",
+      "authors": [
+        "Guangren Wang"
+      ],
+      "published": "2026-09-28T18:17:13Z",
+      "updated": "2026-09-28T18:17:13Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.36059",
+      "version_url": "https://arxiv.org/abs/2609.36059v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Agents & Workflow Automation",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.36115",
+      "title": "Koa-action: Fast and Consistent Structured Decision Making with Generative LLMs",
+      "authors": [
+        "Shenghong Dai",
+        "Shiva Kumar Pentyala",
+        "Yingchi Liu",
+        "Shubham Mehrotra",
+        "Suman Banerjee",
+        "James Zhu",
+        "Bin Bi",
+        "Sitaram Asur",
+        "Phil Mui"
+      ],
+      "published": "2026-09-28T18:49:58Z",
+      "updated": "2026-09-28T18:49:58Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.36115",
+      "version_url": "https://arxiv.org/abs/2609.36115v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.36116",
+      "title": "Dyad: Extending Large Language Models with Native Typed Decision-Making",
+      "authors": [
+        "Yundaichuan Zhan",
+        "Weishi Wang",
+        "Wenbiao Liu",
+        "Daniel Dahlmeier",
+        "Chengwei Qin",
+        "Juncheng Li",
+        "Fredrik D. Johansson",
+        "Zhongqi Yue"
+      ],
+      "published": "2026-09-28T18:50:13Z",
+      "updated": "2026-09-28T18:50:13Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.36116",
+      "version_url": "https://arxiv.org/abs/2609.36116v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.36154",
+      "title": "More Features Are Not More Evidence: Limits of Training-Free Human Activity Recognition with Jev",
+      "authors": [
+        "Orhan Konak"
+      ],
+      "published": "2026-09-28T19:26:05Z",
+      "updated": "2026-09-28T19:26:05Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.36154",
+      "version_url": "https://arxiv.org/abs/2609.36154v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Multimodal Learning & Perception",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.36399",
+      "title": "Calibrated to Whom? Persona and Language Effects on Cultural Values in JEV",
+      "authors": [
+        "Bushra Asseri",
+        "Abdulaziz Asseri"
+      ],
+      "published": "2026-09-28T23:53:31Z",
+      "updated": "2026-10-03T12:16:55Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.36399",
+      "version_url": "https://arxiv.org/abs/2609.36399v2",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Computational Social Science & Human Decisions",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.36965",
+      "title": "Chinese-Jev: Bringing System One Model to Chinese-Language Tasks",
+      "authors": [
+        "Zexiao Wang",
+        "Zihao Zhang",
+        "Xudong Wang",
+        "Pan Wang",
+        "Ziyi Ye",
+        "Haoyu Zhao",
+        "Zuxuan Wu",
+        "Shuicheng Yan"
+      ],
+      "published": "2026-09-29T08:02:27Z",
+      "updated": "2026-09-29T08:02:27Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.36965",
+      "version_url": "https://arxiv.org/abs/2609.36965v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.37647",
+      "title": "Evaluating and Benchmarking the System One Model Jev",
+      "authors": [
+        "Tobias Deußer",
+        "Lorenz Sparrenberg",
+        "Rafet Sifa"
+      ],
+      "published": "2026-09-29T14:15:04Z",
+      "updated": "2026-09-29T14:15:04Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.37647",
+      "version_url": "https://arxiv.org/abs/2609.37647v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.37832",
+      "title": "Can a Cacheable Decision Model Follow Rules?",
+      "authors": [
+        "Dushyant Rajput",
+        "Nirdesh Chauhan",
+        "Siddharth Kosaraju"
+      ],
+      "published": "2026-09-29T15:37:18Z",
+      "updated": "2026-09-29T15:37:18Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.37832",
+      "version_url": "https://arxiv.org/abs/2609.37832v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Explicitly verified Jev-style non-generative probability interface or model evaluation"
+    },
+    {
+      "id": "2610.00346",
+      "title": "Benchmarking System One decision models against trained classifiers and language models for automated decision gates",
+      "authors": [
+        "Amir Rafe",
+        "Subasish Das"
+      ],
+      "published": "2026-09-29T19:57:59Z",
+      "updated": "2026-10-06T22:03:28Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.00346",
+      "version_url": "https://arxiv.org/abs/2610.00346v2",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.38827",
+      "title": "More Choices, Fewer Decisions: Ordinal-Scale Bias in JEV-like Direct-Decision Models",
+      "authors": [
+        "Tianxiang Gao",
+        "Jinzhe Li",
+        "Zhiyuan Li",
+        "Yi Chang",
+        "Yuan Wu"
+      ],
+      "published": "2026-09-30T02:50:30Z",
+      "updated": "2026-09-30T02:50:30Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.38827",
+      "version_url": "https://arxiv.org/abs/2609.38827v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.38850",
+      "title": "OpenJev-RLCD: A Working RLCD Implementation",
+      "authors": [
+        "Zhimin Gao",
+        "Pichao Wang"
+      ],
+      "published": "2026-09-30T03:08:45Z",
+      "updated": "2026-09-30T03:08:45Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.38850",
+      "version_url": "https://arxiv.org/abs/2609.38850v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.39111",
+      "title": "Bongard: Training Machine Intuition",
+      "authors": [
+        "Li Ding",
+        "Haidi Jin",
+        "Chen Ji"
+      ],
+      "published": "2026-09-30T06:48:21Z",
+      "updated": "2026-09-30T06:48:21Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.39111",
+      "version_url": "https://arxiv.org/abs/2609.39111v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.00376",
+      "title": "A First Glance at Jev for Network Traffic Classification: Accuracy, Processing Time, and Cost",
+      "authors": [
+        "Shenghe Xu",
+        "Lifan Mei"
+      ],
+      "published": "2026-09-30T08:21:44Z",
+      "updated": "2026-09-30T08:21:44Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.00376",
+      "version_url": "https://arxiv.org/abs/2610.00376v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Networks, Databases & Engineering",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.00381",
+      "title": "OmniMed-Jev: Calibrating LVLM Confidence for Trustworthy Medical Multimodal Decisions via System One",
+      "authors": [
+        "Luyao Tang",
+        "Cheng Chen"
+      ],
+      "published": "2026-09-30T08:53:54Z",
+      "updated": "2026-09-30T08:53:54Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.00381",
+      "version_url": "https://arxiv.org/abs/2610.00381v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "AI for Science, Healthcare & Education",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.39334",
+      "title": "Taming Speculative Search for Test-Time Scaling in LLM Serving",
+      "authors": [
+        "Jinwoo Jeong",
+        "Woohyung Choi",
+        "Myeongjae Jeon",
+        "Jeongseob Ahn"
+      ],
+      "published": "2026-09-30T09:04:53Z",
+      "updated": "2026-09-30T09:04:53Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.39334",
+      "version_url": "https://arxiv.org/abs/2609.39334v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "General speculative LLM serving and search, without a verified direct Jev role."
+    },
+    {
+      "id": "2609.39496",
+      "title": "When the Right Answer Is Missing: An Arithmetic-Dependent Rejection Bottleneck in Jev",
+      "authors": [
+        "Jike Zhong",
+        "Ming Li",
+        "Yuxiang Lai"
+      ],
+      "published": "2026-09-30T10:55:12Z",
+      "updated": "2026-09-30T10:55:12Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.39496",
+      "version_url": "https://arxiv.org/abs/2609.39496v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.00437",
+      "title": "JevSpawn: Adaptive Agentic Inference through Compositional Action Spaces",
+      "authors": [
+        "Haoyang Su",
+        "Weiran Huang"
+      ],
+      "published": "2026-09-30T17:23:01Z",
+      "updated": "2026-09-30T17:23:01Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.00437",
+      "version_url": "https://arxiv.org/abs/2610.00437v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Embodied AI & Reinforcement Learning",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2609.40241",
+      "title": "Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
+      "authors": [
+        "Hanjia Lyu",
+        "Yinglong Xia"
+      ],
+      "published": "2026-09-30T17:33:43Z",
+      "updated": "2026-09-30T17:33:43Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2609.40241",
+      "version_url": "https://arxiv.org/abs/2609.40241v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.00831",
+      "title": "AnyJev Technical Report",
+      "authors": [
+        "Jiamu Zhang",
+        "Tianze Yang",
+        "Yucheng Shi",
+        "Evan Chen",
+        "Zixiang Nie",
+        "Kelly Wan",
+        "Liangjie Hong",
+        "Ninghao Liu",
+        "Liang Wu"
+      ],
+      "published": "2026-09-30T23:43:04Z",
+      "updated": "2026-09-30T23:43:04Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.00831",
+      "version_url": "https://arxiv.org/abs/2610.00831v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.01006",
+      "title": "Beyond Answer Confidence: A Controlled Audit of Self-Knowledge in a Black-Box Decision Model",
+      "authors": [
+        "Sharath M Shankaranarayana",
+        "Davor Runje",
+        "Jan Jannink"
+      ],
+      "published": "2026-10-01T03:53:12Z",
+      "updated": "2026-10-01T03:53:12Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.01006",
+      "version_url": "https://arxiv.org/abs/2610.01006v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.01079",
+      "title": "Jev-IDS: System One Models for Network Intrusion Detection",
+      "authors": [
+        "Paulo Severo",
+        "Silvio E. Quincozes",
+        "Amanda Dias"
+      ],
+      "published": "2026-10-01T05:21:46Z",
+      "updated": "2026-10-01T05:21:46Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.01079",
+      "version_url": "https://arxiv.org/abs/2610.01079v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.02267",
+      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+      "authors": [
+        "Jiawei Li"
+      ],
+      "published": "2026-10-01T05:57:14Z",
+      "updated": "2026-10-01T05:57:14Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.02267",
+      "version_url": "https://arxiv.org/abs/2610.02267v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Agents & Workflow Automation",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.01218",
+      "title": "AGO AI Quality Gate: Evidence-First Release Decisions for Retrieval-Augmented Generation",
+      "authors": [
+        "Giulio Zeloni",
+        "Enrico Lo Conte",
+        "Salvatore Rionero",
+        "Giuseppe Santoro",
+        "Alessandro Rastelli",
+        "Fabio Sorrentino"
+      ],
+      "published": "2026-10-01T07:24:04Z",
+      "updated": "2026-10-01T07:24:04Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.01218",
+      "version_url": "https://arxiv.org/abs/2610.01218v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "General RAG quality-gate study, without a verified Jev evaluation or implementation."
+    },
+    {
+      "id": "2610.01231",
+      "title": "Judgement in the Age of Jev: From Evaluation Scarcity to Evaluation Abundance",
+      "authors": [
+        "Richard Hill"
+      ],
+      "published": "2026-10-01T07:31:52Z",
+      "updated": "2026-10-01T07:31:52Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.01231",
+      "version_url": "https://arxiv.org/abs/2610.01231v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Computational Social Science & Human Decisions",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.01601",
+      "title": "Permutation-Robust Decision Modeling with Candidate-Independent Block-Causal Attention",
+      "authors": [
+        "Guy Amit"
+      ],
+      "published": "2026-10-01T12:47:58Z",
+      "updated": "2026-10-01T12:47:58Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.01601",
+      "version_url": "https://arxiv.org/abs/2610.01601v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.01834",
+      "title": "Code Owns the Simulation, Jev Owns the Evaluation",
+      "authors": [
+        "Yaodong Yang",
+        "Hongyao Tang",
+        "Yi Ma",
+        "Xingyu Fan",
+        "Weixun Wang",
+        "Jinpeng Li",
+        "Tianpei Yang"
+      ],
+      "published": "2026-10-01T15:06:40Z",
+      "updated": "2026-10-01T15:06:40Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.01834",
+      "version_url": "https://arxiv.org/abs/2610.01834v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Embodied AI & Reinforcement Learning",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.02293",
+      "title": "HakemBench: A Turkish Benchmark of Typed Decisions",
+      "authors": [
+        "Sait Furkan Teke"
+      ],
+      "published": "2026-10-01T16:55:18Z",
+      "updated": "2026-10-01T16:55:18Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.02293",
+      "version_url": "https://arxiv.org/abs/2610.02293v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.02046",
+      "title": "Prune First, Decide Fast: Scalable Semantic Query Processing with JEVDB",
+      "authors": [
+        "Zhengle Wang",
+        "Hanxu Yan",
+        "Fuheng Zhao",
+        "Chunwei Liu"
+      ],
+      "published": "2026-10-01T16:55:48Z",
+      "updated": "2026-10-01T16:55:48Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.02046",
+      "version_url": "https://arxiv.org/abs/2610.02046v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Networks, Databases & Engineering",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.02048",
+      "title": "HydroJEV: A one-second, training-free screen for cyber-attack and fault attribution in water distribution networks",
+      "authors": [
+        "Tianwei Mu",
+        "Shengyan Jiang",
+        "Mingzhe Yuan",
+        "Qing Luo",
+        "Min Xiao",
+        "Wenhong Wang",
+        "Jun Li",
+        "Manhong Huang"
+      ],
+      "published": "2026-10-01T16:57:33Z",
+      "updated": "2026-10-01T16:57:33Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.02048",
+      "version_url": "https://arxiv.org/abs/2610.02048v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Networks, Databases & Engineering",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.02076",
+      "title": "LLM-as-Jev: LLMs Are Already Jev-Style Decision Models -- When and How to Fine-Tune Them",
+      "authors": [
+        "Yinheng Li",
+        "Justin Wagle"
+      ],
+      "published": "2026-10-01T17:15:24Z",
+      "updated": "2026-10-04T08:18:53Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.02076",
+      "version_url": "https://arxiv.org/abs/2610.02076v2",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.02486",
+      "title": "From Retrieval to Typed Decisions: Calibrated System One Models from Biomedical Sentence Encoders",
+      "authors": [
+        "Pritam Deka"
+      ],
+      "published": "2026-10-01T21:03:42Z",
+      "updated": "2026-10-01T21:03:42Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.02486",
+      "version_url": "https://arxiv.org/abs/2610.02486v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "AI for Science, Healthcare & Education",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.02516",
+      "title": "Student-Guided Teacher Distillation for Efficient LLM Task Routing: Positioning Against Jev-Style System-1 Classifiers",
+      "authors": [
+        "Haifeng Wu",
+        "Srinivasan Manoharan",
+        "Jian Wan",
+        "Fangbo Tu",
+        "Junhua Zhao",
+        "Xin Chen"
+      ],
+      "published": "2026-10-01T21:38:11Z",
+      "updated": "2026-10-01T21:38:11Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.02516",
+      "version_url": "https://arxiv.org/abs/2610.02516v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Fixed-taxonomy classifier distillation; Jev and Laya are related-work positioning, not evaluated systems."
+    },
+    {
+      "id": "2610.02586",
+      "title": "Labels Override Definitions in Jev-Style Typed Decision Models",
+      "authors": [
+        "Seyedarmin Azizi",
+        "Erfan Baghaei Potraghloo",
+        "Massoud Pedram"
+      ],
+      "published": "2026-10-01T23:32:30Z",
+      "updated": "2026-10-01T23:32:30Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.02586",
+      "version_url": "https://arxiv.org/abs/2610.02586v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.03073",
+      "title": "SecJev: Bringing Security Expertise to System One Decision Models",
+      "authors": [
+        "Zheng Chen",
+        "Fei Yu",
+        "Haohao Huang",
+        "Yang Li",
+        "Anlong Chen",
+        "Lei Chen"
+      ],
+      "published": "2026-10-02T09:57:05Z",
+      "updated": "2026-10-02T09:57:05Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.03073",
+      "version_url": "https://arxiv.org/abs/2610.03073v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.03324",
+      "title": "To Jev or Not? Evaluating the Accuracy and Efficiency of Structured Decision Models for Hate-Speech Moderation",
+      "authors": [
+        "Demetris Paschalides",
+        "George Pallis",
+        "Marios D. Dikaiakos"
+      ],
+      "published": "2026-10-02T13:59:21Z",
+      "updated": "2026-10-02T13:59:21Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.03324",
+      "version_url": "https://arxiv.org/abs/2610.03324v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.03387",
+      "title": "Benchmarking candidate coverage and rejection policy transfer in typed decision models",
+      "authors": [
+        "Jiawen Lu",
+        "Tongtong Wu"
+      ],
+      "published": "2026-10-02T14:36:46Z",
+      "updated": "2026-10-06T02:17:37Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.03387",
+      "version_url": "https://arxiv.org/abs/2610.03387v2",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.03935",
+      "title": "General Decision Models: Benchmarking and Insights Beyond Jev",
+      "authors": [
+        "Feiyu Duan",
+        "Jiayu Lin",
+        "Jia Wang",
+        "Jun Xiang",
+        "Jialiang Wu",
+        "Xinnong Zhang",
+        "Hanqi Yan",
+        "Siyuan Wang",
+        "Zhongyu Wei"
+      ],
+      "published": "2026-10-02T18:47:00Z",
+      "updated": "2026-10-02T18:47:00Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.03935",
+      "version_url": "https://arxiv.org/abs/2610.03935v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.04345",
+      "title": "System One Models for Wireless Decision-Making:Applications and Performance Evaluation",
+      "authors": [
+        "Masoud Rahimi",
+        "S. M. Matin Alemohammad",
+        "Hamid Behroozi",
+        "Mahdi Nouri"
+      ],
+      "published": "2026-10-03T07:13:46Z",
+      "updated": "2026-10-03T07:13:46Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.04345",
+      "version_url": "https://arxiv.org/abs/2610.04345v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Networks, Databases & Engineering",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.06950",
+      "title": "Learning to Decide, Not to Reason: Parameter-Efficient Decision Operators via Low-Rank Activation Steering",
+      "authors": [
+        "Ran Li",
+        "Lei Chen"
+      ],
+      "published": "2026-10-03T12:57:57Z",
+      "updated": "2026-10-08T12:50:52Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.06950",
+      "version_url": "https://arxiv.org/abs/2610.06950v2",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Low-rank activation steering produces short generated answers, without a verified Jev probability interface."
+    },
+    {
+      "id": "2610.04985",
+      "title": "Hidden Risks of Jev: An Empirical Study of Security, Privacy, and Dual Use",
+      "authors": [
+        "Shang Wang",
+        "Tianqing Zhu",
+        "Huajie Chen",
+        "Jiayang Li",
+        "Meng Yang",
+        "Bo Liu"
+      ],
+      "published": "2026-10-04T06:09:34Z",
+      "updated": "2026-10-04T06:09:34Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.04985",
+      "version_url": "https://arxiv.org/abs/2610.04985v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.05107",
+      "title": "SearchJev: A Fast and Calibrated System-1 Model for Search Agents",
+      "authors": [
+        "Congfeng Cao",
+        "Lipeng Zuo",
+        "Konstantinos Papakostas",
+        "Qiwei Xu",
+        "Songwei Xu",
+        "Lun Zhou",
+        "Zhaochun Ren",
+        "Yougang Lyu",
+        "Xiaohui Yan"
+      ],
+      "published": "2026-10-04T10:30:40Z",
+      "updated": "2026-10-04T10:30:40Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.05107",
+      "version_url": "https://arxiv.org/abs/2610.05107v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.06354",
+      "title": "GraphDecide: Benchmarking System One Models on Graph Tasks",
+      "authors": [
+        "Xianliang Yang",
+        "Yapu Zhang",
+        "Li Zhao"
+      ],
+      "published": "2026-10-05T13:54:03Z",
+      "updated": "2026-10-05T13:54:03Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.06354",
+      "version_url": "https://arxiv.org/abs/2610.06354v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.06425",
+      "title": "SoK: Semantic Decision Engines in Network Control Loops",
+      "authors": [
+        "Delong Li",
+        "Chen Li",
+        "Xu Wang",
+        "Haochen Gong",
+        "Rui Lang",
+        "Guangsheng Yu"
+      ],
+      "published": "2026-10-05T14:37:03Z",
+      "updated": "2026-10-05T14:37:03Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.06425",
+      "version_url": "https://arxiv.org/abs/2610.06425v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Networks, Databases & Engineering",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.06625",
+      "title": "JEV versus LLMs: Accuracy, Cost and Calibration on Seven Political Science Replications",
+      "authors": [
+        "Steven Denney",
+        "Matthew DiGiuseppe"
+      ],
+      "published": "2026-10-05T16:22:03Z",
+      "updated": "2026-10-06T05:45:51Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.06625",
+      "version_url": "https://arxiv.org/abs/2610.06625v2",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Computational Social Science & Human Decisions",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.06744",
+      "title": "ufakzeka-karar: An Open Turkish Typed-Decision Model with Order-Invariant Option Scoring",
+      "authors": [
+        "Sait Furkan Teke"
+      ],
+      "published": "2026-10-05T17:22:23Z",
+      "updated": "2026-10-05T17:22:23Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.06744",
+      "version_url": "https://arxiv.org/abs/2610.06744v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.07177",
+      "title": "CLM-as-a-Judge: Evaluating an Open Contrastive Decision Model on Public Judge Benchmarks",
+      "authors": [
+        "Gowthamkumar Nandakishore"
+      ],
+      "published": "2026-10-05T18:01:37Z",
+      "updated": "2026-10-05T18:01:37Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.07177",
+      "version_url": "https://arxiv.org/abs/2610.07177v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.07327",
+      "title": "SharedKV-BT: Node-Local Typed Decisions for Behavior-Tree Agents",
+      "authors": [
+        "Naoki Wake",
+        "Justin Wagle"
+      ],
+      "published": "2026-10-05T19:59:12Z",
+      "updated": "2026-10-05T19:59:12Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.07327",
+      "version_url": "https://arxiv.org/abs/2610.07327v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Embodied AI & Reinforcement Learning",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.07586",
+      "title": "Stability of steady transonic shocks with constant states in 3D rectangular nozzles under small external forces",
+      "authors": [
+        "Shangkun Weng",
+        "Wengang Yang"
+      ],
+      "published": "2026-10-06T01:23:39Z",
+      "updated": "2026-10-06T01:23:39Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.07586",
+      "version_url": "https://arxiv.org/abs/2610.07586v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Unrelated fluid-dynamics transonic-shock study."
+    },
+    {
+      "id": "2610.07716",
+      "title": "Readout Stability in Prefill-Only Decision Models:Zero-Label Prediction and Inference-Time Compute Allocation",
+      "authors": [
+        "Ran Li",
+        "Lei Chen"
+      ],
+      "published": "2026-10-06T04:10:16Z",
+      "updated": "2026-10-06T04:10:16Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.07716",
+      "version_url": "https://arxiv.org/abs/2610.07716v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.07730",
+      "title": "SanSi: A Looped Typed Decision Model for System 1.5 Thinking",
+      "authors": [
+        "Shuyu Gan",
+        "Young-Jun Lee",
+        "Dongyeop Kang"
+      ],
+      "published": "2026-10-06T04:28:22Z",
+      "updated": "2026-10-06T04:28:22Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.07730",
+      "version_url": "https://arxiv.org/abs/2610.07730v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.07953",
+      "title": "Benchmarking System One Models in Online Moderation",
+      "authors": [
+        "Federico Mazzoni",
+        "Andrea Failla"
+      ],
+      "published": "2026-10-06T08:25:52Z",
+      "updated": "2026-10-06T08:25:52Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.07953",
+      "version_url": "https://arxiv.org/abs/2610.07953v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.08089",
+      "title": "When Plans Change Answers: Formalizing Cost-Accuracy Optimization for Semantic Queries",
+      "authors": [
+        "Kyoungmin Kim"
+      ],
+      "published": "2026-10-06T10:19:43Z",
+      "updated": "2026-10-08T12:59:14Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.08089",
+      "version_url": "https://arxiv.org/abs/2610.08089v2",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Networks, Databases & Engineering",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "revised",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.08155",
+      "title": "Token-Efficient Multi-Agent Collaboration via System One-Guided Computational Division of Labor",
+      "authors": [
+        "Zihan Zhou",
+        "Xinzhe Hu",
+        "Hanxu Yang",
+        "Liangjian Wen",
+        "Zhao Kang"
+      ],
+      "published": "2026-10-06T11:11:05Z",
+      "updated": "2026-10-06T11:11:05Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.08155",
+      "version_url": "https://arxiv.org/abs/2610.08155v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Agents & Workflow Automation",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.08675",
+      "title": "Same-Number Citation Swaps: Stress-Testing Jev as a Financial Evidence Judge",
+      "authors": [
+        "Chuhong Xu",
+        "Bo Su",
+        "Ziyao Chen",
+        "Ruiyang Xu",
+        "Shimeng Dai",
+        "Xinyu Qiu"
+      ],
+      "published": "2026-10-06T16:57:47Z",
+      "updated": "2026-10-06T16:57:47Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.08675",
+      "version_url": "https://arxiv.org/abs/2610.08675v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.08775",
+      "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
+      "authors": [
+        "Ankit Sonthalia",
+        "Haritz Puerto",
+        "Alexander Rubinstein",
+        "Martin Gubri",
+        "Seong Joon Oh"
+      ],
+      "published": "2026-10-06T17:57:19Z",
+      "updated": "2026-10-06T17:57:19Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.08775",
+      "version_url": "https://arxiv.org/abs/2610.08775v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Agents & Workflow Automation",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "retained",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries."
+    },
+    {
+      "id": "2610.09057",
+      "title": "Epistemic Uncertainty-Aware Defect Detection for Quality Control in Medical Device Manufacturing",
+      "authors": [
+        "Raham A. Butt",
+        "Marco Romanelli",
+        "Roche C. de Guzman"
+      ],
+      "published": "2026-10-06T20:08:37Z",
+      "updated": "2026-10-06T20:08:37Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.09057",
+      "version_url": "https://arxiv.org/abs/2610.09057v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "General uncertainty-aware manufacturing defect detection without a verified Jev role."
+    },
+    {
+      "id": "2610.09188",
+      "title": "From Probabilities to Decisions: Search and Multi-Teacher Distillation with Jev",
+      "authors": [
+        "Mohamad Yazan Sadoun",
+        "Sarah Sharif",
+        "Yaser Mike Banad"
+      ],
+      "published": "2026-10-06T22:37:58Z",
+      "updated": "2026-10-06T22:37:58Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.09188",
+      "version_url": "https://arxiv.org/abs/2610.09188v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Embodied AI & Reinforcement Learning",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.09328",
+      "title": "Visual Jev Rewards: Reference-Bound Verification for Multi-Subject Image Generation",
+      "authors": [
+        "Baoteng Li",
+        "Wenzhuo Wu",
+        "Kongming Liang",
+        "Zhanyu Ma"
+      ],
+      "published": "2026-10-07T02:34:09Z",
+      "updated": "2026-10-07T02:34:09Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.09328",
+      "version_url": "https://arxiv.org/abs/2610.09328v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Multimodal Learning & Perception",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Explicitly verified Jev-style non-generative probability interface or model evaluation"
+    },
+    {
+      "id": "2610.10615",
+      "title": "JevForest: Path Voting for Budgeted Feature Acquisition",
+      "authors": [
+        "Yu Yan"
+      ],
+      "published": "2026-10-07T07:23:47Z",
+      "updated": "2026-10-07T07:23:47Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.10615",
+      "version_url": "https://arxiv.org/abs/2610.10615v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.09683",
+      "title": "System Switch: When Should a Fast Decision Model Stop and Think?",
+      "authors": [
+        "Gian Luca Bailo"
+      ],
+      "published": "2026-10-07T08:44:47Z",
+      "updated": "2026-10-07T08:44:47Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.09683",
+      "version_url": "https://arxiv.org/abs/2610.09683v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Embodied AI & Reinforcement Learning",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Explicitly verified Jev-style non-generative probability interface or model evaluation"
+    },
+    {
+      "id": "2610.09896",
+      "title": "NL2Hull: A Natural Language-Driven Constrained Ship Design Decision Framework",
+      "authors": [
+        "Wenhua Huo",
+        "Fenglei Han",
+        "Wangyuan Zhao",
+        "Jialin Wu",
+        "Jiayi Han"
+      ],
+      "published": "2026-10-07T11:55:01Z",
+      "updated": "2026-10-07T11:55:01Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.09896",
+      "version_url": "https://arxiv.org/abs/2610.09896v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Networks, Databases & Engineering",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.09937",
+      "title": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
+      "authors": [
+        "Wooyoung Jung"
+      ],
+      "published": "2026-10-07T12:23:55Z",
+      "updated": "2026-10-07T12:23:55Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.09937",
+      "version_url": "https://arxiv.org/abs/2610.09937v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Networks, Databases & Engineering",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.10321",
+      "title": "Estimating Uncoded Crash Factors with Tabular Foundation and System One Models: Kumo Tabular and Jev",
+      "authors": [
+        "Amir Rafe",
+        "Subasish Das"
+      ],
+      "published": "2026-10-07T16:12:08Z",
+      "updated": "2026-10-07T16:12:08Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.10321",
+      "version_url": "https://arxiv.org/abs/2610.10321v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "AI for Science, Healthcare & Education",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.10978",
+      "title": "Probabilistic Sensing, Deterministic Authority: Admitting Model-Produced Observations into Sufficiency-Checked Governance Contracts",
+      "authors": [
+        "Gaston Besanson"
+      ],
+      "published": "2026-10-07T23:02:20Z",
+      "updated": "2026-10-07T23:02:20Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.10978",
+      "version_url": "https://arxiv.org/abs/2610.10978v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Agents & Workflow Automation",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.11135",
+      "title": "Can a System-One LLM Perform Knowledge Tracing When Few or No Learners Are Logged?",
+      "authors": [
+        "Unggi Lee",
+        "Haeun Park"
+      ],
+      "published": "2026-10-08T02:59:20Z",
+      "updated": "2026-10-08T02:59:20Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.11135",
+      "version_url": "https://arxiv.org/abs/2610.11135v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "AI for Science, Healthcare & Education",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.11316",
+      "title": "MetaEncoder: Exploring the Limit of Bi-Encoders for Multimodal System One Decision Making with Natural Language Interface",
+      "authors": [
+        "Jianpeng Cheng",
+        "Guangyu Sun",
+        "Aashu Singh",
+        "Benyu Zhang",
+        "Haixing Dai",
+        "Hossein Mansour",
+        "Jiangfan Zhang",
+        "Shlok Kumar Mishra",
+        "Wei Sun",
+        "Xuanming Cui",
+        "Yanli Liu",
+        "Qi Guo",
+        "Max Xiangjun Fan",
+        "Jun Xiao"
+      ],
+      "published": "2026-10-08T06:22:48Z",
+      "updated": "2026-10-08T06:22:48Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.11316",
+      "version_url": "https://arxiv.org/abs/2610.11316v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Multimodal Learning & Perception",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Explicitly verified Jev-style non-generative probability interface or model evaluation"
+    },
+    {
+      "id": "2610.11379",
+      "title": "FastJEV: Understanding Redundancy for Compact JEV Inference",
+      "authors": [
+        "Jie Ma",
+        "Jie Gao",
+        "Yihang Liu",
+        "Zhike Qiu",
+        "Junle Li",
+        "Chongyi Zhuang",
+        "Jiayi Ji",
+        "Xiaoshuai Sun"
+      ],
+      "published": "2026-10-08T07:11:14Z",
+      "updated": "2026-10-08T07:11:14Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.11379",
+      "version_url": "https://arxiv.org/abs/2610.11379v1",
+      "retrieved_by": [
+        "jev"
+      ],
+      "decision": "include",
+      "category": "Multimodal Learning & Perception",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Explicitly verified Jev-style non-generative probability interface or model evaluation"
+    },
+    {
+      "id": "2610.11392",
+      "title": "TypedBench: A Benchmark for Calibration, Framing Sensitivity, and Cost in System One Decision Models",
+      "authors": [
+        "Rahul Sharma",
+        "Andrew B. Ducan",
+        "Gaétan Marceau Caron",
+        "Sebastian J. Vollmer"
+      ],
+      "published": "2026-10-08T07:22:36Z",
+      "updated": "2026-10-08T07:22:36Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.11392",
+      "version_url": "https://arxiv.org/abs/2610.11392v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.11436",
+      "title": "Adversarial Cues in Decision Models Used as Judges: The Role of Request Presentation",
+      "authors": [
+        "Hongliang Liu"
+      ],
+      "published": "2026-10-08T07:59:48Z",
+      "updated": "2026-10-08T07:59:48Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.11436",
+      "version_url": "https://arxiv.org/abs/2610.11436v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.11462",
+      "title": "Global existence of weak solutions in a Keller-Segel system with local anisotropy and nonlinear diffusion",
+      "authors": [
+        "Max Hegenbart"
+      ],
+      "published": "2026-10-08T08:12:56Z",
+      "updated": "2026-10-08T08:12:56Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.11462",
+      "version_url": "https://arxiv.org/abs/2610.11462v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "exclude",
+      "reason": "Unrelated Keller-Segel partial differential equations."
+    },
+    {
+      "id": "2610.11692",
+      "title": "Can Jev be Your Q or Policy in Reinforcement Learning?",
+      "authors": [
+        "Yi Ma",
+        "Tianpei Yang",
+        "Yaodong Yang",
+        "Weixun Wang",
+        "Hongyao Tang"
+      ],
+      "published": "2026-10-08T11:02:14Z",
+      "updated": "2026-10-08T11:02:14Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.11692",
+      "version_url": "https://arxiv.org/abs/2610.11692v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Embodied AI & Reinforcement Learning",
+      "tier": "A",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.11901",
+      "title": "Can Decision Models Understand Stance? Evaluating Jev Against General-Purpose LLMs",
+      "authors": [
+        "Xing Li",
+        "Jinzhong Ning",
+        "Yijia Zhang",
+        "Liang Yang",
+        "Hongfei Lin"
+      ],
+      "published": "2026-10-08T13:05:52Z",
+      "updated": "2026-10-08T13:05:52Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.11901",
+      "version_url": "https://arxiv.org/abs/2610.11901v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.11978",
+      "title": "Specialized Decision Models vs. General-Purpose LLMs: Benchmarking Jev Across Knowledge, Reasoning, and Multilingual Tasks",
+      "authors": [
+        "Xing Li",
+        "Qingcheng Chang",
+        "Jinzhong Ning",
+        "Changfeng Xu",
+        "Shenlong Zhang",
+        "Yijia Zhang",
+        "Ling Luo",
+        "Hongfei Lin"
+      ],
+      "published": "2026-10-08T13:52:42Z",
+      "updated": "2026-10-08T13:52:42Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.11978",
+      "version_url": "https://arxiv.org/abs/2610.11978v1",
+      "retrieved_by": [
+        "jev",
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Direct Jev application or evaluation"
+    },
+    {
+      "id": "2610.12292",
+      "title": "One Word Opens the Gate: The Option-Channel Attack on Typed Decision Models as Agent Guardrails",
+      "authors": [
+        "Seyedarmin Azizi",
+        "Erfan Baghaei Potraghloo",
+        "Massoud Pedram"
+      ],
+      "published": "2026-10-08T16:46:43Z",
+      "updated": "2026-10-08T16:46:43Z",
+      "journal_ref": "",
+      "doi": "",
+      "url": "https://arxiv.org/abs/2610.12292",
+      "version_url": "https://arxiv.org/abs/2610.12292v1",
+      "retrieved_by": [
+        "expanded"
+      ],
+      "decision": "include",
+      "category": "Trustworthy AI & Security",
+      "tier": "B",
+      "publication_status": "arXiv preprint",
+      "change": "added",
+      "metadata_verification": "Official arXiv API; original pages additionally checked for new or revised entries.",
+      "inclusion_basis": "Explicitly verified Jev-style non-generative probability interface or model evaluation"
+    }
+  ],
+  "technical_sources": [
+    {
+      "title": "Introducing System One Models & Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "date": "2026-09-15",
+      "change": "retained"
+    },
+    {
+      "title": "Workflow evals",
+      "url": "https://evals.typesafe.ai/",
+      "category": "Agents & Workflow Automation",
+      "tier": "A",
+      "date": null,
+      "change": "retained"
+    },
+    {
+      "title": "Testing Jev on Public and Private Data: Classifier or Filter?",
+      "url": "https://amankumar.ai/blogs/jev-measured",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "B",
+      "date": "2026-09-18",
+      "change": "retained"
+    },
+    {
+      "title": "Worth asking?",
+      "url": "https://iambraun.com/jevreports/co-dm/",
+      "category": "Agents & Workflow Automation",
+      "tier": "B",
+      "date": "2026-10-03",
+      "change": "retained"
+    },
+    {
+      "title": "Skill Selection, Measured",
+      "url": "https://iambraun.com/jevreports/skill-selection/",
+      "category": "Computational Social Science & Human Decisions",
+      "tier": "B",
+      "date": "2026-10-03",
+      "change": "retained"
+    },
+    {
+      "title": "AIM-Decision: Jev vs Kev vs LLMs",
+      "url": "https://aimultiple.com/decision-models",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "date": "2026-10-05",
+      "change": "retained"
+    },
+    {
+      "title": "An Independent Evaluation of TypeSafe's Jev",
+      "url": "https://www.vals.ai/blogs/independent-evaluation-of-jev",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "B",
+      "date": "2026-10-06",
+      "change": "added"
+    },
+    {
+      "title": "An Evaluation of Inception's Mercury Decide",
+      "url": "https://www.vals.ai/blogs/evaluation-of-mercury-decide",
+      "category": "Natural Language Processing & Information Retrieval",
+      "tier": "B",
+      "date": "2026-10-08",
+      "change": "added"
+    },
+    {
+      "title": "Does Jev Improve an AI Scheduling Agent? A Three-Arm Test",
+      "url": "https://tryjevai.com/blog/jev-ai-agent-scheduling-test",
+      "category": "Agents & Workflow Automation",
+      "tier": "B",
+      "date": "2026-10-08",
+      "change": "added"
+    },
+    {
+      "title": "What is Jev, TypeSafe AI's System One model?",
+      "url": "https://vercel.com/i/what-is-jev",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "date": "2026-09-18",
+      "change": "retained"
+    },
+    {
+      "title": "Jev: A New Way to Make Probabilistic Decisions",
+      "url": "https://amaarora.github.io/posts/2026-19-09-jev-intro.html",
+      "category": "Foundations & General Decision Models",
+      "tier": "A",
+      "date": "2026-09-19",
+      "change": "retained"
+    },
+    {
+      "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "category": "Foundations & General Decision Models",
+      "tier": "B",
+      "date": "2026-10-01",
+      "change": "retained"
+    },
+    {
+      "title": "Jack & Jill & Jev: Cutting candidate screening costs by 88%",
+      "url": "https://typesafe.ai/blog/jack-jill-jev-case-study",
+      "category": "Computational Social Science & Human Decisions",
+      "tier": "A",
+      "date": "2026-10-07",
+      "change": "added"
+    }
+  ],
+  "primary_page_retrievals": [
+    {
+      "id": "2609.30454",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2609.30454",
+      "status": 200
+    },
+    {
+      "id": "2609.30454",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2609.30454v1",
+      "status": 200
+    },
+    {
+      "id": "2610.08829",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.08829",
+      "error": "<urlopen error [Errno 2] No such file or directory>"
+    },
+    {
+      "id": "2610.08829",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.08829v1",
+      "status": 200
+    },
+    {
+      "id": "2609.37832",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2609.37832",
+      "status": 200
+    },
+    {
+      "id": "2609.37832",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2609.37832v1",
+      "status": 200
+    },
+    {
+      "id": "2610.09188",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.09188",
+      "status": 200
+    },
+    {
+      "id": "2610.09188",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.09188v1",
+      "status": 200
+    },
+    {
+      "id": "2610.09328",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.09328",
+      "status": 200
+    },
+    {
+      "id": "2610.09328",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.09328v1",
+      "status": 200
+    },
+    {
+      "id": "2610.10615",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.10615",
+      "status": 200
+    },
+    {
+      "id": "2610.10615",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.10615v1",
+      "status": 200
+    },
+    {
+      "id": "2610.09683",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.09683",
+      "error": "<urlopen error _ssl.c:1104: The handshake operation timed out>"
+    },
+    {
+      "id": "2610.09683",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.09683v1",
+      "status": 200
+    },
+    {
+      "id": "2610.09896",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.09896",
+      "status": 200
+    },
+    {
+      "id": "2610.09896",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.09896v1",
+      "status": 200
+    },
+    {
+      "id": "2610.09937",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.09937",
+      "status": 200
+    },
+    {
+      "id": "2610.09937",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.09937v1",
+      "status": 200
+    },
+    {
+      "id": "2610.10321",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.10321",
+      "status": 200
+    },
+    {
+      "id": "2610.10321",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.10321v1",
+      "status": 200
+    },
+    {
+      "id": "2610.10978",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.10978",
+      "status": 200
+    },
+    {
+      "id": "2610.10978",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.10978v1",
+      "status": 200
+    },
+    {
+      "id": "2610.11135",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.11135",
+      "status": 200
+    },
+    {
+      "id": "2610.11135",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.11135v1",
+      "error": "<urlopen error [Errno 2] No such file or directory>"
+    },
+    {
+      "id": "2610.11316",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.11316",
+      "status": 200
+    },
+    {
+      "id": "2610.11316",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.11316v1",
+      "status": 200
+    },
+    {
+      "id": "2610.11379",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.11379",
+      "status": 200
+    },
+    {
+      "id": "2610.11379",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.11379v1",
+      "status": 200
+    },
+    {
+      "id": "2610.11392",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.11392",
+      "error": "<urlopen error [Errno 2] No such file or directory>"
+    },
+    {
+      "id": "2610.11392",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.11392v1",
+      "status": 200
+    },
+    {
+      "id": "2610.11436",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.11436",
+      "status": 200
+    },
+    {
+      "id": "2610.11436",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.11436v1",
+      "status": 200
+    },
+    {
+      "id": "2610.11692",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.11692",
+      "status": 200
+    },
+    {
+      "id": "2610.11692",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.11692v1",
+      "status": 200
+    },
+    {
+      "id": "2610.11901",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.11901",
+      "status": 200
+    },
+    {
+      "id": "2610.11901",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.11901v1",
+      "status": 200
+    },
+    {
+      "id": "2610.11978",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.11978",
+      "status": 200
+    },
+    {
+      "id": "2610.11978",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.11978v1",
+      "status": 200
+    },
+    {
+      "id": "2610.12292",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.12292",
+      "status": 200
+    },
+    {
+      "id": "2610.12292",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.12292v1",
+      "status": 200
+    },
+    {
+      "id": "2609.26758",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2609.26758",
+      "status": 200
+    },
+    {
+      "id": "2609.26758",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2609.26758v3",
+      "status": 200
+    },
+    {
+      "id": "2609.30243",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2609.30243",
+      "status": 200
+    },
+    {
+      "id": "2609.30243",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2609.30243v2",
+      "status": 200
+    },
+    {
+      "id": "2610.08089",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.08089",
+      "status": 200
+    },
+    {
+      "id": "2610.08089",
+      "kind": "html",
+      "url": "https://arxiv.org/html/2610.08089v2",
+      "status": 200
+    },
+    {
+      "id": "2609.34736",
+      "url": "https://arxiv.org/html/2609.34736v1",
+      "status": 200,
+      "kind": "html"
+    },
+    {
+      "id": "2609.33282",
+      "url": "https://arxiv.org/html/2609.33282v1",
+      "status": 200,
+      "kind": "html"
+    },
+    {
+      "id": "2609.33609",
+      "url": "https://arxiv.org/html/2609.33609v1",
+      "status": 200,
+      "kind": "html"
+    },
+    {
+      "id": "2609.34736",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2609.34736",
+      "status": 200,
+      "dates": []
+    },
+    {
+      "id": "2610.08829",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.08829",
+      "status": 200,
+      "dates": []
+    },
+    {
+      "id": "2610.09683",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.09683",
+      "status": 200,
+      "dates": []
+    },
+    {
+      "id": "2610.11392",
+      "kind": "abs",
+      "url": "https://arxiv.org/abs/2610.11392",
+      "status": 200,
+      "dates": []
+    }
+  ],
+  "technical_link_retrievals": [
+    {
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1121)>"
+    },
+    {
+      "url": "https://evals.typesafe.ai/",
+      "status": 200,
+      "dates": []
+    },
+    {
+      "url": "https://amankumar.ai/blogs/jev-measured",
+      "status": 200,
+      "dates": [
+        " Where it wins, where it breaks, how to use it.\",\"datePublished\":\"2026-09-18\",\"dateModified\":\"2026-09-18\",\"url\":\"https://amankumar.ai/blogs/jev"
+      ]
+    },
+    {
+      "url": "https://iambraun.com/jevreports/co-dm/",
+      "status": 200,
+      "dates": [
+        "abel and the labeller's note, in jev-eval-dataset-2026-10-03.zip (198 KB, JSON Lines with a README), with the skill-selection pairs. Each se"
+      ]
+    },
+    {
+      "url": "https://iambraun.com/jevreports/skill-selection/",
+      "status": 200,
+      "dates": [
+        "ry arm's score, are published as jev-eval-dataset-2026-10-03.zip (198 KB, JSON Lines with a README), with the co-DM sets. Script What it doe"
+      ]
+    },
+    {
+      "url": "https://aimultiple.com/decision-models",
+      "status": 200,
+      "dates": [
+        "on: Jev vs Kev vs LLMs Berk Kalelioğlu updated on Oct 5, 2026 See our ethical norms Cite This Benchmark Decision models, also called System O",
+        "s\". Published online at AIMultiple.com. Retrieved October 5, 2026, from: https://aimultiple.com/decision-models [Online Resource] APA 7th edition",
+        "/decision-models}}, note = {AIMultiple. Retrieved October 5, 2026} } Download all data Results and timestamps of 201 data points. Download the su",
+        "ntaining 10 CSV files and a README. Last updated: October 8, 2026 Download Want the granular data behind it? Join Premium Reference Links 1 . Int"
+      ]
+    },
+    {
+      "url": "https://vercel.com/i/what-is-jev",
+      "error": "<urlopen error [Errno 2] No such file or directory>"
+    },
+    {
+      "url": "https://amaarora.github.io/posts/2026-19-09-jev-intro.html",
+      "status": 200,
+      "dates": []
+    },
+    {
+      "url": "https://blog.cloudflare.com/clef-decision-models/",
+      "status": 200,
+      "dates": [
+        "tps://blog.cloudflare.com/clef-decision-models/\",\"datePublished\":\"2026-10-01T15:34:02.111Z\",\"dateModified\":\"2026-10-01T16:15:44.524Z\",\"publishe",
+        ">{if(e.open){t.focus();return}t.value=``,l()})}); October 1, 2026 Introducing Clef: our open-source decision models, and new RL fine-tuning platf"
+      ]
+    },
+    {
+      "url": "https://typesafe.ai/blog/jack-jill-jev-case-study",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1121)>"
+    },
+    {
+      "url": "https://www.vals.ai/blogs/independent-evaluation-of-jev",
+      "status": 200,
+      "dates": [
+        "thor\":[{\"@type\":\"Person\",\"name\":\"Connor Frank\"}],\"datePublished\":\"2026-10-06\",\"image\":\"https://www.vals.ai/blogs/2026-10-02-jev-independent-eva"
+      ]
+    },
+    {
+      "url": "https://www.vals.ai/blogs/evaluation-of-mercury-decide",
+      "status": 200,
+      "dates": [
+        "thor\":[{\"@type\":\"Person\",\"name\":\"Connor Frank\"}],\"datePublished\":\"2026-10-08\",\"image\":\"https://www.vals.ai/blogs/2026-10-08-mercury-decide-eval",
+        "ersion pin, and this blog post describes it as of October 8, 2026. Costs use each vendor’s listed price; for Mercury Decide, that is the launch p"
+      ]
+    },
+    {
+      "url": "https://tryjevai.com/blog/jev-ai-agent-scheduling-test",
+      "status": 200,
+      "dates": [
+        "tryjevai.com/blog/jev-ai-agent-scheduling-test\"},\"datePublished\":\"2026-10-08\",\"inLanguage\":\"en\",\"author\":{\"@type\":\"Organization\",\"name\":\"Try Je",
+        "hat we would test next. By Try Jev AI · Published October 8, 2026 · Experiments September 22, 2026 An arrival time is not an agreed meeting time ",
+        "ai.com/blog/jev-ai-agent-scheduling-test\\\\\\\"},\\\\\\\"datePublished\\\\\\\":\\\\\\\"2026-10-08\\\\\\\",\\\\\\\"inLanguage\\\\\\\":\\\\\\\"en\\\\\\\",\\\\\\\"author\\\\\\\":{\\\\\\\"@type\\",
+        "ground\\\",\\\"children\\\":\\\"By Try Jev AI · Published October 8, 2026 · Experiments September 22, 2026\\\"}]]}],[[\\\"$\\\",\\\"section\\\",null,{\\\"className\\\""
+      ]
+    }
+  ],
+  "web_reader_verified_urls": [
+    "https://typesafe.ai/blog",
+    "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+    "https://typesafe.ai/blog/jack-jill-jev-case-study",
+    "https://vercel.com/i/what-is-jev",
+    "https://www.vals.ai/blogs/independent-evaluation-of-jev",
+    "https://www.vals.ai/blogs/evaluation-of-mercury-decide",
+    "https://tryjevai.com/blog/jev-ai-agent-scheduling-test",
+    "https://arxiv.org/abs/2610.08829",
+    "https://arxiv.org/abs/2610.09683",
+    "https://arxiv.org/abs/2610.11392",
+    "https://arxiv.org/html/2610.11135v1"
+  ],
+  "revision_checks": [
+    {
+      "id": "2609.26758",
+      "version_url": "https://arxiv.org/abs/2609.26758v3",
+      "updated": "2026-10-08T06:34:45Z",
+      "changes": [
+        "title",
+        "summary"
+      ]
+    },
+    {
+      "id": "2609.30243",
+      "version_url": "https://arxiv.org/abs/2609.30243v2",
+      "updated": "2026-10-08T08:43:50Z",
+      "changes": [
+        "complete author list",
+        "summary"
+      ]
+    },
+    {
+      "id": "2610.08089",
+      "version_url": "https://arxiv.org/abs/2610.08089v2",
+      "updated": "2026-10-08T12:59:14Z",
+      "changes": [
+        "summary"
+      ]
+    }
+  ],
+  "limitations": [
+    "Google Scholar not programmatically queried.",
+    "Scopus and Web of Science not available without subscription credentials.",
+    "No official proceedings publication was verified; arXiv records remain preprints.",
+    "Older retained academic summaries were preserved unless an updated arXiv version was identified.",
+    "The two Vals AI reports share benchmark data; the second is not an independent replication.",
+    "Technical source retrieval failures do not imply unavailable pages when a successful web-reader check is recorded.",
+    "AIMultiple article retains its displayed 5 October revision date; its downloadable data advertises an 8 October update."
+  ],
+  "organization": {
+    "basis": "primary_research_domain",
+    "cross_domain_policy": "Assign each work once by its main research question or application; describe secondary connections in the summary.",
+    "date_order": "ascending within each domain; arXiv v1 UTC timestamp or non-arXiv publication/explicit report-update date",
+    "undated_policy": "Place after dated entries in a separate Undated Live Reports subsection.",
+    "domains": [
+      {
+        "name": "Foundations & General Decision Models",
+        "anchor": "foundations-decision-models",
+        "scope": "Model architectures, training and inference methods, ecosystem overviews, and evaluations spanning multiple task families."
+      },
+      {
+        "name": "Natural Language Processing & Information Retrieval",
+        "anchor": "nlp-information-retrieval",
+        "scope": "Text classification, multilingual understanding, document reasoning, language-model judging, search, and recommendation."
+      },
+      {
+        "name": "Multimodal Learning & Perception",
+        "anchor": "multimodal-perception",
+        "scope": "Computer vision, visual and video decisions, multimodal representations, sensor-based recognition, and visual verification."
+      },
+      {
+        "name": "Embodied AI & Reinforcement Learning",
+        "anchor": "embodied-ai-reinforcement-learning",
+        "scope": "Robotics, navigation, game control, GUI interaction, environment planning, and decision models inside reinforcement learning."
+      },
+      {
+        "name": "Agents & Workflow Automation",
+        "anchor": "agents-workflow-automation",
+        "scope": "Agent memory, model routing, multi-agent coordination, selective execution, and software workflow design."
+      },
+      {
+        "name": "Trustworthy AI & Security",
+        "anchor": "trustworthy-ai-security",
+        "scope": "Calibration, uncertainty, probability coherence, robustness, alignment, content safety, guardrails, and cybersecurity."
+      },
+      {
+        "name": "AI for Science, Healthcare & Education",
+        "anchor": "science-healthcare-education",
+        "scope": "Scientific reasoning, biomedical models, clinical evaluation, public-health and road-safety analysis, and learner modeling."
+      },
+      {
+        "name": "Networks, Databases & Engineering",
+        "anchor": "networks-databases-engineering",
+        "scope": "Communication networks, edge control, semantic databases, physical infrastructure, and engineering design and diagnosis."
+      },
+      {
+        "name": "Computational Social Science & Human Decisions",
+        "anchor": "social-science-human-decisions",
+        "scope": "Social-science annotation and replication, cultural values, population simulation, organizational judgment, and hiring decisions."
+      }
+    ]
+  }
+}

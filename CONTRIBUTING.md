@@ -29,6 +29,24 @@ Thank you for helping maintain a precise and useful research collection. Contrib
 - **Tier A — Direct JEV research:** Jev is the subject, method, or central system.
 - **Tier B — Evaluation / benchmark:** Jev is explicitly evaluated, compared, or used as a baseline.
 
+## Research Domains
+
+Assign each entry to one primary research domain in the README:
+
+- [Foundations & General Decision Models](README.md#foundations-decision-models)
+- [Natural Language Processing & Information Retrieval](README.md#nlp-information-retrieval)
+- [Multimodal Learning & Perception](README.md#multimodal-perception)
+- [Embodied AI & Reinforcement Learning](README.md#embodied-ai-reinforcement-learning)
+- [Agents & Workflow Automation](README.md#agents-workflow-automation)
+- [Trustworthy AI & Security](README.md#trustworthy-ai-security)
+- [AI for Science, Healthcare & Education](README.md#science-healthcare-education)
+- [Networks, Databases & Engineering](README.md#networks-databases-engineering)
+- [Computational Social Science & Human Decisions](README.md#social-science-human-decisions)
+
+Choose the domain that best describes the work's main research question or application. Use the method and experimental setting, not just a title keyword or input modality. For example, medical multimodal decisions belong to Science, Healthcare & Education, while general visual decision models belong to Multimodal Learning & Perception. Content moderation and adversarial evaluations belong to Trustworthy AI & Security. Cross-domain work appears once; its summary can explain secondary connections.
+
+Place benchmarks, methods, applications, and technical reports together within their research domain. Keep the source label and inclusion tier on each entry. Sort dated entries from earliest to latest using the arXiv v1 UTC timestamp, or the publication date for non-arXiv sources; explicitly labeled updated reports use the displayed update date. Keep the original v1 date when a preprint is revised. Place live reports without a verified publication date after dated entries in an **Undated Live Reports** subsection.
+
 ## Required Submission Information
 
 Provide the following fields:
@@ -40,7 +58,7 @@ Provide the following fields:
 - Verified venue or publication status
 - Canonical paper or article URL
 - Optional supplementary arXiv, DOI, project, or data URL
-- Proposed category and inclusion tier
+- Proposed research domain and inclusion tier
 - A 40–100 word original summary
 - A one-sentence explanation of the relationship to Jev
 ```
@@ -55,16 +73,27 @@ Before proposing an entry:
 2. Confirm the title, authors, year, venue/status, and canonical URL.
 3. Identify exactly how Jev appears in the work: subject, evaluated model, baseline, application component, or conceptual relation.
 4. Prefer links in this order: official conference/journal page, arXiv, OpenReview, author or organization page.
-5. Search the README for the title and arXiv/DOI identifier to prevent duplicates.
+5. Search both language versions for the title and arXiv/DOI identifier to prevent duplicates.
 6. Write a new summary in your own words; do not copy the abstract.
 7. Check that every link loads and that the Markdown renders correctly.
-8. Update the category and total counts in `README.md` if an entry is added or removed.
+8. Place the entry in its primary research domain and check chronological order.
+9. Synchronize domain and total counts in `README.md`, `README.zh-CN.md`, and the current verification record when adding, removing, or reclassifying an entry.
 
 ## Summary Style
 
 A useful summary states the problem, method, principal evidence or limitation, and reason for inclusion. Keep claims attributed and proportionate. Use “reports,” “finds,” or “claims” when the evidence is first-party, preliminary, or not independently reproduced.
 
 Avoid promotional language, unsupported superlatives, and statements that confuse schema validity with semantic correctness. Jev's typed interface can prevent malformed outputs; it does not guarantee that a decision is correct.
+
+## Bilingual Documentation
+
+Maintain [the English README](README.md) and [the Simplified Chinese README](README.zh-CN.md) together. Additions, removals, metadata corrections, reclassifications, and revised findings must appear in both files.
+
+- Keep formal paper/article titles and author names in their original language for citation and search.
+- Provide a faithful Chinese translation of each English summary, including experimental conditions, numerical results, uncertainty, and limitations. Translate section descriptions and verification notes as well.
+- Keep the same primary domain, entry order, source URL, v1 timestamp or publication date, inclusion tier, and highlight marker in both versions.
+- Keep domain anchors stable, maintain the reciprocal language links at the top, and check that each table of contents resolves within its own file.
+- Synchronize all displayed counts and the verification cutoff across both versions and the current verification record.
 
 ## Pull Request Scope
 
