@@ -78,6 +78,7 @@ Before proposing an entry:
 7. Check that every link loads and that the Markdown renders correctly.
 8. Place the entry in its primary research domain and check chronological order.
 9. Synchronize domain and total counts in `README.md`, `README.zh-CN.md`, and the current verification record when adding, removing, or reclassifying an entry.
+10. Regenerate the interactive website dataset with `python scripts/build_site_data.py` after updating academic metadata, bilingual summaries, or the verification cutoff. Run `node --test site/test-metrics.mjs` and verify the affected filters and charts. Synchronize the bilingual snapshot links; see [the frontend guide](site/README.md). Optional static figures can still be regenerated with `python scripts/plot_paper_trends.py`.
 
 ## Summary Style
 

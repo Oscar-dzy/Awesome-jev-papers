@@ -22,6 +22,7 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 - [阅读说明](#how-to-read-this-list)
 - [仓库统计](#repository-statistics)
+- [交互式研究图谱](#paper-growth)
 - [基础方法与通用决策模型](#foundations-decision-models)
 - [自然语言处理与信息检索](#nlp-information-retrieval)
 - [多模态学习与感知](#multimodal-perception)
@@ -68,6 +69,20 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 137 条文献中，**124 篇为 Jev 专题或 Jev 风格的学术预印本**（123 篇来自 arXiv，1 篇来自 ResearchGate），**13 篇为研究性技术文章或报告**。
 
 全部 **123 篇 arXiv 文献**均列出 **v1** 的 UTC 提交时间，精确到分钟。ResearchGate 预印本已核实年份，尚未核实具体发布日期。领域统计包含所有来源类型，每项工作只计数一次。
+
+<a id="paper-growth"></a>
+
+## 📈 交互式研究图谱
+
+通过 **[GitHub Pages 交互式网站主页](https://oscar-dzy.github.io/Awesome-jev-papers/?lang=zh)** 探索文献集，支持中英文切换和响应式布局。网站在首次 Pages 部署成功后可访问；启用步骤及本地运行方式见[前端使用说明](site/README.md#deployment--部署)。
+
+- **论文增长趋势：** 切换每日与累计数量，按研究领域、收录层级及日期范围筛选。
+- **综述统计分析：** 比较领域分布、Tier A/B 构成、领域每日活跃度与每篇论文的作者人数；点击领域条形或热力图单元格可查看对应论文。
+- **论文目录：** 搜索题名、作者及双语摘要，支持排序、分页、原始来源跳转及匹配结果的 CSV 导出。
+
+当前快照包含 **124 篇学术论文**，其中 **123 篇具有明确日期**。时间序列按 arXiv v1 的 UTC 提交日期统计，排除日期未核实的 WaterSheep；构成统计与完整时间窗口下的目录仍保留该论文。所有研究图表均排除技术文章。近期日期可能受公告与索引延迟影响；图表反映当前精选文献集，不代表全领域穷尽统计或仓库每日新增历史。
+
+[前端源码](site/dist/) · [网站数据生成脚本](scripts/build_site_data.py) · [核验快照](outputs/jev-literature-2026-10-11.json)
 
 <a id="foundations-decision-models"></a>
 

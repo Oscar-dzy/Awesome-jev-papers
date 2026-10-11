@@ -20,6 +20,7 @@ Jev is not an acronym. The name refers to economist William Stanley Jevons. Type
 
 - [How to Read This List](#how-to-read-this-list)
 - [Repository Statistics](#repository-statistics)
+- [Interactive Research Atlas](#paper-growth)
 - [Foundations & General Decision Models](#foundations-decision-models)
 - [Natural Language Processing & Information Retrieval](#nlp-information-retrieval)
 - [Multimodal Learning & Perception](#multimodal-perception)
@@ -62,6 +63,20 @@ Jev is not an acronym. The name refers to economist William Stanley Jevons. Type
 Of the 137 entries, **124 are Jev-specific or Jev-style academic preprints** (123 on arXiv and one on ResearchGate) and **13 are research-oriented technical articles or reports**.
 
 All **123 arXiv entries** include their **v1** submission timestamp in UTC, displayed to the minute. The ResearchGate preprint has a verified year but no verified exact publication date. Domain counts include all source types and count each work once.
+
+<a id="paper-growth"></a>
+
+## 📈 Interactive Research Atlas
+
+Explore the collection through the **[interactive website on GitHub Pages](https://oscar-dzy.github.io/Awesome-jev-papers/?lang=en)**, with English / Chinese switching and a responsive layout. The website becomes available after the first successful Pages deployment; see [the frontend guide](site/README.md#deployment--部署) for setup and local preview.
+
+- **Publication growth:** switch between daily and cumulative counts; filter by research domain, inclusion tier, and date window.
+- **Review statistics:** compare domain distribution, Tier A/B composition, daily domain activity, and authors per paper. Select a domain bar or heatmap cell to inspect its papers.
+- **Paper library:** search titles, authors, and bilingual summaries; sort, paginate, inspect primary sources, and export the matching papers as CSV.
+
+The current snapshot contains **124 academic papers**, of which **123 have verified dates**. Time-series use arXiv v1 UTC submission dates and exclude the undated WaterSheep preprint. Composition charts and the full-window library retain it. Technical articles are excluded from all research charts. Recent dates may be incomplete because of announcement and indexing delays; these plots describe the current curated collection, not a field-wide census or repository addition history.
+
+[Frontend source](site/dist/) · [Rebuild website data](scripts/build_site_data.py) · [Verification snapshot](outputs/jev-literature-2026-10-11.json)
 
 <a id="foundations-decision-models"></a>
 
