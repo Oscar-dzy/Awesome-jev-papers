@@ -82,7 +82,7 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 当前快照包含 **124 篇学术论文**，其中 **123 篇具有明确日期**。时间序列按 arXiv v1 的 UTC 提交日期统计，排除日期未核实的 WaterSheep；构成统计与完整时间窗口下的目录仍保留该论文。所有研究图表均排除技术文章。近期日期可能受公告与索引延迟影响；图表反映当前精选文献集，不代表全领域穷尽统计或仓库每日新增历史。
 
-[前端源码](site/dist/) · [网站数据生成脚本](scripts/build_site_data.py) · [核验快照](outputs/jev-literature-2026-10-11.json)
+[前端源码](docs/) · [网站数据生成脚本](scripts/build_site_data.py) · [核验快照](outputs/jev-literature-2026-10-11.json)
 
 <a id="foundations-decision-models"></a>
 

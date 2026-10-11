@@ -10,7 +10,7 @@ This directory contains repository-owned figures. The charts in `trends/` are or
 - `daily-paper-counts.csv`: exact daily and cumulative values, including zero-count dates, for each domain and the global total.
 - `paper-trends.json`: source filenames and SHA-256 fingerprints, population rules, exclusions, domain totals, and paper-level membership.
 
-The interactive website in `site/` is now the primary presentation linked from both READMEs. These optional SVG/PNG exports remain available for offline figures and reuse. English figure labels are shared between language versions, with translated captions and methodology in each README. The restrained blue/teal palette, white background, direct labels and separate panels remain readable without relying on category colors.
+The interactive website in `docs/` is now the primary presentation linked from both READMEs. These optional SVG/PNG exports remain available for offline figures and reuse. English figure labels are shared between language versions, with translated captions and methodology in each README. The restrained blue/teal palette, white background, direct labels and separate panels remain readable without relying on category colors.
 
 ## Regenerate
 

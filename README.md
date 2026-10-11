@@ -76,7 +76,7 @@ Explore the collection through the **[interactive website on GitHub Pages](https
 
 The current snapshot contains **124 academic papers**, of which **123 have verified dates**. Time-series use arXiv v1 UTC submission dates and exclude the undated WaterSheep preprint. Composition charts and the full-window library retain it. Technical articles are excluded from all research charts. Recent dates may be incomplete because of announcement and indexing delays; these plots describe the current curated collection, not a field-wide census or repository addition history.
 
-[Frontend source](site/dist/) · [Rebuild website data](scripts/build_site_data.py) · [Verification snapshot](outputs/jev-literature-2026-10-11.json)
+[Frontend source](docs/) · [Rebuild website data](scripts/build_site_data.py) · [Verification snapshot](outputs/jev-literature-2026-10-11.json)
 
 <a id="foundations-decision-models"></a>
 

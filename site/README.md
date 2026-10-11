@@ -8,7 +8,7 @@ From the repository root, with Python 3.10+:
 
 ```bash
 python scripts/build_site_data.py
-python -m http.server 8765 --bind 127.0.0.1 --directory site/dist
+python -m http.server 8765 --bind 127.0.0.1 --directory docs
 ```
 
 Open `http://127.0.0.1:8765/?lang=zh` or `?lang=en`. Serve over HTTP; opening `index.html` through `file://` cannot load the JSON/module assets reliably. The dataset is generated offline from the latest verified snapshot and the bilingual READMEs. It does not discover new papers automatically.
@@ -38,49 +38,62 @@ Undated papers appear in full-window composition charts and the library; shorten
 Requires Node.js 18+ for the standard-library tests:
 
 ```bash
-node --check site/dist/app.mjs
+node --check docs/app.mjs
 node --test site/test-metrics.mjs
 python -m unittest discover -s scripts -p "test_*.py"
 ```
 
-The tests cover global and domain totals, UTC dates, zero bins, combined filters, undated records, empty states, CSV quoting and language-dictionary parity. Data export fails if an included paper lacks a summary in either README. Source filenames and SHA-256 fingerprints are retained in `dist/data.json`.
+The tests cover global and domain totals, UTC dates, zero bins, combined filters, undated records, empty states, CSV quoting and language-dictionary parity. Data export fails if an included paper lacks a summary in either README. Source filenames and SHA-256 fingerprints are retained in `docs/data.json`.
 
 ## Structure / 目录
 
 ```text
+docs/                # committed GitHub Pages publishing root
+  index.html         # homepage entry
+  style.css          # responsive visual system
+  app.mjs            # UI, interactive charts and paper explorer
+  metrics.mjs        # pure filtering, aggregation and CSV logic
+  i18n.mjs            # interface translations
+  data.json          # generated metadata + bilingual summaries
+  favicon.svg
+  .nojekyll          # serve static assets without Jekyll processing
 site/
-  dist/
-    index.html       # homepage shell
-    style.css        # responsive visual system
-    app.mjs          # UI, interactive charts and paper explorer
-    metrics.mjs      # pure filtering, aggregation and CSV logic
-    i18n.mjs         # interface translations
-    data.json        # generated metadata + bilingual summaries
-    favicon.svg
-    .nojekyll
-  test-metrics.mjs
+  README.md          # development and publishing guide
+  test-metrics.mjs    # tests import the deployed modules from docs/
 scripts/build_site_data.py
-.github/workflows/pages.yml
+.github/workflows/check-site.yml
 ```
 
 ## Deployment / 部署
 
-网站由本仓库的 **GitHub Actions → GitHub Pages** 工作流发布，最终地址为：
+网站直接发布本仓库 **`main` 分支的 `/docs` 目录**，首页入口为 [`docs/index.html`](../docs/index.html)。HTML、样式、JavaScript 模块、图标和生成的数据都已放在该目录内。
 
 - 中文：<https://oscar-dzy.github.io/Awesome-jev-papers/?lang=zh>
 - English: <https://oscar-dzy.github.io/Awesome-jev-papers/?lang=en>
 
-首次启用：
+首次启用或从自定义 Actions 部署迁移：
 
-1. 在仓库 [Settings → Pages](https://github.com/Oscar-dzy/Awesome-jev-papers/settings/pages) 的 **Build and deployment → Source** 中选择 **GitHub Actions**。
-2. 将本次代码（包括 `.github/workflows/pages.yml`、`site/`、`scripts/`、`outputs/` 和两份 README）提交并推送到 `main`。
-3. 在 [Actions → Deploy GitHub Pages](https://github.com/Oscar-dzy/Awesome-jev-papers/actions/workflows/pages.yml) 查看运行结果。若代码已经推送，可点击 **Run workflow** 并选择 `main` 手动部署。
-4. `build` 和 `deploy` 都成功后，通过上面的 `github.io` 地址访问网站。
+1. 将代码和完整的 `docs/` 目录提交并推送到 `main`。
+2. 打开仓库 [Settings → Pages](https://github.com/Oscar-dzy/Awesome-jev-papers/settings/pages)。
+3. 在 **Build and deployment → Source** 中选择 **Deploy from a branch**。
+4. 在 **Branch** 中选择 **main**，目录选择 **/docs**，点击 **Save**。
+5. 等待 GitHub 自带的 **pages build and deployment** 完成，再访问上面的 `github.io` 地址。网址中不包含 `/docs/`。
 
-The workflow in [`.github/workflows/pages.yml`](../.github/workflows/pages.yml) builds and tests every push or pull request to `main`. Only pushes to `main` and manual runs on `main` publish the `site/dist/` artifact. Pull requests validate without publishing. Enable **Settings → Pages → Build and deployment → Source → GitHub Actions** once, then push the code or manually run **Deploy GitHub Pages** on `main`.
+In **Settings → Pages → Build and deployment**, select **Deploy from a branch**, choose **main** and **/docs**, then **Save**. GitHub Pages publishes the committed contents of `docs/`; its URL stays at the repository subpath `/Awesome-jev-papers/`. Relative asset paths work both there and in local preview. The `.nojekyll` file keeps the site as plain static assets.
 
-Each build regenerates `data.json` from the verified snapshot and bilingual READMEs, then runs the Python and JavaScript checks before publication. Only `site/dist/` is uploaded. The workflow uses GitHub's built-in token with Pages deployment permissions; no personal access token, external hosting service, npm dependencies or backend is required. All asset paths are relative and support the repository subpath `/Awesome-jev-papers/`.
+### Refresh the data / 更新数据
 
-To refresh: update the verified record and both READMEs, rerun `build_site_data.py`, run the checks, inspect the changed UI, and push the changes to `main`. GitHub Actions then publishes the refreshed site automatically. The generated dataset is a verified snapshot, not a live literature search.
+After updating the verified record or either README, regenerate and commit the website data **before pushing**:
 
-If deployment fails with a Pages configuration error, first check the publishing source in Settings. A failed build leaves the last successful deployment in place; its logs identify data or test failures. See [GitHub's custom Pages workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
+```bash
+python scripts/build_site_data.py
+node --check docs/app.mjs
+node --test site/test-metrics.mjs
+python -m unittest discover -s scripts -p "test_*.py"
+```
+
+将更新后的 `docs/data.json` 与核验记录、README 一并提交。分支发布直接使用已提交文件，不会自动运行 Python 数据生成脚本。数据仍是经过核验的文献快照，不是实时检索结果。
+
+[`.github/workflows/check-site.yml`](../.github/workflows/check-site.yml) regenerates data and runs validation on pushes and pull requests to `main`, or when started manually. It only checks the website: it does not deploy, commit generated files, or replace the committed `docs/data.json`. GitHub's branch-based Pages deployment runs separately and does not wait for this check, so run the checks locally before pushing. No custom deployment workflow, personal access token or external hosting service is required.
+
+If publishing fails, confirm **Deploy from a branch → main → /docs**, verify that `docs/index.html` is committed, and inspect the repository's Pages deployment run. See [GitHub's branch publishing documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch).

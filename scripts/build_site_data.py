@@ -49,7 +49,7 @@ def build():
                          "cutoff_timezone": "Asia/Shanghai", "unit": "One included academic work in one primary domain",
                          "excluded": "Technical sources are excluded from charts; undated papers are excluded from time-series only",
                          "coverage": "Current curated snapshot; recent dates may be incomplete due to announcement and indexing lag"}}
-    path = ROOT / "site" / "dist" / "data.json"
+    path = ROOT / "docs" / "data.json"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Exported {len(papers)} papers in {len(domains)} domains to {path}")

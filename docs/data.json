@@ -2511,11 +2511,11 @@
     },
     {
       "file": "README.md",
-      "sha256": "72ac51b3ba2c71af784c1da9ac2bec8f4694ed6a3b644f96edb6bc653e8d69c6"
+      "sha256": "ee0370383750ed849c88fbc25f4361337b11ebccee761990d2f876f2f2331d4e"
     },
     {
       "file": "README.zh-CN.md",
-      "sha256": "99c2ea9bdb86bfa3866eddd1e9d6e5661b0249820f30027a6e9c1f1ab3731187"
+      "sha256": "28f8ce9b03ec6f2da33a050f11856d4dc403a74cb09071554caaa27626baecdd"
     }
   ],
   "method": {

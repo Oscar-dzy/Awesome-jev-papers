@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import test from 'node:test';
-import {summarize,selectPapers,csvExport,dateRange} from './dist/metrics.mjs';
-import {copy} from './dist/i18n.mjs';
-const data=JSON.parse(readFileSync(new URL('./dist/data.json',import.meta.url),'utf8'));
+import {summarize,selectPapers,csvExport,dateRange} from '../docs/metrics.mjs';
+import {copy} from '../docs/i18n.mjs';
+const data=JSON.parse(readFileSync(new URL('../docs/data.json',import.meta.url),'utf8'));
 const scope={domain:'',tier:'',start:data.start,end:data.cutoff};
 test('global population, dated exclusions and additive charts reconcile',()=>{
  const s=summarize(data,scope);assert.equal(s.papers.length,124);assert.equal(s.dated,123);assert.equal(s.undated,1);
