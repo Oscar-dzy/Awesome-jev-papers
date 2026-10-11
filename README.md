@@ -1,8 +1,19 @@
+<p align="center">
+  <a href="https://oscar-dzy.github.io/Awesome-jev-papers">
+    <img src="docs/favicon.svg" alt="Awesome JEV Papers logo" width="88" height="88">
+  </a>
+</p>
+
 <h1 align="center">Awesome JEV Papers</h1>
 
 <p align="center"><strong>English</strong> | <a href="README.zh-CN.md">简体中文</a></p>
 
 <p align="center"><strong>An evidence-aware map of Jev and typed probabilistic decision research.</strong></p>
+
+<p align="center">
+  <a href="https://oscar-dzy.github.io/Awesome-jev-papers"><strong>Explore the interactive research atlas ↗</strong></a><br>
+  <sub>Publication trends · Research domains · Searchable paper library</sub>
+</p>
 
 <p align="center">
   <strong>137 entries</strong> · <strong>124 academic preprints</strong> · Last verified <strong>2026-10-11</strong> · <a href="LICENSE">CC0 1.0</a>
@@ -68,7 +79,7 @@ All **123 arXiv entries** include their **v1** submission timestamp in UTC, disp
 
 ## 📈 Interactive Research Atlas
 
-Explore the collection through the **[interactive website on GitHub Pages](https://oscar-dzy.github.io/Awesome-jev-papers/?lang=en)**, with English / Chinese switching and a responsive layout. The website becomes available after the first successful Pages deployment; see [the frontend guide](site/README.md#deployment--部署) for setup and local preview.
+Explore the collection through the **[interactive website on GitHub Pages](https://oscar-dzy.github.io/Awesome-jev-papers/?lang=en)**, with English / Chinese switching and a responsive layout. See [the frontend guide](site/README.md#deployment--部署) for local preview and website maintenance.
 
 - **Publication growth:** switch between daily and cumulative counts; filter by research domain, inclusion tier, and date window.
 - **Review statistics:** compare domain distribution, Tier A/B composition, daily domain activity, and authors per paper. Select a domain bar or heatmap cell to inspect its papers.

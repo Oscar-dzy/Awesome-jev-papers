@@ -1,8 +1,19 @@
+<p align="center">
+  <a href="https://oscar-dzy.github.io/Awesome-jev-papers">
+    <img src="docs/favicon.svg" alt="Awesome JEV Papers logo" width="88" height="88">
+  </a>
+</p>
+
 <h1 align="center">Awesome JEV Papers</h1>
 
 <p align="center"><a href="README.md">English</a> | <strong>简体中文</strong></p>
 
 <p align="center"><strong>关注证据质量的 Jev 与类型化概率决策研究文献导航。</strong></p>
+
+<p align="center">
+  <a href="https://oscar-dzy.github.io/Awesome-jev-papers"><strong>访问交互式研究图谱 ↗</strong></a><br>
+  <sub>论文增长趋势 · 研究领域分布 · 可检索的文献目录</sub>
+</p>
 
 <p align="center">
   <strong>137 条文献</strong> · <strong>124 篇学术预印本</strong> · 最近核验 <strong>2026-10-11</strong> · <a href="LICENSE">CC0 1.0</a>
@@ -74,7 +85,7 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 ## 📈 交互式研究图谱
 
-通过 **[GitHub Pages 交互式网站主页](https://oscar-dzy.github.io/Awesome-jev-papers/?lang=zh)** 探索文献集，支持中英文切换和响应式布局。网站在首次 Pages 部署成功后可访问；启用步骤及本地运行方式见[前端使用说明](site/README.md#deployment--部署)。
+通过 **[GitHub Pages 交互式网站主页](https://oscar-dzy.github.io/Awesome-jev-papers/?lang=zh)** 探索文献集，支持中英文切换和响应式布局。本地预览与网站维护方式见[前端使用说明](site/README.md#deployment--部署)。
 
 - **论文增长趋势：** 切换每日与累计数量，按研究领域、收录层级及日期范围筛选。
 - **综述统计分析：** 比较领域分布、Tier A/B 构成、领域每日活跃度与每篇论文的作者人数；点击领域条形或热力图单元格可查看对应论文。
