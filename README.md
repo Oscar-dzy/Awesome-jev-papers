@@ -5,7 +5,7 @@
 <p align="center"><strong>An evidence-aware map of Jev and typed probabilistic decision research.</strong></p>
 
 <p align="center">
-  <strong>137 entries</strong> · <strong>124 academic preprints</strong> · Last verified <strong>2026-10-09</strong> · <a href="LICENSE">CC0 1.0</a>
+  <strong>137 entries</strong> · <strong>124 academic preprints</strong> · Last verified <strong>2026-10-11</strong> · <a href="LICENSE">CC0 1.0</a>
 </p>
 
 A curated collection of papers, preprints, technical reports, evaluations, and research-oriented articles about **Jev**, TypeSafe AI's first **System One Model**, and the research questions around typed probabilistic decisions.
@@ -14,7 +14,7 @@ Jev is not an acronym. The name refers to economist William Stanley Jevons. Type
 
 > **Scope.** This repository collects research literature, not implementations. Standalone GitHub repositories, model pages, demos, videos, generic news, and marketing-only posts are excluded. A code or model link may appear only as supplementary material for an included paper.
 
-> **Evidence status.** Jev is a very new, closed-weight commercial model. As of 9 October 2026, no peer-reviewed TypeSafe architecture or Reinforcement Learning for Calibrated Decisions (RLCD) paper was located. Independent work such as OpenJev-RLCD studies its own training method and does not disclose Jev's proprietary algorithm. Academic items below are preprints: 123 on arXiv and one on ResearchGate. First-party performance claims remain author- or vendor-reported unless independently reproduced.
+> **Evidence status.** Jev is a very new, closed-weight commercial model. As of 11 October 2026, no peer-reviewed TypeSafe architecture or Reinforcement Learning for Calibrated Decisions (RLCD) paper was located. Independent work such as OpenJev-RLCD studies its own training method and does not disclose Jev's proprietary algorithm. Academic items below are preprints: 123 on arXiv and one on ResearchGate. First-party performance claims remain author- or vendor-reported unless independently reproduced.
 
 ## Contents
 
@@ -552,9 +552,13 @@ Social-science annotation and replication, cultural values, population simulatio
 
 ## Search and Verification Notes
 
-**Cutoff:** 9 October 2026 (Asia/Shanghai).
+**Cutoff:** 11 October 2026 (Asia/Shanghai).
 
-**Organization:** the list is grouped by primary research domain and contains 137 entries as of the 9 October verification cutoff. The original 136 entries retain their metadata, summaries, and inclusion decisions; WaterSheep is the separately documented addition below.
+**Organization:** the list is grouped by primary research domain and contains 137 entries as of the 11 October verification cutoff: 124 academic preprints and 13 technical articles or reports.
+
+The 11 October incremental check reran both arXiv queries, extending the submission window through 11 October (Asia/Shanghai). They again returned 102 and 119 records, representing the same 145 distinct arXiv candidates. Titles, complete author lists, v1 and update timestamps, version URLs, journal references, and DOIs match the 9 October record. No newly verified in-scope paper or technical report was added; all entries, summaries, and domain counts remain unchanged. TypeSafe's [9 October fundraising announcement](https://typesafe.ai/blog/series-ai) was excluded as company news. All 13 technical-source links were checked: twelve loaded directly, while Workflow evals returned HTTP 451 to direct retrieval and was readable through the web reader. These link checks do not constitute a new full content audit. Query details, comparisons, and retrieval outcomes are saved in [the 11 October verification record](outputs/jev-literature-2026-10-11.json).
+
+The following notes document the retained 9 October baseline.
 
 The 9 October update reconciled the previous README with the complete arXiv API result set for `all:Jev` (102 records). An expanded query for `typed decision`, `Jev-style`, `Reinforcement Learning for Calibrated Decisions`, `System One`, `Laya`, `System-1`, `Jev-like`, `RLCD`, `typed probabilistic`, and `decision models`, restricted to submissions from 15 September through the search date, returned 119 records. Together the queries yielded 145 distinct academic candidates, including all 102 previously listed preprints. After screening, 123 were retained and 22 excluded, adding 21 academic entries. Four additions have September v1 dates: the biosecurity-relevant reliability audit, Emo-Jev, SeLMRoute, and the Certo caching study. They are newly included records, not newly submitted October papers.
 
@@ -566,7 +570,7 @@ Primary-source web discovery added four technical reports: Vals AI's Jev evaluat
 
 Excluded keyword hits cover unrelated uses of Jev or System One, general calibration and routing work, and studies without a verified TypeSafe or Jev-style probability-interface connection. SubJudge does not establish that connection in its full text; Jev-LDE does not establish a TypeSafe connection or a matching typed-probability interface in the checked full text. Fixed-taxonomy distillation, activation-steering answer generation, a general RAG release gate, and unrelated mathematics and physics papers remain outside scope. Standalone repositories, model cards, demos, generic news, and secondary summaries are not independent literature entries.
 
-The latest retained arXiv v1 submission found in this pass was on 8 October 2026 at 16:46 UTC. The cutoff records the date of verification, not a guarantee that every 9 October submission was already announced or indexed. Some October identifiers have September v1 timestamps; ordering follows verified submission history rather than identifier prefixes. Earlier README revisions retain their historical cutoffs. Query counts, current metadata, inclusion decisions, source links, retrieval outcomes, and revision checks are saved in [the 9 October verification record](outputs/jev-literature-2026-10-09.json).
+The latest retained arXiv v1 submission remains 8 October 2026 at 16:46 UTC. The cutoff records the date of verification, not a guarantee that every submission through 11 October was already announced or indexed. Some October identifiers have September v1 timestamps; ordering follows verified submission history rather than identifier prefixes. Earlier README revisions retain their historical cutoffs. Query counts, current metadata, inclusion decisions, source links, retrieval outcomes, and revision checks are saved in [the 9 October verification record](outputs/jev-literature-2026-10-09.json).
 
 Google Scholar was not programmatically queried; Scopus and Web of Science were not available without subscription credentials. Newly announced or unindexed work may be missing. This pass does not claim exhaustive coverage of all publishers or a complete citation graph.
 
