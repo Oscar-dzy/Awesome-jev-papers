@@ -27,7 +27,7 @@ Open `http://127.0.0.1:8765/?lang=zh` or `?lang=en`. Serve over HTTP; opening `i
 
 ## Statistical definitions / 统计口径
 
-The source snapshot currently contains 124 included academic papers, including 123 dated arXiv records and one ResearchGate preprint with an unverified date. Academic records are counted once in their primary domain. The 13 technical articles/reports are not part of the research charts.
+The source snapshot currently contains 161 included academic papers, including 160 dated arXiv records and one ResearchGate preprint with an unverified date. Academic records are counted once in their primary domain. The 13 technical articles/reports are not part of the research charts.
 
 Time-series count arXiv **v1 dates in UTC**, not revision dates or repository addition dates. Cumulative counts reset to zero at the selected window's start and accumulate only the selected papers. The verification cutoff is recorded in Asia/Shanghai; its corresponding last UTC day may be incomplete. A zero cell means no included record, not proof of no publication.
 

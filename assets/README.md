@@ -25,7 +25,7 @@ python -m unittest discover -s scripts -p "test_*.py"
 The generator selects the latest `outputs/jev-literature-YYYY-MM-DD.json` filename by default. To reproduce a specific snapshot or export elsewhere:
 
 ```bash
-python scripts/plot_paper_trends.py --record outputs/jev-literature-2026-10-11.json --output-dir assets/trends
+python scripts/plot_paper_trends.py --record outputs/jev-literature-2026-10-14.json --output-dir assets/trends
 ```
 
 Generation is offline and does not modify the source records or README prose. An unchanged incremental verification record is resolved through its fingerprint-checked baseline. An increment that adds, removes or changes academic records must supply a complete `academic_records` snapshot before plotting; stale baseline data is never silently substituted. Update bilingual captions and source links when the population or verification cutoff changes.

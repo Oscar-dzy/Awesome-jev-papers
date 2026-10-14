@@ -1,34 +1,30 @@
 {
-  "verified_on": "2026-10-11",
+  "verified_on": "2026-10-14",
   "date_basis": "arXiv v1 submission day in UTC; verified publication day for other papers",
   "population": "Included academic papers only, one primary domain per work",
   "interpretation": "Publication history of the current curated snapshot, not repository addition history or an exhaustive publication census",
   "zero_policy": "Zero means no dated included record in this snapshot, not proof of no publication; recent days may be incomplete",
   "sources": [
     {
-      "file": "jev-literature-2026-10-11.json",
-      "sha256": "ccbf8467f27ed51dbf39de1c0fff6b24e7836fde56b2451514369fe95f7c5041"
-    },
-    {
-      "file": "jev-literature-2026-10-09.json",
-      "sha256": "94aed5a50971b1e2ee128d9a4f01bbf086589e0ec7d81ebd6054473ae069b164"
+      "file": "jev-literature-2026-10-14.json",
+      "sha256": "4ea31735c366116c923791326979f243f1a2dcc9ab84d6278f1babb1aa76a937"
     }
   ],
-  "dated_papers": 123,
-  "included_academic_papers": 124,
+  "dated_papers": 160,
+  "included_academic_papers": 161,
   "first_date_utc": "2026-09-19",
-  "last_included_publication_day_utc": "2026-10-08",
-  "display_end_date": "2026-10-11",
+  "last_included_publication_day_utc": "2026-10-13",
+  "display_end_date": "2026-10-14",
   "domain_totals": {
-    "Foundations & General Decision Models": 23,
-    "Natural Language Processing & Information Retrieval": 14,
-    "Multimodal Learning & Perception": 8,
-    "Embodied AI & Reinforcement Learning": 10,
-    "Agents & Workflow Automation": 10,
-    "Trustworthy AI & Security": 31,
-    "AI for Science, Healthcare & Education": 10,
+    "Foundations & General Decision Models": 29,
+    "Natural Language Processing & Information Retrieval": 19,
+    "Multimodal Learning & Perception": 10,
+    "Embodied AI & Reinforcement Learning": 12,
+    "Agents & Workflow Automation": 16,
+    "Trustworthy AI & Security": 41,
+    "AI for Science, Healthcare & Education": 13,
     "Networks, Databases & Engineering": 11,
-    "Computational Social Science & Human Decisions": 6
+    "Computational Social Science & Human Decisions": 9
   },
   "excluded_from_time_series": [
     {
@@ -775,6 +771,228 @@
       "date_utc": "2026-10-08",
       "research_domain": "Trustworthy AI & Security",
       "url": "https://arxiv.org/abs/2610.12292"
+    },
+    {
+      "id": "2610.13092",
+      "date_utc": "2026-10-09",
+      "research_domain": "Agents & Workflow Automation",
+      "url": "https://arxiv.org/abs/2610.13092"
+    },
+    {
+      "id": "2610.13675",
+      "date_utc": "2026-10-09",
+      "research_domain": "AI for Science, Healthcare & Education",
+      "url": "https://arxiv.org/abs/2610.13675"
+    },
+    {
+      "id": "2610.14112",
+      "date_utc": "2026-10-09",
+      "research_domain": "Natural Language Processing & Information Retrieval",
+      "url": "https://arxiv.org/abs/2610.14112"
+    },
+    {
+      "id": "2610.14404",
+      "date_utc": "2026-10-09",
+      "research_domain": "Trustworthy AI & Security",
+      "url": "https://arxiv.org/abs/2610.14404"
+    },
+    {
+      "id": "2610.14449",
+      "date_utc": "2026-10-10",
+      "research_domain": "Computational Social Science & Human Decisions",
+      "url": "https://arxiv.org/abs/2610.14449"
+    },
+    {
+      "id": "2610.14631",
+      "date_utc": "2026-10-10",
+      "research_domain": "Natural Language Processing & Information Retrieval",
+      "url": "https://arxiv.org/abs/2610.14631"
+    },
+    {
+      "id": "2610.14912",
+      "date_utc": "2026-10-10",
+      "research_domain": "Computational Social Science & Human Decisions",
+      "url": "https://arxiv.org/abs/2610.14912"
+    },
+    {
+      "id": "2610.15029",
+      "date_utc": "2026-10-10",
+      "research_domain": "AI for Science, Healthcare & Education",
+      "url": "https://arxiv.org/abs/2610.15029"
+    },
+    {
+      "id": "2610.15501",
+      "date_utc": "2026-10-11",
+      "research_domain": "Foundations & General Decision Models",
+      "url": "https://arxiv.org/abs/2610.15501"
+    },
+    {
+      "id": "2610.15537",
+      "date_utc": "2026-10-11",
+      "research_domain": "Trustworthy AI & Security",
+      "url": "https://arxiv.org/abs/2610.15537"
+    },
+    {
+      "id": "2610.15710",
+      "date_utc": "2026-10-11",
+      "research_domain": "Agents & Workflow Automation",
+      "url": "https://arxiv.org/abs/2610.15710"
+    },
+    {
+      "id": "2610.15742",
+      "date_utc": "2026-10-11",
+      "research_domain": "Multimodal Learning & Perception",
+      "url": "https://arxiv.org/abs/2610.15742"
+    },
+    {
+      "id": "2610.16191",
+      "date_utc": "2026-10-12",
+      "research_domain": "Foundations & General Decision Models",
+      "url": "https://arxiv.org/abs/2610.16191"
+    },
+    {
+      "id": "2610.16238",
+      "date_utc": "2026-10-12",
+      "research_domain": "Embodied AI & Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.16238"
+    },
+    {
+      "id": "2610.16550",
+      "date_utc": "2026-10-12",
+      "research_domain": "Trustworthy AI & Security",
+      "url": "https://arxiv.org/abs/2610.16550"
+    },
+    {
+      "id": "2610.16655",
+      "date_utc": "2026-10-12",
+      "research_domain": "Trustworthy AI & Security",
+      "url": "https://arxiv.org/abs/2610.16655"
+    },
+    {
+      "id": "2610.16967",
+      "date_utc": "2026-10-12",
+      "research_domain": "Embodied AI & Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2610.16967"
+    },
+    {
+      "id": "2610.17016",
+      "date_utc": "2026-10-12",
+      "research_domain": "Trustworthy AI & Security",
+      "url": "https://arxiv.org/abs/2610.17016"
+    },
+    {
+      "id": "2610.17113",
+      "date_utc": "2026-10-12",
+      "research_domain": "Natural Language Processing & Information Retrieval",
+      "url": "https://arxiv.org/abs/2610.17113"
+    },
+    {
+      "id": "2610.17175",
+      "date_utc": "2026-10-12",
+      "research_domain": "Foundations & General Decision Models",
+      "url": "https://arxiv.org/abs/2610.17175"
+    },
+    {
+      "id": "2610.17205",
+      "date_utc": "2026-10-12",
+      "research_domain": "Foundations & General Decision Models",
+      "url": "https://arxiv.org/abs/2610.17205"
+    },
+    {
+      "id": "2610.17309",
+      "date_utc": "2026-10-12",
+      "research_domain": "Foundations & General Decision Models",
+      "url": "https://arxiv.org/abs/2610.17309"
+    },
+    {
+      "id": "2610.17727",
+      "date_utc": "2026-10-13",
+      "research_domain": "Trustworthy AI & Security",
+      "url": "https://arxiv.org/abs/2610.17727"
+    },
+    {
+      "id": "2610.17820",
+      "date_utc": "2026-10-13",
+      "research_domain": "Trustworthy AI & Security",
+      "url": "https://arxiv.org/abs/2610.17820"
+    },
+    {
+      "id": "2610.18122",
+      "date_utc": "2026-10-13",
+      "research_domain": "Natural Language Processing & Information Retrieval",
+      "url": "https://arxiv.org/abs/2610.18122"
+    },
+    {
+      "id": "2610.18233",
+      "date_utc": "2026-10-13",
+      "research_domain": "Trustworthy AI & Security",
+      "url": "https://arxiv.org/abs/2610.18233"
+    },
+    {
+      "id": "2610.18272",
+      "date_utc": "2026-10-13",
+      "research_domain": "Agents & Workflow Automation",
+      "url": "https://arxiv.org/abs/2610.18272"
+    },
+    {
+      "id": "2610.18326",
+      "date_utc": "2026-10-13",
+      "research_domain": "Trustworthy AI & Security",
+      "url": "https://arxiv.org/abs/2610.18326"
+    },
+    {
+      "id": "2610.18389",
+      "date_utc": "2026-10-13",
+      "research_domain": "Natural Language Processing & Information Retrieval",
+      "url": "https://arxiv.org/abs/2610.18389"
+    },
+    {
+      "id": "2610.18497",
+      "date_utc": "2026-10-13",
+      "research_domain": "Agents & Workflow Automation",
+      "url": "https://arxiv.org/abs/2610.18497"
+    },
+    {
+      "id": "2610.18529",
+      "date_utc": "2026-10-13",
+      "research_domain": "AI for Science, Healthcare & Education",
+      "url": "https://arxiv.org/abs/2610.18529"
+    },
+    {
+      "id": "2610.18579",
+      "date_utc": "2026-10-13",
+      "research_domain": "Agents & Workflow Automation",
+      "url": "https://arxiv.org/abs/2610.18579"
+    },
+    {
+      "id": "2610.18610",
+      "date_utc": "2026-10-13",
+      "research_domain": "Computational Social Science & Human Decisions",
+      "url": "https://arxiv.org/abs/2610.18610"
+    },
+    {
+      "id": "2610.18612",
+      "date_utc": "2026-10-13",
+      "research_domain": "Trustworthy AI & Security",
+      "url": "https://arxiv.org/abs/2610.18612"
+    },
+    {
+      "id": "2610.18615",
+      "date_utc": "2026-10-13",
+      "research_domain": "Multimodal Learning & Perception",
+      "url": "https://arxiv.org/abs/2610.18615"
+    },
+    {
+      "id": "2610.18773",
+      "date_utc": "2026-10-13",
+      "research_domain": "Foundations & General Decision Models",
+      "url": "https://arxiv.org/abs/2610.18773"
+    },
+    {
+      "id": "2610.18780",
+      "date_utc": "2026-10-13",
+      "research_domain": "Agents & Workflow Automation",
+      "url": "https://arxiv.org/abs/2610.18780"
     }
   ]
 }

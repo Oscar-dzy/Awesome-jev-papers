@@ -19,9 +19,12 @@ date_utc,research_domain,daily_papers,cumulative_papers
 2026-10-06,All domains,8,107
 2026-10-07,All domains,7,114
 2026-10-08,All domains,9,123
-2026-10-09,All domains,0,123
-2026-10-10,All domains,0,123
-2026-10-11,All domains,0,123
+2026-10-09,All domains,4,127
+2026-10-10,All domains,4,131
+2026-10-11,All domains,4,135
+2026-10-12,All domains,10,145
+2026-10-13,All domains,15,160
+2026-10-14,All domains,0,160
 2026-09-19,Foundations & General Decision Models,0,0
 2026-09-20,Foundations & General Decision Models,1,1
 2026-09-21,Foundations & General Decision Models,1,2
@@ -44,7 +47,10 @@ date_utc,research_domain,daily_papers,cumulative_papers
 2026-10-08,Foundations & General Decision Models,1,23
 2026-10-09,Foundations & General Decision Models,0,23
 2026-10-10,Foundations & General Decision Models,0,23
-2026-10-11,Foundations & General Decision Models,0,23
+2026-10-11,Foundations & General Decision Models,1,24
+2026-10-12,Foundations & General Decision Models,4,28
+2026-10-13,Foundations & General Decision Models,1,29
+2026-10-14,Foundations & General Decision Models,0,29
 2026-09-19,Natural Language Processing & Information Retrieval,0,0
 2026-09-20,Natural Language Processing & Information Retrieval,0,0
 2026-09-21,Natural Language Processing & Information Retrieval,0,0
@@ -65,9 +71,12 @@ date_utc,research_domain,daily_papers,cumulative_papers
 2026-10-06,Natural Language Processing & Information Retrieval,1,13
 2026-10-07,Natural Language Processing & Information Retrieval,0,13
 2026-10-08,Natural Language Processing & Information Retrieval,1,14
-2026-10-09,Natural Language Processing & Information Retrieval,0,14
-2026-10-10,Natural Language Processing & Information Retrieval,0,14
-2026-10-11,Natural Language Processing & Information Retrieval,0,14
+2026-10-09,Natural Language Processing & Information Retrieval,1,15
+2026-10-10,Natural Language Processing & Information Retrieval,1,16
+2026-10-11,Natural Language Processing & Information Retrieval,0,16
+2026-10-12,Natural Language Processing & Information Retrieval,1,17
+2026-10-13,Natural Language Processing & Information Retrieval,2,19
+2026-10-14,Natural Language Processing & Information Retrieval,0,19
 2026-09-19,Multimodal Learning & Perception,0,0
 2026-09-20,Multimodal Learning & Perception,0,0
 2026-09-21,Multimodal Learning & Perception,1,1
@@ -90,7 +99,10 @@ date_utc,research_domain,daily_papers,cumulative_papers
 2026-10-08,Multimodal Learning & Perception,2,8
 2026-10-09,Multimodal Learning & Perception,0,8
 2026-10-10,Multimodal Learning & Perception,0,8
-2026-10-11,Multimodal Learning & Perception,0,8
+2026-10-11,Multimodal Learning & Perception,1,9
+2026-10-12,Multimodal Learning & Perception,0,9
+2026-10-13,Multimodal Learning & Perception,1,10
+2026-10-14,Multimodal Learning & Perception,0,10
 2026-09-19,Embodied AI & Reinforcement Learning,0,0
 2026-09-20,Embodied AI & Reinforcement Learning,0,0
 2026-09-21,Embodied AI & Reinforcement Learning,0,0
@@ -114,6 +126,9 @@ date_utc,research_domain,daily_papers,cumulative_papers
 2026-10-09,Embodied AI & Reinforcement Learning,0,10
 2026-10-10,Embodied AI & Reinforcement Learning,0,10
 2026-10-11,Embodied AI & Reinforcement Learning,0,10
+2026-10-12,Embodied AI & Reinforcement Learning,2,12
+2026-10-13,Embodied AI & Reinforcement Learning,0,12
+2026-10-14,Embodied AI & Reinforcement Learning,0,12
 2026-09-19,Agents & Workflow Automation,0,0
 2026-09-20,Agents & Workflow Automation,0,0
 2026-09-21,Agents & Workflow Automation,1,1
@@ -134,9 +149,12 @@ date_utc,research_domain,daily_papers,cumulative_papers
 2026-10-06,Agents & Workflow Automation,2,9
 2026-10-07,Agents & Workflow Automation,1,10
 2026-10-08,Agents & Workflow Automation,0,10
-2026-10-09,Agents & Workflow Automation,0,10
-2026-10-10,Agents & Workflow Automation,0,10
-2026-10-11,Agents & Workflow Automation,0,10
+2026-10-09,Agents & Workflow Automation,1,11
+2026-10-10,Agents & Workflow Automation,0,11
+2026-10-11,Agents & Workflow Automation,1,12
+2026-10-12,Agents & Workflow Automation,0,12
+2026-10-13,Agents & Workflow Automation,4,16
+2026-10-14,Agents & Workflow Automation,0,16
 2026-09-19,Trustworthy AI & Security,0,0
 2026-09-20,Trustworthy AI & Security,0,0
 2026-09-21,Trustworthy AI & Security,1,1
@@ -157,9 +175,12 @@ date_utc,research_domain,daily_papers,cumulative_papers
 2026-10-06,Trustworthy AI & Security,2,28
 2026-10-07,Trustworthy AI & Security,0,28
 2026-10-08,Trustworthy AI & Security,3,31
-2026-10-09,Trustworthy AI & Security,0,31
-2026-10-10,Trustworthy AI & Security,0,31
-2026-10-11,Trustworthy AI & Security,0,31
+2026-10-09,Trustworthy AI & Security,1,32
+2026-10-10,Trustworthy AI & Security,0,32
+2026-10-11,Trustworthy AI & Security,1,33
+2026-10-12,Trustworthy AI & Security,3,36
+2026-10-13,Trustworthy AI & Security,5,41
+2026-10-14,Trustworthy AI & Security,0,41
 2026-09-19,"AI for Science, Healthcare & Education",0,0
 2026-09-20,"AI for Science, Healthcare & Education",0,0
 2026-09-21,"AI for Science, Healthcare & Education",3,3
@@ -180,9 +201,12 @@ date_utc,research_domain,daily_papers,cumulative_papers
 2026-10-06,"AI for Science, Healthcare & Education",0,8
 2026-10-07,"AI for Science, Healthcare & Education",1,9
 2026-10-08,"AI for Science, Healthcare & Education",1,10
-2026-10-09,"AI for Science, Healthcare & Education",0,10
-2026-10-10,"AI for Science, Healthcare & Education",0,10
-2026-10-11,"AI for Science, Healthcare & Education",0,10
+2026-10-09,"AI for Science, Healthcare & Education",1,11
+2026-10-10,"AI for Science, Healthcare & Education",1,12
+2026-10-11,"AI for Science, Healthcare & Education",0,12
+2026-10-12,"AI for Science, Healthcare & Education",0,12
+2026-10-13,"AI for Science, Healthcare & Education",1,13
+2026-10-14,"AI for Science, Healthcare & Education",0,13
 2026-09-19,"Networks, Databases & Engineering",2,2
 2026-09-20,"Networks, Databases & Engineering",0,2
 2026-09-21,"Networks, Databases & Engineering",0,2
@@ -206,6 +230,9 @@ date_utc,research_domain,daily_papers,cumulative_papers
 2026-10-09,"Networks, Databases & Engineering",0,11
 2026-10-10,"Networks, Databases & Engineering",0,11
 2026-10-11,"Networks, Databases & Engineering",0,11
+2026-10-12,"Networks, Databases & Engineering",0,11
+2026-10-13,"Networks, Databases & Engineering",0,11
+2026-10-14,"Networks, Databases & Engineering",0,11
 2026-09-19,Computational Social Science & Human Decisions,0,0
 2026-09-20,Computational Social Science & Human Decisions,0,0
 2026-09-21,Computational Social Science & Human Decisions,1,1
@@ -227,5 +254,8 @@ date_utc,research_domain,daily_papers,cumulative_papers
 2026-10-07,Computational Social Science & Human Decisions,0,6
 2026-10-08,Computational Social Science & Human Decisions,0,6
 2026-10-09,Computational Social Science & Human Decisions,0,6
-2026-10-10,Computational Social Science & Human Decisions,0,6
-2026-10-11,Computational Social Science & Human Decisions,0,6
+2026-10-10,Computational Social Science & Human Decisions,2,8
+2026-10-11,Computational Social Science & Human Decisions,0,8
+2026-10-12,Computational Social Science & Human Decisions,0,8
+2026-10-13,Computational Social Science & Human Decisions,1,9
+2026-10-14,Computational Social Science & Human Decisions,0,9

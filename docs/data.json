@@ -1,29 +1,29 @@
 {
   "title": "Awesome JEV Papers",
-  "cutoff": "2026-10-11",
+  "cutoff": "2026-10-14",
   "start": "2026-09-19",
   "repository": "https://github.com/Oscar-dzy/Awesome-jev-papers",
   "counts": {
-    "distinct_academic_candidates": 146,
-    "academic_included": 124,
-    "academic_excluded": 22,
-    "academic_added": 0,
-    "academic_revised": 0,
+    "distinct_academic_candidates": 188,
+    "academic_included": 161,
+    "academic_excluded": 27,
+    "academic_added": 37,
+    "academic_revised": 13,
     "technical_sources": 13,
     "technical_added": 0,
-    "total_entries": 137,
+    "total_entries": 174,
     "categories": {
-      "Foundations & General Decision Models": 29,
-      "Natural Language Processing & Information Retrieval": 17,
-      "Multimodal Learning & Perception": 8,
-      "Embodied AI & Reinforcement Learning": 10,
-      "Agents & Workflow Automation": 13,
-      "Trustworthy AI & Security": 31,
-      "AI for Science, Healthcare & Education": 10,
+      "Foundations & General Decision Models": 35,
+      "Natural Language Processing & Information Retrieval": 22,
+      "Multimodal Learning & Perception": 10,
+      "Embodied AI & Reinforcement Learning": 12,
+      "Agents & Workflow Automation": 19,
+      "Trustworthy AI & Security": 41,
+      "AI for Science, Healthcare & Education": 13,
       "Networks, Databases & Engineering": 11,
-      "Computational Social Science & Human Decisions": 8
+      "Computational Social Science & Human Decisions": 11
     },
-    "arxiv_preprints": 123,
+    "arxiv_preprints": 160,
     "non_arxiv_preprints": 1
   },
   "domains": [
@@ -230,24 +230,6 @@
       "summary": {
         "en": "This preregistered evaluation compares Jev 1.13 and open decision models with nineteen language models on 7,977 items from eighteen social-science classification tasks. Jev trails the best per-task LLM on most evaluated tasks but is far cheaper and often better calibrated than verbalized LLM confidence. The paper provides a substantial Jev accuracy, calibration, routing, and cost study for research annotation.",
         "zh": "这项预注册评测在十八项社会科学分类任务的 7,977 个样本上，将 Jev 1.13 和开放决策模型与十九个语言模型进行比较。Jev 在多数任务上落后于该任务表现最好的 LLM，但成本低得多，其概率也往往比 LLM 用文字报告的置信度校准得更好。本文为研究标注场景提供了较大规模的准确率、校准、路由和成本分析。"
-      }
-    },
-    {
-      "id": "2610.00213",
-      "title": "Counting the Uncounted: Population-Level Surveillance of Documented Pregnancy and Fetal Harm in Police Crash Narratives with a System One Model (Jev)",
-      "authors": [
-        "Amir Rafe",
-        "Subasish Das"
-      ],
-      "domain": "science-healthcare-education",
-      "tier": "A",
-      "date": "2026-09-21",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.00213",
-      "source": "arXiv",
-      "summary": {
-        "en": "This population-scale study screens 5,018,079 Texas crash narratives for documented pregnancy, then uses Jev's eight-question schema and a blinded human audit to estimate missed cases and fetal harm. It estimates 5,467 crashes with documented pregnancy, including 58 documenting fetal harm. The paper extends Jev-based crash-data extraction to surveillance, while explicitly measuring what police narratives document rather than the true prevalence of pregnancy or injury.",
-        "zh": "这项总体规模研究筛查了 5,018,079 份得克萨斯州事故叙述中的妊娠记录，再利用 Jev 的八问题模式和盲法人工审查，估计漏记案例及胎儿伤害。研究估计有 5,467 起事故记录了妊娠，其中 58 起记录了胎儿伤害。本文将基于 Jev 的事故信息提取扩展到监测，但明确衡量的是警方叙述记载的内容，而非妊娠或伤害的真实发生率。"
       }
     },
     {
@@ -576,7 +558,7 @@
     },
     {
       "id": "2609.29769",
-      "title": "JEV vs. LLMs as Rubric Judges: Cheaper, Faster, and Wrong in the Same Places",
+      "title": "Decision Models vs. LLMs as Rubric Judges: Cheaper, Faster, and Wrong in the Same Places",
       "authors": [
         "Delip Rao",
         "Chris Callison-Burch"
@@ -588,8 +570,8 @@
       "url": "https://arxiv.org/abs/2609.29769",
       "source": "arXiv",
       "summary": {
-        "en": "This revised study compares Jev with three flash-tier LLM judges on nine human-labeled panels, using both whole-rubric and per-criterion setups. Jev is often competitive on binary criteria but weaker on ordinal ones, while the LLMs cost and run substantially more. About 96% of LLM verdicts repeat Jev's most confident errors, and even oracle-threshold cascades improve on the best single judge by at most 2.7 points, emphasizing the need for complementary errors.",
-        "zh": "修订版研究在九个人工标注样本组上，比较 Jev 与三个 flash 级别的 LLM 评判器，同时使用整体评分准则和逐项准则两种设置。Jev 在二元准则上常有竞争力，在有序等级准则上较弱，而 LLM 的成本和耗时明显更高。约 96% 的 LLM 判定重复了 Jev 最有把握的错误；即便使用理想阈值，级联相对最佳单一评判器最多只提高 2.7 个百分点，说明错误互补性很重要。"
+        "en": "The revised study compares Jev and Perplexity Decider with three flash-tier LLM judges on nine human-labeled panels under whole-rubric and per-criterion setups. Decision models are frequently competitive at lower measured cost and latency, but over 85% of LLM verdicts repeat their most confident errors. Even higher-tier fallbacks add little beyond the strongest single judge. It is included for showing that correlated errors constrain cascades despite useful confidence ranking and serving savings.",
+        "zh": "修订后的研究在九个人工标注评测面板上，以整套评分准则和逐条准则两种设置，比较 Jev、Perplexity Decider 与三个轻量级 LLM 评判模型。决策模型经常以更低实测成本和延迟取得有竞争力的结果，但 LLM 判断有超过 85% 重复了它们最自信的错误。即使使用更高阶后备模型，相对最强单一评判模型的增益也有限。本文说明，即使置信度排序与服务成本有价值，相关错误仍会限制级联收益。"
       }
     },
     {
@@ -736,23 +718,6 @@
       }
     },
     {
-      "id": "2609.35865",
-      "title": "PACT: Pairwise-Anchored Calibrated Tuning for Single-Token Typed Decisions",
-      "authors": [
-        "Yida Lin"
-      ],
-      "domain": "foundations-decision-models",
-      "tier": "A",
-      "date": "2026-09-26",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2609.35865",
-      "source": "arXiv",
-      "summary": {
-        "en": "PACT modifies the training recipe of the open Nimble typed-decision model using contrastive pairs, answer-code permutations, evidence removal, and ordinal penalties. On a 324-item holdout with three seeds, it reduces label-position flips and ordinal error without improving accuracy over the published recipe. It is included as a Jev-style training study, with its strongest evidence concerning robustness and optimization stability rather than superior calibration or hosted Jev performance.",
-        "zh": "PACT 使用对比样本对、答案编码置换、证据移除和有序等级惩罚，调整开放 Nimble 类型化决策模型的训练方案。在三个随机种子、324 个留出样本上，它减少了标签位置变化导致的翻转和有序预测误差，但准确率没有超过已发布方案。本文属于 Jev 风格训练研究，最强证据集中在鲁棒性与优化稳定性，而非更好的校准或托管 Jev 性能。"
-      }
-    },
-    {
       "id": "2609.32160",
       "title": "Typed Decision Models: An Early Evidence Audit and Evaluation Checklist",
       "authors": [
@@ -768,24 +733,6 @@
       "summary": {
         "en": "This early review audits 28 papers posted during Jev's first nine days and connects their findings to constrained decoding, probability readouts, calibration, and model cascades. It finds clearer support for latency and cost gains than for an independent accuracy benefit from typed outputs and proposes a fourteen-item evaluation checklist. The paper is included as a structured evidence map whose conclusions remain limited by the young, rapidly changing literature.",
         "zh": "这篇早期综述审查了 Jev 发布后前九天出现的 28 篇论文，将其发现与受约束解码、概率读取、校准和模型级联联系起来。现有证据对延迟与成本收益的支持，比对类型化输出本身能独立提高准确率的支持更充分；作者据此提出了包含十四项内容的评测清单。本文提供了结构化的证据梳理，但结论仍受文献积累时间短、变化快的限制。"
-      }
-    },
-    {
-      "id": "2610.08829",
-      "title": "Emo-Jev: Probabilistic Reasoning for Emotion Classification with Jev",
-      "authors": [
-        "Yazhou Zhang",
-        "Junhao Yu"
-      ],
-      "domain": "nlp-information-retrieval",
-      "tier": "A",
-      "date": "2026-09-27",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.08829",
-      "source": "arXiv",
-      "summary": {
-        "en": "Emo-Jev composes atomic Jev judgments or aggregates multiple judgment paths for sentiment, emotion, sarcasm, and humor classification. Across eight datasets, direct Jev classification offers low observed latency and cost but trails the strongest LLM's average macro-F1; neither proposed variant improves that average despite some dataset-level gains. It is included for testing whether additional probabilistic decomposition helps, with fixed question inventories and text-only tasks limiting generalization.",
-        "zh": "Emo-Jev 通过组合原子级 Jev 判断，或汇总多条判断路径，完成情感、情绪、讽刺和幽默分类。在八个数据集上，直接 Jev 分类的实测延迟与成本较低，但平均宏 F1 落后于最强 LLM；提出的两种变体虽在个别数据集上获益，却都未提高这一平均值。本文检验增加概率分解是否有用，固定的问题集合和纯文本任务限制了结论推广。"
       }
     },
     {
@@ -891,24 +838,6 @@
       "summary": {
         "en": "This independent reproduction studies the open Laya typed-decision checkpoint and preregisters further calibration and escalation tests. It reproduces the reported accuracy but finds systematic underconfidence; disjointly fitted temperature scaling helps, whereas the selected isotonic method overfits and the frozen gate misses its accepted-error target. It is included as a Jev-style evaluation with released predictions and explicit negative results, while its labels measure agreement with a synthetic teacher.",
         "zh": "这项独立复现研究考察开放的 Laya 类型化决策模型，并预注册了后续校准和升级处理测试。研究复现了已报告的准确率，但发现系统性的置信度偏低；在独立数据上拟合温度缩放有所帮助，而选用的保序回归方法出现过拟合，冻结的门控也未达到放行错误率目标。本文公开预测并明确报告负面结果，但其标签衡量的是与合成教师的相符程度。"
-      }
-    },
-    {
-      "id": "2609.37470",
-      "title": "Probability Contracts: Accuracy, Coherence, and Decisions Across LLM Interfaces",
-      "authors": [
-        "Han Chen",
-        "Yingrui Li"
-      ],
-      "domain": "trustworthy-ai-security",
-      "tier": "B",
-      "date": "2026-09-27",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2609.37470",
-      "source": "arXiv",
-      "summary": {
-        "en": "Probability Contracts connects exact finite-world posteriors to interface coherence and decision costs across four configurations. Jev's Event and Choice interfaces change the binary action on 32.8% of valid pairs at one deferral cost; the revision adds a separate 400-root cohort and shows that disagreement is an incomplete error signal. It is included because averaging can improve expected Brier score without guaranteeing lower decision loss at every operating cost.",
-        "zh": "Probability Contracts 将有限世界中的精确后验概率与四种配置下的接口一致性和决策成本联系起来。在一种延后处理成本设置下，Jev 的 Event 与 Choice 接口使 32.8% 的有效配对改变二元动作；修订版新增了由 400 个基础实例组成的独立样本组，并表明分歧并不是完整的错误信号。本文说明，概率平均可以改善期望 Brier 分数，却不保证在每种成本设置下都降低决策损失。"
       }
     },
     {
@@ -1163,6 +1092,23 @@
       }
     },
     {
+      "id": "2609.35865",
+      "title": "PACT: Pairwise-Anchored Calibrated Tuning for Single-Token Typed Decisions",
+      "authors": [
+        "Yida Lin"
+      ],
+      "domain": "foundations-decision-models",
+      "tier": "A",
+      "date": "2026-09-26",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.35865",
+      "source": "arXiv",
+      "summary": {
+        "en": "PACT modifies the training recipe of the open Nimble typed-decision model using contrastive pairs, answer-code permutations, evidence removal, and ordinal penalties. On a 324-item holdout with three seeds, it reduces label-position flips and ordinal error without improving accuracy over the published recipe. It is included as a Jev-style training study, with its strongest evidence concerning robustness and optimization stability rather than superior calibration or hosted Jev performance.",
+        "zh": "PACT 使用对比样本对、答案编码置换、证据移除和有序等级惩罚，调整开放 Nimble 类型化决策模型的训练方案。在三个随机种子、324 个留出样本上，它减少了标签位置变化导致的翻转和有序预测误差，但准确率没有超过已发布方案。本文属于 Jev 风格训练研究，最强证据集中在鲁棒性与优化稳定性，而非更好的校准或托管 Jev 性能。"
+      }
+    },
+    {
       "id": "2609.36059",
       "title": "Mnemon: Raw Records, Fast Judgments, Slow Thoughts",
       "authors": [
@@ -1181,7 +1127,7 @@
     },
     {
       "id": "2609.36115",
-      "title": "Koa-action: Fast and Consistent Structured Decision Making with Generative LLMs",
+      "title": "Koa-decision: Fast and Consistent Structured Decision Making with Generative LLMs",
       "authors": [
         "Shenghong Dai",
         "Shiva Kumar Pentyala",
@@ -1200,8 +1146,8 @@
       "url": "https://arxiv.org/abs/2609.36115",
       "source": "arXiv",
       "summary": {
-        "en": "Koa-action adds atomic label tokens and supervised fine-tuning to make generative models produce structured decisions in one decoding step. On an intent-routing benchmark it reports 85.5% accuracy and roughly half-second responses, including a direct comparison with Jev and support for multimodal and multilabel tasks. The work is included as a measured alternative to dedicated decision services, with its strongest serving comparison tied to the evaluated production workload.",
-        "zh": "Koa-action 添加原子标签 token，并进行监督微调，使生成式模型通过一次解码步骤给出结构化决策。它在意图路由基准上报告了 85.5% 的准确率和约半秒响应，包含与 Jev 的直接比较，并支持多模态、多标签任务。本文提供了专用决策服务的一种实测替代方案，但最有力的服务性能比较仅对应所评估的生产工作负载。"
+        "en": "Koa-decision adds atomic label tokens and supervised fine-tuning to make generative models produce structured decisions in one decoding step. On an intent-routing benchmark it reports 85.5% accuracy and roughly half-second responses, including a direct comparison with Jev and support for multimodal and multilabel tasks. The work is included as a measured alternative to dedicated decision services, with its strongest serving comparison tied to the evaluated production workload.",
+        "zh": "Koa-decision 添加原子标签 token，并进行监督微调，使生成式模型通过一次解码步骤给出结构化决策。它在意图路由基准上报告了 85.5% 的准确率和约半秒响应，包含与 Jev 的直接比较，并支持多模态、多标签任务。本文提供了专用决策服务的一种实测替代方案，但最有力的服务性能比较仅对应所评估的生产工作负载。"
       }
     },
     {
@@ -1288,6 +1234,24 @@
       }
     },
     {
+      "id": "2609.37470",
+      "title": "Probability Contracts: Accuracy, Coherence, and Decisions Across LLM Interfaces",
+      "authors": [
+        "Han Chen",
+        "Yingrui Li"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "B",
+      "date": "2026-09-27",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.37470",
+      "source": "arXiv",
+      "summary": {
+        "en": "Probability Contracts connects exact finite-world posteriors to interface coherence and decision costs across four configurations. Jev's Event and Choice interfaces change the binary action on 32.8% of valid pairs at one deferral cost; the revision adds a separate 400-root cohort and shows that disagreement is an incomplete error signal. It is included because averaging can improve expected Brier score without guaranteeing lower decision loss at every operating cost.",
+        "zh": "Probability Contracts 将有限世界中的精确后验概率与四种配置下的接口一致性和决策成本联系起来。在一种延后处理成本设置下，Jev 的 Event 与 Choice 接口使 32.8% 的有效配对改变二元动作；修订版新增了由 400 个基础实例组成的独立样本组，并表明分歧并不是完整的错误信号。本文说明，概率平均可以改善期望 Brier 分数，却不保证在每种成本设置下都降低决策损失。"
+      }
+    },
+    {
       "id": "2609.37647",
       "title": "Evaluating and Benchmarking the System One Model Jev",
       "authors": [
@@ -1323,24 +1287,6 @@
       "summary": {
         "en": "This study converts Certo, a Qwen3-4B decision model exposing Choice, Score, and Noul probabilities, from joint candidate scoring to cacheable independent encoding. Caching lowers measured cost but damages rule sensitivity; counterfactual training restores synthetic-task performance without establishing transfer to unseen real rules. It is included as a Jev-style interface study, with truncation controls, small real-rule subsets, and unresolved reliance on supplied rules qualifying the results.",
         "zh": "研究将基于 Qwen3-4B、输出 Choice、Score 和 Noul 概率的 Certo 决策模型，从候选项联合评分改为可缓存的独立编码。缓存降低了实测开销，却损害了对规则的敏感性；反事实训练恢复了合成任务表现，但未证明能迁移到未见过的真实规则。本文研究 Jev 风格接口的权衡，截断控制、较小的真实规则子集及尚未厘清的规则依赖性都限制了结论。"
-      }
-    },
-    {
-      "id": "2610.00346",
-      "title": "Benchmarking System One decision models against trained classifiers and language models for automated decision gates",
-      "authors": [
-        "Amir Rafe",
-        "Subasish Das"
-      ],
-      "domain": "foundations-decision-models",
-      "tier": "B",
-      "date": "2026-09-29",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.00346",
-      "source": "arXiv",
-      "summary": {
-        "en": "A common harness compares eight decision checkpoints, two generative models, and trained or zero-shot classifiers on workflow, intent, and social-science decisions. Rankings change with supervision, readout, option count, and serving assumptions; Jev's in-scope risk threshold still accepts substantial out-of-scope traffic. The study is included for condition-dependent design rules and direct Jev comparisons, including label-name sensitivity and the cost tradeoff of escalating from a trained first stage.",
-        "zh": "研究使用统一框架，在工作流、意图和社会科学决策上比较八个决策模型检查点、两个生成式模型，以及监督或零样本分类器。排名会随监督方式、概率读取方法、选项数量和服务条件假设变化；Jev 在分布内设定的风险阈值仍会放行大量范围外请求。本文提供了有条件适用的设计依据和直接 Jev 比较，包括标签名称敏感性，以及从已训练的第一阶段升级处理所带来的成本权衡。"
       }
     },
     {
@@ -1402,6 +1348,79 @@
       }
     },
     {
+      "id": "2609.39496",
+      "title": "When the Right Answer Is Missing: An Arithmetic-Dependent Rejection Bottleneck in Jev",
+      "authors": [
+        "Jike Zhong",
+        "Ming Li",
+        "Yuxiang Lai"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "B",
+      "date": "2026-09-30",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.39496",
+      "source": "arXiv",
+      "summary": {
+        "en": "On paired arithmetic problems, Jev selects a present correct answer reliably but often fails to choose an explicit rejection option when every numerical candidate is wrong. Boolean candidate verification remains strong, and a threshold fitted on separate development problems substantially improves rejection. The study is included because adding a none-of-the-above label alone does not make a typed-choice workflow robust to missing answers, even when the model can verify them separately.",
+        "zh": "在配对算术问题上，如果正确答案位于候选集中，Jev 能可靠选中；如果所有数值候选均错误，即便存在明确的拒答选项，模型也常常无法选择它。二元候选验证仍然表现较强，在独立开发题目上拟合的阈值则显著改善了拒答。本文说明，即使模型能单独验证答案，仅增加“以上皆非”标签也不足以让类型化选择工作流可靠处理答案缺失。"
+      }
+    },
+    {
+      "id": "2609.40241",
+      "title": "Decision-Oriented Recommendation Reranking: An Empirical Study of Its Promise and Limitations",
+      "authors": [
+        "Hanjia Lyu",
+        "Yinglong Xia"
+      ],
+      "domain": "nlp-information-retrieval",
+      "tier": "A",
+      "date": "2026-09-30",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2609.40241",
+      "source": "arXiv",
+      "summary": {
+        "en": "The revised reranking study compares TypeSafe Jev and OpenAI Decisions with specialist recommenders and LLM rerankers across three Amazon Reviews domains and four candidate-set sizes. Jev often offers competitive recommendation quality at lower observed latency than stronger generative alternatives, but specialization alone does not ensure better quality or order robustness. It is included as a controlled comparison of implementation-dependent ranking tradeoffs rather than a universal advantage for decision-oriented inference.",
+        "zh": "修订后的重排序研究在三个 Amazon Reviews 领域和四种候选集合规模上，将 TypeSafe Jev、OpenAI Decisions 与专门推荐器及 LLM 重排序器比较。Jev 经常以低于更强生成式对照的观测延迟，提供具竞争力的推荐质量，但决策专门化本身并不保证更高质量或顺序鲁棒性。本文比较依赖实现的排序权衡，而非主张决策式推理具有普遍优势。"
+      }
+    },
+    {
+      "id": "2610.00213",
+      "title": "Counting the Uncounted: Population-Level Surveillance of Documented Pregnancy and Fetal Harm in Police Crash Narratives with a System One Model (Jev)",
+      "authors": [
+        "Amir Rafe",
+        "Subasish Das"
+      ],
+      "domain": "science-healthcare-education",
+      "tier": "A",
+      "date": "2026-09-21",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.00213",
+      "source": "arXiv",
+      "summary": {
+        "en": "This population-scale study screens 5,018,079 Texas crash narratives for documented pregnancy, then uses Jev's eight-question schema and a blinded human audit to estimate missed cases and fetal harm. It estimates 5,467 crashes with documented pregnancy, including 58 documenting fetal harm. The paper extends Jev-based crash-data extraction to surveillance, while explicitly measuring what police narratives document rather than the true prevalence of pregnancy or injury.",
+        "zh": "这项总体规模研究筛查了 5,018,079 份得克萨斯州事故叙述中的妊娠记录，再利用 Jev 的八问题模式和盲法人工审查，估计漏记案例及胎儿伤害。研究估计有 5,467 起事故记录了妊娠，其中 58 起记录了胎儿伤害。本文将基于 Jev 的事故信息提取扩展到监测，但明确衡量的是警方叙述记载的内容，而非妊娠或伤害的真实发生率。"
+      }
+    },
+    {
+      "id": "2610.00346",
+      "title": "Benchmarking System One decision models against trained classifiers and language models for automated decision gates",
+      "authors": [
+        "Amir Rafe",
+        "Subasish Das"
+      ],
+      "domain": "foundations-decision-models",
+      "tier": "B",
+      "date": "2026-09-29",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.00346",
+      "source": "arXiv",
+      "summary": {
+        "en": "A common harness compares eight decision checkpoints, two generative models, and trained or zero-shot classifiers on workflow, intent, and social-science decisions. Rankings change with supervision, readout, option count, and serving assumptions; Jev's in-scope risk threshold still accepts substantial out-of-scope traffic. The study is included for condition-dependent design rules and direct Jev comparisons, including label-name sensitivity and the cost tradeoff of escalating from a trained first stage.",
+        "zh": "研究使用统一框架，在工作流、意图和社会科学决策上比较八个决策模型检查点、两个生成式模型，以及监督或零样本分类器。排名会随监督方式、概率读取方法、选项数量和服务条件假设变化；Jev 在分布内设定的风险阈值仍会放行大量范围外请求。本文提供了有条件适用的设计依据和直接 Jev 比较，包括标签名称敏感性，以及从已训练的第一阶段升级处理所带来的成本权衡。"
+      }
+    },
+    {
       "id": "2610.00376",
       "title": "A First Glance at Jev for Network Traffic Classification: Accuracy, Processing Time, and Cost",
       "authors": [
@@ -1438,25 +1457,6 @@
       }
     },
     {
-      "id": "2609.39496",
-      "title": "When the Right Answer Is Missing: An Arithmetic-Dependent Rejection Bottleneck in Jev",
-      "authors": [
-        "Jike Zhong",
-        "Ming Li",
-        "Yuxiang Lai"
-      ],
-      "domain": "trustworthy-ai-security",
-      "tier": "B",
-      "date": "2026-09-30",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2609.39496",
-      "source": "arXiv",
-      "summary": {
-        "en": "On paired arithmetic problems, Jev selects a present correct answer reliably but often fails to choose an explicit rejection option when every numerical candidate is wrong. Boolean candidate verification remains strong, and a threshold fitted on separate development problems substantially improves rejection. The study is included because adding a none-of-the-above label alone does not make a typed-choice workflow robust to missing answers, even when the model can verify them separately.",
-        "zh": "在配对算术问题上，如果正确答案位于候选集中，Jev 能可靠选中；如果所有数值候选均错误，即便存在明确的拒答选项，模型也常常无法选择它。二元候选验证仍然表现较强，在独立开发题目上拟合的阈值则显著改善了拒答。本文说明，即使模型能单独验证答案，仅增加“以上皆非”标签也不足以让类型化选择工作流可靠处理答案缺失。"
-      }
-    },
-    {
       "id": "2610.00437",
       "title": "JevSpawn: Adaptive Agentic Inference through Compositional Action Spaces",
       "authors": [
@@ -1472,24 +1472,6 @@
       "summary": {
         "en": "JevSpawn turns natural-language task specifications into compositional finite action spaces, combining parallel candidate construction with feedback-based branch selection, representation revision, and recovery. Eight-task experiments compare it with seven agent baselines and a TypeSafe Jev variant, reporting improved task performance and faster navigation. It is included as a Jev-style agentic inference framework, with the action-space construction and search policy forming part of the evaluated system rather than a standalone hosted-model improvement.",
         "zh": "JevSpawn 将自然语言任务描述转化为可组合的有限动作空间，结合并行候选构造、基于反馈的分支选择、表示修订和恢复。在八项任务上，它与七个智能体基线及一个 TypeSafe Jev 变体比较，报告更好的任务表现和更快导航。本文属于 Jev 风格智能体推理框架，动作空间构造与搜索策略都是所评估系统的一部分，不能视为托管模型本身的单独改进。"
-      }
-    },
-    {
-      "id": "2609.40241",
-      "title": "Decision-Oriented Recommendation Reranking: An Empirical Study of Jev",
-      "authors": [
-        "Hanjia Lyu",
-        "Yinglong Xia"
-      ],
-      "domain": "nlp-information-retrieval",
-      "tier": "A",
-      "date": "2026-09-30",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2609.40241",
-      "source": "arXiv",
-      "summary": {
-        "en": "This recommendation study compares Jev reranking with specialist recommenders and pointwise or listwise Qwen variants across Amazon Reviews domains and candidate-set sizes. Jev combines competitive recommendation quality with more gradual latency growth than pointwise Qwen, but remains slower than recommendation-specific models. It is included as a structured ranking application that identifies a quality-latency tradeoff rather than claiming decision models universally replace trained recommenders.",
-        "zh": "这项推荐研究在 Amazon Reviews 的不同领域和候选集规模上，将 Jev 重排序与专用推荐器、逐项或列表式 Qwen 变体进行比较。Jev 提供有竞争力的推荐质量，延迟增长比逐项 Qwen 更平缓，但仍慢于推荐专用模型。本文揭示结构化排序应用中的质量—延迟权衡，并不主张决策模型普遍替代经过训练的推荐器。"
       }
     },
     {
@@ -1556,23 +1538,6 @@
       }
     },
     {
-      "id": "2610.02267",
-      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
-      "authors": [
-        "Jiawei Li"
-      ],
-      "domain": "agents-workflow-automation",
-      "tier": "B",
-      "date": "2026-10-01",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.02267",
-      "source": "arXiv",
-      "summary": {
-        "en": "This paired study compares hosted Jev and open Laya on eleven agent decision points, using 7,283 base cases and 6,640 robustness variants. Jev is more accurate on nine points, but neither model solves zero-shot model routing reliably. A self-audit corrects inflated savings, in-sample thresholds, and misleading pipeline metrics. It is included for its controlled comparison and demonstration that local gate accuracy does not establish end-to-end quality or cost savings.",
-        "zh": "这项配对研究使用 7,283 个基础案例和 6,640 个鲁棒性变体，在十一个智能体决策节点上比较托管 Jev 与开放 Laya。Jev 在九个节点上准确率更高，但两者都不能可靠完成零样本模型路由。作者的自查纠正了夸大的节省估计、样本内阈值和具有误导性的流水线指标。本文通过受控比较说明，局部门控准确率并不能确立端到端质量或成本收益。"
-      }
-    },
-    {
       "id": "2610.01231",
       "title": "Judgement in the Age of Jev: From Evaluation Scarcity to Evaluation Abundance",
       "authors": [
@@ -1627,23 +1592,6 @@
       "summary": {
         "en": "The authors evaluate Jev on reflection questions, matrix games, ALFWorld, and robot control, distinguishing evaluation of supplied evidence from simulation of unstated consequences. Jev often knows relevant facts when asked separately but fails when prediction and evaluation must occur together; code-supplied lookahead improves control. The paper is included for testing a concrete division of labor between simulation and typed judgment, with conclusions tied to the selected environments and representations.",
         "zh": "作者在反思问题、矩阵博弈、ALFWorld 和机器人控制中评估 Jev，区分对给定证据的评价与对未说明后果的模拟。单独提问时，Jev 往往知道相关事实，但需要同时预测并评价时会失败；由代码提供前瞻模拟能改善控制。本文检验了模拟与类型化判断之间的具体分工，结论受所选环境和表示方式限制。"
-      }
-    },
-    {
-      "id": "2610.02293",
-      "title": "HakemBench: A Turkish Benchmark of Typed Decisions",
-      "authors": [
-        "Sait Furkan Teke"
-      ],
-      "domain": "nlp-information-retrieval",
-      "tier": "B",
-      "date": "2026-10-01",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.02293",
-      "source": "arXiv",
-      "summary": {
-        "en": "HakemBench evaluates Jev and other decision or generative models on 4,275 Turkish typed questions across seven domains, combining decision quality, calibration, and selective automation with robustness probes. It releases the benchmark and reports uncertainty intervals. The study is included as a multilingual Jev comparison, while its largely model-generated labels and disclosed test-informed development of the authors' own model limit claims of independent generalization.",
-        "zh": "HakemBench 在七个领域的 4,275 个土耳其语类型化问题上评估 Jev 及其他决策或生成式模型，结合决策质量、校准、选择性自动化和鲁棒性测试，并发布基准及不确定性区间。本文提供了多语言 Jev 对比，但标签主要由模型生成，作者也披露其自有模型开发参考过测试结果，这些因素限制了对独立泛化能力的主张。"
       }
     },
     {
@@ -1704,8 +1652,42 @@
       "url": "https://arxiv.org/abs/2610.02076",
       "source": "arXiv",
       "summary": {
-        "en": "LLM-as-Jev, previously titled LLM2Jev, reads probabilities over bracketed numeric candidate identifiers and optionally fine-tunes selection with a tree-factorized loss and KL anchors. The revised study includes image-based decisions and finds that a strong Qwen backbone already rivals community decision models, while tuning mainly benefits weaker backbones or particular tasks. It is included as an architecture-preserving Jev-style framework that tests when adaptation helps while retaining conversational behavior.",
-        "zh": "LLM-as-Jev 原名 LLM2Jev，从方括号包围的数字候选标识符中读取概率，并可选用树分解损失与 KL 锚定进行选择微调。修订版加入了基于图像的决策，发现较强的 Qwen 基座已能媲美社区决策模型，而微调主要有益于较弱基座或特定任务。本文作为保持原有架构的 Jev 风格框架被收录，检验了在保留对话能力的同时，何时进行适配能够带来收益。"
+        "en": "LLM-as-Jev reads probabilities over predefined options without changing the language-model architecture, and optionally fine-tunes with KL anchors to preserve generative behavior. The latest revision adds budgeted Thinking Jev and multimodal decisions, finding strong frozen-backbone performance and targeted tuning gains for smaller models or routing. It is included for separating inference readout, additional reasoning, and adaptation, rather than assuming every Jev-style capability requires a dedicated architecture.",
+        "zh": "LLM-as-Jev 不改变语言模型架构，直接读取预定义选项的概率，并可通过带 KL 锚定的微调保留生成行为。最新修订加入有预算限制的 Thinking Jev 与多模态决策，发现冻结骨干已具有较强表现，微调收益主要出现在较小模型或路由任务。本文区分推理读出、额外思考和适配，而不预设每项 Jev 风格能力都需要专门架构。"
+      }
+    },
+    {
+      "id": "2610.02267",
+      "title": "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
+      "authors": [
+        "Jiawei Li"
+      ],
+      "domain": "agents-workflow-automation",
+      "tier": "B",
+      "date": "2026-10-01",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.02267",
+      "source": "arXiv",
+      "summary": {
+        "en": "This paired study compares hosted Jev and open Laya on eleven agent decision points, using 7,283 base cases and 6,640 robustness variants. Jev is more accurate on nine points, but neither model solves zero-shot model routing reliably. A self-audit corrects inflated savings, in-sample thresholds, and misleading pipeline metrics. It is included for its controlled comparison and demonstration that local gate accuracy does not establish end-to-end quality or cost savings.",
+        "zh": "这项配对研究使用 7,283 个基础案例和 6,640 个鲁棒性变体，在十一个智能体决策节点上比较托管 Jev 与开放 Laya。Jev 在九个节点上准确率更高，但两者都不能可靠完成零样本模型路由。作者的自查纠正了夸大的节省估计、样本内阈值和具有误导性的流水线指标。本文通过受控比较说明，局部门控准确率并不能确立端到端质量或成本收益。"
+      }
+    },
+    {
+      "id": "2610.02293",
+      "title": "HakemBench: A Turkish Benchmark of Typed Decisions",
+      "authors": [
+        "Sait Furkan Teke"
+      ],
+      "domain": "nlp-information-retrieval",
+      "tier": "B",
+      "date": "2026-10-01",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.02293",
+      "source": "arXiv",
+      "summary": {
+        "en": "HakemBench evaluates Jev and other decision or generative models on 4,275 Turkish typed questions across seven domains, combining decision quality, calibration, and selective automation with robustness probes. It releases the benchmark and reports uncertainty intervals. The study is included as a multilingual Jev comparison, while its largely model-generated labels and disclosed test-informed development of the authors' own model limit claims of independent generalization.",
+        "zh": "HakemBench 在七个领域的 4,275 个土耳其语类型化问题上评估 Jev 及其他决策或生成式模型，结合决策质量、校准、选择性自动化和鲁棒性测试，并发布基准及不确定性区间。本文提供了多语言 Jev 对比，但标签主要由模型生成，作者也披露其自有模型开发参考过测试结果，这些因素限制了对独立泛化能力的主张。"
       }
     },
     {
@@ -1824,8 +1806,8 @@
       "url": "https://arxiv.org/abs/2610.03935",
       "source": "arXiv",
       "summary": {
-        "en": "JEVal compares twenty-five model configurations on 11,257 bilingual instances from thirty-six datasets across ten domains, then examines agent trajectories and social simulation. Jev-style models are strongest when evidence is supplied, while uncertainty errors and accumulated decisions weaken system-level outcomes. The work also introduces reasoning-distilled InnerJev models. It is included as a broad direct Jev benchmark linking local decision quality to downstream reliability rather than treating speed as sufficient evidence.",
-        "zh": "JEVal 在十个领域、三十六个数据集的 11,257 个双语实例上比较二十五种模型配置，进一步考察智能体轨迹与社会模拟。Jev 风格模型在提供证据时最有优势，但不确定性错误与连续决策的累积会削弱系统层面的结果。研究还提出了通过推理蒸馏得到的 InnerJev 模型。本文将局部决策质量与下游可靠性联系起来，而不把速度视为充分证据。"
+        "en": "JEVal compares twenty-five model configurations on 11,257 bilingual instances from thirty-six datasets, then examines agent trajectories and social simulation. Fast decision models are strongest when evidence is supplied, while uncertainty errors and accumulated mistakes weaken system-level outcomes. The revised work introduces reasoning-distilled SII-Decision-4B and SII-Decision-27B, with the larger model matching Jev on JEVal. It is included for linking local decision quality, inference cost, and downstream reliability.",
+        "zh": "JEVal 在三十六个数据集的 11,257 个双语样本上比较二十五种模型配置，并进一步研究智能体轨迹与社会模拟。快速决策模型在证据已提供时最有优势，但不确定性错误和累积失误会削弱系统级结果。修订工作提出推理蒸馏的 SII-Decision-4B 与 SII-Decision-27B，较大模型在 JEVal 上与 Jev 相当。本文将局部决策质量、推理成本及下游可靠性联系起来。"
       }
     },
     {
@@ -1897,7 +1879,7 @@
     },
     {
       "id": "2610.06354",
-      "title": "GraphDecide: Benchmarking System One Models on Graph Tasks",
+      "title": "GraphDecisionBench: Benchmarking System One Models on Graph Tasks",
       "authors": [
         "Xianliang Yang",
         "Yapu Zhang",
@@ -1910,8 +1892,8 @@
       "url": "https://arxiv.org/abs/2610.06354",
       "source": "arXiv",
       "summary": {
-        "en": "GraphDecide evaluates fourteen model-interface configurations, including Jev, using graph task profiles, matched graph-text representations, and heuristic-proposal controls. Jev can recognize adjacency without reliably solving broader structural questions; combining graph and text is not consistently beneficial, and feasible outputs can still be poor solutions. It is included for separating graph recognition, representation effects, and solution quality under comparable candidate interfaces.",
-        "zh": "GraphDecide 通过不同图任务设置、条件匹配的图文表示以及启发式候选方案对照，评估包含 Jev 在内的十四种模型—接口配置。Jev 能识别邻接关系，却不能可靠解决更广泛的结构问题；结合图与文本并非总有帮助，可行输出也可能是质量较差的解。本文在可比较的候选接口下，区分图识别、表示影响与求解质量。"
+        "en": "GraphDecisionBench evaluates fourteen model-interface configurations, including Jev, using graph task profiles, matched graph-text representations, and heuristic-proposal controls. Jev can recognize adjacency without reliably solving broader structural questions; combining graph and text is not consistently beneficial, and feasible outputs can still be poor solutions. It is included for separating graph recognition, representation effects, and solution quality under comparable candidate interfaces.",
+        "zh": "GraphDecisionBench 通过不同图任务设置、条件匹配的图文表示以及启发式候选方案对照，评估包含 Jev 在内的十四种模型—接口配置。Jev 能识别邻接关系，却不能可靠解决更广泛的结构问题；结合图与文本并非总有帮助，可行输出也可能是质量较差的解。本文在可比较的候选接口下，区分图识别、表示影响与求解质量。"
       }
     },
     {
@@ -2008,7 +1990,7 @@
     },
     {
       "id": "2610.07716",
-      "title": "Readout Stability in Prefill-Only Decision Models:Zero-Label Prediction and Inference-Time Compute Allocation",
+      "title": "JevCascade: Readout Stability and Inference-Time Compute Allocation for Prefill-Only Decision Models",
       "authors": [
         "Ran Li",
         "Lei Chen"
@@ -2020,8 +2002,8 @@
       "url": "https://arxiv.org/abs/2610.07716",
       "source": "arXiv",
       "summary": {
-        "en": "This study probes seven Jev-inspired prefill-only model families across ten datasets, predicting the accuracy of menu-only interventions from cached first-pass rankings without new labels or another model call. Ranking stability does not imply equally stable probabilities, and repeated calls mainly improve calibration rather than accuracy. It is included for evaluating when candidate curation or a confidence cascade offers better returns than extra passes or larger decision models.",
-        "zh": "研究在十个数据集上考察七个受 Jev 启发、仅执行预填充的模型系列，从缓存的首次候选排序预测只改变候选集合的干预准确率，无需新标签或再次调用模型。排序稳定不代表概率同样稳定，重复调用主要改善校准而非准确率。本文评估了何时候选筛选或置信度级联，比增加前向计算次数或使用更大决策模型更有收益。"
+        "en": "JevCascade studies six prefill-only model families across ten core datasets, sixteen in total, predicting menu-intervention accuracy from cached first-pass rankings without labels or another call. The revised analysis distinguishes ordinal stability from probability stability and finds that repeated calls mainly buy calibration. It is included as a Jev-style compute-allocation study in which confidence routing and candidate curation can outperform extra passes, with conclusions conditional on menu-only interventions.",
+        "zh": "JevCascade 研究六个仅预填充模型家族，覆盖十个核心数据集、总计十六个数据集，无需标签或再次调用，即可从缓存的首轮排序预测候选菜单干预后的准确率。修订分析区分排序稳定性与概率稳定性，发现重复调用主要改善校准。本文作为 Jev 风格计算分配研究收录，置信度路由与候选筛选可能优于额外前向计算，但结论以仅改变候选菜单的干预为条件。"
       }
     },
     {
@@ -2143,6 +2125,24 @@
       }
     },
     {
+      "id": "2610.08829",
+      "title": "Emo-Jev: Probabilistic Reasoning for Emotion Classification with Jev",
+      "authors": [
+        "Yazhou Zhang",
+        "Junhao Yu"
+      ],
+      "domain": "nlp-information-retrieval",
+      "tier": "A",
+      "date": "2026-09-27",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.08829",
+      "source": "arXiv",
+      "summary": {
+        "en": "Emo-Jev composes atomic Jev judgments or aggregates multiple judgment paths for sentiment, emotion, sarcasm, and humor classification. Across eight datasets, direct Jev classification offers low observed latency and cost but trails the strongest LLM's average macro-F1; neither proposed variant improves that average despite some dataset-level gains. It is included for testing whether additional probabilistic decomposition helps, with fixed question inventories and text-only tasks limiting generalization.",
+        "zh": "Emo-Jev 通过组合原子级 Jev 判断，或汇总多条判断路径，完成情感、情绪、讽刺和幽默分类。在八个数据集上，直接 Jev 分类的实测延迟与成本较低，但平均宏 F1 落后于最强 LLM；提出的两种变体虽在个别数据集上获益，却都未提高这一平均值。本文检验增加概率分解是否有用，固定的问题集合和纯文本任务限制了结论推广。"
+      }
+    },
+    {
       "id": "2610.09188",
       "title": "From Probabilities to Decisions: Search and Multi-Teacher Distillation with Jev",
       "authors": [
@@ -2179,23 +2179,6 @@
       "summary": {
         "en": "Visual Jev Rewards trains a Qwen3.5-4B verifier to score whether requested visual conditions hold for the specified reference subjects, then averages binary probabilities into a GRPO reward. A small image-generation training study improves a model-graded composite score on a selected 897-task subset. It is included as a Jev-style reward application, with one training run per reward and inconclusive human comparisons preventing a claim of established superiority.",
         "zh": "Visual Jev Rewards 训练 Qwen3.5-4B 验证器，判断指定参考主体是否满足所要求的视觉条件，再将二元概率的平均值作为 GRPO 奖励。一项小规模图像生成训练研究在选定的 897 项任务子集上提高了由模型评分的综合指标。本文作为 Jev 风格的奖励应用被收录，但每种奖励仅进行一次训练，且人工比较尚无定论，因此不能认定其优势已经确立。"
-      }
-    },
-    {
-      "id": "2610.10615",
-      "title": "JevForest: Path Voting for Budgeted Feature Acquisition",
-      "authors": [
-        "Yu Yan"
-      ],
-      "domain": "foundations-decision-models",
-      "tier": "A",
-      "date": "2026-10-07",
-      "year": 2026,
-      "url": "https://arxiv.org/abs/2610.10615",
-      "source": "arXiv",
-      "summary": {
-        "en": "JevForest uses votes from bootstrapped tree paths to choose which semantic questions Jev should answer under a feature budget. Small AG News and TREC pilots show opposing task-level rankings, while asking all eight questions together is faster, cheaper, and more accurate than four sequential forest queries. It is included as an implemented acquisition workflow whose results distinguish a question budget from actual serving cost and do not establish a general deployment advantage.",
-        "zh": "JevForest 利用自助采样树路径的投票，在特征预算约束下选择让 Jev 回答哪些语义问题。AG News 和 TREC 的小规模试验给出了相反的任务级方法排名，而将全部八个问题一次提出，比按森林策略顺序询问四个问题更快、更便宜且更准确。本文作为已实现的特征获取工作流被收录，其结果区分了问题数量预算与实际服务成本，尚未确立普遍的部署优势。"
       }
     },
     {
@@ -2269,6 +2252,23 @@
       "summary": {
         "en": "The authors combine Kumo Tabular predictions over 5.6 million Texas crash records, Jev readings of sampled narratives, and human recalibration to estimate factors missed by coded fields. A separate probability-sampled human check supports the reported population estimates, and targeted rereading finds substantially more discordance than random review. It is included as a Jev-assisted statistical workflow whose validity depends on sampling and human checks, measuring documented factors rather than underlying crash causation.",
         "zh": "作者将 Kumo Tabular 对 560 万条得克萨斯州交通事故记录的预测、Jev 对抽样叙述的解读以及人工再校准相结合，估计编码字段遗漏的因素。独立的概率抽样人工核验支持了报告中的总体估计，定向复读也比随机复核发现更多不一致。本文作为 Jev 辅助的统计工作流被收录，其有效性依赖抽样与人工核验，测量的是文档记录的因素，而非事故的潜在成因。"
+      }
+    },
+    {
+      "id": "2610.10615",
+      "title": "JevForest: Path Voting for Budgeted Feature Acquisition",
+      "authors": [
+        "Yu Yan"
+      ],
+      "domain": "foundations-decision-models",
+      "tier": "A",
+      "date": "2026-10-07",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.10615",
+      "source": "arXiv",
+      "summary": {
+        "en": "JevForest uses votes from bootstrapped tree paths to choose which semantic questions Jev should answer under a feature budget. Small AG News and TREC pilots show opposing task-level rankings, while asking all eight questions together is faster, cheaper, and more accurate than four sequential forest queries. It is included as an implemented acquisition workflow whose results distinguish a question budget from actual serving cost and do not establish a general deployment advantage.",
+        "zh": "JevForest 利用自助采样树路径的投票，在特征预算约束下选择让 Jev 回答哪些语义问题。AG News 和 TREC 的小规模试验给出了相反的任务级方法排名，而将全部八个问题一次提出，比按森林策略顺序询问四个问题更快、更便宜且更准确。本文作为已实现的特征获取工作流被收录，其结果区分了问题数量预算与实际服务成本，尚未确立普遍的部署优势。"
       }
     },
     {
@@ -2365,7 +2365,7 @@
       "title": "TypedBench: A Benchmark for Calibration, Framing Sensitivity, and Cost in System One Decision Models",
       "authors": [
         "Rahul Sharma",
-        "Andrew B. Ducan",
+        "Andrew B. Duncan",
         "Gaétan Marceau Caron",
         "Sebastian J. Vollmer"
       ],
@@ -2483,6 +2483,804 @@
       }
     },
     {
+      "id": "2610.13092",
+      "title": "When Faster Decisions Do Not Make Better Agents: An Empirical Study of Jev in Agent Workflows",
+      "authors": [
+        "Yuchen Ling",
+        "Shengcheng Yu",
+        "Zhenyu Chen",
+        "Chunrong Fang"
+      ],
+      "domain": "agents-workflow-automation",
+      "tier": "B",
+      "date": "2026-10-09",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.13092",
+      "source": "arXiv",
+      "summary": {
+        "en": "This study integrates Jev into five agents across ALFWorld and AndroidWorld, measuring 4,500 task executions. Decision calls become faster and cheaper, but auxiliary reasoning, extra interactions, failed recovery, and premature completion absorb those savings; two mobile agents lose substantial success, and one agent costs more per successful outcome. It is included as a direct workflow evaluation showing why task delivery and recovery must accompany per-call efficiency measurements.",
+        "zh": "研究将 Jev 接入 ALFWorld 和 AndroidWorld 中的五个智能体，评估 4,500 次任务执行。决策调用更快、更便宜，但辅助推理、额外交互、恢复失败和过早结束会抵消收益；两个移动端智能体的成功率明显下降，一个智能体每次成功完成任务的成本反而增加。本文作为直接的工作流评测收录，说明衡量调用效率时还必须关注任务交付与恢复能力。"
+      }
+    },
+    {
+      "id": "2610.13675",
+      "title": "Can Multimodal Decision Models Classify Breast Ultrasound Images? Benchmarking CLEF and CLEF-Flash Across Prompts and Datasets",
+      "authors": [
+        "Tran Cao Minh",
+        "Hai Tran",
+        "Ha Minh Tan"
+      ],
+      "domain": "science-healthcare-education",
+      "tier": "B",
+      "date": "2026-10-09",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.13675",
+      "source": "arXiv",
+      "summary": {
+        "en": "The authors evaluate unchanged CLEF and CLEF-Flash models on 2,818 breast ultrasound images from three datasets under three prompt designs. Clinical instructions improve CLEF-Flash accuracy but reduce CLEF accuracy, and all configurations fall below the majority-class predictor on BUS-BRA. It is included as an application audit of Jev-style multimodal decision models, with dataset shifts, class-specific errors, and prompt sensitivity limiting clinical interpretation.",
+        "zh": "作者在三个数据集的 2,818 张乳腺超声图像上，以三种提示设计评估未经调整的 CLEF 与 CLEF-Flash。临床指令提升了 CLEF-Flash 的准确率，却降低了 CLEF 的准确率；在 BUS-BRA 上，所有配置都不及多数类别预测器。本文作为 Jev 风格多模态决策模型的应用审查收录，数据集差异、类别特定错误和提示敏感性限制了其临床解释。"
+      }
+    },
+    {
+      "id": "2610.14112",
+      "title": "Does System One Transfer? Calibrated Typed-Decision Models, Label Budgets, and Translation for Indonesian Regional Languages",
+      "authors": [
+        "Romi Fadli",
+        " Rusdah",
+        "Wahyu Ramadani Putri Utami",
+        "Zulfa Malika Amana"
+      ],
+      "domain": "nlp-information-retrieval",
+      "tier": "B",
+      "date": "2026-10-09",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.14112",
+      "source": "arXiv",
+      "summary": {
+        "en": "This preregistered study evaluates Jev and Laya-multilingual on Indonesian regional-language sentiment and emotion tasks. Human Indonesian translations raise Jev accuracy by up to 37.2 points, while its ability to rank errors deteriorates on regional languages even without higher expected calibration error. Confidence routing can improve the accuracy-cost tradeoff. It is included as a direct multilingual audit that separates language transfer, label budgets, aggregate calibration, and useful uncertainty ranking.",
+        "zh": "这项预注册研究在印度尼西亚地方语言的情感与情绪任务上评估 Jev 和 Laya-multilingual。使用人工提供的印度尼西亚语译文，最多使 Jev 准确率提高 37.2 个百分点；即使期望校准误差没有增大，模型在地方语言中识别自身错误的排序能力仍会下降。置信度路由可改善准确率与成本的权衡。本文区分语言迁移、标注预算、整体校准与有用的不确定性排序。"
+      }
+    },
+    {
+      "id": "2610.14404",
+      "title": "DICE: Tilting the Odds through Interface Attackson System One Model",
+      "authors": [
+        "Ben Dong",
+        "Tianyi Lu",
+        "Zhonghao Guo",
+        "Qian Wang"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "B",
+      "date": "2026-10-09",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.14404",
+      "source": "arXiv",
+      "summary": {
+        "en": "DICE studies bounded attacks on state extraction, question generation, and output interpretation in a Jev pipeline. Three small synthetic experiments show that surrounding adapters can redirect final decisions without changing Jev or its authentic responses. Checks tying inputs and outputs to their intended meaning stop the tested interventions but can reject valid decisions. It is included for locating application-level trust failures; the pilot does not estimate their prevalence in deployed software.",
+        "zh": "DICE 研究 Jev 流程中针对状态提取、问题生成和输出解释的有限攻击。三项小规模合成实验表明，即使不改变 Jev 及其真实响应，外围适配器也能使最终决策偏离任务。将输入输出与预期含义绑定的检查可以阻止已测试的干预，但也可能拒绝有效决策。本文用于定位应用层信任失效；这些试验并不估计问题在已部署软件中的普遍程度。"
+      }
+    },
+    {
+      "id": "2610.14449",
+      "title": "Jevolution: A Framework for Studying Communication and Collective Dynamics in AI Agents",
+      "authors": [
+        "Xirui Huang",
+        "Nikhil Hooda",
+        "Utkarsh Gupta"
+      ],
+      "domain": "social-science-human-decisions",
+      "tier": "A",
+      "date": "2026-10-10",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.14449",
+      "source": "arXiv",
+      "summary": {
+        "en": "Jevolution provides an instrumented predator-prey simulator separating world dynamics, asynchronous inference, controller adapters, and experimental records. A Jev-controlled communication study compares six paired habitat seeds and finds an abundance difference whose interval includes zero. It is included as a research framework with a completed Jev experiment, while distinguishing software checks and a small inconclusive case study from evidence of emergent language, adaptive selection, or ecological validity.",
+        "zh": "Jevolution 提供带有观测记录机制的捕食者—猎物模拟器，将世界动态、异步推理、控制器适配器和实验记录分开。以 Jev 控制的通信实验比较六组成对栖息地随机种子，种群数量差异的区间包含零。本文因研究框架及已完成的 Jev 实验而收录，同时区分软件检查、小规模未得出明确结论的案例与涌现语言、适应性选择或生态有效性的证据。"
+      }
+    },
+    {
+      "id": "2610.14631",
+      "title": "The Company a Question Keeps: Auditing Open Jev-Style Models for Retrieval",
+      "authors": [
+        "Jianbo Chen"
+      ],
+      "domain": "nlp-information-retrieval",
+      "tier": "B",
+      "date": "2026-10-10",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.14631",
+      "source": "arXiv",
+      "summary": {
+        "en": "This retrieval audit tests seven open Jev-style checkpoints on 276 constructed states from 92 TREC queries, varying requested questions, evidence, and candidate eligibility separately. Nimble changes judgments when the request set expands; diagnostic interventions locate serialization effects in Nimble and Von, while Laya movement disappears at reported precision under FP32. It is included for testing request independence, with model-specific mechanisms and query-level uncertainty preventing a blanket claim about hosted Jev.",
+        "zh": "这项检索审查在来自 92 个 TREC 查询的 276 个构造状态上测试七个开放 Jev 风格模型，分别改变请求问题、证据和候选资格。Nimble 会随请求集合扩展而改变判断；诊断干预定位了 Nimble 与 Von 的序列化影响，而 Laya 在 FP32 下的概率变化低于报告精度。本文检验请求独立性，模型特定机制与查询级不确定性不支持将结论直接推广到托管 Jev。"
+      }
+    },
+    {
+      "id": "2610.14912",
+      "title": "Probable but Not Valid: A Psychometric Audit of Decision Models as Synthetic Survey Respondents",
+      "authors": [
+        "Mantas Lukauskas",
+        "Viktorija Šarkauskaitė"
+      ],
+      "domain": "social-science-human-decisions",
+      "tier": "B",
+      "date": "2026-10-10",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.14912",
+      "source": "arXiv",
+      "summary": {
+        "en": "This psychometric audit compares fourteen decision models, including Jev, with 47 generative models on a Lithuanian organizational survey. Probability vectors better reproduce aggregate item distributions than rounded answers, yet every decision model forecasts individuals worse than other respondents' answer frequencies. It is included as a direct synthetic-respondent evaluation, with limited profile information and a similarity metric that cannot reliably rank models against a second small human sample constraining interpretation.",
+        "zh": "这项心理测量审查在一份立陶宛组织心理学问卷上，比较包括 Jev 在内的十四个决策模型与 47 个生成式模型。概率向量比四舍五入后的答案更能复现整体题目分布，但所有决策模型对个体答案的预测都不如其他受访者的答案频率。本文作为合成受访者直接评测收录；有限的个人资料信息，以及无法可靠比较模型与另一小型真人样本的相似度指标，限制了结论。"
+      }
+    },
+    {
+      "id": "2610.15029",
+      "title": "Toward System One Clinical Intelligence: Parameter-Efficient Fine-Tuning and Counterfactual Explainability of Decision Foundation Models",
+      "authors": [
+        "S. M. Mahbub Uddin Ahmed"
+      ],
+      "domain": "science-healthcare-education",
+      "tier": "A",
+      "date": "2026-10-10",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.15029",
+      "source": "arXiv",
+      "summary": {
+        "en": "The authors adapt Clef-Flash with quantized LoRA for 24-class symptom-based disease classification, using 960 training and 240 test records. They report 95.42% accuracy and examine symptom sensitivity through leave-one-symptom-out perturbations. It is included as a Jev-style clinical decision-model adaptation, while the small benchmark split, reported serving comparisons, and illustrative perturbation analysis do not establish clinical deployment readiness or causal explanations.",
+        "zh": "作者使用量化 LoRA 调整 Clef-Flash，在 960 条训练记录和 240 条测试记录上开展基于症状的 24 类疾病分类。研究报告 95.42% 的准确率，并通过逐一移除症状的扰动分析模型敏感性。本文作为 Jev 风格临床决策模型的适配研究收录；小型基准划分、报告中的服务性能比较和示例性扰动分析，尚不能证明临床部署条件或因果解释。"
+      }
+    },
+    {
+      "id": "2610.15501",
+      "title": "Large Decision Models: Repurposing Large Language Models as Single-Pass Decision Makers",
+      "authors": [
+        "Ziyi Chen",
+        "Yan Zhang",
+        "Jianhui Wei",
+        "Jianing Yin",
+        "Daoan Zhang"
+      ],
+      "domain": "foundations-decision-models",
+      "tier": "A",
+      "date": "2026-10-11",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.15501",
+      "source": "arXiv",
+      "summary": {
+        "en": "LDMs adapt language models to score runtime-defined labels in one prefill pass using diverse decision supervision and reasoning-distribution distillation. DecisionVista tests novel schemas and held-out human-labeled sources, finding modest transfer improvements and substantial measured speedups over reasoning rollouts. It is included as a Jev-style training and evaluation framework; reasoning still performs better on new schemas, and the reported confidence-routing recovery is measured on development sets.",
+        "zh": "LDMs 通过多样化决策监督与推理分布蒸馏，使语言模型在一次预填充中对运行时定义的标签评分。DecisionVista 测试新模式及留出的人工标注来源，发现迁移表现适度改善，相较推理生成有明显的实测加速。本文作为 Jev 风格训练与评估框架收录；推理在新模式上仍更强，所报告的置信度路由收益是在开发集上测得的。"
+      }
+    },
+    {
+      "id": "2610.15537",
+      "title": "Poisoned into Action: Context Attacks on Typed Decision Workflows",
+      "authors": [
+        "Chenkai Wu",
+        "Xing Chang",
+        "Jun Yan"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "B",
+      "date": "2026-10-11",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.15537",
+      "source": "arXiv",
+      "summary": {
+        "en": "This execution-aware poisoning study traces retrieved context through Jev choices to persisted state across two synthetic workflows and 1,659 fresh calls. Source-exclusion defenses prevent some violations but also withhold legitimate automation, while correct evidence helps in both attack and neutral conditions. It is included for measuring downstream consequences and defense costs together; three prespecified contrasts lack significance after multiple-testing correction, so the findings remain exploratory.",
+        "zh": "这项面向执行结果的投毒研究在两个合成工作流与 1,659 次新调用中，追踪检索上下文如何经过 Jev 选择影响持久化状态。来源排除防御阻止了部分违规，却也抑制正常自动化；正确证据在攻击与中性条件下均有帮助。本文同时衡量下游后果与防御成本；三项预先指定的比较在多重检验校正后不显著，因此结果仍属探索性。"
+      }
+    },
+    {
+      "id": "2610.15710",
+      "title": "Suggested Is Not Superseded: A Pre-Registered Evaluation of a System-One Model as a Memory-Retirement Gate",
+      "authors": [
+        "Xupeng Chen",
+        "Chenqian Le"
+      ],
+      "domain": "agents-workflow-automation",
+      "tier": "B",
+      "date": "2026-10-11",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.15710",
+      "source": "arXiv",
+      "summary": {
+        "en": "The authors test Jev as an assistant-memory retirement gate on 500 relabeled STALE pairs, distinguishing established changes from suggestions. A three-way decision reduces premature retirement but exceeds the preregistered detection-loss budget, and a development-selected reasoning cascade does not beat threshold adjustment on a held-out vault. It is included for examining destructive memory decisions, annotation disagreement, and small-sample selection rather than assuming confidence routing reliably improves the gate.",
+        "zh": "作者重新标注 500 组 STALE 配对，区分已确认变化与仅有暗示的变化，测试 Jev 作为助手记忆失效判定门控。三分类决策减少了过早淘汰，但检测损失超过预注册预算；在开发集上选出的推理级联，也未在留出记忆库上优于阈值调整。本文审查具有删除后果的记忆决策、标注分歧与小样本选择问题，不预设置信度路由必然改善门控。"
+      }
+    },
+    {
+      "id": "2610.15742",
+      "title": "RSAJEV: Training-Free Abstaining Prototype Memory for Eliminating Silent Hallucination in JEV-Based Remote Sensing Classification",
+      "authors": [
+        "Man Chen",
+        "Antai Chen",
+        "Shuai Xu",
+        "Chengjie Gu",
+        "Huaping Zhou",
+        "Kelei Sun",
+        "Tao Wu",
+        "Yongjie Huang"
+      ],
+      "domain": "multimodal-perception",
+      "tier": "A",
+      "date": "2026-10-11",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.15742",
+      "source": "arXiv",
+      "summary": {
+        "en": "RSAJEV replaces a remote-sensing decision model's letter-token readout with cached image prototypes and a geometric correction, without gradient updates. Cross-dataset tests expose unstable label binding and overconfidence on unseen classes; prototype scores improve classification and open-set discrimination across the evaluated datasets. It is included as a Jev-style visual readout and abstention method, with its gains dependent on available class references and the tested dataset transfers rather than eliminating all hallucinations.",
+        "zh": "RSAJEV 用缓存图像原型及几何校正替换遥感决策模型的字母标记读出，无需梯度更新。跨数据集测试暴露了不稳定的标签绑定及对未见类别的过度自信；原型分数改善了已评估数据集中的分类与开放集辨别。本文作为 Jev 风格视觉读出与弃答方法收录，其收益依赖可用类别参考和已测试的数据迁移，并不意味着消除所有幻觉。"
+      }
+    },
+    {
+      "id": "2610.16191",
+      "title": "Correct Choices, Failed Sequences: Choice2Seq Benchmarks Correctness Retention Across Output Interfaces",
+      "authors": [
+        "Tianyou Lai",
+        "Wentao Yue",
+        "Zhiying Deng",
+        "Qilei Li"
+      ],
+      "domain": "foundations-decision-models",
+      "tier": "B",
+      "date": "2026-10-12",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.16191",
+      "source": "arXiv",
+      "summary": {
+        "en": "Choice2Seq compares selecting a complete answer with constructing it through local decisions on matched problems. Jev retains only 33.0% and 2.1% of its correct arithmetic and lexical selections under serial construction, while candidate-supported options and position cues partially repair different failures. It is included as an interface-composition benchmark separating correctness, plan fidelity, and output compliance; dialogue-state results show that the gap depends on both model and task.",
+        "zh": "Choice2Seq 在匹配的问题上比较完整答案选择与局部决策逐步构造。Jev 在串行构造中仅保留算术与词汇检索正确选择的 33.0% 和 2.1%；由候选答案支持的选项和位置提示可部分修复不同失效。本文作为接口组合基准收录，区分正确性、计划忠实度和输出合规性；对话状态结果说明差距同时取决于模型与任务。"
+      }
+    },
+    {
+      "id": "2610.16238",
+      "title": "Embodied Skill Bench: Benchmarking How Well Agents with Embodied Skills Perform on Physical Tasks",
+      "authors": [
+        "Zhi Han",
+        "Zihan Guo",
+        "Chenxi Zeng",
+        "Zicai Cui",
+        "Yue Xin",
+        "Ming Zhou",
+        "Dongzhan Zhou",
+        "Weinan Zhang",
+        "Yang Li"
+      ],
+      "domain": "embodied-ai-reinforcement-learning",
+      "tier": "B",
+      "date": "2026-10-12",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.16238",
+      "source": "arXiv",
+      "summary": {
+        "en": "EmbodiedSkillBench packages 250 embodied skills and compares native control, skill-only execution, and selective reuse on 100 perturbed LIBERO-Pro tasks. Skills help weaker agents but constrain a stronger agent; using Jev to select motion and gripper actions cuts that agent's tokens and time while lowering success from its native baseline. It is included for explicitly measuring Jev within embodied skill reuse and preserving the success-efficiency tradeoff.",
+        "zh": "EmbodiedSkillBench 整理 250 项具身技能，在 100 个扰动后的 LIBERO-Pro 任务上比较原生控制、仅技能执行和选择性复用。技能帮助较弱智能体，却限制了更强智能体；使用 Jev 选择运动方向与夹爪动作减少了后者的标记消耗和时间，但成功率低于原生基线。本文明确测量 Jev 在具身技能复用中的表现，并保留成功率与效率的权衡。"
+      }
+    },
+    {
+      "id": "2610.16550",
+      "title": "CT0: Cybersecurity Transformer",
+      "authors": [
+        "Víctor Mayoral-Vilches"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "A",
+      "date": "2026-10-12",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.16550",
+      "source": "arXiv",
+      "summary": {
+        "en": "CT0 combines a Jev-inspired typed-decision head and a generative security agent within one specialized backbone, routing uncertain cases to generation. The authors report improvements in file screening, refusal detection, jailbreak classification, and vulnerability-fact extraction using a compact model. It is included as a domain-specific extension of the decision interface, with author-run security benchmarks, workload-specific metrics, and the distinction between classification and agent performance limiting general claims.",
+        "zh": "CT0 在同一专门化骨干中结合受 Jev 启发的类型化决策头与生成式安全智能体，将不确定案例路由到生成路径。作者报告紧凑模型在文件筛查、拒答检测、越狱分类和漏洞事实提取上的改善。本文作为决策接口的领域专门化扩展收录；作者自行运行的安全基准、依赖工作负载的指标，以及分类与智能体表现的区别，限制了普遍性结论。"
+      }
+    },
+    {
+      "id": "2610.16655",
+      "title": "Does a Hosted Decision Model Respect Irrelevant Alternatives? A Pre-Registered Test of Option-Set Dependence in Jev",
+      "authors": [
+        "Dushyant Rajput",
+        "Nirdesh Chauhan",
+        "Siddharth Kosaraju"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "B",
+      "date": "2026-10-12",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.16655",
+      "source": "arXiv",
+      "summary": {
+        "en": "This preregistered audit uses 299,463 Jev calls to test whether irrelevant alternatives preserve odds between leading labels. Added options systematically change those odds, with larger candidate sets amplifying distortion, whereas separately packed questions show negligible interaction. Independent binary scoring removes option-set dependence but loses accuracy. It is included as a direct probability-semantics study showing that Jev probabilities are conditional on the offered option set rather than intrinsic properties of individual labels.",
+        "zh": "这项预注册审查通过 299,463 次 Jev 调用，检验无关备选项是否保持领先标签之间的赔率。新增选项会系统性改变赔率，候选集合越大，扭曲越明显，而同一调用中分开打包的问题几乎没有交互。独立二元评分消除了选项集合依赖，却损失准确率。本文直接研究概率语义，表明 Jev 概率以给定选项集合为条件，并非各标签的固有属性。"
+      }
+    },
+    {
+      "id": "2610.16967",
+      "title": "Proactive Physical AI through Continuous Observation and Timely Intervention",
+      "authors": [
+        "Zhenhua Yang",
+        "Jiafeng Liang",
+        "Xingyu Zhou",
+        "Yi Jiang",
+        "Xiayu Cao",
+        "Zui Chen",
+        "Luqi Wang",
+        "Haiyang Sun",
+        "Yufei Xiang",
+        "Chang Li",
+        "Rongchuan Mu",
+        "Bowen Chi",
+        "Zihe Tong",
+        "Mingyu Li",
+        "Huijie Ma",
+        "Yiqiao Yang",
+        "Baoqi Ren",
+        "Zhiming Ma",
+        "Zhihao Zhu",
+        "Jiahao Ji",
+        "Zhuoyao Wang",
+        "Qianyu Wang",
+        "Xiangyu Liu",
+        "Wang Zixiang",
+        "Shunliang Zhang",
+        "Ming Liu",
+        "Xiaocheng Feng",
+        "Duyu Tang",
+        "Bing Qin"
+      ],
+      "domain": "embodied-ai-reinforcement-learning",
+      "tier": "A",
+      "date": "2026-10-12",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.16967",
+      "source": "arXiv",
+      "summary": {
+        "en": "ProAgent couples StreamingJev, a Jev-style intervention-timing model, with a response model that communicates or invokes physical devices. Video-derived supervision trains the system to detect emerging needs under explicit goals or standing roles, and real-robot experiments test physical responses. It is included as a proactive embodied decision architecture, with reported timing and false-trigger improvements tied to its evaluated objectives, backbone comparisons, and robot settings.",
+        "zh": "ProAgent 将 Jev 风格干预时机模型 StreamingJev 与负责交流或调用物理设备的响应模型结合。系统利用从视频生成的监督数据，在明确目标或持续角色要求下识别新出现的需求，并通过真实机器人实验测试物理响应。本文作为主动式具身决策架构收录，所报告的时机判断与误触发改善仍取决于已评估目标、骨干比较和机器人设置。"
+      }
+    },
+    {
+      "id": "2610.17016",
+      "title": "ProbabilityBench: Model Evaluation and Calibration with Exact Ground-Truth Uncertainty",
+      "authors": [
+        "Yuyang Dai",
+        "Yuting Tang",
+        "Futoshi Futami",
+        "Takashi Ishida"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "B",
+      "date": "2026-10-12",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.17016",
+      "source": "arXiv",
+      "summary": {
+        "en": "ProbabilityBench constructs three simulated text domains with analytically known class probabilities and Bayes error, enabling direct evaluation of uncertainty and calibration estimators. Across sixteen models, decision systems including Jev appear frequently on the observed cost-quality frontier. It is included as a direct probability-quality benchmark, while its exact uncertainty comes from specified synthetic generators and probability-preserving text rendering, not from naturally observed ambiguity in real-world data.",
+        "zh": "ProbabilityBench 构建三个类别概率与贝叶斯误差可解析计算的模拟文本领域，用于直接评估不确定性及校准估计方法。在十六个模型中，包括 Jev 在内的决策系统经常位于观测到的成本—质量前沿。本文作为直接的概率质量基准收录；其精确不确定性来自指定的合成生成过程及保持概率的文本转换，而非真实数据中自然产生的模糊性。"
+      }
+    },
+    {
+      "id": "2610.17113",
+      "title": "Calibrated Typed Decisions for Entity, Relation, and Event Extraction",
+      "authors": [
+        "Yang Wang",
+        "Hanlin Xiao",
+        "Yanan Ma",
+        "Chenghao Xiao",
+        "Chenghua Lin"
+      ],
+      "domain": "nlp-information-retrieval",
+      "tier": "A",
+      "date": "2026-10-12",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.17113",
+      "source": "arXiv",
+      "summary": {
+        "en": "CalOn jointly encodes text and user-specified types for entity, relation, and event extraction, using a null class and explicit probability distributions. Its training adds a sampled-decision reward explicitly inspired by TypeSafe's RLCD framing, and evaluation covers forty benchmarks. It is included as an interface-level extension to structured extraction; it neither evaluates hosted Jev nor reproduces proprietary RLCD, and its confidence correction must be assessed separately from extraction F1.",
+        "zh": "CalOn 联合编码文本与用户指定类型，以空类别和显式概率分布完成实体、关系及事件提取。其训练加入明确受 TypeSafe RLCD 思路启发的采样决策奖励，并在四十个基准上评估。本文作为类型化接口向结构化提取的扩展收录；它既未评估托管 Jev，也未复现专有 RLCD，置信度校正的效果需要与提取 F1 分开判断。"
+      }
+    },
+    {
+      "id": "2610.17175",
+      "title": "FunDM: Cheap & Label-Free Decision Models from Frozen Language Models",
+      "authors": [
+        "Ujjawal K. Panchal"
+      ],
+      "domain": "foundations-decision-models",
+      "tier": "A",
+      "date": "2026-10-12",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.17175",
+      "source": "arXiv",
+      "summary": {
+        "en": "FunDM trains small decision heads to imitate a frozen language model's answer probabilities without correct-answer labels, using only part of the backbone. A Qwen3-8B variant retains nearly all of its full model's average multiple-choice accuracy while improving measured throughput and memory use; separately trained heads select coding-agent runs. It is included as a Jev-style distillation approach, with efficiency and selection results conditional on the chosen teacher, tasks, and serving setup.",
+        "zh": "FunDM 无需正确答案标签，训练小型决策头模仿冻结语言模型的答案概率，并仅使用部分骨干层。一个 Qwen3-8B 变体保留了完整模型几乎全部的平均多项选择准确率，同时改善实测吞吐量和内存占用；另行训练的决策头用于选择编程智能体运行结果。本文作为 Jev 风格蒸馏方法收录，效率与选择表现依赖教师模型、任务和服务配置。"
+      }
+    },
+    {
+      "id": "2610.17205",
+      "title": "Releasing the Inner Jev: A Simple Recipe for Open Decision Models",
+      "authors": [
+        "Jonathan Geuter",
+        "Andrew Cheng",
+        "David Alvarez-Melis"
+      ],
+      "domain": "foundations-decision-models",
+      "tier": "B",
+      "date": "2026-10-12",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.17205",
+      "source": "arXiv",
+      "summary": {
+        "en": "The authors compare letter-logit readouts and simple LoRA decision-head tuning across four open language models against Jev. Their OpenDecisions validation set combines accuracy and calibration, and tuned Gemma improves on Jev there and on JevBench. It is included as an explicit reproduction and baseline comparison, distinguishing strong untuned readouts from additional tuning gains and avoiding generalization of author-reported benchmark advantages to all decision workloads.",
+        "zh": "作者在四个开放语言模型上比较字母 logit 读出与简单的 LoRA 决策头微调，并与 Jev 对照。其 OpenDecisions 验证集结合准确率与校准，微调后的 Gemma 在该数据集和 JevBench 上均优于 Jev。本文作为明确的复现及基线比较收录，区分未经训练读出的能力与额外微调收益，不将作者报告的基准优势推广到所有决策工作负载。"
+      }
+    },
+    {
+      "id": "2610.17309",
+      "title": "StartLux-Decision: AutoThink Decision Models with Reinforcement Learning for Calibrated Deliberative Decisions",
+      "authors": [
+        "Xialie Zhuang",
+        "Zunhai Su",
+        "Jia Pan",
+        "Ngai Wong",
+        "Guanhua Chen",
+        "Chuan-Wei Kuo"
+      ],
+      "domain": "foundations-decision-models",
+      "tier": "A",
+      "date": "2026-10-12",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.17309",
+      "source": "arXiv",
+      "summary": {
+        "en": "StartLux-Decision pairs single-pass Instant models with AutoThink variants that invoke reasoning for uncertain cases. Its RLCD² method rewards improved probability quality and penalizes long reasoning, reporting shorter traces and stronger results on public Decision Index subsets and computational contrast pairs. It is included as an independent Jev-style training framework with explicit Jev comparisons; RLCD² is the authors' disclosed method, not a disclosure of TypeSafe's proprietary RLCD.",
+        "zh": "StartLux-Decision 同时提供单次前向的 Instant 模型与对不确定案例启动推理的 AutoThink 变体。其 RLCD² 方法奖励概率质量改善并惩罚过长推理，报告了更短推理轨迹及在公开 Decision Index 子集和计算对比样本上的更强表现。本文作为独立 Jev 风格训练框架收录，包含明确的 Jev 比较；RLCD² 是作者公开的方法，并非 TypeSafe 专有 RLCD 的披露。"
+      }
+    },
+    {
+      "id": "2610.17727",
+      "title": "SkillScreen: High-Recall Screening of Malicious Agent Skills with Decision Models",
+      "authors": [
+        "Jerrold Huang",
+        "Junwei Quan",
+        "Saiyue Lyu",
+        "Zihan Guo",
+        "Yingqiang Ge"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "B",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.17727",
+      "source": "arXiv",
+      "summary": {
+        "en": "SkillScreen fine-tunes OpenJev-2B to score malicious agent-skill instructions and compares with hosted Jev, classifiers, and prompted judges. On unseen attack families, it flags 20–25% of benign skills at 99% recall, improving the evaluated review-load tradeoff. It is included as a direct decision-model security comparison, while unfamiliar benign sources sharply increase false positives and prevent treating attack-family generalization as reliable screening across arbitrary skill collections.",
+        "zh": "SkillScreen 微调 OpenJev-2B，对恶意智能体技能指令评分，并与托管 Jev、分类器及提示式评判模型比较。在未见攻击家族上，99% 召回率对应 20–25% 的正常技能误报，改善了所评估的审核负担权衡。本文作为直接的决策模型安全比较收录，但陌生正常来源显著增加误报，因此对攻击家族的泛化不等于对任意技能集合的可靠筛查。"
+      }
+    },
+    {
+      "id": "2610.17820",
+      "title": "Same Attack, Different Judge: A First Controlled Adversarial Comparison of Jev, LLM Judges, and Purpose-Built Safety Classifiers",
+      "authors": [
+        "Xiang Li",
+        "Aichun Huang",
+        "Mingming Zhang",
+        "Zheli Liu"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "B",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.17820",
+      "source": "arXiv",
+      "summary": {
+        "en": "This controlled study sends identical adversarial payloads and policies to Jev, five LLM judges, and two safety classifiers across four tasks. Jev resists several input-moderation attacks but remains vulnerable in phishing judgment, where its clean recall is also lower; it is fast but flags many benign requests. It is included for comparing task-dependent robustness under a shared harness, rather than equating typed outputs or one strong moderation result with general security.",
+        "zh": "这项受控研究在四项任务上，向 Jev、五个 LLM 评判模型和两个安全分类器提供相同攻击载荷与策略。Jev 抵抗了多种输入审核攻击，但在钓鱼判断中仍有脆弱性，且无攻击时的召回率也较低；它速度快，却会标记较多正常请求。本文在共享测试框架下比较依赖任务的鲁棒性，不将类型化输出或某项审核优势等同于普遍安全。"
+      }
+    },
+    {
+      "id": "2610.18122",
+      "title": "Cheap, Consistent, Calibrated, but Biased? Typed Decision Models as Judges",
+      "authors": [
+        "Fabian Lukassen",
+        "Christoph Weisser",
+        "Alexander Silbersdorff"
+      ],
+      "domain": "nlp-information-retrieval",
+      "tier": "B",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18122",
+      "source": "arXiv",
+      "summary": {
+        "en": "The authors apply CALM bias tests to eight typed decision models, including Jev, and seven LLM judges. Every typed model exhibits several biases, with emotional rewrites and answer order affecting judgments despite comparatively consistent, inexpensive outputs. It is included as a direct judge evaluation showing that calibration does not remove bias; correlated failures across judge types and task-specific sensitivities limit the case for replacing generative judges solely on cost grounds.",
+        "zh": "作者将 CALM 偏差测试用于包括 Jev 在内的八个类型化决策模型与七个 LLM 评判模型。每个类型化模型都表现出多种偏差，情绪化改写和答案顺序会影响判断，尽管输出相对一致且成本较低。本文作为直接评判模型评测收录，说明校准不能消除偏差；不同评判类型的相关失误和任务敏感性限制了仅凭成本替代生成式评判模型的理由。"
+      }
+    },
+    {
+      "id": "2610.18233",
+      "title": "Consider, Then Choose: Order-Invariant Decisions in System One Models",
+      "authors": [
+        "Jianguo Huang",
+        "Yao Long Teng",
+        "Yanchen Deng",
+        "Bo An"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "A",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18233",
+      "source": "arXiv",
+      "summary": {
+        "en": "Runoff first scores options independently, then compares a short list across balanced candidate positions to make Jev-style choices invariant to option order. Experiments on open readouts and eight System One models report no shuffled-answer changes, while cyclic averaging retains order sensitivity. It is included as a training-free reliability method, distinguishing guaranteed order invariance from task accuracy and tying reported speed advantages to the tested candidate counts and implementations.",
+        "zh": "Runoff 先独立评分各选项，再让短名单候选在均衡位置上比较，使 Jev 风格选择不依赖选项顺序。在开放读出与八个 System One 模型上的实验报告打乱顺序后答案不变，而循环平均仍有顺序敏感性。本文作为无需训练的可靠性方法收录，区分可保证的顺序不变性与任务准确率，并将加速结论限定于已测试的候选规模和实现。"
+      }
+    },
+    {
+      "id": "2610.18272",
+      "title": "JevGPT: Thinking Fast and Slow in Autonomous Research",
+      "authors": [
+        "Yasheng Sun",
+        "Yanning Dai",
+        "Yimeng Chen",
+        "Nanbo Li",
+        "Firas Laakom",
+        "Yifan Xu",
+        "Piotr Piękos",
+        "Mateusz Ostaszewski",
+        "Wenyi Wang",
+        "Cheng Luo",
+        "Yuhui Wang",
+        "Jürgen Schmidhuber"
+      ],
+      "domain": "agents-workflow-automation",
+      "tier": "A",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18272",
+      "source": "arXiv",
+      "summary": {
+        "en": "JevGPT combines deliberative research planning with parallel, fast judgments of source relevance and evidence support. Selected original passages feed subsequent research steps, and fixed-corpus question-answering and ranking experiments report broader evidence coverage with competitive performance and lower time and cost. It is included as a Jev-based research-agent architecture, with results bounded by the evaluated corpora and comparators rather than proving reliability across unrestricted open-web research.",
+        "zh": "JevGPT 将审慎的研究规划与并行、快速的来源相关性和证据支持判断结合。筛选后的原文段落进入后续研究步骤；固定语料问答与排序实验报告更广的证据覆盖、具竞争力的表现及更低时间与成本。本文作为基于 Jev 的研究智能体架构收录，结果受已评估语料与对照系统约束，不能证明在无限制开放网络研究中的可靠性。"
+      }
+    },
+    {
+      "id": "2610.18326",
+      "title": "Jev-Guard: Fast Routing and Auditing Agent Actions over Editable Policy Trees",
+      "authors": [
+        "Wenbin Hu",
+        "Huihao Jing",
+        "Haochen Shi",
+        "Yuxuan Liu",
+        "Changxuan Fan",
+        "Sirui Zhang",
+        "Kawai Chung",
+        "Hanyu Yang",
+        "Zhenhuan Wang",
+        "Ziyi Chen",
+        "Haoran Li",
+        "Yangqiu Song"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "A",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18326",
+      "source": "arXiv",
+      "summary": {
+        "en": "Jev-Guard routes audit contexts through editable policy trees before making policy-conditioned safety decisions. The authors report 93.72% classification accuracy on 7,033 cases, separating 58 ms classification latency from a 240 ms full pipeline, and test a permission gate inside Hermes. It is included as a Jev-style safety architecture; no observed violations in the tested trajectories is limited evidence, and routing, classification, and end-to-end review costs must remain distinct.",
+        "zh": "Jev-Guard 先在可编辑策略树中路由审核上下文，再依据选中策略作出安全决策。作者在 7,033 个案例上报告 93.72% 分类准确率，区分 58 毫秒分类延迟与 240 毫秒完整流程，并在 Hermes 中测试权限门控。本文作为 Jev 风格安全架构收录；已测试轨迹中未观察到违规仅提供有限证据，路由、分类与端到端审核成本应分别解释。"
+      }
+    },
+    {
+      "id": "2610.18389",
+      "title": "PRISM: Calibrating Black-Box Judges with Counterfactual Probes",
+      "authors": [
+        "Kakei Yamamoto",
+        "So Kuroki"
+      ],
+      "domain": "nlp-information-retrieval",
+      "tier": "A",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18389",
+      "source": "arXiv",
+      "summary": {
+        "en": "PRISM perturbs evaluative emphasis while keeping judged content fixed, then learns a correction from human labels using the resulting score sensitivities. Jev and Sol experiments on SummEval and HANNA improve agreement with human rankings and test quality-based versus style-based probes. It is included as a direct Jev-judge calibration method, whose supervised corrections and dataset-specific agreement gains do not establish unbiased judgments or transfer without local validation.",
+        "zh": "PRISM 保持被评内容不变，改变评价侧重点，再根据分数敏感性及人工标签学习校正。在 SummEval 和 HANNA 上，Jev 与 Sol 的实验改善了与人工排序的一致性，并比较质量与风格探针。本文作为直接面向 Jev 评判模型的校准方法收录；有监督校正和特定数据集上的一致性收益，并不能证明判断无偏或无需本地验证即可迁移。"
+      }
+    },
+    {
+      "id": "2610.18497",
+      "title": "Judges Follow the Reference: The Derivation Gap in Verifying Tool-Call Arguments",
+      "authors": [
+        "Linhai Ma",
+        "Yan Wang",
+        "Lingfei Qian",
+        "Yupeng Cao",
+        "Victor Gutierrez Basulto"
+      ],
+      "domain": "agents-workflow-automation",
+      "tier": "B",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18497",
+      "source": "arXiv",
+      "summary": {
+        "en": "This tool-call audit compares seven judges, including Jev and CLM, and finds that correct arguments are less often accepted when their supporting reference is absent or must be derived. Controlled source relocation shows preference for visible incorrect values over unsupported correct ones. DeRef supplies candidate-blind references from full history and improves AUROC. It is included for examining evidence availability in agent verification, with benchmark gains distinct from universal tool-use correctness.",
+        "zh": "这项工具调用审查比较包括 Jev 和 CLM 在内的七个评判模型，发现当支持依据缺失或需要推导时，正确参数更少被接受。受控的来源位置调整表明，模型偏好可见的错误值，而非缺少依据的正确值。DeRef 在不查看候选答案的条件下从完整历史生成参考，提高了 AUROC。本文研究智能体验证中的证据可用性，区分基准收益与普遍的工具使用正确性。"
+      }
+    },
+    {
+      "id": "2610.18529",
+      "title": "How Reliable Are System-One Decisions in Medicine? A Comparative Study of Jev, Jev-like Models, and LLMs",
+      "authors": [
+        "Yanrui Du",
+        "Danyang Zhao",
+        "Sendong Zhao",
+        "Wenhao Li",
+        "Yibo Gao",
+        "Haochun Wang",
+        "Zhuoer Xu",
+        "Shiwen Cui",
+        "Bing Qin"
+      ],
+      "domain": "science-healthcare-education",
+      "tier": "B",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18529",
+      "source": "arXiv",
+      "summary": {
+        "en": "This study compares Jev, open decision models, and LLMs on 8,742 instances from fifteen medical datasets, testing accuracy, framing stability, and abstention. Jev is competitive on text-driven tasks and stable under formatting changes but weaker on numerical tasks and missing-answer detection. Independent binary scoring improves retained accuracy. It is included as a broad medical reliability audit, keeping decision consistency separate from safe abstention and clinical competence.",
+        "zh": "这项研究在十五个医学数据集的 8,742 个样本上比较 Jev、开放决策模型与 LLM，测试准确率、表述稳定性和弃答。Jev 在文本驱动任务上有竞争力，对格式变化也较稳定，但数值任务和正确答案缺失检测较弱。独立二元评分改善了保留答案的准确率。本文作为广泛的医学可靠性审查收录，将决策一致性与安全弃答、临床能力分开。"
+      }
+    },
+    {
+      "id": "2610.18579",
+      "title": "Reading Right, Acting Wrong: Diagnosing Decision Failures of System One Models in Agent Loops",
+      "authors": [
+        "Yubo Li",
+        "Ramayya Krishnan",
+        "Rema Padman"
+      ],
+      "domain": "agents-workflow-automation",
+      "tier": "B",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18579",
+      "source": "arXiv",
+      "summary": {
+        "en": "The authors pair next-action decisions with independent factual probes across frozen agent states, comparing seventeen fast systems, including Jev, and a reasoning model. Many wrong actions follow correct probe answers; code composition repairs failures when probes determine the action, while supplying subgoals helps on real states. It is included as a behavioral diagnosis of agent decisions, with causal attribution limited by whether the probes actually contain sufficient evidence.",
+        "zh": "作者在冻结的智能体状态上，将下一步动作决策与独立事实探针配对，比较包括 Jev 在内的十七个快速系统及一个推理模型。许多错误动作出现在探针全部答对之后；当探针足以决定动作时，代码组合可修复失效，而真实状态中提供子目标更有帮助。本文作为智能体决策的行为诊断收录，因果归因取决于探针是否真正包含充分证据。"
+      }
+    },
+    {
+      "id": "2610.18610",
+      "title": "Jev-ToM: Evaluating Theory of Mind in Typed Decision Models",
+      "authors": [
+        "Kawai Chung",
+        "Chunkit Chan",
+        "Yuxuan Liu",
+        "Yauwai Yim",
+        "Xi Yang",
+        "Wenbin Hu",
+        "Huihao Jing",
+        "Chiu Yeung Tang",
+        "Changxuan Fan",
+        "Ki Sen Hung",
+        "Tsun On Kwok",
+        "Haoran Li"
+      ],
+      "domain": "social-science-human-decisions",
+      "tier": "B",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18610",
+      "source": "arXiv",
+      "summary": {
+        "en": "Jev-ToM evaluates five typed decision models and seven generative baselines on 11,117 English theory-of-mind questions from nine benchmarks. Jev reaches 73.2% source-balanced accuracy and performs strongly across capability groups, but confidence selection, attached reasons, and expanded candidate sets have task-dependent effects. It is included as a direct social-reasoning evaluation, with benchmark selection and separate resource measurements limiting claims about collaborative assistants in deployment.",
+        "zh": "Jev-ToM 在九个基准的 11,117 道英语心智理论题目上评估五个类型化决策模型与七个生成式基线。Jev 的来源均衡准确率达到 73.2%，在多个能力组中表现较强，但置信度选择、附加理由和候选扩展的效果依赖任务。本文作为直接的社会推理评测收录，基准选择与单独测量的资源数据限制了对已部署协作助手的推断。"
+      }
+    },
+    {
+      "id": "2610.18612",
+      "title": "Nudge the Judge: Uncovering Program Decision Hijacking in Real-World Jev Applications",
+      "authors": [
+        "Yang Luo",
+        "Tiantian Ji",
+        "Zifeng Kang",
+        "Yucheng Wang",
+        "Yong Liu",
+        "Zhiyi Yin",
+        "Xinran Liu"
+      ],
+      "domain": "trustworthy-ai-security",
+      "tier": "B",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18612",
+      "source": "arXiv",
+      "summary": {
+        "en": "JevProbe traces attacker-controlled context through schema-valid Jev judgments to downstream application decisions in 228 applications and 2,273 test cases. The authors report decision flips in 81.5% of cases and potential security consequences for most flips, with limited protection from tested defenses. It is included as an application-grounded security evaluation, distinguishing reachable attack surfaces and potential consequences from confirmed exploitation or measured incidents in production.",
+        "zh": "JevProbe 在 228 个应用与 2,273 个测试案例中，追踪攻击者控制的上下文如何经过符合模式的 Jev 判断影响下游决策。作者报告 81.5% 的案例发生决策翻转，多数翻转具有潜在安全后果，已测试防御的保护有限。本文作为以应用为基础的安全评测收录，区分可达攻击面、潜在后果与已确认利用或生产事故。"
+      }
+    },
+    {
+      "id": "2610.18615",
+      "title": "VideoJev: System One Model for Video Understanding and Interaction",
+      "authors": [
+        "Yuhan Zhu",
+        "Xiangyu Zeng",
+        "Qingyi Si",
+        "Chenxu Yang",
+        "Yifei Li",
+        "Luozheng Qin",
+        "Junhao Zhou",
+        "Dingyu Yao",
+        "Jun Zhang",
+        "Chuanyu Qin",
+        "Zhiqiu Zhang",
+        "Yuandong Yang",
+        "Yuqi Xu",
+        "Tianyu Zhang",
+        "Hongcheng Guo",
+        "Jiaqi Wang",
+        "Nan Duan",
+        "Limin Wang"
+      ],
+      "domain": "multimodal-perception",
+      "tier": "A",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18615",
+      "source": "arXiv",
+      "summary": {
+        "en": "VideoJev replaces autoregressive answers with shared scoring of temporal intervals and text options against video evidence, supporting cached and joint queries. Two model sizes improve temporal grounding over their backbones and match thinking-mode video-question accuracy with large measured speedups. It is included as a Jev-style multimodal decision architecture, with gains tied to the tested grounding and multiple-choice benchmarks rather than unrestricted video understanding or autonomous interaction.",
+        "zh": "VideoJev 用对视频证据下时间区间与文本选项的共享评分替代自回归回答，支持缓存查询与联合查询。两种规模的模型改善了相对骨干的时间定位，并在保持接近思考模式的视频问答准确率时获得显著实测加速。本文作为 Jev 风格多模态决策架构收录，收益限定于所测试的定位及多项选择基准，而非无限制的视频理解或自主交互。"
+      }
+    },
+    {
+      "id": "2610.18773",
+      "title": "Jeva: System One Models from First Principles",
+      "authors": [
+        "Qi Li",
+        "Xinchao Wang"
+      ],
+      "domain": "foundations-decision-models",
+      "tier": "A",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18773",
+      "source": "arXiv",
+      "summary": {
+        "en": "Jeva independently encodes requests and reusable options, refining request states against fixed option memory while separately estimating answer coverage. This design supports typed outputs, candidate permutations, null outcomes, and large option sets. It is included as a decision-native alternative in the Jev research line, with reported permutation stability and caching gains distinguished from universal calibration or reliable answer-absence detection outside the evaluated distributions.",
+        "zh": "Jeva 独立编码请求与可复用选项，依据固定选项记忆细化请求状态，并单独估计答案覆盖情况。该设计支持类型化输出、候选重排、空结果及大规模选项集合。本文作为 Jev 研究方向中的原生决策替代架构收录，区分报告中的重排稳定性、缓存收益与在评估分布之外的普遍校准或可靠缺失答案检测。"
+      }
+    },
+    {
+      "id": "2610.18780",
+      "title": "BLADE: Auditing Information Use for Failure Attribution in LLM Multi-Agent Systems",
+      "authors": [
+        "Xiaoguang Guo",
+        "Yaohao Long",
+        "Chuxu Zhang"
+      ],
+      "domain": "agents-workflow-automation",
+      "tier": "A",
+      "date": "2026-10-13",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2610.18780",
+      "source": "arXiv",
+      "summary": {
+        "en": "BLADE uses Jev probabilities to select information handoffs for auditing in failed multi-agent runs, distinguishing introduced errors, propagated errors, and repairs. On 1,228 failed runs, it improves step-level attribution over an all-at-once strategy under a shared Jev interface without reference answers. It is included as a concrete Jev-based diagnostic workflow, with attribution accuracy on recorded failures distinct from evidence that the method prevents failures during live execution.",
+        "zh": "BLADE 使用 Jev 概率选择失败多智能体运行中的信息交接点进行审查，区分错误引入、传播和修复。在 1,228 次失败运行上，它在共享 Jev 接口、无需参考答案的条件下，相对一次性整体判断改善了步骤级归因。本文作为具体的 Jev 诊断工作流收录，区分已记录失败上的归因准确率与防止实时执行失败的证据。"
+      }
+    },
+    {
       "id": "doi:10.13140/RG.2.2.28606.45122",
       "title": "WaterSheep 0.1.0: Typed Decisions with Calibrated Probabilities from a Single Encoder Pass",
       "authors": [
@@ -2502,20 +3300,16 @@
   ],
   "provenance": [
     {
-      "file": "jev-literature-2026-10-11.json",
-      "sha256": "ccbf8467f27ed51dbf39de1c0fff6b24e7836fde56b2451514369fe95f7c5041"
-    },
-    {
-      "file": "jev-literature-2026-10-09.json",
-      "sha256": "94aed5a50971b1e2ee128d9a4f01bbf086589e0ec7d81ebd6054473ae069b164"
+      "file": "jev-literature-2026-10-14.json",
+      "sha256": "4ea31735c366116c923791326979f243f1a2dcc9ab84d6278f1babb1aa76a937"
     },
     {
       "file": "README.md",
-      "sha256": "7487990252f3276cafef8edd24f3126a334a77fca5efad53b6bbe59c806961d9"
+      "sha256": "b8c3fe3ffc9e7924ea66dbdc7366fcc62d4317f70e587b670d1086c5a78cea57"
     },
     {
       "file": "README.zh-CN.md",
-      "sha256": "d3272482b9d85b52c8c17a2af1c12bbb7ac97fe674944a86ddea999ef315121d"
+      "sha256": "07d6228c3a5ecbe9b34d4610dbece3cd0f6f39146e3b1acdcc1b6999eaf15aba"
     }
   ],
   "method": {

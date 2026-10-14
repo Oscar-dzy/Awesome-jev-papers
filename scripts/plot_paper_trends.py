@@ -181,7 +181,12 @@ def render(trends: Trends, destination: Path) -> None:
                  fontsize=8, color=MUTED, linespacing=1.7)
 
     def save(fig, name):
-        fig.savefig(destination / f"{name}.svg", metadata={"Date": None})
+        svg_path = destination / f"{name}.svg"
+        fig.savefig(svg_path, metadata={"Date": None})
+        # Matplotlib emits trailing spaces in multiline SVG paths.
+        svg_path.write_text("\n".join(line.rstrip() for line in
+                            svg_path.read_text(encoding="utf-8").splitlines()) + "\n",
+                            encoding="utf-8")
         fig.savefig(destination / f"{name}.png", dpi=220)
         plt.close(fig)
 
