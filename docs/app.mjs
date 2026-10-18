@@ -1,4 +1,4 @@
-import {copy} from './i18n.mjs';
+import {copy} from './i18n.mjs?v=4';
 import {quickstart, updateRoutingDemo} from './quickstart.mjs';
 import {summarize, csvExport, dateRange, qsRankSum, sortPapers} from './metrics.mjs';
 const root = document.querySelector('#app');
@@ -182,7 +182,7 @@ window.addEventListener('scroll',()=>tip.hidden=true,{passive:true});
 window.addEventListener('keydown',event=>{if(event.key==='Escape')tip.hidden=true;});
 
 try {
- const response=await fetch('./data.json');if(!response.ok)throw new Error(`HTTP ${response.status}`);
+ const response=await fetch('./data.json', {cache:'no-cache'});if(!response.ok)throw new Error(`HTTP ${response.status}`);
  data=await response.json();
  state={lang:lang==='zh'?'zh':'en',domain:data.domains.some(d=>d.id===initialParams.get('domain'))?initialParams.get('domain'):'',tier:['A','B'].includes(initialParams.get('tier'))?initialParams.get('tier'):'',start:data.start,end:data.cutoff,mode:initialParams.get('mode')==='daily'?'daily':'cumulative',search:'',sort:['newest','oldest','team','qs'].includes(initialParams.get('sort'))?initialParams.get('sort'):'newest',page:1,error:false};
  const start=initialParams.get('start'),end=initialParams.get('end');
