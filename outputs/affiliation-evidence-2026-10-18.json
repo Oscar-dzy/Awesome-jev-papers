@@ -1,0 +1,1848 @@
+{
+  "2609.22753": {
+    "source": "https://arxiv.org/html/2609.22753v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "School of Electrical, Mechanical and Biomedical Engineering University of Technology Sydney, Sydney, Australia OniReimu/Edge-Computing-JEV OniReimu/Edge-Computing-JEV"
+    ],
+    "front_matter": "Delong Li, Xu Wang, Haochen Gong, Rui Lang, and Guangsheng Yu Affiliation: School of Electrical, Mechanical and Biomedical Engineering University of Technology Sydney, Sydney, Australia OniReimu/Edge-Computing-JEV OniReimu/Edge-Computing-JEV",
+    "status": "extracted"
+  },
+  "2609.23136": {
+    "source": "https://arxiv.org/html/2609.23136v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "School of Electrical, Mechanical and Biomedical Engineering University of Technology Sydney, Sydney, Australia OniReimu/6G-JEV OniReimu/6G-JEV"
+    ],
+    "front_matter": "Delong Li, Xu Wang, Haochen Gong, Rui Lang, and Guangsheng Yu Affiliation: School of Electrical, Mechanical and Biomedical Engineering University of Technology Sydney, Sydney, Australia OniReimu/6G-JEV OniReimu/6G-JEV",
+    "status": "extracted"
+  },
+  "2609.23886": {
+    "source": "https://arxiv.org/html/2609.23886v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.23886v1"
+  },
+  "2609.23959": {
+    "source": "https://arxiv.org/html/2609.23959v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Ankit Raj *",
+      "Scam.ai (Reality Inc.)",
+      "* Equal contribution."
+    ],
+    "front_matter": "Simiao Ren † Kidus Zewde * Xingyu Shen * Yuchen Zhou * Dennis Ng * Affiliation: Ankit Raj * Tommy Duong * Yuxin Zhang * Neo Tiangratanakul * Affiliation: Scam.ai (Reality Inc.) Affiliation: * Equal contribution. † Corresponding author: benren@scam.ai",
+    "status": "extracted"
+  },
+  "2609.23986": {
+    "source": "https://arxiv.org/html/2609.23986v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Department of Computer Science, The University of Texas at Dallas",
+      "{dongming.jiang, yi.li3, bingzhe.li}@utdallas.edu"
+    ],
+    "front_matter": "Dongming Jiang Yi Li Bingzhe Li † † thanks: Corresponding author Affiliation: Department of Computer Science, The University of Texas at Dallas Affiliation: {dongming.jiang, yi.li3, bingzhe.li}@utdallas.edu",
+    "status": "extracted"
+  },
+  "2609.24052": {
+    "source": "https://arxiv.org/html/2609.24052v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "organization=Ingram School of Engineering, Texas State University,\ncity=San Marcos,\nstate=TX,\ncountry=USA"
+    ],
+    "front_matter": "Amir Rafe amir.rafe@txstate.edu Subasish Das organization=Ingram School of Engineering, Texas State University,\ncity=San Marcos,\nstate=TX,\ncountry=USA",
+    "status": "extracted"
+  },
+  "2609.24395": {
+    "source": "https://arxiv.org/html/2609.24395v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "AVEQ GmbH, Vienna, Austria werner.robitza@aveq.info"
+    ],
+    "front_matter": "Werner Robitza Affiliation: AVEQ GmbH, Vienna, Austria werner.robitza@aveq.info",
+    "status": "extracted"
+  },
+  "2609.24574": {
+    "source": "https://arxiv.org/html/2609.24574v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Computer Science, New York University Abu Dhabi, Abu Dhabi, UAE"
+    ],
+    "front_matter": "Hazem Ibrahim † † thanks: Corresponding author: hazem.ibrahim@nyu.edu Yasir Zaki Affiliation: Computer Science, New York University Abu Dhabi, Abu Dhabi, UAE",
+    "status": "extracted"
+  },
+  "2609.24965": {
+    "source": "https://arxiv.org/html/2609.24965v3",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Johns Hopkins University Baltimore, USA",
+      "Columbia University New York, USA",
+      "The Hong Kong Polytechnic University Hong Kong, China",
+      "The Pennsylvania State University University Park, USA"
+    ],
+    "front_matter": "Boyuan Deng Affiliation: Johns Hopkins University Baltimore, USA Shuyi Fan Affiliation: Columbia University New York, USA Hongyang Zhang Affiliation: The Hong Kong Polytechnic University Hong Kong, China Xinhong Xie Affiliation: The Pennsylvania State University University Park, USA",
+    "status": "extracted"
+  },
+  "2609.25498": {
+    "source": "https://arxiv.org/html/2609.25498v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Anadolu University, Eskişehir, Turkey",
+      "ITouch Systems, Mersin, Turkey",
+      "ORCID: 0009-0000-1587-8703",
+      "Mersin University, Mersin, Turkey",
+      "ORCID: 0000-0001-9490-6425",
+      "Toros Science College, Mersin, Turkey",
+      "ORCID: 0009-0003-2492-8313 * Corresponding author. Correspondence: https://github.com/pCwOrM/werr"
+    ],
+    "front_matter": "Volkan Dağlı Affiliation: Anadolu University, Eskişehir, Turkey Affiliation: ITouch Systems, Mersin, Turkey Affiliation: ORCID: 0009-0000-1587-8703 Zerrin Dağlı Affiliation: Mersin University, Mersin, Turkey Affiliation: ORCID: 0000-0001-9490-6425 Dağhan Dağlı Affiliation: Toros Science College, Mersin, Turkey Affiliation: ORCID: 0009-0003-2492-8313 * Corresponding author. Correspondence: https://github.com/pCwOrM/werr",
+    "status": "extracted"
+  },
+  "2609.25845": {
+    "source": "https://arxiv.org/html/2609.25845v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Guanxu Yu Yuhang Yao Independent Research Carnegie Mellon University guanxu.yu.sv@gmail.com yuhangya@alumni.cmu.edu Project: Website • GitHub",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.25845v1"
+  },
+  "2609.26532": {
+    "source": "https://arxiv.org/html/2609.26532v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Nanyang Technological University",
+      "Singapore"
+    ],
+    "front_matter": "Tiantong Wu Affiliation: Nanyang Technological University Affiliation: Singapore Email: tiantong.wu@ntu.edu.sg Wei Yang Bryan Lim Affiliation: Nanyang Technological University Affiliation: Singapore Email: bryan.limwy@ntu.edu.sg",
+    "status": "extracted"
+  },
+  "2609.26550": {
+    "source": "https://arxiv.org/html/2609.26550v5",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Carnegie Mellon University",
+      "{yubol, yidim, rk2x, rpadman}@andrew.cmu.edu"
+    ],
+    "front_matter": "Yubo Li Yidi Miao Ramayya Krishnan Rema Padman Affiliation: Carnegie Mellon University Affiliation: {yubol, yidim, rk2x, rpadman}@andrew.cmu.edu",
+    "status": "extracted"
+  },
+  "2609.26758": {
+    "source": "https://arxiv.org/html/2609.26758v3",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "National University of Singapore",
+      "Fudan University",
+      "University of Science and Technology of China"
+    ],
+    "front_matter": "Yu Sun † † thanks: Equal contribution. Affiliation: National University of Singapore Email: sun.yu@u.nus.edu Junhao Xu 1 1 footnotemark: 1 Affiliation: Fudan University Email: junhaoxu23@m.fudan.edu.cn Jiajia Shi Affiliation: Fudan University Email: shijj25@m.fudan.edu.cn Zijin Yang Affiliation: University of Science and Technology of China Email: bsmhmmlf@mail.ustc.edu.cn",
+    "status": "extracted"
+  },
+  "2609.27331": {
+    "source": "https://arxiv.org/html/2609.27331v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Institute of Automation, Chinese Academy of Sciences",
+      "Beijing Zhongguancun Academy"
+    ],
+    "front_matter": "Weiyu MaLiangbing Zhao Email: sc2meisah@gmail.com Yongcheng Zeng Affiliation: Institute of Automation, Chinese Academy of Sciences Email: jianzhao@zgci.ac.cn Jian Zhao Affiliation: Beijing Zhongguancun Academy",
+    "status": "extracted"
+  },
+  "2609.27535": {
+    "source": "https://arxiv.org/html/2609.27535v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "The University of Tokyo"
+    ],
+    "front_matter": "Hengyu Li Affiliation: The University of Tokyo Email: li-hengyu@g.ecc.u-tokyo.ac.jp",
+    "status": "extracted"
+  },
+  "2609.27607": {
+    "source": "https://arxiv.org/html/2609.27607v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Jiaju Huang, Hao Yang,\nXinyu Ma, Xinglong Liang, Kunyan Cai, Junqiang Ma, Shaobin Chen,\nYue Sun, Tao Tan Intelligent Medical Computing Laboratory, Faculty of Applied Sciences, Macao Polytechnic University Department of Radiology, Netherlands Cancer Institute, Amsterdam, the Netherlands Department of Radiology and Nuclear Medicine, Radboud University Medical Center, Nijmegen, the Netherlands * Corresponding author: Tao Tan, taotanjs@gmail.com",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.27607v1"
+  },
+  "2609.27678": {
+    "source": "https://arxiv.org/html/2609.27678v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Fan Zhang 1,2 Yankai Chen 2,3 Zhuohan Xie 2 Yixi Zhou 4 Sijia Peng 5 Lei Fan 6 Xinhua Ji 7 Cunyuan Zheng 8 Huangyong Shan 9,11 Philip S. Yu 10 Xue Liu 2,3 Yu Chen 1 Preslav Nakov 2 Songwei He 9,11 1 The University of Tokyo 2 MBZUAI 3 McGill University 4 Hong Kong Baptist University 5 Fudan University 6 University of Illinois Urbana-Champaign 7 UCloud 8 Columbia University 9 The University of Hong Kong 10 University of Illinois Chicago 11 Quantell Capital {fan.zhang, yankai.chen, zhuohan.xie, preslav.nakov}@mbzuai.ac.ae",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.27678v2"
+  },
+  "2609.28587": {
+    "source": "https://arxiv.org/html/2609.28587v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "The University of Tokyo"
+    ],
+    "front_matter": "WEIWEI YE Affiliation: The University of Tokyo HANGCHEN LIU Affiliation: The University of Tokyo RENHE JIANG Affiliation: The University of Tokyo",
+    "status": "extracted"
+  },
+  "2609.28613": {
+    "source": "https://arxiv.org/html/2609.28613v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Nanyang Technological University",
+      "Singapore"
+    ],
+    "front_matter": "Tiantong Wu Affiliation: Nanyang Technological University Affiliation: Singapore Email: tiantong.wu@ntu.edu.sg Wei Yang Bryan Lim Affiliation: Nanyang Technological University Affiliation: Singapore Email: bryan.limwy@ntu.edu.sg",
+    "status": "extracted"
+  },
+  "2609.28919": {
+    "source": "https://arxiv.org/html/2609.28919v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Accenture",
+      "Harvard University, Faculty of Arts and Sciences (FAS)"
+    ],
+    "front_matter": "Ted Kwartler Affiliation: Accenture Affiliation: Harvard University, Faculty of Arts and Sciences (FAS) Email: *mailto:edwardkwartler@fas.harvard.eduedwardkwartler@fas.harvard.edu Alan Aqrawi Affiliation: Accenture Email: mailto:ted.kwartler@accenture.comted.kwartler@accenture.com Arian Abbasi Affiliation: Accenture",
+    "status": "extracted"
+  },
+  "2609.28940": {
+    "source": "https://arxiv.org/html/2609.28940v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Independent Researcher — AI and Offensive Security São Paulo, SP, Brazil joas.santos@redteamleaders.com ORCID: 0009-0003-1772-9826"
+    ],
+    "front_matter": "Joas Antonio dos Santos Affiliation: Independent Researcher — AI and Offensive Security São Paulo, SP, Brazil joas.santos@redteamleaders.com ORCID: 0009-0003-1772-9826",
+    "status": "extracted"
+  },
+  "2609.29283": {
+    "source": "https://arxiv.org/html/2609.29283v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "School of Intelligence Science and Technology,\nNanjing University, Suzhou, China",
+      "Microsoft Research Asia"
+    ],
+    "front_matter": "Xunlan Zhou Affiliation: School of Intelligence Science and Technology,\nNanjing University, Suzhou, China Affiliation: Microsoft Research Asia Xianliang Yang Affiliation: Microsoft Research Asia Li Zhao Affiliation: Microsoft Research Asia Correspondence to: lizo@microsoft.com",
+    "status": "extracted"
+  },
+  "2609.29429": {
+    "source": "https://arxiv.org/html/2609.29429v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Ruoqi Guo Yi Liu Griffith University Griffith University ruoqi.guo@griffithuni.edu.au yi.liu@griffith.edu.au Gelei Deng Yuekang Li Nanyang Technological University UNSW gelei.deng@ntu.edu.sg yuekang.li@unsw.edu.au Lida Zhao Yutao Wu Independent Researcher Deakin University LIDA001@e.ntu.edu.sg oscar.w@deakin.edu.au Simin Chen Ying Zhang George Mason University Wake Forest University schen68@gmu.edu ying.zhang@wfu.edu Leo Yu Zhang Griffith University leo.zhang@griffith.edu.au † † thanks: Corresponding author.",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.29429v1"
+  },
+  "2609.29769": {
+    "source": "https://arxiv.org/html/2609.29769v3",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Pennsylvania"
+    ],
+    "front_matter": "Delip Rao † † thanks: Corresponding author. Affiliation: University of Pennsylvania Email: delip@upenn.edu Chris Callison-Burch Affiliation: University of Pennsylvania Email: ccb@upenn.edu",
+    "status": "extracted"
+  },
+  "2609.30186": {
+    "source": "https://arxiv.org/html/2609.30186v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Linghua Zhang Email: lz101@rice.edu",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.30186v1"
+  },
+  "2609.30216": {
+    "source": "https://arxiv.org/html/2609.30216v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Sun Yat-sen University",
+      "The Chinese University of Hong Kong"
+    ],
+    "front_matter": "Guoming Ling Affiliation: Sun Yat-sen University Muen Xue Affiliation: Sun Yat-sen University Zijian Ye Affiliation: The Chinese University of Hong Kong",
+    "status": "extracted"
+  },
+  "2609.30243": {
+    "source": "https://arxiv.org/html/2609.30243v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.30243v2"
+  },
+  "2609.30454": {
+    "source": "https://arxiv.org/html/2609.30454v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "",
+      "Division of Pharmacology and Toxicology, College of Pharmacy The University of Texas at Austin, Dell Pediatric Research Institute Austin, TX, USA kap4722@my.utexas.edu   ilias@austin.utexas.edu"
+    ],
+    "front_matter": "Kimon Antonios Provatas   Ilias Georgakopoulos-Soares Affiliation: Affiliation: Division of Pharmacology and Toxicology, College of Pharmacy The University of Texas at Austin, Dell Pediatric Research Institute Austin, TX, USA kap4722@my.utexas.edu   ilias@austin.utexas.edu",
+    "status": "extracted"
+  },
+  "2609.30706": {
+    "source": "https://arxiv.org/html/2609.30706v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Furkan Yılmaz Email: furkanyl509@gmail.com Habibe Aleyna Taşdemir Email: aleynattasdemir@gmail.com Muhammed Faruk Gözay Email: gozayfaruk@gmail.com",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.30706v1"
+  },
+  "2609.30922": {
+    "source": "https://arxiv.org/html/2609.30922v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Xiuying Wang, Jiahua Cheng, Shuotian Li, Yufan Cheng, Bowen Deng, Zhexuan Bai, Yichen Li † † thanks: † These authors contributed equally. * Corresponding author.",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.30922v1"
+  },
+  "2609.31142": {
+    "source": "https://arxiv.org/html/2609.31142v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Institute of Information Engineering, Chinese Academy of Sciences",
+      "School of Cyber Security, University of Chinese Academy of Sciences * Equal contribution † Corresponding authors https://JevAdvBench.github.io/JevAdvBench/",
+      "Huazhong University of Science and Technology",
+      "Griffith University",
+      "Changsha University of Science and Technology",
+      "City University of Hong Kong"
+    ],
+    "front_matter": "Jianyi Hu Affiliation: Institute of Information Engineering, Chinese Academy of Sciences Affiliation: School of Cyber Security, University of Chinese Academy of Sciences * Equal contribution † Corresponding authors https://JevAdvBench.github.io/JevAdvBench/ Hangtao Zhang Affiliation: Huazhong University of Science and Technology Yi Liu Affiliation: Griffith University Yeqi Zeng Affiliation: Changsha University of Science and Technology Li Zeng Affiliation: Changsha University of Science and Technology Xianlong Wang Affiliation: City University of Hong Kong Rui Wang Affiliation: Institute of Information Engineering, Chinese Academy of Sciences Affiliation: School of Cyber Security, University of Chinese Academy of Sciences * Equal contribution † Corresponding authors https://JevAdvBench.github.io/JevAdvBench/ Leo Yu Zhang Affiliation: Griffith University",
+    "status": "extracted"
+  },
+  "2609.32160": {
+    "source": "https://arxiv.org/html/2609.32160v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Northeastern University"
+    ],
+    "front_matter": "Lijuan Tang Yuemeng Zheng Affiliation: Northeastern University",
+    "status": "extracted",
+    "front_context_source": "https://arxiv.org/html/2609.32160v1"
+  },
+  "2609.33209": {
+    "source": "https://arxiv.org/html/2609.33209v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Software College, Northeastern University",
+      "Shenyang, China"
+    ],
+    "front_matter": "Keyi Li Yihao He Quanyi Li Affiliation: Software College, Northeastern University Affiliation: Shenyang, China",
+    "status": "extracted"
+  },
+  "2609.33401": {
+    "source": "https://arxiv.org/html/2609.33401v3",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "TraceStone",
+      "Nanyang Technological University , Singapore"
+    ],
+    "front_matter": "Yixuan Liu Note: Emails: yixuan.liu@tracestone.io , liuy0255@e.ntu.edu.sg . Affiliation: TraceStone Affiliation: Nanyang Technological University , Singapore email: yixuan.liu@tracestone.io email: liuy0255@e.ntu.edu.sg",
+    "status": "extracted"
+  },
+  "2609.33538": {
+    "source": "https://arxiv.org/html/2609.33538v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Gabriele Cinà Email: c.gabriele.info@gmail.com",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.33538v1"
+  },
+  "2609.33671": {
+    "source": "https://arxiv.org/html/2609.33671v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "School of Cyber Security, Guangdong Polytechnic Normal University, Guangzhou, China Email: moyuan@stu.gpnu.edu.cn"
+    ],
+    "front_matter": "Hao Chen Affiliation: School of Cyber Security, Guangdong Polytechnic Normal University, Guangzhou, China Email: moyuan@stu.gpnu.edu.cn",
+    "status": "extracted"
+  },
+  "2609.33689": {
+    "source": "https://arxiv.org/html/2609.33689v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Michail-Alexandros Kourtis George Xilouris † † thanks: M.-A. Kourtis and G. Xilouris are with the National Centre for Scientific Research “Demokritos” (NCSRD),\nAthens, Greece.",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.33689v1"
+  },
+  "2609.33843": {
+    "source": "https://arxiv.org/html/2609.33843v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Gowthamkumar Nandakishore",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.33843v1"
+  },
+  "2609.33874": {
+    "source": "https://arxiv.org/html/2609.33874v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Yet Another AI"
+    ],
+    "front_matter": "Shenghao Ding Affiliation: Yet Another AI Email: shenghao.ding@yetanother.ai",
+    "status": "extracted"
+  },
+  "2609.33971": {
+    "source": "https://arxiv.org/html/2609.33971v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Faculty of Computer Science and Information Technology",
+      "Universiti Malaya",
+      "Kuala Lumpur, Malaysia"
+    ],
+    "front_matter": "Saman Sarker Joy Affiliation: Faculty of Computer Science and Information Technology Affiliation: Universiti Malaya Affiliation: Kuala Lumpur, Malaysia",
+    "status": "extracted"
+  },
+  "2609.34024": {
+    "source": "https://arxiv.org/html/2609.34024v4",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Independent researcher",
+      "Madrid, Spain"
+    ],
+    "front_matter": "Alfredo Madrid-García † † thanks: Corresponding author. Affiliation: Independent researcher Affiliation: Madrid, Spain Email: fredymad@msn.com Beatriz Merino-Barbancho Affiliation: Independent researcher Affiliation: Madrid, Spain",
+    "status": "extracted"
+  },
+  "2609.34180": {
+    "source": "https://arxiv.org/html/2609.34180v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Ziyang Luo, Runxiong Wu, Yan-Syuan Chen, Zhongyao Chu",
+      "Independent researchers"
+    ],
+    "front_matter": "Xukui Qin Youting Wang Xinjie He Affiliation: Ziyang Luo, Runxiong Wu, Yan-Syuan Chen, Zhongyao Chu Affiliation: Independent researchers",
+    "status": "extracted"
+  },
+  "2609.34227": {
+    "source": "https://arxiv.org/html/2609.34227v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Independent Researcher"
+    ],
+    "front_matter": "Rishabh Sharma † † thanks: Preprint, doi:10.5281/zenodo.22985242 . Pre-registered plan: 10.5281/zenodo.22970745 ; amendment and pre-written outcome\nparagraphs: 10.5281/zenodo.22977848 . Affiliation: Independent Researcher Email: rishabh.sharma1103@gmail.com Rishika Lall Affiliation: Independent Researcher Email: lallrishika@gmail.com",
+    "status": "extracted"
+  },
+  "2609.34261": {
+    "source": "https://arxiv.org/html/2609.34261v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Samsung Robotics eXperience",
+      "Shanghai Jiao Tong University",
+      "Samsung Research, Beijing, China",
+      "Equal Contribution🖂 Corresponding Author"
+    ],
+    "front_matter": "Fangcheng Liu Email: fc.liu@samsung.com Yeqing Shen Email: yeqing.shen@samsung.com Anda Cheng Email: anda.cheng@samsung.com Weishi Mi Affiliation: Samsung Robotics eXperience Email: yehui.tang@samsung.com Chao Tang Affiliation: Samsung Robotics eXperience Chenyuan Liu Affiliation: Shanghai Jiao Tong University Yushun Xiang Affiliation: Shanghai Jiao Tong University Tingguang Li Affiliation: Samsung Robotics eXperience Yong-Lu Li Affiliation: Shanghai Jiao Tong University Yehui Tang Affiliation: Samsung Research, Beijing, China Affiliation: Equal Contribution🖂 Corresponding Author",
+    "status": "extracted"
+  },
+  "2609.34736": {
+    "source": "https://arxiv.org/html/2609.34736v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Vasilis Perifanis 1,2,3 vasilis@indigma.eu Nikolaos Pavlidis 1,2 nikos@indigma.eu Symeon Symeonidis 2 ssymeoni@pme.duth.gr 1 Indigma Innovations 2 Democritus University of Thrace 3 Athena Research Center",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.34736v1"
+  },
+  "2609.34862": {
+    "source": "https://arxiv.org/html/2609.34862v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Zhiqiang Wang, Yichao Gao University of Science and Technology of Chine sa21221041@mail.ustc.edu.cn , gyc77@mail.ustc.edu.cn",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.34862v1"
+  },
+  "2609.34963": {
+    "source": "https://arxiv.org/html/2609.34963v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Technical University of Darmstadt, Germany arshak.rezvani@stud.tu-darmstadt.de sasha.behrouzi@trust.tu-darmstadt.de ahmad.sadeghi@trust.informatik.tu-darmstadt.de"
+    ],
+    "front_matter": "Arshak Rezvani, Sasha Behrouzi, Ahmad-Reza Sadeghi Affiliation: Technical University of Darmstadt, Germany arshak.rezvani@stud.tu-darmstadt.de sasha.behrouzi@trust.tu-darmstadt.de ahmad.sadeghi@trust.informatik.tu-darmstadt.de",
+    "status": "extracted"
+  },
+  "2609.34969": {
+    "source": "https://arxiv.org/html/2609.34969v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "College of Electronic and Information Engineering, Tongji University, Shanghai, China"
+    ],
+    "front_matter": "Kai Sheng Liuyi Wang † Jinlong Li Haojie Dai Chengju Liu Qijun Chen † Affiliation: College of Electronic and Information Engineering, Tongji University, Shanghai, China Email: {2610859,wly,li_jinlong,tju_dhj,liuchengju,qjchen}@tongji.edu.cn",
+    "status": "extracted"
+  },
+  "2609.35286": {
+    "source": "https://arxiv.org/html/2609.35286v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Michele Loi",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.35286v1"
+  },
+  "2609.35293": {
+    "source": "https://arxiv.org/html/2609.35293v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Northeastern University, China"
+    ],
+    "front_matter": "Yiqun Zhang Peidong Wang Zihan Wang Shi Feng † † thanks: Corresponding author. Affiliation: Northeastern University, China",
+    "status": "extracted"
+  },
+  "2609.35342": {
+    "source": "https://arxiv.org/html/2609.35342v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.35342v1"
+  },
+  "2609.35865": {
+    "source": "https://arxiv.org/html/2609.35865v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Victoria University of Wellington Wellington, New Zealand linyida@myvuw.ac.nz"
+    ],
+    "front_matter": "Yida Lin Affiliation: Victoria University of Wellington Wellington, New Zealand linyida@myvuw.ac.nz",
+    "status": "extracted"
+  },
+  "2609.36059": {
+    "source": "https://arxiv.org/html/2609.36059v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Guangren Wang",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.36059v1"
+  },
+  "2609.36115": {
+    "source": "https://arxiv.org/html/2609.36115v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Salesforce AI",
+      "University of Wisconsin–Madison"
+    ],
+    "front_matter": "Shenghong Dai Affiliation: Salesforce AI Affiliation: University of Wisconsin–Madison Shiva Kumar Pentyala Affiliation: Salesforce AI Yingchi Liu Affiliation: Salesforce AI Shubham Mehrotra Affiliation: Salesforce AI Suman Banerjee Affiliation: University of Wisconsin–Madison James Zhu Affiliation: Salesforce AI Bin Bi Affiliation: Salesforce AI Sitaram Asur Affiliation: Salesforce AI Phil Mui Affiliation: Salesforce AI",
+    "status": "extracted"
+  },
+  "2609.36116": {
+    "source": "https://arxiv.org/html/2609.36116v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Zhejiang University",
+      "SAP",
+      "Central South University",
+      "The Hong Kong University of Science and Technology (Guangzhou)",
+      "Chalmers University of Technology",
+      "Microsoft Research"
+    ],
+    "front_matter": "Yundaichuan Zhan   Weishi Wang   Wenbiao Liu   Daniel Dahlmeier Affiliation: Zhejiang University Affiliation: SAP Affiliation: Central South University Chengwei Qin   Juncheng Li   Fredrik D. Johansson   Zhongqi Yue † † thanks: Corresponding author. Affiliation: Zhejiang University Affiliation: The Hong Kong University of Science and Technology (Guangzhou) Affiliation: Chalmers University of Technology Affiliation: Microsoft Research",
+    "status": "extracted"
+  },
+  "2609.36154": {
+    "source": "https://arxiv.org/html/2609.36154v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Hasso Plattner Institute, University of Potsdam , Potsdam , Germany"
+    ],
+    "front_matter": "Orhan Konak email: orhan.konak@hpi.de Affiliation: Hasso Plattner Institute, University of Potsdam , Potsdam , Germany",
+    "status": "extracted"
+  },
+  "2609.36399": {
+    "source": "https://arxiv.org/html/2609.36399v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "College of Engineering and Advanced Computing, Alfaisal University, Riyadh, Saudi Arabia",
+      "Proxa.sa, Riyadh, Saudi Arabia"
+    ],
+    "front_matter": "Bushra Asseri Affiliation: College of Engineering and Advanced Computing, Alfaisal University, Riyadh, Saudi Arabia Affiliation: Proxa.sa, Riyadh, Saudi Arabia Email: mailto:basseri@alfaisal.edubasseri@alfaisal.edu Abdulaziz Asseri Affiliation: Proxa.sa, Riyadh, Saudi Arabia Email: mailto:abdulaziz.asseri@gmail.comabdulaziz.asseri@gmail.com",
+    "status": "extracted"
+  },
+  "2609.36965": {
+    "source": "https://arxiv.org/html/2609.36965v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Fudan University",
+      "National University of Singapore",
+      "University of Chinese Academy of Sciences"
+    ],
+    "front_matter": "Zexiao Wang Affiliation: Fudan University Zihao Zhang Affiliation: Fudan University Affiliation: National University of Singapore Xudong Wang Affiliation: National University of Singapore Pan Wang Affiliation: University of Chinese Academy of Sciences Ziyi Ye,   Haoyu Zhao,  Zuxuan Wu,  Shuicheng Yan Affiliation: Fudan University Affiliation: National University of Singapore",
+    "status": "extracted"
+  },
+  "2609.37470": {
+    "source": "https://arxiv.org/html/2609.37470v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Independent Researcher"
+    ],
+    "front_matter": "Han Chen Affiliation: Independent Researcher Yingrui Li Affiliation: Independent Researcher",
+    "status": "extracted"
+  },
+  "2609.37647": {
+    "source": "https://arxiv.org/html/2609.37647v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Bonn, Bonn, Germany",
+      "Lamarr-Institute for Machine Learning and Artificial Intelligence, Bonn, Germany",
+      "Fraunhofer IAIS, Sankt Augustin, Germany"
+    ],
+    "front_matter": "Tobias Deußer † † thanks: tdeusser@uni-bonn.de , ORCID-ID: 0000-0003-4685-0847 Affiliation: University of Bonn, Bonn, Germany Affiliation: Lamarr-Institute for Machine Learning and Artificial Intelligence, Bonn, Germany Lorenz Sparrenberg Affiliation: University of Bonn, Bonn, Germany Affiliation: Lamarr-Institute for Machine Learning and Artificial Intelligence, Bonn, Germany Rafet Sifa Affiliation: University of Bonn, Bonn, Germany Affiliation: Lamarr-Institute for Machine Learning and Artificial Intelligence, Bonn, Germany Affiliation: Fraunhofer IAIS, Sankt Augustin, Germany",
+    "status": "extracted"
+  },
+  "2609.37832": {
+    "source": "https://arxiv.org/html/2609.37832v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "AltSlate Labs LLP",
+      "dushyant@altslate.com nirdesh@altslate.com siddharth@altslate.com"
+    ],
+    "front_matter": "Dushyant Rajput Nirdesh Chauhan Siddharth Kosaraju Affiliation: AltSlate Labs LLP Affiliation: dushyant@altslate.com nirdesh@altslate.com siddharth@altslate.com",
+    "status": "extracted"
+  },
+  "2609.38827": {
+    "source": "https://arxiv.org/html/2609.38827v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "School of Artificial Intelligence, Jilin University",
+      "College of Software, Jilin University",
+      "International Center of Future Science, Jilin University{gaotx5524, jinzhe25, zhiyuanl24}@mails.jlu.edu.cn, {yichang, yuanwu}@jlu.edu.cn",
+      "Engineering Research Center of Knowledge-Driven Human-Machine Intelligence, Jilin University"
+    ],
+    "front_matter": "Tianxiang Gao Affiliation: School of Artificial Intelligence, Jilin University Affiliation: College of Software, Jilin University Jinzhe Li Affiliation: School of Artificial Intelligence, Jilin University Affiliation: International Center of Future Science, Jilin University{gaotx5524, jinzhe25, zhiyuanl24}@mails.jlu.edu.cn, {yichang, yuanwu}@jlu.edu.cn Zhiyuan Li Affiliation: School of Artificial Intelligence, Jilin University Yi Chang Affiliation: School of Artificial Intelligence, Jilin University Affiliation: Engineering Research Center of Knowledge-Driven Human-Machine Intelligence, Jilin University Affiliation: International Center of Future Science, Jilin University{gaotx5524, jinzhe25, zhiyuanl24}@mails.jlu.edu.cn, {yichang, yuanwu}@jlu.edu.cn Yuan Wu † † thanks: Corresponding author Affiliation: School of Artificial Intelligence, Jilin University",
+    "status": "extracted"
+  },
+  "2609.38850": {
+    "source": "https://arxiv.org/html/2609.38850v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "zhimingao113@gmail.com; pichaowang@gmail.com"
+    ],
+    "front_matter": "Zhimin Gao Pichao Wang Affiliation: zhimingao113@gmail.com; pichaowang@gmail.com",
+    "status": "extracted",
+    "front_context_source": "https://arxiv.org/html/2609.38850v1"
+  },
+  "2609.39111": {
+    "source": "https://arxiv.org/html/2609.39111v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.39111v1"
+  },
+  "2609.39496": {
+    "source": "https://arxiv.org/html/2609.39496v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Southern California",
+      "University of Florida",
+      "Emory University"
+    ],
+    "front_matter": "Jike Zhong † † thanks: Authors contributed equally. Correspondence to jikezhon@usc.edu . Affiliation: University of Southern California Ming Li 1 1 footnotemark: 1 Affiliation: University of Florida Yuxiang Lai 1 1 footnotemark: 1 Affiliation: Emory University",
+    "status": "extracted"
+  },
+  "2609.40241": {
+    "source": "https://arxiv.org/html/2609.40241v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Singapore Management University",
+      "Meta AI"
+    ],
+    "front_matter": "Hanjia Lyu Affiliation: Singapore Management University Email: hjlyu@smu.edu.sg Yinglong Xia Affiliation: Meta AI Email: yxia@meta.com",
+    "status": "extracted"
+  },
+  "2610.00213": {
+    "source": "https://arxiv.org/html/2610.00213v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "organization=Civil Engineering, Texas State University,\naddressline=601 University Drive,\ncity=San Marcos,\npostcode=78666 TX,\ncountry=USA"
+    ],
+    "front_matter": "Amir Rafe Ph.D amir.rafe@txstate.edu Subasish Das Ph.D subasish@txstate.edu organization=Civil Engineering, Texas State University,\naddressline=601 University Drive,\ncity=San Marcos,\npostcode=78666 TX,\ncountry=USA",
+    "status": "extracted"
+  },
+  "2610.00346": {
+    "source": "https://arxiv.org/html/2610.00346v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "organization=Civil Engineering, Texas State University,\naddressline=601 University Drive,\ncity=San Marcos,\npostcode=78666,\nstate=Texas,\ncountry=USA"
+    ],
+    "front_matter": "Amir Rafe amir.rafe@txstate.edu Subasish Das subasish@txstate.edu organization=Civil Engineering, Texas State University,\naddressline=601 University Drive,\ncity=San Marcos,\npostcode=78666,\nstate=Texas,\ncountry=USA",
+    "status": "extracted"
+  },
+  "2610.00376": {
+    "source": "https://arxiv.org/html/2610.00376v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Amazon.com, Inc.",
+      "Xi’an Jiaotong-Liverpool University"
+    ],
+    "front_matter": "Shenghe Xu † † thanks: Work performed outside the author’s role at Amazon. Email: shenghexu@gmail.com . Affiliation: Amazon.com, Inc. Lifan Mei † † thanks: Corresponding author: lifan.mei@xjtlu.edu.cn . Affiliation: Xi’an Jiaotong-Liverpool University",
+    "status": "extracted"
+  },
+  "2610.00381": {
+    "source": "https://arxiv.org/html/2610.00381v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Cheng Chen",
+      "Department of Electrical and Computer Engineering",
+      "The University of Hong Kong, Hong Kong SAR, China"
+    ],
+    "front_matter": "Luyao Tang Email: lytang1999@gmail.com Affiliation: Cheng Chen Email: cchen@eee.hku.hk Affiliation: Department of Electrical and Computer Engineering Affiliation: The University of Hong Kong, Hong Kong SAR, China",
+    "status": "extracted"
+  },
+  "2610.00437": {
+    "source": "https://arxiv.org/html/2610.00437v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Haoyang Su Weiran Huang",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.00437v1"
+  },
+  "2610.00831": {
+    "source": "https://arxiv.org/html/2610.00831v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Jiamu Zhang 1 Tianze Yang 1 Yucheng Shi 2 Evan Chen 1 Zixiang Nie 1 Kelly Wan 1 Liangjie Hong 1 Ninghao Liu 3 Liang Wu 1",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.00831v1"
+  },
+  "2610.01006": {
+    "source": "https://arxiv.org/html/2610.01006v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Synthpop.AI",
+      "sharath@synthpop.ai , davor@synthpop.ai , jan@synthpop.ai"
+    ],
+    "front_matter": "Sharath M Shankaranarayana Davor Runje Jan Jannink Affiliation: Synthpop.AI Affiliation: sharath@synthpop.ai , davor@synthpop.ai , jan@synthpop.ai",
+    "status": "extracted"
+  },
+  "2610.01079": {
+    "source": "https://arxiv.org/html/2610.01079v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "organization=Graduate Program in Software Engineering, Federal University of Pampa (UNIPAMPA),\ncity=Alegrete,\nstate=Rio Grande do Sul,\ncountry=Brazil"
+    ],
+    "front_matter": "Paulo Severo Silvio E. Quincozes silvioquincozes@unipampa.edu.br Amanda Dias organization=Graduate Program in Software Engineering, Federal University of Pampa (UNIPAMPA),\ncity=Alegrete,\nstate=Rio Grande do Sul,\ncountry=Brazil",
+    "status": "extracted"
+  },
+  "2610.01231": {
+    "source": "https://arxiv.org/html/2610.01231v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Department of Computer Science, University of Huddersfield, Huddersfield, UK",
+      "r.hill@hud.ac.uk",
+      "ORCID: 0000-0003-0105-7730"
+    ],
+    "front_matter": "Richard Hill Affiliation: Department of Computer Science, University of Huddersfield, Huddersfield, UK Affiliation: r.hill@hud.ac.uk Affiliation: ORCID: 0000-0003-0105-7730",
+    "status": "extracted"
+  },
+  "2610.01601": {
+    "source": "https://arxiv.org/html/2610.01601v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Independent Researcher"
+    ],
+    "front_matter": "Guy Amit Affiliation: Independent Researcher Email: guy5@post.bgu.ac.il",
+    "status": "extracted"
+  },
+  "2610.01834": {
+    "source": "https://arxiv.org/html/2610.01834v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Yaodong Yang 1 Hongyao Tang 2 Yi Ma 3 Xingyu Fan 1 Weixun Wang 4 Jinpeng Li 5 Tianpei Yang 6 1 The Chinese University of Hong Kong 2 Tianjin University 3 Shanxi University 4 Independent Researcher 5 CAIR, Hong Kong Institute of Science & Innovation, Chinese Academy of Sciences 6 Nanjing University yydapple@gmail.com , tanghongyao@tju.edu.cn , mayi@sxu.edu.cn , xyfan@link.cuhk.edu.hk , wxwang@tju.edu.cn , jinpeng.li@cair-cas.org.hk , tianpei.yang@nju.edu.cn",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.01834v2"
+  },
+  "2610.02046": {
+    "source": "https://arxiv.org/html/2610.02046v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "["
+    ],
+    "front_matter": "Zhengle Wang Hanxu Yan Fuheng Zhao Chunwei Liu* Affiliation: [ Affiliation: [ Email: chunwei@purdue.edu",
+    "status": "extracted",
+    "front_context_source": "https://arxiv.org/html/2610.02046v1"
+  },
+  "2610.02048": {
+    "source": "https://arxiv.org/html/2610.02048v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Tianwei Mu Shengyan Jiang Mingzhe Yuan Qing Luo Min Xiao Wenhong Wang Jun Li Manhong Huang",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.02048v1"
+  },
+  "2610.02076": {
+    "source": "https://arxiv.org/html/2610.02076v3",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Yinheng Li and Justin Wagle Email: yinhengli@microsoft.com Corresponding author:",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.02076v3"
+  },
+  "2610.02267": {
+    "source": "https://arxiv.org/html/2610.02267v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Jiawei Li",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.02267v1"
+  },
+  "2610.02293": {
+    "source": "https://arxiv.org/html/2610.02293v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "ufak AI"
+    ],
+    "front_matter": "Sait Furkan Teke Affiliation: ufak AI Email: furkan@ufakai.com",
+    "status": "extracted"
+  },
+  "2610.02486": {
+    "source": "https://arxiv.org/html/2610.02486v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Queen’s University Belfast",
+      "Belfast, United Kingdom"
+    ],
+    "front_matter": "Pritam Deka Affiliation: Queen’s University Belfast Affiliation: Belfast, United Kingdom",
+    "status": "extracted"
+  },
+  "2610.02586": {
+    "source": "https://arxiv.org/html/2610.02586v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Southern California (USC), USA",
+      "{seyedarm, baghaeip, pedram}@usc.edu"
+    ],
+    "front_matter": "Seyedarmin Azizi † † thanks: Corresponding author. Affiliation: University of Southern California (USC), USA Erfan Baghaei Potraghloo\n& Massoud Pedram Affiliation: {seyedarm, baghaeip, pedram}@usc.edu",
+    "status": "extracted"
+  },
+  "2610.03073": {
+    "source": "https://arxiv.org/html/2610.03073v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Electronic Science and Technology of China",
+      "National Key Laboratory of Security Communication https://github.com/UESTC1010/SecJev"
+    ],
+    "front_matter": "Zheng Chen Affiliation: University of Electronic Science and Technology of China Fei Yu Affiliation: National Key Laboratory of Security Communication https://github.com/UESTC1010/SecJev Haohao Huang Affiliation: University of Electronic Science and Technology of China Yang Li Affiliation: National Key Laboratory of Security Communication https://github.com/UESTC1010/SecJev Anlong Chen Affiliation: University of Electronic Science and Technology of China Lei Chen Affiliation: National Key Laboratory of Security Communication https://github.com/UESTC1010/SecJev",
+    "status": "extracted"
+  },
+  "2610.03324": {
+    "source": "https://arxiv.org/html/2610.03324v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Demetris Paschalides George Pallis Marios D. Dikaiakos",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.03324v1"
+  },
+  "2610.03387": {
+    "source": "https://arxiv.org/html/2610.03387v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Monash University"
+    ],
+    "front_matter": "Jiawen Lu Affiliation: Monash University Email: jluu0116@student.monash.edu Tongtong Wu Affiliation: Monash University Email: tongtong.wu@monash.edu",
+    "status": "extracted"
+  },
+  "2610.03935": {
+    "source": "https://arxiv.org/html/2610.03935v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Shanghai Innovation Institute",
+      "Fudan University",
+      "Tongji University",
+      "King’s College London",
+      "Chinese University of Hong Kong"
+    ],
+    "front_matter": "Feiyu Duan Affiliation: Shanghai Innovation Institute Affiliation: Fudan University Equal Contribution, names are listed in alphabetical order. Jiayu Lin Affiliation: Shanghai Innovation Institute Affiliation: Fudan University Equal Contribution, names are listed in alphabetical order. Jia Wang Affiliation: Shanghai Innovation Institute Affiliation: Tongji University Equal Contribution, names are listed in alphabetical order. Jun Xiang Affiliation: Fudan University Equal Contribution, names are listed in alphabetical order. Jialiang Wu Affiliation: Fudan University Xinnong Zhang Affiliation: Shanghai Innovation Institute Affiliation: Fudan University Hanqi Yan Affiliation: King’s College London Siyuan Wang Affiliation: Chinese University of Hong Kong Zhongyu Wei Affiliation: Shanghai Innovation Institute Affiliation: Fudan University Corresponding author.",
+    "status": "extracted"
+  },
+  "2610.04345": {
+    "source": "https://arxiv.org/html/2610.04345v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Masoud Rahimi S. M. Matin Alemohammad Hamid Behroozi Mahdi Nouri † † thanks: The authors are with the Department of Electrical Engineering, Sharif\nUniversity of Technology, Tehran 1458889694, Iran\n(e-mail: masoud.rahimi@sharif.edu; matin.alemohammad79@sharif.edu).",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.04345v1"
+  },
+  "2610.04985": {
+    "source": "https://arxiv.org/html/2610.04985v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Shang Wang Tianqing Zhu Huajie Chen Jiayang Li Meng Yang Bo Liu † † thanks: Shang Wang, Jiayang Li, Meng Yang and Bo Liu are with\nthe School of Computer Science, University of Technology\nSydney, Sydney, Australia. † † thanks: Tianqing Zhu and Huajie Chen are with\nthe Faculty of Data Science, City University of Macau,\nMacau, China.",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.04985v1"
+  },
+  "2610.05107": {
+    "source": "https://arxiv.org/html/2610.05107v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Huawei Technologies Co., Ltd.",
+      "Leiden University Code Models"
+    ],
+    "front_matter": "Congfeng Cao Affiliation: Huawei Technologies Co., Ltd. Lipeng Zuo Affiliation: Huawei Technologies Co., Ltd. Konstantinos Papakostas Affiliation: Huawei Technologies Co., Ltd. Qiwei Xu Affiliation: Huawei Technologies Co., Ltd. Songwei Xu Affiliation: Huawei Technologies Co., Ltd. Lun Zhou Affiliation: Huawei Technologies Co., Ltd. Zhaochun Ren Affiliation: Leiden University Code Models Yougang Lyu † † thanks: Corresponding authors. Affiliation: Huawei Technologies Co., Ltd. Xiaohui Yan 1 1 footnotemark: 1 Affiliation: Huawei Technologies Co., Ltd.",
+    "status": "extracted"
+  },
+  "2610.06354": {
+    "source": "https://arxiv.org/html/2610.06354v3",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found",
+    "front_context_error": "HTTP Error 404: Not Found"
+  },
+  "2610.06425": {
+    "source": "https://arxiv.org/html/2610.06425v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "School of Electrical, Mechanical and Biomedical Engineering University of Technology Sydney, Sydney, Australia OniReimu/SoK-JEV OniReimu/SoK-JEV"
+    ],
+    "front_matter": "Delong Li, Chen Li, Xu Wang, Haochen Gong, Rui Lang, and Guangsheng Yu Affiliation: School of Electrical, Mechanical and Biomedical Engineering University of Technology Sydney, Sydney, Australia OniReimu/SoK-JEV OniReimu/SoK-JEV",
+    "status": "extracted"
+  },
+  "2610.06625": {
+    "source": "https://arxiv.org/html/2610.06625v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Steven Denney † † thanks: Leiden Institute for Area Studies, Leiden University. s.c.denney@hum.leidenuniv.nl Matthew DiGiuseppe † † thanks: Institute of Political Science, Leiden University. m.r.di.giuseppe@fsw.leidenuniv.nl",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.06625v2"
+  },
+  "2610.06744": {
+    "source": "https://arxiv.org/html/2610.06744v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "ufak AI"
+    ],
+    "front_matter": "Sait Furkan Teke Affiliation: ufak AI Email: furkan@ufakai.com",
+    "status": "extracted"
+  },
+  "2610.07177": {
+    "source": "https://arxiv.org/html/2610.07177v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Independent researcher"
+    ],
+    "front_matter": "Gowthamkumar Nandakishore Affiliation: Independent researcher",
+    "status": "extracted"
+  },
+  "2610.07327": {
+    "source": "https://arxiv.org/html/2610.07327v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Naoki Wake and Justin Wagle are with Microsoft. naokiwake@microsoft.com, Justin.Wagle@microsoft.com"
+    ],
+    "front_matter": "Naoki Wake Affiliation: Naoki Wake and Justin Wagle are with Microsoft. naokiwake@microsoft.com, Justin.Wagle@microsoft.com Justin Wagle Affiliation: Naoki Wake and Justin Wagle are with Microsoft. naokiwake@microsoft.com, Justin.Wagle@microsoft.com",
+    "status": "extracted"
+  },
+  "2610.07716": {
+    "source": "https://arxiv.org/html/2610.07716v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Hong Kong University of Science and Technology",
+      "Hong Kong University of Science and Technology(Guangzhou)"
+    ],
+    "front_matter": "Ran Li Affiliation: Hong Kong University of Science and Technology Email: rlibb@connect.ust.hk Lei Chen Affiliation: Hong Kong University of Science and Technology Affiliation: Hong Kong University of Science and Technology(Guangzhou) Email: leichen@cse.ust.hk",
+    "status": "extracted"
+  },
+  "2610.07730": {
+    "source": "https://arxiv.org/html/2610.07730v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Minnesota",
+      "SanSi Project Page"
+    ],
+    "front_matter": "Shuyu Gan Young-Jun Lee Dongyeop Kang Affiliation: University of Minnesota Email: {gan00067,lee05727,dongyeop}@umn.edu Affiliation: SanSi Project Page",
+    "status": "extracted"
+  },
+  "2610.07953": {
+    "source": "https://arxiv.org/html/2610.07953v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Independent Researcher",
+      "Institute of Information Science and Technologies (ISTI),",
+      "National Research Council (CNR), Italy"
+    ],
+    "front_matter": "Federico Mazzoni Affiliation: Independent Researcher Email: mazzoni.federico1@gmail.com Andrea Failla Affiliation: Institute of Information Science and Technologies (ISTI), Affiliation: National Research Council (CNR), Italy Email: andrea.failla@isti.cnr.it",
+    "status": "extracted"
+  },
+  "2610.08089": {
+    "source": "https://arxiv.org/html/2610.08089v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "KAIST"
+    ],
+    "front_matter": "Kyoungmin Kim Affiliation: KAIST",
+    "status": "extracted"
+  },
+  "2610.08155": {
+    "source": "https://arxiv.org/html/2610.08155v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Zihan Zhou Xinzhe Hu Hanxu Yang Liangjian Wen Zhao Kang",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.08155v1"
+  },
+  "2610.08675": {
+    "source": "https://arxiv.org/html/2610.08675v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Sofia University chuhong.xu@sofia.edu",
+      "Indiana University subo@iu.edu",
+      "University of California, San Diego cziyao@ucsd.edu",
+      "[ ]",
+      "Northeastern University xu.r@northeastern.edu",
+      "Michigan State University daishime@msu.edu",
+      "Northeastern University qiu.xiny@northeastern.edu"
+    ],
+    "front_matter": "Chuhong Xu Affiliation: Sofia University chuhong.xu@sofia.edu Bo Su Affiliation: Indiana University subo@iu.edu Ziyao Chen Affiliation: University of California, San Diego cziyao@ucsd.edu Affiliation: [ ] Ruiyang Xu Affiliation: Northeastern University xu.r@northeastern.edu Shimeng Dai Affiliation: Michigan State University daishime@msu.edu Xinyu Qiu Affiliation: Northeastern University qiu.xiny@northeastern.edu",
+    "status": "extracted"
+  },
+  "2610.08775": {
+    "source": "https://arxiv.org/html/2610.08775v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Ankit Sonthalia 1 Haritz Puerto 2 Alexander Rubinstein 1 Martin Gubri 3 Seong Joon Oh 4",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.08775v1"
+  },
+  "2610.08829": {
+    "source": "https://arxiv.org/html/2610.08829v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "School of Computer Science and Technology, Tianjin University",
+      "Tianjin, China"
+    ],
+    "front_matter": "Yazhou Zhang Affiliation: School of Computer Science and Technology, Tianjin University Junhao Yu Affiliation: Tianjin, China",
+    "status": "extracted"
+  },
+  "2610.09188": {
+    "source": "https://arxiv.org/html/2610.09188v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "INQUIRE Lab, School of Electrical and Computer Engineering",
+      "University of Oklahoma, Norman, OK, USA"
+    ],
+    "front_matter": "Mohamad Yazan Sadoun Sarah Sharif Yaser Mike Banad Affiliation: INQUIRE Lab, School of Electrical and Computer Engineering Affiliation: University of Oklahoma, Norman, OK, USA",
+    "status": "extracted"
+  },
+  "2610.09328": {
+    "source": "https://arxiv.org/html/2610.09328v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Baoteng Li Email: meltry.lbt@bupt.edu.cn Wenzhuo Wu Kongming Liang Zhanyu Ma School of Artificial Intelligence Beijing University of Posts Telecommunications Beijing Key Laboratory of Multimodal Data Intelligent Perception Governance",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.09328v1"
+  },
+  "2610.09683": {
+    "source": "https://arxiv.org/html/2610.09683v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Independent Researcher, Recco (Genoa), Italy"
+    ],
+    "front_matter": "Gianluca Bailo Affiliation: Independent Researcher, Recco (Genoa), Italy Email: dexmac@libero.it",
+    "status": "extracted"
+  },
+  "2610.09896": {
+    "source": "https://arxiv.org/html/2610.09896v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "organization=Harbin Engineering University,\naddressline=145 Nantong Street, Nangang District,\ncity=Harbin,\ncountry=P. R. China"
+    ],
+    "front_matter": "Wenhua Huo Fenglei Han Wangyuan Zhao heu_wangyuanzhao@163.com Jialin Wu Jiayi Han organization=Harbin Engineering University,\naddressline=145 Nantong Street, Nangang District,\ncity=Harbin,\ncountry=P. R. China",
+    "status": "extracted"
+  },
+  "2610.09937": {
+    "source": "https://arxiv.org/html/2610.09937v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Arizona, Tucson, AZ, USA"
+    ],
+    "front_matter": "Wooyoung Jung Email: wooyoung@arizona.edu Affiliation: University of Arizona, Tucson, AZ, USA Corresponding author: Corresponding author.",
+    "status": "extracted"
+  },
+  "2610.10321": {
+    "source": "https://arxiv.org/html/2610.10321v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Texas State University , San Marcos , USA"
+    ],
+    "front_matter": "Amir Rafe, Ph.D Affiliation: Texas State University , San Marcos , USA email: amir.rafe@txstate.edu and Subasish Das, Ph.D Affiliation: Texas State University , San Marcos , USA email: subasish@txstate.edu",
+    "status": "extracted"
+  },
+  "2610.10615": {
+    "source": "https://arxiv.org/html/2610.10615v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Chinese Academy of Sciences"
+    ],
+    "front_matter": "Yu Yan Affiliation: University of Chinese Academy of Sciences",
+    "status": "extracted"
+  },
+  "2610.10978": {
+    "source": "https://arxiv.org/html/2610.10978v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Gaston Besanson † † thanks: Universidad Torcuato Di Tella",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.10978v1"
+  },
+  "2610.11135": {
+    "source": "https://arxiv.org/html/2610.11135v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Korea University Sejong Campus",
+      "Korea University"
+    ],
+    "front_matter": "Unggi Lee Affiliation: Korea University Sejong Campus Email: codingchild@korea.ac.kr Haeun Park Email: hxxnpark@gmail.com † Corresponding author Affiliation: Korea University",
+    "status": "extracted"
+  },
+  "2610.11316": {
+    "source": "https://arxiv.org/html/2610.11316v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Meta AI"
+    ],
+    "front_matter": "Jianpeng Cheng Guangyu Sun Aashu Singh Benyu Zhang Haixing Dai Hossein Mansour Jiangfan Zhang Shlok Kumar Mishra Wei Sun Xuanming Cui Yanli Liu Qi Guo Max Xiangjun Fan Jun Xiao Affiliation: Meta AI",
+    "status": "extracted"
+  },
+  "2610.11379": {
+    "source": "https://arxiv.org/html/2610.11379v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Xiamen University"
+    ],
+    "front_matter": "Jie Ma Affiliation: Xiamen University Jie Gao Affiliation: Xiamen University Yihang Liu Affiliation: Xiamen University Zhike Qiu Affiliation: Xiamen University Junle Li Affiliation: Xiamen University Chongyi Zhuang Affiliation: Xiamen University Jiayi Ji Affiliation: Xiamen University Xiaoshuai Sun Affiliation: Xiamen University",
+    "status": "extracted"
+  },
+  "2610.11392": {
+    "source": "https://arxiv.org/html/2610.11392v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "DFKI GmbH  RPTU Kaiserslautern  Imperial College London  Mila - Quebec AI Institute"
+    ],
+    "front_matter": "Rahul Sharma Andrew B. Duncan Gaétan Marceau Caron Sebastian J. Vollmer Affiliation: DFKI GmbH  RPTU Kaiserslautern  Imperial College London  Mila - Quebec AI Institute",
+    "status": "extracted",
+    "front_context_source": "https://arxiv.org/html/2610.11392v2"
+  },
+  "2610.11436": {
+    "source": "https://arxiv.org/html/2610.11436v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Independent Researcher"
+    ],
+    "front_matter": "Hongliang Liu Affiliation: Independent Researcher Email: phunter.lau@gmail.com",
+    "status": "extracted"
+  },
+  "2610.11692": {
+    "source": "https://arxiv.org/html/2610.11692v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Shanxi University",
+      "Nanjing University",
+      "The Chinese University of Hong Kong",
+      "Independent Researcher",
+      "Tianjin University"
+    ],
+    "front_matter": "Yi Ma Affiliation: Shanxi University Email: mayi@sxu.edu.cn Tianpei Yang Affiliation: Nanjing University Email: tianpei.yang@nju.edu.cn Yaodong Yang Affiliation: The Chinese University of Hong Kong Email: yydapple@gmail.com Weixun Wang Affiliation: Independent Researcher Email: wxwang@tju.edu.cn Hongyao Tang Affiliation: Tianjin University Email: tanghongyao@tju.edu.cn",
+    "status": "extracted"
+  },
+  "2610.11901": {
+    "source": "https://arxiv.org/html/2610.11901v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Xing Li 1 ,\nJinzhong Ning 1 ,\nYijia Zhang 1 ,\nLiang Yang 2 ,\nHongfei Lin 2 1 Dalian Maritime University 2 Dalian University of Technology lllxxx@dlmu.edu.cn , ningjinzhong@dlmu.edu.cn liang@dlut.edu.cn , hflin@dlut.edu.cn † † thanks: Corresponding author.",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.11901v1"
+  },
+  "2610.11978": {
+    "source": "https://arxiv.org/html/2610.11978v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Dalian Maritime University",
+      "Dalian University of Technology"
+    ],
+    "front_matter": "Xing Li † † thanks: Equal contribution. Affiliation: Dalian Maritime University Email: lllxxx@dlmu.edu.cn Qingcheng Chang 1 1 footnotemark: 1 Affiliation: Dalian Maritime University Email: cqc@dlmu.edu.cn Jinzhong Ning † † thanks: Corresponding author. Affiliation: Dalian Maritime University Email: ningjinzhong@dlmu.edu.cn Changfeng Xu Affiliation: Dalian Maritime University Email: xuchangfeng@dlmu.edu.cn Shenlong Zhang Affiliation: Dalian Maritime University Email: zhangshenlong@dlmu.edu.cn Yijia Zhang Affiliation: Dalian Maritime University Email: lingluonlp@outlook.com Ling Luo Affiliation: Dalian University of Technology Email: hflin@dlut.edu.cn Hongfei Lin Affiliation: Dalian University of Technology",
+    "status": "extracted"
+  },
+  "2610.12292": {
+    "source": "https://arxiv.org/html/2610.12292v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Southern California (USC), USA",
+      "{seyedarm, baghaeip, pedram}@usc.edu"
+    ],
+    "front_matter": "Seyedarmin Azizi † † thanks: Corresponding author. Affiliation: University of Southern California (USC), USA Erfan Baghaei Potraghloo\n& Massoud Pedram Affiliation: {seyedarm, baghaeip, pedram}@usc.edu",
+    "status": "extracted"
+  },
+  "2610.13092": {
+    "source": "https://arxiv.org/html/2610.13092v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Nanjing University",
+      "yuchenling@smail.nju.edu.cn",
+      "{zychen, fangchunrong}@nju.edu.cn",
+      "Technical University of Munich",
+      "shengcheng.yu@tum.de"
+    ],
+    "front_matter": "Yuchen Ling Affiliation: Nanjing University Affiliation: yuchenling@smail.nju.edu.cn Affiliation: {zychen, fangchunrong}@nju.edu.cn Shengcheng Yu Affiliation: Technical University of Munich Affiliation: shengcheng.yu@tum.de Zhenyu Chen Affiliation: Nanjing University Affiliation: yuchenling@smail.nju.edu.cn Affiliation: {zychen, fangchunrong}@nju.edu.cn Chunrong Fang Affiliation: Nanjing University Affiliation: yuchenling@smail.nju.edu.cn Affiliation: {zychen, fangchunrong}@nju.edu.cn",
+    "status": "extracted"
+  },
+  "2610.13675": {
+    "source": "https://arxiv.org/html/2610.13675v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Research and Development Center,\nVNSO Technology JSC,\nHo Chi Minh City,\nVietnam",
+      "Department of Information Technology,\nHo Chi Minh University of Education,\nHo Chi Minh City,\nVietnam",
+      "Faculty of Information Science and Engineering,\nUniversity of Information Technology,\n\nHo Chi Minh City,\nVietnam",
+      "Vietnam National University,\n\nHo Chi Minh City,\nVietnam"
+    ],
+    "front_matter": "Tran Cao Minh Email: trancaominhkg@gmail.com Affiliation: Research and Development Center,\nVNSO Technology JSC,\nHo Chi Minh City,\nVietnam Hai Tran Email: haits@hcmue.edu.vn Affiliation: Department of Information Technology,\nHo Chi Minh University of Education,\nHo Chi Minh City,\nVietnam Ha Minh Tan Email: tanhm@uit.edu.vn Affiliation: Faculty of Information Science and Engineering,\nUniversity of Information Technology,\n\nHo Chi Minh City,\nVietnam Affiliation: Vietnam National University,\n\nHo Chi Minh City,\nVietnam",
+    "status": "extracted"
+  },
+  "2610.14112": {
+    "source": "https://arxiv.org/html/2610.14112v1",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found",
+    "front_context_error": "HTTP Error 404: Not Found"
+  },
+  "2610.14404": {
+    "source": "https://arxiv.org/html/2610.14404v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "1 University of California, Merced Merced, California, USA",
+      "2 Stevens Institute of Technology Hoboken, New Jersey, USA"
+    ],
+    "front_matter": "Ben Dong 1 ,\nTianyi Lu 2 ,\nZhonghao Guo 1 ,\nQian Wang 1 Affiliation: 1 University of California, Merced Merced, California, USA Affiliation: 2 Stevens Institute of Technology Hoboken, New Jersey, USA",
+    "status": "extracted"
+  },
+  "2610.14449": {
+    "source": "https://arxiv.org/html/2610.14449v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Xirui Huang Nikhil Hooda Utkarsh Gupta University of Waterloo University of Waterloo University of Waterloo x36huang@uwaterloo.ca n7hooda@uwaterloo.ca u2gupta@uwaterloo.ca",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.14449v1"
+  },
+  "2610.14631": {
+    "source": "https://arxiv.org/html/2610.14631v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Tsinghua University , Beijing , China"
+    ],
+    "front_matter": "Jianbo Chen email: cjb24@mails.tsinghua.edu.cn Affiliation: Tsinghua University , Beijing , China",
+    "status": "extracted"
+  },
+  "2610.14912": {
+    "source": "https://arxiv.org/html/2610.14912v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Hostinger; Kaunas University of Technology;",
+      "AI Insight Lab",
+      "AI Insight Lab;",
+      "Independent Researcher"
+    ],
+    "front_matter": "Mantas Lukauskas Affiliation: Hostinger; Kaunas University of Technology; Affiliation: AI Insight Lab Email: mantas.lukauskas@ktu.lt Viktorija Šarkauskaitė Affiliation: AI Insight Lab; Affiliation: Independent Researcher Email: viktorija@aiinsightlab.ai",
+    "status": "extracted"
+  },
+  "2610.15029": {
+    "source": "https://arxiv.org/html/2610.15029v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Department of Computer Science and Engineering",
+      "United International University"
+    ],
+    "front_matter": "S. M. Mahbub Uddin Ahmed Affiliation: Department of Computer Science and Engineering Affiliation: United International University Email: sahmed221068@bscse.uiu.ac.bd",
+    "status": "extracted"
+  },
+  "2610.15501": {
+    "source": "https://arxiv.org/html/2610.15501v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Illinois Urbana-Champaign",
+      "National University of Singapore",
+      "Zhejiang University",
+      "University of Pennsylvania",
+      "University of Rochester"
+    ],
+    "front_matter": "Ziyi Chen Affiliation: University of Illinois Urbana-Champaign Yan Zhang Affiliation: National University of Singapore Jianhui Wei Affiliation: Zhejiang University Jianing Yin Affiliation: University of Pennsylvania Daoan Zhang Affiliation: University of Rochester",
+    "status": "extracted"
+  },
+  "2610.15537": {
+    "source": "https://arxiv.org/html/2610.15537v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Xing Chang (xing_chang@sutd.edu.sg, SUTD),",
+      "Jun Yan (yanjun@ieee.org, SHOU) 🖂"
+    ],
+    "front_matter": "Chenkai Wu (wuxixiong2020@gmail.com, Monash University) Affiliation: Xing Chang (xing_chang@sutd.edu.sg, SUTD), Affiliation: Jun Yan (yanjun@ieee.org, SHOU) 🖂",
+    "status": "extracted",
+    "front_context_source": "https://arxiv.org/html/2610.15537v1"
+  },
+  "2610.15710": {
+    "source": "https://arxiv.org/html/2610.15710v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Dimension Gate",
+      "New York University"
+    ],
+    "front_matter": "Xupeng Chen Affiliation: Dimension Gate Correspondence to: xc1490@nyu.edu Chenqian Le Affiliation: New York University Correspondence to: cl6707@nyu.edu",
+    "status": "extracted"
+  },
+  "2610.15742": {
+    "source": "https://arxiv.org/html/2610.15742v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Huaping Zhou, Kelei Sun, Tao Wu, and Yongjie Huang"
+    ],
+    "front_matter": "Man Chen Antai Chen Shuai Xu Chengjie Gu Affiliation: Huaping Zhou, Kelei Sun, Tao Wu, and Yongjie Huang",
+    "status": "extracted",
+    "front_context_source": "https://arxiv.org/html/2610.15742v1"
+  },
+  "2610.16191": {
+    "source": "https://arxiv.org/html/2610.16191v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Carnegie Mellon University",
+      "Shenzhen University",
+      "Central China Normal University"
+    ],
+    "front_matter": "Tianyou Lai † † thanks: These authors contributed equally to this work. Affiliation: Carnegie Mellon University Wentao Yue 1 1 footnotemark: 1 Affiliation: Shenzhen University Zhiying Deng Affiliation: Central China Normal University Qilei Li † † thanks: Corresponding author: qilei.li@ccnu.edu.cn . Affiliation: Central China Normal University",
+    "status": "extracted"
+  },
+  "2610.16238": {
+    "source": "https://arxiv.org/html/2610.16238v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Shanghai Jiao Tong University",
+      "Shanghai Artificial Intelligence Laboratory",
+      "Sun Yat-Sen University Jilin University",
+      "Beijing University of Aeronautics and Astronautics * Equal contribution. Corresponding authors."
+    ],
+    "front_matter": "Zhi Han Affiliation: Shanghai Jiao Tong University Affiliation: Shanghai Artificial Intelligence Laboratory Zihan Guo Affiliation: Shanghai Artificial Intelligence Laboratory Chenxi Zeng Affiliation: Shanghai Artificial Intelligence Laboratory Affiliation: Sun Yat-Sen University Jilin University Zicai Cui Affiliation: Shanghai Jiao Tong University Affiliation: Shanghai Artificial Intelligence Laboratory Yue Xin Affiliation: Shanghai Artificial Intelligence Laboratory Ming Zhou Affiliation: Shanghai Artificial Intelligence Laboratory Dongzhan Zhou Affiliation: Shanghai Artificial Intelligence Laboratory Weinan Zhang Affiliation: Shanghai Jiao Tong University Affiliation: Shanghai Artificial Intelligence Laboratory Affiliation: Beijing University of Aeronautics and Astronautics * Equal contribution. Corresponding authors. Yang Li Affiliation: Shanghai Jiao Tong University Affiliation: Shanghai Artificial Intelligence Laboratory Affiliation: Beijing University of Aeronautics and Astronautics * Equal contribution. Corresponding authors.",
+    "status": "extracted"
+  },
+  "2610.16550": {
+    "source": "https://arxiv.org/html/2610.16550v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Alias Robotics, Vitoria-Gasteiz, Álava, Spain"
+    ],
+    "front_matter": "Víctor Mayoral-Vilches Affiliation: Alias Robotics, Vitoria-Gasteiz, Álava, Spain",
+    "status": "extracted"
+  },
+  "2610.16655": {
+    "source": "https://arxiv.org/html/2610.16655v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "AltSlate Labs LLP",
+      "dushyant@altslate.com nirdesh@altslate.com siddharth@altslate.com"
+    ],
+    "front_matter": "Dushyant Rajput Nirdesh Chauhan Siddharth Kosaraju Affiliation: AltSlate Labs LLP Affiliation: dushyant@altslate.com nirdesh@altslate.com siddharth@altslate.com",
+    "status": "extracted"
+  },
+  "2610.16967": {
+    "source": "https://arxiv.org/html/2610.16967v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Zhenhua Yang Jiafeng Liang Xingyu Zhou Yi Jiang Xiayu Cao Zui Chen Luqi Wang Haiyang Sun Yufei Xiang Chang Li Rongchuan Mu Bowen Chi Zihe Tong Mingyu Li Huijie Ma Yiqiao Yang Baoqi Ren Zhiming Ma Zhihao Zhu Jiahao Ji Zhuoyao Wang Qianyu Wang Xiangyu Liu Wang Zixiang Shunliang Zhang Ming Liu Xiaocheng Feng Duyu Tang Bing Qin",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.16967v1"
+  },
+  "2610.17016": {
+    "source": "https://arxiv.org/html/2610.17016v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.17016v1"
+  },
+  "2610.17113": {
+    "source": "https://arxiv.org/html/2610.17113v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Yang Wang , Hanlin Xiao , Yanan Ma , Chenghao Xiao , Chenghua Lin University of Manchester,\n Mayo Clinic,\n Shanghai University of Finance and Economics",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.17113v1"
+  },
+  "2610.17175": {
+    "source": "https://arxiv.org/html/2610.17175v1",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found",
+    "front_context_error": "HTTP Error 404: Not Found"
+  },
+  "2610.17205": {
+    "source": "https://arxiv.org/html/2610.17205v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Harvard University",
+      "Kempner Institute"
+    ],
+    "front_matter": "Jonathan Geuter Affiliation: Harvard University Affiliation: Kempner Institute Correspondence to: jonathan.geuter@gmx.de Andrew Cheng Affiliation: Harvard University David Alvarez-Melis Affiliation: Harvard University Affiliation: Kempner Institute",
+    "status": "extracted"
+  },
+  "2610.17309": {
+    "source": "https://arxiv.org/html/2610.17309v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "StartLux  The University of Hong Kong  Southern University of Science and Technology"
+    ],
+    "front_matter": "Xialie Zhuang Zunhai Su Jia Pan Ngai Wong Guanhua Chen Affiliation: StartLux  The University of Hong Kong  Southern University of Science and Technology Chuan-Wei Kuo",
+    "status": "extracted"
+  },
+  "2610.17727": {
+    "source": "https://arxiv.org/html/2610.17727v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of British Columbia",
+      "University of Toronto",
+      "Rutgers University"
+    ],
+    "front_matter": "Jerrold Huang Junwei Quan Saiyue Lyu Affiliation: University of British Columbia Zihan Guo Affiliation: University of Toronto Yingqiang Ge Affiliation: Rutgers University",
+    "status": "extracted"
+  },
+  "2610.17820": {
+    "source": "https://arxiv.org/html/2610.17820v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Nankai University",
+      "Zhongguancun Laboratory"
+    ],
+    "front_matter": "Xiang Li Affiliation: Nankai University Email: lixiang@nankai.edu.cn Aichun Huang Affiliation: Nankai University Email: huangaichun@mail.nankai.edu.cn Mingming Zhang Affiliation: Zhongguancun Laboratory Email: zhangmm@zgclab.edu.cn Zheli Liu Affiliation: Nankai University Email: liuzheli@nankai.edu.cn",
+    "status": "extracted"
+  },
+  "2610.18122": {
+    "source": "https://arxiv.org/html/2610.18122v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Göttingen",
+      "Bielefeld University of Applied Sciences and Arts (HSBI)"
+    ],
+    "front_matter": "Fabian Lukassen Affiliation: University of Göttingen Email: fabian.lukassen@uni-goettingen.de Christoph Weisser Affiliation: Bielefeld University of Applied Sciences and Arts (HSBI) Email: christoph.weisser@hsbi.de Alexander Silbersdorff Email: asilbersdorff@uni-goettingen.de \\linkpill [linkweb] Project Page \\linkpill [linkcode] Code & Data Affiliation: University of Göttingen",
+    "status": "extracted"
+  },
+  "2610.18233": {
+    "source": "https://arxiv.org/html/2610.18233v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Nanyang Technological University, Singapore"
+    ],
+    "front_matter": "Jianguo Huang † † thanks: Equal contribution. Yao Long Teng 1 1 footnotemark: 1 Yanchen Deng † † thanks: Corresponding author. Bo An Affiliation: Nanyang Technological University, Singapore",
+    "status": "extracted"
+  },
+  "2610.18272": {
+    "source": "https://arxiv.org/html/2610.18272v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Firas Laakom   Yifan Xu   Piotr Piękos   Mateusz Ostaszewski",
+      "Wenyi Wang   Cheng Luo   Yuhui Wang   Jürgen Schmidhuber",
+      "King Abdullah University of Science and Technology (KAUST)",
+      "Project page: https://sunyasheng.github.io/projects/JevGPT"
+    ],
+    "front_matter": "Yasheng Sun   Yanning Dai   Yimeng Chen   Nanbo Li Affiliation: Firas Laakom   Yifan Xu   Piotr Piękos   Mateusz Ostaszewski Affiliation: Wenyi Wang   Cheng Luo   Yuhui Wang   Jürgen Schmidhuber Affiliation: King Abdullah University of Science and Technology (KAUST) Email: yasheng.sun@kaust.edu.sa Affiliation: Project page: https://sunyasheng.github.io/projects/JevGPT",
+    "status": "extracted"
+  },
+  "2610.18326": {
+    "source": "https://arxiv.org/html/2610.18326v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "HKUST",
+      "ModeIO",
+      "CUHK (Shenzhen) Project Lead: Wenbin Hu, whuak@connet.ust.hk"
+    ],
+    "front_matter": "Wenbin Hu † † thanks: Equal Contribution Affiliation: HKUST Huihao Jing Haochen Shi Affiliation: HKUST Yuxuan Liu Affiliation: HKUST Changxuan Fan Affiliation: HKUST Sirui Zhang Affiliation: HKUST Affiliation: ModeIO Kawai Chung Affiliation: HKUST Hanyu Yang Affiliation: ModeIO Zhenhuan Wang Affiliation: ModeIO Affiliation: CUHK (Shenzhen) Project Lead: Wenbin Hu, whuak@connet.ust.hk Ziyi Chen Affiliation: ModeIO Haoran Li † † thanks: Corresponding author Affiliation: HKUST Yangqiu Song Affiliation: HKUST",
+    "status": "extracted"
+  },
+  "2610.18389": {
+    "source": "https://arxiv.org/html/2610.18389v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.18389v1"
+  },
+  "2610.18497": {
+    "source": "https://arxiv.org/html/2610.18497v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "The Fin AI, USA",
+      "Yale University, USA",
+      "Cardiff University, UK Correspondence: {wy2266336,lfqian94}@gmail.com"
+    ],
+    "front_matter": "Linhai Ma Affiliation: The Fin AI, USA Affiliation: Yale University, USA Yan Wang Affiliation: The Fin AI, USA Affiliation: Yale University, USA Lingfei Qian Affiliation: The Fin AI, USA Affiliation: Yale University, USA Yupeng Cao Affiliation: The Fin AI, USA Affiliation: Yale University, USA Víctor Gutiérrez-Basulto Affiliation: Cardiff University, UK Correspondence: {wy2266336,lfqian94}@gmail.com",
+    "status": "extracted"
+  },
+  "2610.18529": {
+    "source": "https://arxiv.org/html/2610.18529v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Harbin Institute of Technology",
+      "Ant Group"
+    ],
+    "front_matter": "Yanrui Du † † thanks: Equal contribution. Affiliation: Harbin Institute of Technology Affiliation: Ant Group Danyang Zhao 1 1 footnotemark: 1 Affiliation: Harbin Institute of Technology Sendong Zhao Affiliation: Harbin Institute of Technology Wenhao Li Affiliation: Harbin Institute of Technology Yibo Gao Affiliation: Harbin Institute of Technology Haochun Wang Affiliation: Harbin Institute of Technology Zhuoer Xu Affiliation: Ant Group Shiwen Cui Affiliation: Ant Group Bing Qin † † thanks: Corresponding author: qinb@ir.hit.edu.cn . Affiliation: Harbin Institute of Technology",
+    "status": "extracted"
+  },
+  "2610.18579": {
+    "source": "https://arxiv.org/html/2610.18579v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Carnegie Mellon University",
+      "{yubol, rk2x, rpadman}@andrew.cmu.edu"
+    ],
+    "front_matter": "Yubo Li Ramayya Krishnan Rema Padman Affiliation: Carnegie Mellon University Affiliation: {yubol, rk2x, rpadman}@andrew.cmu.edu",
+    "status": "extracted"
+  },
+  "2610.18610": {
+    "source": "https://arxiv.org/html/2610.18610v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Xi Yang   Wenbin Hu   Huihao Jing   Chiu Yeung Tang",
+      "Changxuan Fan   Ki Sen Hung   Tsun On Kwok   Haoran Li",
+      "Department of Computer Science and Engineering",
+      "The Hong Kong University of Science and Technology",
+      "Code"
+    ],
+    "front_matter": "Kawai Chung Chunkit Chan Yuxuan Liu Yauwai Yim Affiliation: Xi Yang   Wenbin Hu   Huihao Jing   Chiu Yeung Tang Affiliation: Changxuan Fan   Ki Sen Hung   Tsun On Kwok   Haoran Li Affiliation: Department of Computer Science and Engineering Affiliation: The Hong Kong University of Science and Technology Affiliation: Code {kwchungac ckchancc hlibt}@cse.ust.hk",
+    "status": "extracted"
+  },
+  "2610.18612": {
+    "source": "https://arxiv.org/html/2610.18612v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Key Laboratory of Trustworthy Distributed Computing and Service (MoE)Beijing University of Posts and Telecommunications",
+      "Beijing University of Posts and Telecommunications",
+      "Zhongguancun Laboratory",
+      "Institute of Computing Technology, Chinese Academy of Sciences"
+    ],
+    "front_matter": "Yang Luo Affiliation: Key Laboratory of Trustworthy Distributed Computing and Service (MoE)Beijing University of Posts and Telecommunications Email: luoyang001@bupt.edu.cn Tiantian Ji Affiliation: Key Laboratory of Trustworthy Distributed Computing and Service (MoE)Beijing University of Posts and Telecommunications Email: jitiantian0728@bupt.edu.cn Zifeng Kang Affiliation: Beijing University of Posts and Telecommunications Email: zifengkang@bupt.edu.cn Yucheng Wang Affiliation: Beijing University of Posts and Telecommunications Email: wangyuchen056@bupt.edu.cn Yong Liu Affiliation: Zhongguancun Laboratory Email: liuyong@zgclab.edu.cn Zhiyi Yin Affiliation: Institute of Computing Technology, Chinese Academy of Sciences Xinran Liu Email: Liu_xinran@bupt.edu.cn † Corresponding authors Affiliation: Key Laboratory of Trustworthy Distributed Computing and Service (MoE)Beijing University of Posts and Telecommunications",
+    "status": "extracted"
+  },
+  "2610.18615": {
+    "source": "https://arxiv.org/html/2610.18615v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "["
+    ],
+    "front_matter": "Yuhan Zhu Xiangyu Zeng Qingyi Si Chenxu Yang Yifei Li Luozheng Qin Junhao Zhou Dingyu Yao Jun Zhang Chuanyu Qin Zhiqiu Zhang Yuandong Yang Yuqi Xu Tianyu Zhang Hongcheng Guo Jiaqi Wang Nan Duan Limin Wang Affiliation: [ Affiliation: [ Affiliation: [ Affiliation: [ Affiliation: [ Affiliation: [ Affiliation: [ Affiliation: [",
+    "status": "extracted",
+    "front_context_source": "https://arxiv.org/html/2610.18615v1"
+  },
+  "2610.18773": {
+    "source": "https://arxiv.org/html/2610.18773v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "National University of Singapore",
+      "liqi@u.nus.edu; xinchao@nus.edu.sg"
+    ],
+    "front_matter": "Qi Li Affiliation: National University of Singapore Xinchao Wang Affiliation: liqi@u.nus.edu; xinchao@nus.edu.sg",
+    "status": "extracted"
+  },
+  "2610.18780": {
+    "source": "https://arxiv.org/html/2610.18780v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Xiaoguang Guo Yaohao Long Chuxu Zhang † University of Connecticut {xiaoguang.guo, chuxu.zhang}@uconn.edu robinlong5678@gmail.com † Corresponding author",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.18780v1"
+  },
+  "2610.22131": {
+    "source": "https://arxiv.org/html/2610.22131v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Shanghai AI Lab",
+      "Shanghai Jiao Tong University",
+      "Fudan University",
+      "Nanyang Technological University"
+    ],
+    "front_matter": "Tong Zhu Zhe Xu Affiliation: Shanghai AI Lab Zefeng He Affiliation: Shanghai AI Lab Affiliation: Shanghai Jiao Tong University Yunkai Chai Affiliation: Shanghai AI Lab Affiliation: Shanghai Jiao Tong University Xuyang Hu Affiliation: Shanghai AI Lab Dehong Zheng Affiliation: Shanghai AI Lab Affiliation: Fudan University Yun Luo Affiliation: Shanghai AI Lab Yafu Li Affiliation: Shanghai AI Lab Qi Zhang Affiliation: Shanghai AI Lab Affiliation: Fudan University Yu Cheng Corresponding author: Affiliation: Shanghai AI Lab Affiliation: Nanyang Technological University",
+    "status": "extracted"
+  },
+  "2610.21614": {
+    "source": "https://arxiv.org/html/2610.21614v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Token Foundry Alibaba Group",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.21614v1"
+  },
+  "2610.21412": {
+    "source": "https://arxiv.org/html/2610.21412v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Illinois Urbana-Champaign",
+      "Princeton University",
+      "Google"
+    ],
+    "front_matter": "Kunlun Zhu Affiliation: University of Illinois Urbana-Champaign Tao Feng Affiliation: University of Illinois Urbana-Champaign Xu Han Affiliation: University of Illinois Urbana-Champaign Heng Wang Affiliation: University of Illinois Urbana-Champaign Ling Yang Affiliation: Princeton University Xiangru Tang Affiliation: Google Jiaxuan You Affiliation: University of Illinois Urbana-Champaign Heng Ji Affiliation: University of Illinois Urbana-Champaign",
+    "status": "extracted"
+  },
+  "2610.21411": {
+    "source": "https://arxiv.org/html/2610.21411v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Shanghai Jiao Tong University , Shanghai , China"
+    ],
+    "front_matter": "Kaixiang Wang Affiliation: Shanghai Jiao Tong University , Shanghai , China , Zhaojiacheng Zhou Affiliation: Shanghai Jiao Tong University , Shanghai , China , Jiong Lou Affiliation: Shanghai Jiao Tong University , Shanghai , China and Jie Li Affiliation: Shanghai Jiao Tong University , Shanghai , China",
+    "status": "extracted"
+  },
+  "2610.21244": {
+    "source": "https://arxiv.org/html/2610.21244v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "The University of Texas at Austin"
+    ],
+    "front_matter": "Tianyu Chen † † thanks: Equal contribution. Xinyang Liu 1 1 footnotemark: 1 Ruyi An Zhendong Wang Mingyuan Zhou † † thanks: Corresponding author: mingyuan.zhou@mccombs.utexas.edu Affiliation: The University of Texas at Austin",
+    "status": "extracted"
+  },
+  "2610.20927": {
+    "source": "https://arxiv.org/html/2610.20927v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Department of Computer Science",
+      "University of Virginia"
+    ],
+    "front_matter": "Guanghui Min Affiliation: Department of Computer Science Affiliation: University of Virginia Email: jjm8vr@virginia.edu Chen Chen † † thanks: Corresponding author. Affiliation: Department of Computer Science Affiliation: University of Virginia Email: zrh6du@virginia.edu",
+    "status": "extracted"
+  },
+  "2610.20907": {
+    "source": "https://arxiv.org/html/2610.20907v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "eBay Inc."
+    ],
+    "front_matter": "Qianlong Lan Anuj Kaul Vinothini Pandurangan Indranil Sanyal Affiliation: eBay Inc.",
+    "status": "extracted"
+  },
+  "2610.20778": {
+    "source": "https://arxiv.org/html/2610.20778v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "LEC AI"
+    ],
+    "front_matter": "Avdhesh Singh Chouhan Affiliation: LEC AI Email: avdhesh.chouhan@lecai.ai Jack Perry Affiliation: LEC AI Email: jack@lecai.ai",
+    "status": "extracted"
+  },
+  "2609.08183": {
+    "source": "https://arxiv.org/html/2609.08183v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "NeoHorse Team https://hf.co/collections/TokenRhythm/neohorse-1 https://github.com/TokenRhythm/NeoHorse",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2609.08183v2"
+  },
+  "2610.19971": {
+    "source": "https://arxiv.org/html/2610.19971v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Institute of Science Tokyo",
+      "National Yang Ming Chiao Tung University",
+      "Nanyang Technological University"
+    ],
+    "front_matter": "Yixin Tan Affiliation: Institute of Science Tokyo Email: tan.y.9f7b@m.isct.ac.jp Chia-Yi Hsu Affiliation: National Yang Ming Chiao Tung University Jiayang Liu Affiliation: Nanyang Technological University Chia-Mu Yu Affiliation: National Yang Ming Chiao Tung University Rui Wen Affiliation: Institute of Science Tokyo",
+    "status": "extracted"
+  },
+  "2610.20665": {
+    "source": "https://arxiv.org/html/2610.20665v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Peking University",
+      "Samsung Research, Beijing, China * Corresponding authors: wentao.zhang@pku.edu.cn , yehui.tang@samsung.com"
+    ],
+    "front_matter": "Ningxin Pan Affiliation: Peking University Affiliation: Samsung Research, Beijing, China * Corresponding authors: wentao.zhang@pku.edu.cn , yehui.tang@samsung.com Hanyu Li Affiliation: Peking University Yeqing Shen Affiliation: Samsung Research, Beijing, China * Corresponding authors: wentao.zhang@pku.edu.cn , yehui.tang@samsung.com Ning Ding Affiliation: Samsung Research, Beijing, China * Corresponding authors: wentao.zhang@pku.edu.cn , yehui.tang@samsung.com Yehui Tang Affiliation: Samsung Research, Beijing, China * Corresponding authors: wentao.zhang@pku.edu.cn , yehui.tang@samsung.com and Wentao Zhang Affiliation: Peking University",
+    "status": "extracted"
+  },
+  "2605.29893": {
+    "source": "https://arxiv.org/html/2605.29893v2",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Huazhong University of Science and Technology",
+      "Huawei Technologies, Noah Arks’ Lab",
+      "Institute of Computing Technology, Chinese Academy of Sciences Correspondence: huminyang@huawei.com"
+    ],
+    "front_matter": "Liang Zhu Affiliation: Huazhong University of Science and Technology Bo Yang Zhinuo Zhou Affiliation: Huawei Technologies, Noah Arks’ Lab Jiachen Liang Affiliation: Institute of Computing Technology, Chinese Academy of Sciences Correspondence: huminyang@huawei.com Jiahao Guo Affiliation: Huawei Technologies, Noah Arks’ Lab Yiyang Yin Affiliation: Huawei Technologies, Noah Arks’ Lab Xiongwei Han Affiliation: Huawei Technologies, Noah Arks’ Lab Minyang Hu Affiliation: Huawei Technologies, Noah Arks’ Lab",
+    "status": "extracted"
+  },
+  "2610.19619": {
+    "source": "https://arxiv.org/html/2610.19619v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Adam Eric Greenberg   Alessandro Romano",
+      "Bocconi University"
+    ],
+    "front_matter": "Ilaria Imperatrice   Taisia Kameneva Affiliation: Adam Eric Greenberg   Alessandro Romano Affiliation: Bocconi University",
+    "status": "extracted"
+  },
+  "2610.19596": {
+    "source": "https://arxiv.org/html/2610.19596v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Vanderbilt University, Nashville, Tennessee, USA"
+    ],
+    "front_matter": "Jiahao Zhang Yifan Zhang Yu Huang Affiliation: Vanderbilt University, Nashville, Tennessee, USA Email: {jiahao.zhang,yifan.zhang.2,yu.huang}@vanderbilt.edu",
+    "status": "extracted"
+  },
+  "2610.19478": {
+    "source": "https://arxiv.org/html/2610.19478v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Minnesota Twin Cities"
+    ],
+    "front_matter": "Xuechen Li Affiliation: University of Minnesota Twin Cities Email: li003487@umn.edu",
+    "status": "extracted"
+  },
+  "2610.19118": {
+    "source": "https://arxiv.org/html/2610.19118v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Yongkang Du   Lu Lin   Jinghui Chen",
+      "The Pennsylvania State University"
+    ],
+    "front_matter": "Yifan Lan Zhongye Liu Yurui Chang Hanyu Wang Affiliation: Yongkang Du   Lu Lin   Jinghui Chen Affiliation: The Pennsylvania State University Email: {ykl5877,zql5622,yjc5487,hbw5365,ybd5136,lulin,jzc5917}@psu.edu",
+    "status": "extracted"
+  },
+  "2610.20634": {
+    "source": "https://arxiv.org/html/2610.20634v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "CustomGPT.ai"
+    ],
+    "front_matter": "Alden Do Rosario Kirollos Atef Affiliation: CustomGPT.ai Email: alden@customgpt.ai kirollos@customgpt.ai",
+    "status": "extracted"
+  },
+  "2610.22276": {
+    "source": "https://arxiv.org/html/2610.22276v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Luozheng Qin Yuhan Zhu Changhai Zhou Qian Qiao Jun Gao Yuhua Zhou Harry Zhang Xiangyu Zeng Yuxuan Liu Kaijie Chen Andrew Chen Pony Ma Email: chzhou25@m.fudan.edu.cn Email: andrew@mindlab.ltd Email: pony@mindlab.ltd",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.22276v1"
+  },
+  "2610.22066": {
+    "source": "https://arxiv.org/html/2610.22066v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Nanyang Technological University , Singapore"
+    ],
+    "front_matter": "Yao Long Teng Note: Both authors contributed equally to this research. Affiliation: Nanyang Technological University , Singapore , Jianguo Huang Affiliation: Nanyang Technological University , Singapore , Yanchen Deng Note: Corresponding author. Affiliation: Nanyang Technological University , Singapore , Jiayi Cai Affiliation: Nanyang Technological University , Singapore and Bo An Affiliation: Nanyang Technological University , Singapore",
+    "status": "extracted"
+  },
+  "2610.21837": {
+    "source": "https://arxiv.org/html/2610.21837v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "School of Statistics and Data ScienceShanghai University of Finance and Economics",
+      "Department of Statistics and Data ScienceThe Chinese University of Hong Kong"
+    ],
+    "front_matter": "Siyuan Chen Affiliation: School of Statistics and Data ScienceShanghai University of Finance and Economics Yang Bai Affiliation: School of Statistics and Data ScienceShanghai University of Finance and Economics Huichen Zhu Affiliation: Department of Statistics and Data ScienceThe Chinese University of Hong Kong",
+    "status": "extracted"
+  },
+  "2610.21620": {
+    "source": "https://arxiv.org/html/2610.21620v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Jacob Sonnenschein Email: cobi@tauex.tau.ac.il",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.21620v1"
+  },
+  "2610.21111": {
+    "source": "https://arxiv.org/html/2610.21111v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Zachary Van Oosten † † thanks: Department of Decision Sciences, HEC Montréal, Canada. zachary.van-oosten@hec.ca Ruodu Wang † † thanks: Department of Statistics and Actuarial Science, University of Waterloo, Canada. wang@uwaterloo.ca",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.21111v1"
+  },
+  "2610.21046": {
+    "source": "https://arxiv.org/html/2610.21046v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Lehigh University",
+      "University of British Columbia",
+      "Vector Institute"
+    ],
+    "front_matter": "Dingjie Song Affiliation: Lehigh University Zhiling Yan Affiliation: Lehigh University Ziqian Zhang Affiliation: Lehigh University Yuxuan Zhang Affiliation: University of British Columbia Affiliation: Vector Institute Lichao Sun Affiliation: Lehigh University Corresponding author",
+    "status": "extracted"
+  },
+  "2610.20951": {
+    "source": "https://arxiv.org/html/2610.20951v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Lehigh University",
+      "University of British Columbia",
+      "Vector Institute"
+    ],
+    "front_matter": "Dingjie Song Affiliation: Lehigh University Equal contribution Zhiling Yan Affiliation: Lehigh University Equal contribution Yuxuan Zhang Affiliation: University of British Columbia Affiliation: Vector Institute Lichao Sun Affiliation: Lehigh University Corresponding author",
+    "status": "extracted"
+  },
+  "2610.20491": {
+    "source": "https://arxiv.org/html/2610.20491v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Departamento de Física, Universidad de Extremadura, 06006 Badajoz, Spain",
+      "Dipartimento di Fisica, Sapienza Università di Roma, 00185 Rome, Italy",
+      "Dipartimento di Matematica e Fisica, Università del Salento, 73100 Lecce, Italy and Istituto Nazionale di Fisica Nucleare, Sezione di Lecce, 73100 Lecce, Italy",
+      "Université Paris-Saclay, CNRS, LPTMS, 91405, Orsay, France",
+      "Departamento de Física Teórica, Universidad Complutense, 28040 Madrid, Spain",
+      "Departamento de Didáctica de las Ciencias Experimentales y de las Matemáticas, Universidad de Extremadura, 10004 Cáceres, Spain",
+      "Instituto de Biocomputación y Física de Sistemas Complejos (BIFI), 50018 Zaragoza, Spain",
+      "International Research Center of Complexity Sciences, Hangzhou International Innovation Institute, Beihang University, Hangzhou 311115, China",
+      "CNR-Nanotec, Rome Unit, and INFN, Sezione di Roma, 00185 Rome, Italy",
+      "Instituto de Computación Científica Avanzada (ICCAEx), Universidad de Extremadura, 06006 Badajoz, Spain"
+    ],
+    "front_matter": "Miguel Aguilar-Janita Corresponding author: miguel.aguilarjanita@uniroma1.it Affiliation: Departamento de Física, Universidad de Extremadura, 06006 Badajoz, Spain Affiliation: Dipartimento di Fisica, Sapienza Università di Roma, 00185 Rome, Italy Silvio Franz Affiliation: Dipartimento di Matematica e Fisica, Università del Salento, 73100 Lecce, Italy and Istituto Nazionale di Fisica Nucleare, Sezione di Lecce, 73100 Lecce, Italy Affiliation: Université Paris-Saclay, CNRS, LPTMS, 91405, Orsay, France Victor Martin-Mayor Affiliation: Departamento de Física Teórica, Universidad Complutense, 28040 Madrid, Spain Javier Moreno-Gordo Affiliation: Departamento de Didáctica de las Ciencias Experimentales y de las Matemáticas, Universidad de Extremadura, 10004 Cáceres, Spain Affiliation: Instituto de Biocomputación y Física de Sistemas Complejos (BIFI), 50018 Zaragoza, Spain Giorgio Parisi Affiliation: International Research Center of Complexity Sciences, Hangzhou International Innovation Institute, Beihang University, Hangzhou 311115, China Affiliation: Dipartimento di Fisica, Sapienza Università di Roma, 00185 Rome, Italy Affiliation: CNR-Nanotec, Rome Unit, and INFN, Sezione di Roma, 00185 Rome, Italy Federico Ricci-Tersenghi Affiliation: Dipartimento di Fisica, Sapienza Università di Roma, 00185 Rome, Italy Affiliation: CNR-Nanotec, Rome Unit, and INFN, Sezione di Roma, 00185 Rome, Italy J.J. Ruiz-Lorenzo Affiliation: Departamento de Física, Universidad de Extremadura, 06006 Badajoz, Spain Affiliation: Instituto de Computación Científica Avanzada (ICCAEx), Universidad de Extremadura, 06006 Badajoz, Spain",
+    "status": "extracted"
+  },
+  "2610.19928": {
+    "source": "https://arxiv.org/html/2610.19928v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "State Key Laboratory of Human-Machine Hybrid Augmented IntelligenceInstitute of Artificial Intelligence and Robotics,Xi’an Jiaotong University",
+      "Faculty of Electronic and Information EngineeringXi’an Jiaotong University",
+      "Imperial College London"
+    ],
+    "front_matter": "Jiangcheng Song Affiliation: State Key Laboratory of Human-Machine Hybrid Augmented IntelligenceInstitute of Artificial Intelligence and Robotics,Xi’an Jiaotong University Email: enone@stu.xjtu.edu.cn Haodong Jing Affiliation: State Key Laboratory of Human-Machine Hybrid Augmented IntelligenceInstitute of Artificial Intelligence and Robotics,Xi’an Jiaotong University Email: nnzheng@xjtu.edu.cn Yulin Mu Affiliation: Faculty of Electronic and Information EngineeringXi’an Jiaotong University Lesong Tao Affiliation: State Key Laboratory of Human-Machine Hybrid Augmented IntelligenceInstitute of Artificial Intelligence and Robotics,Xi’an Jiaotong University Jixin Wang Affiliation: State Key Laboratory of Human-Machine Hybrid Augmented IntelligenceInstitute of Artificial Intelligence and Robotics,Xi’an Jiaotong University Jin Cui Affiliation: State Key Laboratory of Human-Machine Hybrid Augmented IntelligenceInstitute of Artificial Intelligence and Robotics,Xi’an Jiaotong University Tianjing Ren Affiliation: Imperial College London Runxuan Xie Affiliation: Faculty of Electronic and Information EngineeringXi’an Jiaotong University Yongqiang Ma Affiliation: State Key Laboratory of Human-Machine Hybrid Augmented IntelligenceInstitute of Artificial Intelligence and Robotics,Xi’an Jiaotong University Nanning Zheng † † thanks: Corresponding author: nnzheng@xjtu.edu.cn . Affiliation: State Key Laboratory of Human-Machine Hybrid Augmented IntelligenceInstitute of Artificial Intelligence and Robotics,Xi’an Jiaotong University",
+    "status": "extracted"
+  },
+  "2610.19856": {
+    "source": "https://arxiv.org/html/2610.19856v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "System Security Team, Li Auto Inc, China",
+      "Institute of Information Engineering,\nChinese Academy of Sciences, China",
+      "School of Cyber Security,\nUniversity of Chinese Academy of Sciences, China"
+    ],
+    "front_matter": "Yuanbo Xie † † thanks: Equal contribution. Affiliation: System Security Team, Li Auto Inc, China Email: xieyuanbo@lixiang.com Mingli Zhu 1 1 footnotemark: 1 Affiliation: System Security Team, Li Auto Inc, China Email: zhumingli@lixiang.com Tianyun Liu Yingjie Zhang Affiliation: Institute of Information Engineering,\nChinese Academy of Sciences, China Affiliation: School of Cyber Security,\nUniversity of Chinese Academy of Sciences, China Email: xionghaixiao@lixiang.com Haixiao Xiong † † thanks: Corresponding authors. Affiliation: System Security Team, Li Auto Inc, China Email: liutianyun@iie.ac.cn Tingwen Liu 2 2 footnotemark: 2 Affiliation: Institute of Information Engineering,\nChinese Academy of Sciences, China Affiliation: School of Cyber Security,\nUniversity of Chinese Academy of Sciences, China Email: zhangyingjie2023@iie.ac.cn Email: liutingwen@iie.ac.cn",
+    "status": "extracted"
+  },
+  "2610.19811": {
+    "source": "https://arxiv.org/html/2610.19811v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "Heudiasyc - UMR CNRS 7253",
+      "Université de Technologie de Compiègne",
+      "Independent Researcher",
+      "France"
+    ],
+    "front_matter": "Soundouss Messoudi Affiliation: Heudiasyc - UMR CNRS 7253 Affiliation: Université de Technologie de Compiègne Email: soundouss.messoudi@hds.utc.fr Youness Mansar Affiliation: Independent Researcher Affiliation: France",
+    "status": "extracted"
+  },
+  "2610.19644": {
+    "source": "https://arxiv.org/html/2610.19644v1",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found",
+    "front_context_error": "HTTP Error 404: Not Found"
+  },
+  "2610.19536": {
+    "source": "https://arxiv.org/html/2610.19536v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [
+      "University of Wisconsin–Madison",
+      "School of Artificial Intelligence, Jilin University",
+      "School of Data Science, Chinese University of Hong Kong, Shenzhen"
+    ],
+    "front_matter": "Baowen Zhang Affiliation: University of Wisconsin–Madison Email: bzhang599@wisc.edu Hangting Ye † † thanks: Corresponding author. Affiliation: School of Artificial Intelligence, Jilin University Email: yeht22@mails.jlu.edu.cn Hongyuan Zha Affiliation: School of Data Science, Chinese University of Hong Kong, Shenzhen Email: zhahy@cuhk.edu.cn",
+    "status": "extracted"
+  },
+  "2610.19378": {
+    "source": "https://arxiv.org/html/2610.19378v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Vahid Jebraeeli Hamid Krim Keisuke Fujii",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.19378v1"
+  },
+  "2610.19345": {
+    "source": "https://arxiv.org/html/2610.19345v1",
+    "retrieved_on": "2026-10-18",
+    "affiliations": [],
+    "front_matter": "Sajid Siraj Email: s.siraj@leeds.ac.uk Address: Leeds University Business School, University of Leeds, Leeds, United Kingdom Address: Ca’Foscari University of Venice, Venice, Italy Maria Barbati Email: maria.barbati@unive.it Corresponding author: Corresponding author Address: Ca’Foscari University of Venice, Venice, Italy",
+    "status": "needs_review",
+    "front_context_source": "https://arxiv.org/html/2610.19345v1"
+  }
+}

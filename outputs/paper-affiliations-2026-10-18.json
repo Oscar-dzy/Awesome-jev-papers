@@ -1,0 +1,3286 @@
+{
+  "edition": 2027,
+  "ranking_source": "https://www.topuniversities.com/qs-top-uni-wur",
+  "ranking_download": "https://insights.qs.com/hubfs/Rankings%20Excel%20Reports/2027%20QS%20World%20University%20Rankings%201.1%20%28For%20qs.com%29.xlsx",
+  "ranking_sha256": "cf18557a206a75248c921f3b58f4b48ce76463fa5b818de93358913ceda94a7a",
+  "papers": {
+    "2605.29893": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-307",
+          "name": "Huazhong University of Science and Technology",
+          "rank": 307,
+          "rank_label": "307",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2605.29893v2",
+      "affiliation_text": "Huazhong University of Science and Technology | Huawei Technologies, Noah Arks’ Lab | Institute of Computing Technology, Chinese Academy of Sciences Correspondence: huminyang@huawei.com",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.08183": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.08183v2",
+      "affiliation_text": "NeoHorse Team",
+      "review_note": "Team credit only; no university declared in reviewed front matter."
+    },
+    "2609.22753": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-88",
+          "name": "University of Technology Sydney",
+          "rank": 87,
+          "rank_label": "87",
+          "country": "Australia"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.22753v2",
+      "affiliation_text": "School of Electrical, Mechanical and Biomedical Engineering University of Technology Sydney, Sydney, Australia OniReimu/Edge-Computing-JEV OniReimu/Edge-Computing-JEV",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.23136": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-88",
+          "name": "University of Technology Sydney",
+          "rank": 87,
+          "rank_label": "87",
+          "country": "Australia"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.23136v2",
+      "affiliation_text": "School of Electrical, Mechanical and Biomedical Engineering University of Technology Sydney, Sydney, Australia OniReimu/6G-JEV OniReimu/6G-JEV",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.23886": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-4",
+          "name": "University of Oxford",
+          "rank": 4,
+          "rank_label": "4",
+          "country": "United Kingdom"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.23886v1",
+      "affiliation_text": "University of Oxford; FLock.io",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.23959": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.23959v1",
+      "affiliation_text": "Ankit Raj * | Scam.ai (Reality Inc.) | * Equal contribution.",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2609.23986": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-690",
+          "name": "University of Texas at Dallas",
+          "rank": 686,
+          "rank_label": "686",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.23986v1",
+      "affiliation_text": "Department of Computer Science, The University of Texas at Dallas | {dongming.jiang, yi.li3, bingzhe.li}@utdallas.edu",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.24052": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-texas-state-university",
+          "name": "Texas State University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.24052v1",
+      "affiliation_text": "organization=Ingram School of Engineering, Texas State University,\ncity=San Marcos,\nstate=TX,\ncountry=USA",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.24395": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.24395v1",
+      "affiliation_text": "AVEQ GmbH, Vienna, Austria werner.robitza@aveq.info",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2609.24574": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-new-york-university-abu-dhabi",
+          "name": "New York University Abu Dhabi",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.24574v2",
+      "affiliation_text": "Computer Science, New York University Abu Dhabi, Abu Dhabi, UAE",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.24965": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-50",
+          "name": "The Hong Kong Polytechnic University",
+          "rank": 50,
+          "rank_label": "50",
+          "country": "Hong Kong SAR, China"
+        },
+        {
+          "id": "qs-92",
+          "name": "Pennsylvania State University",
+          "rank": 92,
+          "rank_label": "92",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-20",
+          "name": "Johns Hopkins University",
+          "rank": 20,
+          "rank_label": "20",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-43",
+          "name": "Columbia University",
+          "rank": 43,
+          "rank_label": "43",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.24965v3",
+      "affiliation_text": "Johns Hopkins University Baltimore, USA | Columbia University New York, USA | The Hong Kong Polytechnic University Hong Kong, China | The Pennsylvania State University University Park, USA",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.25498": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-anadolu-university",
+          "name": "Anadolu University",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "unverified-mersin-university",
+          "name": "Mersin University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.25498v2",
+      "affiliation_text": "Anadolu University, Eskişehir, Turkey | ITouch Systems, Mersin, Turkey | ORCID: 0009-0000-1587-8703 | Mersin University, Mersin, Turkey | ORCID: 0000-0001-9490-6425 | Toros Science College, Mersin, Turkey | ORCID: 0009-0003-2492-8313 * Corresponding author. Correspondence: https://github.com/pCwOrM/werr",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.25845": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-55",
+          "name": "Carnegie Mellon University",
+          "rank": 55,
+          "rank_label": "55",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.25845v1",
+      "affiliation_text": "Independent Research; Carnegie Mellon University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.26532": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-12",
+          "name": "Nanyang Technological University, Singapore (NTU Singapore)",
+          "rank": 12,
+          "rank_label": "12",
+          "country": "Singapore"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.26532v1",
+      "affiliation_text": "Nanyang Technological University | Singapore",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.26550": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-55",
+          "name": "Carnegie Mellon University",
+          "rank": 55,
+          "rank_label": "55",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.26550v5",
+      "affiliation_text": "Carnegie Mellon University | {yubol, yidim, rk2x, rpadman}@andrew.cmu.edu",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.26758": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-135",
+          "name": "University of Science and Technology of China",
+          "rank": 134,
+          "rank_label": "134",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-10",
+          "name": "National University of Singapore (NUS)",
+          "rank": 10,
+          "rank_label": "10",
+          "country": "Singapore"
+        },
+        {
+          "id": "qs-26",
+          "name": "Fudan University",
+          "rank": 26,
+          "rank_label": "26",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.26758v3",
+      "affiliation_text": "National University of Singapore | Fudan University | University of Science and Technology of China",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.27331": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.27331v1",
+      "affiliation_text": "Institute of Automation, Chinese Academy of Sciences | Beijing Zhongguancun Academy",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2609.27535": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-39",
+          "name": "The University of Tokyo",
+          "rank": 39,
+          "rank_label": "39",
+          "country": "Japan"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.27535v1",
+      "affiliation_text": "The University of Tokyo",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.27607": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-967",
+          "name": "Macao Polytechnic University",
+          "rank": null,
+          "rank_label": "951-1000",
+          "country": "Macao SAR, China"
+        },
+        {
+          "id": "qs-283",
+          "name": "Radboud University",
+          "rank": 283,
+          "rank_label": "283",
+          "country": "Netherlands"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.27607v1",
+      "affiliation_text": "Macao Polytechnic University; Netherlands Cancer Institute; Radboud University",
+      "review_note": "Radboud University Medical Center normalized to Radboud University; Macao rank band prevents numeric sum."
+    },
+    "2609.27678": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-74",
+          "name": "University of Illinois Urbana-Champaign",
+          "rank": 74,
+          "rank_label": "74",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-371",
+          "name": "University of Illinois Chicago (UIC)",
+          "rank": 370,
+          "rank_label": "370",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-216",
+          "name": "Hong Kong Baptist University",
+          "rank": 216,
+          "rank_label": "216",
+          "country": "Hong Kong SAR, China"
+        },
+        {
+          "id": "qs-11",
+          "name": "The University of Hong Kong",
+          "rank": 11,
+          "rank_label": "11",
+          "country": "Hong Kong SAR, China"
+        },
+        {
+          "id": "qs-39",
+          "name": "The University of Tokyo",
+          "rank": 39,
+          "rank_label": "39",
+          "country": "Japan"
+        },
+        {
+          "id": "qs-43",
+          "name": "Columbia University",
+          "rank": 43,
+          "rank_label": "43",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-30",
+          "name": "McGill University",
+          "rank": 30,
+          "rank_label": "30",
+          "country": "Canada"
+        },
+        {
+          "id": "qs-26",
+          "name": "Fudan University",
+          "rank": 26,
+          "rank_label": "26",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "unverified-mbzuai",
+          "name": "MBZUAI",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.27678v2",
+      "affiliation_text": "The University of Tokyo; MBZUAI; McGill University; Hong Kong Baptist University; Fudan University; University of Illinois Urbana-Champaign; UCloud; Columbia University; The University of Hong Kong; University of Illinois Chicago; Quantell Capital",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.28587": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-39",
+          "name": "The University of Tokyo",
+          "rank": 39,
+          "rank_label": "39",
+          "country": "Japan"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.28587v1",
+      "affiliation_text": "The University of Tokyo",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.28613": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-12",
+          "name": "Nanyang Technological University, Singapore (NTU Singapore)",
+          "rank": 12,
+          "rank_label": "12",
+          "country": "Singapore"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.28613v1",
+      "affiliation_text": "Nanyang Technological University | Singapore",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.28919": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-5",
+          "name": "Harvard University",
+          "rank": 5,
+          "rank_label": "5",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.28919v2",
+      "affiliation_text": "Accenture | Harvard University, Faculty of Arts and Sciences (FAS)",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.28940": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.28940v1",
+      "affiliation_text": "Independent Researcher — AI and Offensive Security São Paulo, SP, Brazil joas.santos@redteamleaders.com ORCID: 0009-0003-1772-9826",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2609.29283": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-90",
+          "name": "Nanjing University",
+          "rank": 90,
+          "rank_label": "90",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.29283v1",
+      "affiliation_text": "School of Intelligence Science and Technology,\nNanjing University, Suzhou, China | Microsoft Research Asia",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.29429": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-12",
+          "name": "Nanyang Technological University, Singapore (NTU Singapore)",
+          "rank": 12,
+          "rank_label": "12",
+          "country": "Singapore"
+        },
+        {
+          "id": "qs-1035",
+          "name": "George Mason University",
+          "rank": null,
+          "rank_label": "1001-1200",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-850",
+          "name": "Wake Forest University",
+          "rank": null,
+          "rank_label": "801-850",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-231",
+          "name": "Griffith University",
+          "rank": 230,
+          "rank_label": "230",
+          "country": "Australia"
+        },
+        {
+          "id": "qs-227",
+          "name": "Deakin University",
+          "rank": 227,
+          "rank_label": "227",
+          "country": "Australia"
+        },
+        {
+          "id": "qs-19",
+          "name": "The University of New South Wales (UNSW Sydney)",
+          "rank": 19,
+          "rank_label": "19",
+          "country": "Australia"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.29429v1",
+      "affiliation_text": "Griffith University; Nanyang Technological University; UNSW; Independent Researcher; Deakin University; George Mason University; Wake Forest University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.29769": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-15",
+          "name": "University of Pennsylvania",
+          "rank": 15,
+          "rank_label": "15",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.29769v3",
+      "affiliation_text": "University of Pennsylvania",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.30186": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2609.30186v1",
+      "affiliation_text": "",
+      "review_note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+    },
+    "2609.30216": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-18",
+          "name": "The Chinese University of Hong Kong (CUHK)",
+          "rank": 18,
+          "rank_label": "18",
+          "country": "Hong Kong SAR, China"
+        },
+        {
+          "id": "qs-259",
+          "name": "Sun Yat-sen University",
+          "rank": 258,
+          "rank_label": "258",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.30216v1",
+      "affiliation_text": "Sun Yat-sen University | The Chinese University of Hong Kong",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.30243": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-mohamed-bin-zayed-university-of-artificial-intelligence",
+          "name": "Mohamed bin Zayed University of Artificial Intelligence",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-153",
+          "name": "University of Southern California",
+          "rank": 153,
+          "rank_label": "153",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-172",
+          "name": "Arizona State University",
+          "rank": 172,
+          "rank_label": "172",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/pdf/2609.30243v2",
+      "affiliation_text": "University of Southern California; Mohamed bin Zayed University of Artificial Intelligence; Independent Researcher; Arizona State University",
+      "review_note": "University affiliations checked against PDF first page."
+    },
+    "2609.30454": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-72",
+          "name": "University of Texas at Austin",
+          "rank": 72,
+          "rank_label": "72",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.30454v1",
+      "affiliation_text": " | Division of Pharmacology and Toxicology, College of Pharmacy The University of Texas at Austin, Dell Pediatric Research Institute Austin, TX, USA kap4722@my.utexas.edu   ilias@austin.utexas.edu",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.30706": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2609.30706v1",
+      "affiliation_text": "",
+      "review_note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+    },
+    "2609.30922": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-1014",
+          "name": "Beijing University of Posts and Telecommunications",
+          "rank": null,
+          "rank_label": "1001-1200",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-307",
+          "name": "Huazhong University of Science and Technology",
+          "rank": 307,
+          "rank_label": "307",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-56",
+          "name": "Universiti Malaya (UM)",
+          "rank": 56,
+          "rank_label": "56",
+          "country": "Malaysia"
+        },
+        {
+          "id": "unverified-georgian-college",
+          "name": "Georgian College",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/pdf/2609.30922v1",
+      "affiliation_text": "Beijing University of Posts and Telecommunications; Universiti Malaya; Georgian College; Huazhong University of Science and Technology",
+      "review_note": "University affiliations checked against PDF first page."
+    },
+    "2609.31142": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-307",
+          "name": "Huazhong University of Science and Technology",
+          "rank": 307,
+          "rank_label": "307",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "unverified-changsha-university-of-science-and-technology",
+          "name": "Changsha University of Science and Technology",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "unverified-university-of-chinese-academy-of-sciences",
+          "name": "University of Chinese Academy of Sciences",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-52",
+          "name": "City University of Hong Kong (CityUHK)",
+          "rank": 52,
+          "rank_label": "52",
+          "country": "Hong Kong SAR, China"
+        },
+        {
+          "id": "qs-231",
+          "name": "Griffith University",
+          "rank": 230,
+          "rank_label": "230",
+          "country": "Australia"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.31142v1",
+      "affiliation_text": "Institute of Information Engineering, Chinese Academy of Sciences | School of Cyber Security, University of Chinese Academy of Sciences * Equal contribution † Corresponding authors https://JevAdvBench.github.io/JevAdvBench/ | Huazhong University of Science and Technology | Griffith University | Changsha University of Science and Technology | City University of Hong Kong",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.32160": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-northeastern-university-campus-unverified",
+          "name": "Northeastern University campus unverified",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.32160v1",
+      "affiliation_text": "Northeastern University (campus unverified)",
+      "review_note": "Paper does not disambiguate US Northeastern from the Chinese institution; no rank sum."
+    },
+    "2609.33209": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-northeastern-university-china",
+          "name": "Northeastern University China",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.33209v1",
+      "affiliation_text": "Northeastern University China",
+      "review_note": "Shenyang location identifies Chinese institution, not US Northeastern."
+    },
+    "2609.33401": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-12",
+          "name": "Nanyang Technological University, Singapore (NTU Singapore)",
+          "rank": 12,
+          "rank_label": "12",
+          "country": "Singapore"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.33401v3",
+      "affiliation_text": "TraceStone | Nanyang Technological University , Singapore",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.33538": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2609.33538v1",
+      "affiliation_text": "",
+      "review_note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+    },
+    "2609.33671": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-guangdong-polytechnic-normal-university",
+          "name": "Guangdong Polytechnic Normal University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.33671v1",
+      "affiliation_text": "School of Cyber Security, Guangdong Polytechnic Normal University, Guangzhou, China Email: moyuan@stu.gpnu.edu.cn",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.33689": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.33689v1",
+      "affiliation_text": "National Centre for Scientific Research Demokritos",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.33843": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2609.33843v1",
+      "affiliation_text": "",
+      "review_note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+    },
+    "2609.33874": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.33874v2",
+      "affiliation_text": "Yet Another AI",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2609.33971": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-56",
+          "name": "Universiti Malaya (UM)",
+          "rank": 56,
+          "rank_label": "56",
+          "country": "Malaysia"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.33971v1",
+      "affiliation_text": "Faculty of Computer Science and Information Technology | Universiti Malaya | Kuala Lumpur, Malaysia",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.34024": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.34024v4",
+      "affiliation_text": "Independent researcher | Madrid, Spain",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2609.34180": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.34180v1",
+      "affiliation_text": "Ziyang Luo, Runxiong Wu, Yan-Syuan Chen, Zhongyao Chu | Independent researchers",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2609.34227": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.34227v1",
+      "affiliation_text": "Independent Researcher",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2609.34261": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-36",
+          "name": "Shanghai Jiao Tong University",
+          "rank": 36,
+          "rank_label": "36",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.34261v1",
+      "affiliation_text": "Samsung Robotics eXperience | Shanghai Jiao Tong University | Samsung Research, Beijing, China | Equal Contribution🖂 Corresponding Author",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.34736": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-1225",
+          "name": "Democritus University of Thrace (DUTH)",
+          "rank": null,
+          "rank_label": "1201-1400",
+          "country": "Greece"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.34736v1",
+      "affiliation_text": "Indigma Innovations; Democritus University of Thrace; Athena Research Center",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.34862": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-135",
+          "name": "University of Science and Technology of China",
+          "rank": 134,
+          "rank_label": "134",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.34862v1",
+      "affiliation_text": "University of Science and Technology of China",
+      "review_note": "Paper affiliation spells China as Chine; normalized evident typographic error."
+    },
+    "2609.34963": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-250",
+          "name": "Technical University of Darmstadt",
+          "rank": 250,
+          "rank_label": "250",
+          "country": "Germany"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.34963v1",
+      "affiliation_text": "Technical University of Darmstadt, Germany arshak.rezvani@stud.tu-darmstadt.de sasha.behrouzi@trust.tu-darmstadt.de ahmad.sadeghi@trust.informatik.tu-darmstadt.de",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.34969": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-146",
+          "name": "Tongji University",
+          "rank": 146,
+          "rank_label": "146",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.34969v1",
+      "affiliation_text": "College of Electronic and Information Engineering, Tongji University, Shanghai, China",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.35286": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2609.35286v1",
+      "affiliation_text": "",
+      "review_note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+    },
+    "2609.35293": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-northeastern-university-china",
+          "name": "Northeastern University China",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.35293v1",
+      "affiliation_text": "Northeastern University, China",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.35342": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-sant-anna-school-of-advanced-studies",
+          "name": "Sant Anna School of Advanced Studies",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-341",
+          "name": "University of Pisa",
+          "rank": 341,
+          "rank_label": "341",
+          "country": "Italy"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.35342v1",
+      "affiliation_text": "little-g.ai; Sant Anna School of Advanced Studies; University of Pisa",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.35865": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-242",
+          "name": "Victoria University of Wellington",
+          "rank": 241,
+          "rank_label": "241",
+          "country": "New Zealand"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.35865v1",
+      "affiliation_text": "Victoria University of Wellington Wellington, New Zealand linyida@myvuw.ac.nz",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.36059": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2609.36059v1",
+      "affiliation_text": "",
+      "review_note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+    },
+    "2609.36115": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-132",
+          "name": "University of Wisconsin-Madison",
+          "rank": 131,
+          "rank_label": "131",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.36115v2",
+      "affiliation_text": "Salesforce AI | University of Wisconsin–Madison",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.36116": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-hong-kong-university-of-science-and-technology-guangzhou",
+          "name": "Hong Kong University of Science and Technology Guangzhou",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-174",
+          "name": "Chalmers University of Technology",
+          "rank": 174,
+          "rank_label": "174",
+          "country": "Sweden"
+        },
+        {
+          "id": "qs-453",
+          "name": "Central South University",
+          "rank": 452,
+          "rank_label": "452",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-47",
+          "name": "Zhejiang University",
+          "rank": 47,
+          "rank_label": "47",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.36116v1",
+      "affiliation_text": "Zhejiang University | SAP | Central South University | The Hong Kong University of Science and Technology (Guangzhou) | Chalmers University of Technology | Microsoft Research",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.36154": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-501",
+          "name": "Universität Potsdam",
+          "rank": 500,
+          "rank_label": "500",
+          "country": "Germany"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.36154v1",
+      "affiliation_text": "Hasso Plattner Institute, University of Potsdam , Potsdam , Germany",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.36399": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-808",
+          "name": "Alfaisal University",
+          "rank": null,
+          "rank_label": "801-850",
+          "country": "Saudi Arabia"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.36399v2",
+      "affiliation_text": "College of Engineering and Advanced Computing, Alfaisal University, Riyadh, Saudi Arabia | Proxa.sa, Riyadh, Saudi Arabia",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.36965": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-university-of-chinese-academy-of-sciences",
+          "name": "University of Chinese Academy of Sciences",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-10",
+          "name": "National University of Singapore (NUS)",
+          "rank": 10,
+          "rank_label": "10",
+          "country": "Singapore"
+        },
+        {
+          "id": "qs-26",
+          "name": "Fudan University",
+          "rank": 26,
+          "rank_label": "26",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.36965v1",
+      "affiliation_text": "Fudan University | National University of Singapore | University of Chinese Academy of Sciences",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.37470": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.37470v2",
+      "affiliation_text": "Independent Researcher",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2609.37647": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-209",
+          "name": "Rheinische Friedrich-Wilhelms-Universität Bonn",
+          "rank": 209,
+          "rank_label": "209",
+          "country": "Germany"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.37647v1",
+      "affiliation_text": "University of Bonn, Bonn, Germany | Lamarr-Institute for Machine Learning and Artificial Intelligence, Bonn, Germany | Fraunhofer IAIS, Sankt Augustin, Germany",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.37832": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.37832v1",
+      "affiliation_text": "AltSlate Labs LLP | dushyant@altslate.com nirdesh@altslate.com siddharth@altslate.com",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2609.38827": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-490",
+          "name": "Jilin University",
+          "rank": 488,
+          "rank_label": "488",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.38827v2",
+      "affiliation_text": "School of Artificial Intelligence, Jilin University | College of Software, Jilin University | International Center of Future Science, Jilin University{gaotx5524, jinzhe25, zhiyuanl24}@mails.jlu.edu.cn, {yichang, yuanwu}@jlu.edu.cn | Engineering Research Center of Knowledge-Driven Human-Machine Intelligence, Jilin University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.38850": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2609.38850v1",
+      "affiliation_text": "",
+      "review_note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+    },
+    "2609.39111": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2609.39111v1",
+      "affiliation_text": "AgentBull Pte Ltd",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.39496": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-153",
+          "name": "University of Southern California",
+          "rank": 153,
+          "rank_label": "153",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-228",
+          "name": "University of Florida",
+          "rank": 228,
+          "rank_label": "228",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-183",
+          "name": "Emory University",
+          "rank": 183,
+          "rank_label": "183",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.39496v1",
+      "affiliation_text": "University of Southern California | University of Florida | Emory University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2609.40241": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-413",
+          "name": "Singapore Management University",
+          "rank": 411,
+          "rank_label": "411",
+          "country": "Singapore"
+        }
+      ],
+      "source": "https://arxiv.org/html/2609.40241v2",
+      "affiliation_text": "Singapore Management University | Meta AI",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.00213": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-texas-state-university",
+          "name": "Texas State University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.00213v1",
+      "affiliation_text": "organization=Civil Engineering, Texas State University,\naddressline=601 University Drive,\ncity=San Marcos,\npostcode=78666 TX,\ncountry=USA",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.00346": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-texas-state-university",
+          "name": "Texas State University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.00346v2",
+      "affiliation_text": "organization=Civil Engineering, Texas State University,\naddressline=601 University Drive,\ncity=San Marcos,\npostcode=78666,\nstate=Texas,\ncountry=USA",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.00376": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-1199",
+          "name": "Xi'an Jiaotong Liverpool University",
+          "rank": null,
+          "rank_label": "1001-1200",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.00376v1",
+      "affiliation_text": "Amazon.com, Inc. | Xi’an Jiaotong-Liverpool University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.00381": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-11",
+          "name": "The University of Hong Kong",
+          "rank": 11,
+          "rank_label": "11",
+          "country": "Hong Kong SAR, China"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.00381v1",
+      "affiliation_text": "Cheng Chen | Department of Electrical and Computer Engineering | The University of Hong Kong, Hong Kong SAR, China",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.00437": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-36",
+          "name": "Shanghai Jiao Tong University",
+          "rank": 36,
+          "rank_label": "36",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-26",
+          "name": "Fudan University",
+          "rank": 26,
+          "rank_label": "26",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/pdf/2610.00437v1",
+      "affiliation_text": "Fudan University; Shanghai Jiao Tong University; Shanghai Innovation Institute",
+      "review_note": "Institutions checked against PDF first page."
+    },
+    "2610.00831": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-50",
+          "name": "The Hong Kong Polytechnic University",
+          "rank": 50,
+          "rank_label": "50",
+          "country": "Hong Kong SAR, China"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.00831v1",
+      "affiliation_text": "Nokia; Tencent Hunyuan; The Hong Kong Polytechnic University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.01006": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.01006v1",
+      "affiliation_text": "Synthpop.AI | sharath@synthpop.ai , davor@synthpop.ai , jan@synthpop.ai",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.01079": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-federal-university-of-pampa",
+          "name": "Federal University of Pampa",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.01079v1",
+      "affiliation_text": "organization=Graduate Program in Software Engineering, Federal University of Pampa (UNIPAMPA),\ncity=Alegrete,\nstate=Rio Grande do Sul,\ncountry=Brazil",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.01231": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-523",
+          "name": "University of Huddersfield",
+          "rank": 521,
+          "rank_label": "521",
+          "country": "United Kingdom"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.01231v1",
+      "affiliation_text": "Department of Computer Science, University of Huddersfield, Huddersfield, UK | r.hill@hud.ac.uk | ORCID: 0000-0003-0105-7730",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.01601": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.01601v1",
+      "affiliation_text": "Independent Researcher",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.01834": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-18",
+          "name": "The Chinese University of Hong Kong (CUHK)",
+          "rank": 18,
+          "rank_label": "18",
+          "country": "Hong Kong SAR, China"
+        },
+        {
+          "id": "qs-90",
+          "name": "Nanjing University",
+          "rank": 90,
+          "rank_label": "90",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-236",
+          "name": "Tianjin University",
+          "rank": 235,
+          "rank_label": "235",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "unverified-shanxi-university",
+          "name": "Shanxi University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.01834v2",
+      "affiliation_text": "The Chinese University of Hong Kong; Tianjin University; Shanxi University; Independent Researcher; CAIR, Chinese Academy of Sciences; Nanjing University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.02046": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-535",
+          "name": "University of Utah",
+          "rank": 533,
+          "rank_label": "533",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-101",
+          "name": "Purdue University",
+          "rank": 100,
+          "rank_label": "100",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.02046v1",
+      "affiliation_text": "Purdue University; University of Utah",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.02048": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-shenyang-jianzhu-university",
+          "name": "Shenyang Jianzhu University",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "unverified-shenyang-university",
+          "name": "Shenyang University",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-859",
+          "name": "Donghua University",
+          "rank": null,
+          "rank_label": "851-900",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/pdf/2610.02048v1",
+      "affiliation_text": "Shenyang Jianzhu University; Guangzhou Institute of Industrial Intelligence; Shenyang Institute of Automation, Chinese Academy of Sciences; Shenyang University; Donghua University",
+      "review_note": "Institutions checked against PDF first page."
+    },
+    "2610.02076": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2610.02076v3",
+      "affiliation_text": "Microsoft Corporation",
+      "review_note": "Microsoft copyright and correspondence on PDF first page; no university declared."
+    },
+    "2610.02267": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2610.02267v1",
+      "affiliation_text": "",
+      "review_note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+    },
+    "2610.02293": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.02293v1",
+      "affiliation_text": "ufak AI",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.02486": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-176",
+          "name": "Queen's University Belfast",
+          "rank": 174,
+          "rank_label": "174",
+          "country": "United Kingdom"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.02486v1",
+      "affiliation_text": "Queen’s University Belfast | Belfast, United Kingdom",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.02586": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-153",
+          "name": "University of Southern California",
+          "rank": 153,
+          "rank_label": "153",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.02586v1",
+      "affiliation_text": "University of Southern California (USC), USA | {seyedarm, baghaeip, pedram}@usc.edu",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.03073": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-493",
+          "name": "University of Electronic Science and Technology of China",
+          "rank": 488,
+          "rank_label": "488",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.03073v2",
+      "affiliation_text": "University of Electronic Science and Technology of China | National Key Laboratory of Security Communication https://github.com/UESTC1010/SecJev",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.03324": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-525",
+          "name": "University of Cyprus (UCY)",
+          "rank": 525,
+          "rank_label": "525",
+          "country": "Cyprus"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.03324v1",
+      "affiliation_text": "University of Cyprus",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.03387": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-31",
+          "name": "Monash University",
+          "rank": 31,
+          "rank_label": "31",
+          "country": "Australia"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.03387v2",
+      "affiliation_text": "Monash University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.03935": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-18",
+          "name": "The Chinese University of Hong Kong (CUHK)",
+          "rank": 18,
+          "rank_label": "18",
+          "country": "Hong Kong SAR, China"
+        },
+        {
+          "id": "qs-37",
+          "name": "King's College London",
+          "rank": 37,
+          "rank_label": "37",
+          "country": "United Kingdom"
+        },
+        {
+          "id": "qs-146",
+          "name": "Tongji University",
+          "rank": 146,
+          "rank_label": "146",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-26",
+          "name": "Fudan University",
+          "rank": 26,
+          "rank_label": "26",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.03935v2",
+      "affiliation_text": "Shanghai Innovation Institute | Fudan University | Tongji University | King’s College London | Chinese University of Hong Kong",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.04345": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-392",
+          "name": "Sharif University of Technology",
+          "rank": 390,
+          "rank_label": "390",
+          "country": "Iran (Islamic Republic of)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.04345v1",
+      "affiliation_text": "Sharif University of Technology",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.04985": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-88",
+          "name": "University of Technology Sydney",
+          "rank": 87,
+          "rank_label": "87",
+          "country": "Australia"
+        },
+        {
+          "id": "qs-1023",
+          "name": "City University of Macau",
+          "rank": null,
+          "rank_label": "1001-1200",
+          "country": "Macao SAR, China"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.04985v1",
+      "affiliation_text": "University of Technology Sydney; City University of Macau",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.05107": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-119",
+          "name": "Leiden University",
+          "rank": 119,
+          "rank_label": "119",
+          "country": "Netherlands"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.05107v1",
+      "affiliation_text": "Huawei Technologies Co., Ltd. | Leiden University Code Models",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.06354": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-738",
+          "name": "Beijing University of Technology",
+          "rank": null,
+          "rank_label": "731-740",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/pdf/2610.06354v3",
+      "affiliation_text": "Microsoft; Beijing University of Technology",
+      "review_note": "Institutions checked against PDF first page."
+    },
+    "2610.06425": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-88",
+          "name": "University of Technology Sydney",
+          "rank": 87,
+          "rank_label": "87",
+          "country": "Australia"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.06425v1",
+      "affiliation_text": "School of Electrical, Mechanical and Biomedical Engineering University of Technology Sydney, Sydney, Australia OniReimu/SoK-JEV OniReimu/SoK-JEV",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.06625": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-119",
+          "name": "Leiden University",
+          "rank": 119,
+          "rank_label": "119",
+          "country": "Netherlands"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.06625v2",
+      "affiliation_text": "Leiden University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.06744": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.06744v1",
+      "affiliation_text": "ufak AI",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.07177": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.07177v1",
+      "affiliation_text": "Independent researcher",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.07327": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.07327v1",
+      "affiliation_text": "Naoki Wake and Justin Wagle are with Microsoft. naokiwake@microsoft.com, Justin.Wagle@microsoft.com",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.07716": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-hong-kong-university-of-science-and-technology-guangzhou",
+          "name": "Hong Kong University of Science and Technology Guangzhou",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-33",
+          "name": "The Hong Kong University of Science and Technology",
+          "rank": 33,
+          "rank_label": "33",
+          "country": "Hong Kong SAR, China"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.07716v2",
+      "affiliation_text": "Hong Kong University of Science and Technology | Hong Kong University of Science and Technology(Guangzhou)",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.07730": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-255",
+          "name": "University of Minnesota (System)",
+          "rank": 255,
+          "rank_label": "255",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.07730v2",
+      "affiliation_text": "University of Minnesota | SanSi Project Page",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.07953": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.07953v1",
+      "affiliation_text": "Independent Researcher | Institute of Information Science and Technologies (ISTI), | National Research Council (CNR), Italy",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.08089": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-65",
+          "name": "KAIST",
+          "rank": 65,
+          "rank_label": "65",
+          "country": "Republic of Korea"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.08089v2",
+      "affiliation_text": "KAIST",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.08155": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-493",
+          "name": "University of Electronic Science and Technology of China",
+          "rank": 488,
+          "rank_label": "488",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "unverified-southwestern-university-of-finance-and-economics",
+          "name": "Southwestern University of Finance and Economics",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/pdf/2610.08155v1",
+      "affiliation_text": "University of Electronic Science and Technology of China; Southwestern University of Finance and Economics",
+      "review_note": "Institutions checked against PDF first page."
+    },
+    "2610.08675": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-81",
+          "name": "University of California, San Diego (UCSD)",
+          "rank": 81,
+          "rank_label": "81",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-182",
+          "name": "Michigan State University",
+          "rank": 182,
+          "rank_label": "182",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-386",
+          "name": "Northeastern University",
+          "rank": 385,
+          "rank_label": "385",
+          "country": "United States of America"
+        },
+        {
+          "id": "unverified-indiana-university",
+          "name": "Indiana University",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "unverified-sofia-university",
+          "name": "Sofia University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.08675v1",
+      "affiliation_text": "Sofia University (California); Indiana University; University of California San Diego; Northeastern University; Michigan State University",
+      "review_note": "sofia.edu identifies US Sofia University, not Bulgarian Sofia University; rank unverified."
+    },
+    "2610.08775": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-44",
+          "name": "Institut Polytechnique de Paris",
+          "rank": 43,
+          "rank_label": "43",
+          "country": "France"
+        },
+        {
+          "id": "qs-230",
+          "name": "Eberhard Karls Universität Tübingen",
+          "rank": 230,
+          "rank_label": "230",
+          "country": "Germany"
+        },
+        {
+          "id": "qs-65",
+          "name": "KAIST",
+          "rank": 65,
+          "rank_label": "65",
+          "country": "Republic of Korea"
+        }
+      ],
+      "source": "https://arxiv.org/pdf/2610.08775v1",
+      "affiliation_text": "University of Tubingen; ELLIS Institute Tubingen; Max Planck Institute for Intelligent Systems; Tubingen AI Center; Institut Polytechnique de Paris; CNRS; KAIST",
+      "review_note": "Institutions checked against PDF first page."
+    },
+    "2610.08829": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-236",
+          "name": "Tianjin University",
+          "rank": 235,
+          "rank_label": "235",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.08829v1",
+      "affiliation_text": "School of Computer Science and Technology, Tianjin University | Tianjin, China",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.09188": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-779",
+          "name": "University of Oklahoma",
+          "rank": null,
+          "rank_label": "771-780",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.09188v1",
+      "affiliation_text": "INQUIRE Lab, School of Electrical and Computer Engineering | University of Oklahoma, Norman, OK, USA",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.09328": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-1014",
+          "name": "Beijing University of Posts and Telecommunications",
+          "rank": null,
+          "rank_label": "1001-1200",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.09328v1",
+      "affiliation_text": "Beijing University of Posts and Telecommunications",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.09683": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.09683v1",
+      "affiliation_text": "Independent Researcher, Recco (Genoa), Italy",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.09896": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-1042",
+          "name": "Harbin Engineering University",
+          "rank": null,
+          "rank_label": "1001-1200",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.09896v1",
+      "affiliation_text": "organization=Harbin Engineering University,\naddressline=145 Nantong Street, Nangang District,\ncity=Harbin,\ncountry=P. R. China",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.09937": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-313",
+          "name": "The University of Arizona",
+          "rank": 313,
+          "rank_label": "313",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.09937v1",
+      "affiliation_text": "University of Arizona, Tucson, AZ, USA",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.10321": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-texas-state-university",
+          "name": "Texas State University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.10321v1",
+      "affiliation_text": "Texas State University , San Marcos , USA",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.10615": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-university-of-chinese-academy-of-sciences",
+          "name": "University of Chinese Academy of Sciences",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.10615v1",
+      "affiliation_text": "University of Chinese Academy of Sciences",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.10978": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-1142",
+          "name": "Universidad Torcuato Di Tella",
+          "rank": null,
+          "rank_label": "1001-1200",
+          "country": "Argentina"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.10978v1",
+      "affiliation_text": "Universidad Torcuato Di Tella",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.11135": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-korea-university-sejong-campus",
+          "name": "Korea University Sejong Campus",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-53",
+          "name": "Korea University",
+          "rank": 52,
+          "rank_label": "52",
+          "country": "Republic of Korea"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.11135v1",
+      "affiliation_text": "Korea University Sejong Campus | Korea University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.11316": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.11316v1",
+      "affiliation_text": "Meta AI",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.11379": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-304",
+          "name": "Xiamen University",
+          "rank": 303,
+          "rank_label": "303",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.11379v1",
+      "affiliation_text": "Xiamen University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.11392": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-2",
+          "name": "Imperial College London",
+          "rank": 2,
+          "rank_label": "2",
+          "country": "United Kingdom"
+        },
+        {
+          "id": "qs-1490",
+          "name": "University of Kaiserslautern-Landau (RPTU)",
+          "rank": null,
+          "rank_label": "1401+",
+          "country": "Germany"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.11392v2",
+      "affiliation_text": "DFKI GmbH  RPTU Kaiserslautern  Imperial College London  Mila - Quebec AI Institute",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.11436": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.11436v1",
+      "affiliation_text": "Independent Researcher",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.11692": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-18",
+          "name": "The Chinese University of Hong Kong (CUHK)",
+          "rank": 18,
+          "rank_label": "18",
+          "country": "Hong Kong SAR, China"
+        },
+        {
+          "id": "qs-90",
+          "name": "Nanjing University",
+          "rank": 90,
+          "rank_label": "90",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-236",
+          "name": "Tianjin University",
+          "rank": 235,
+          "rank_label": "235",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "unverified-shanxi-university",
+          "name": "Shanxi University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.11692v1",
+      "affiliation_text": "Shanxi University | Nanjing University | The Chinese University of Hong Kong | Independent Researcher | Tianjin University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.11901": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-464",
+          "name": "Dalian University of Technology",
+          "rank": 463,
+          "rank_label": "463",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "unverified-dalian-maritime-university",
+          "name": "Dalian Maritime University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.11901v1",
+      "affiliation_text": "Dalian Maritime University; Dalian University of Technology",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.11978": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-464",
+          "name": "Dalian University of Technology",
+          "rank": 463,
+          "rank_label": "463",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "unverified-dalian-maritime-university",
+          "name": "Dalian Maritime University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.11978v1",
+      "affiliation_text": "Dalian Maritime University | Dalian University of Technology",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.12292": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-153",
+          "name": "University of Southern California",
+          "rank": 153,
+          "rank_label": "153",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.12292v1",
+      "affiliation_text": "University of Southern California (USC), USA | {seyedarm, baghaeip, pedram}@usc.edu",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.13092": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-25",
+          "name": "Technical University of Munich",
+          "rank": 25,
+          "rank_label": "25",
+          "country": "Germany"
+        },
+        {
+          "id": "qs-90",
+          "name": "Nanjing University",
+          "rank": 90,
+          "rank_label": "90",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.13092v1",
+      "affiliation_text": "Nanjing University | yuchenling@smail.nju.edu.cn | {zychen, fangchunrong}@nju.edu.cn | Technical University of Munich | shengcheng.yu@tum.de",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.13675": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-vietnam-national-university-ho-chi-minh-city",
+          "name": "Vietnam National University Ho Chi Minh City",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "unverified-university-of-information-technology",
+          "name": "University of Information Technology",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "unverified-ho-chi-minh-university-of-education",
+          "name": "Ho Chi Minh University of Education",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.13675v1",
+      "affiliation_text": "Research and Development Center,\nVNSO Technology JSC,\nHo Chi Minh City,\nVietnam | Department of Information Technology,\nHo Chi Minh University of Education,\nHo Chi Minh City,\nVietnam | Faculty of Information Science and Engineering,\nUniversity of Information Technology,\n\nHo Chi Minh City,\nVietnam | Vietnam National University,\n\nHo Chi Minh City,\nVietnam",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.14112": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2610.14112v1",
+      "affiliation_text": "Universitas Budi Luhur",
+      "review_note": "Institutions checked against PDF first page."
+    },
+    "2610.14404": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-676",
+          "name": "Stevens Institute of Technology",
+          "rank": 675,
+          "rank_label": "675",
+          "country": "United States of America"
+        },
+        {
+          "id": "unverified-university-of-california-merced",
+          "name": "University of California Merced",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.14404v1",
+      "affiliation_text": "1 University of California, Merced Merced, California, USA | 2 Stevens Institute of Technology Hoboken, New Jersey, USA",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.14449": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-114",
+          "name": "University of Waterloo",
+          "rank": 113,
+          "rank_label": "113",
+          "country": "Canada"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.14449v1",
+      "affiliation_text": "University of Waterloo",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.14631": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-14",
+          "name": "Tsinghua University",
+          "rank": 14,
+          "rank_label": "14",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.14631v1",
+      "affiliation_text": "Tsinghua University , Beijing , China",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.14912": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-697",
+          "name": "Kaunas University of Technology",
+          "rank": 696,
+          "rank_label": "696",
+          "country": "Lithuania"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.14912v1",
+      "affiliation_text": "Hostinger; Kaunas University of Technology; | AI Insight Lab | AI Insight Lab; | Independent Researcher",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.15029": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-united-international-university",
+          "name": "United International University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.15029v1",
+      "affiliation_text": "Department of Computer Science and Engineering | United International University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.15501": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-74",
+          "name": "University of Illinois Urbana-Champaign",
+          "rank": 74,
+          "rank_label": "74",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-10",
+          "name": "National University of Singapore (NUS)",
+          "rank": 10,
+          "rank_label": "10",
+          "country": "Singapore"
+        },
+        {
+          "id": "qs-15",
+          "name": "University of Pennsylvania",
+          "rank": 15,
+          "rank_label": "15",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-251",
+          "name": "University of Rochester",
+          "rank": 251,
+          "rank_label": "251",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-47",
+          "name": "Zhejiang University",
+          "rank": 47,
+          "rank_label": "47",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.15501v1",
+      "affiliation_text": "University of Illinois Urbana-Champaign | National University of Singapore | Zhejiang University | University of Pennsylvania | University of Rochester",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.15537": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-266",
+          "name": "Singapore University of Technology and Design",
+          "rank": 266,
+          "rank_label": "266",
+          "country": "Singapore"
+        },
+        {
+          "id": "unverified-shanghai-ocean-university",
+          "name": "Shanghai Ocean University",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-31",
+          "name": "Monash University",
+          "rank": 31,
+          "rank_label": "31",
+          "country": "Australia"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.15537v1",
+      "affiliation_text": "Monash University; Singapore University of Technology and Design; Shanghai Ocean University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.15710": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-58",
+          "name": "New York University (NYU)",
+          "rank": 58,
+          "rank_label": "58",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.15710v1",
+      "affiliation_text": "Dimension Gate | New York University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.15742": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-anhui-university-of-science-and-technology",
+          "name": "Anhui University of Science and Technology",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "unverified-guangxi-normal-university",
+          "name": "Guangxi Normal University",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-236",
+          "name": "Tianjin University",
+          "rank": 235,
+          "rank_label": "235",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.15742v1",
+      "affiliation_text": "Anhui University of Science and Technology; Tianjin University; Guangxi Normal University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.16191": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-1221",
+          "name": "Central China Normal University",
+          "rank": null,
+          "rank_label": "1201-1400",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-55",
+          "name": "Carnegie Mellon University",
+          "rank": 55,
+          "rank_label": "55",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-418",
+          "name": "Shenzhen University",
+          "rank": 416,
+          "rank_label": "416",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.16191v1",
+      "affiliation_text": "Carnegie Mellon University | Shenzhen University | Central China Normal University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.16238": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-349",
+          "name": "Beihang University (former BUAA)",
+          "rank": 349,
+          "rank_label": "349",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-36",
+          "name": "Shanghai Jiao Tong University",
+          "rank": 36,
+          "rank_label": "36",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-259",
+          "name": "Sun Yat-sen University",
+          "rank": 258,
+          "rank_label": "258",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-490",
+          "name": "Jilin University",
+          "rank": 488,
+          "rank_label": "488",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.16238v1",
+      "affiliation_text": "Shanghai Jiao Tong University | Shanghai Artificial Intelligence Laboratory | Sun Yat-Sen University Jilin University | Beijing University of Aeronautics and Astronautics * Equal contribution. Corresponding authors.",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.16550": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.16550v1",
+      "affiliation_text": "Alias Robotics, Vitoria-Gasteiz, Álava, Spain",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.16655": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.16655v1",
+      "affiliation_text": "AltSlate Labs LLP | dushyant@altslate.com nirdesh@altslate.com siddharth@altslate.com",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.16967": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-190",
+          "name": "Harbin Institute of Technology",
+          "rank": 190,
+          "rank_label": "190",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/pdf/2610.16967v1",
+      "affiliation_text": "Harbin Institute of Technology; Guanxing Technology",
+      "review_note": "Declared affiliations checked on PDF first page."
+    },
+    "2610.17016": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-546",
+          "name": "Florida State University",
+          "rank": 546,
+          "rank_label": "546",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-39",
+          "name": "The University of Tokyo",
+          "rank": 39,
+          "rank_label": "39",
+          "country": "Japan"
+        },
+        {
+          "id": "qs-95",
+          "name": "The University of Osaka",
+          "rank": 95,
+          "rank_label": "95",
+          "country": "Japan"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.17016v1",
+      "affiliation_text": "Florida State University; The University of Tokyo; RIKEN AIP; The University of Osaka",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.17113": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-1290",
+          "name": "Shanghai University of Finance and Economics",
+          "rank": null,
+          "rank_label": "1201-1400",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-40",
+          "name": "The University of Manchester",
+          "rank": 40,
+          "rank_label": "40",
+          "country": "United Kingdom"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.17113v1",
+      "affiliation_text": "University of Manchester; Mayo Clinic; Shanghai University of Finance and Economics",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.17175": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2610.17175v1",
+      "affiliation_text": "Fundamental AI",
+      "review_note": "Declared affiliations checked on PDF first page."
+    },
+    "2610.17205": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-5",
+          "name": "Harvard University",
+          "rank": 5,
+          "rank_label": "5",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.17205v1",
+      "affiliation_text": "Harvard University | Kempner Institute",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.17309": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-317",
+          "name": "Southern University of Science and Technology (SUSTech)",
+          "rank": 317,
+          "rank_label": "317",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-11",
+          "name": "The University of Hong Kong",
+          "rank": 11,
+          "rank_label": "11",
+          "country": "Hong Kong SAR, China"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.17309v1",
+      "affiliation_text": "StartLux  The University of Hong Kong  Southern University of Science and Technology",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.17727": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-46",
+          "name": "University of British Columbia",
+          "rank": 45,
+          "rank_label": "45",
+          "country": "Canada"
+        },
+        {
+          "id": "qs-32",
+          "name": "University of Toronto",
+          "rank": 32,
+          "rank_label": "32",
+          "country": "Canada"
+        },
+        {
+          "id": "unverified-rutgers-university",
+          "name": "Rutgers University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.17727v2",
+      "affiliation_text": "University of British Columbia | University of Toronto | Rutgers University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.17820": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-332",
+          "name": "Nankai University",
+          "rank": 329,
+          "rank_label": "329",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.17820v1",
+      "affiliation_text": "Nankai University | Zhongguancun Laboratory",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18122": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-262",
+          "name": "University of Göttingen",
+          "rank": 261,
+          "rank_label": "261",
+          "country": "Germany"
+        },
+        {
+          "id": "qs-1016",
+          "name": "Bielefeld University",
+          "rank": null,
+          "rank_label": "1001-1200",
+          "country": "Germany"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18122v1",
+      "affiliation_text": "University of Göttingen | Bielefeld University of Applied Sciences and Arts (HSBI)",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18233": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-12",
+          "name": "Nanyang Technological University, Singapore (NTU Singapore)",
+          "rank": 12,
+          "rank_label": "12",
+          "country": "Singapore"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18233v1",
+      "affiliation_text": "Nanyang Technological University, Singapore",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18272": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-king-abdullah-university-of-science-and-technology",
+          "name": "King Abdullah University of Science and Technology",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18272v1",
+      "affiliation_text": "Firas Laakom   Yifan Xu   Piotr Piękos   Mateusz Ostaszewski | Wenyi Wang   Cheng Luo   Yuhui Wang   Jürgen Schmidhuber | King Abdullah University of Science and Technology (KAUST) | Project page: https://sunyasheng.github.io/projects/JevGPT",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18326": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-cuhk-shenzhen",
+          "name": "CUHK Shenzhen",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-33",
+          "name": "The Hong Kong University of Science and Technology",
+          "rank": 33,
+          "rank_label": "33",
+          "country": "Hong Kong SAR, China"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18326v1",
+      "affiliation_text": "HKUST; ModeIO; CUHK Shenzhen",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18389": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-1",
+          "name": "Massachusetts Institute of Technology (MIT)",
+          "rank": 1,
+          "rank_label": "1",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18389v1",
+      "affiliation_text": "Massachusetts Institute of Technology; Sakana AI",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18497": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-179",
+          "name": "Cardiff University",
+          "rank": 179,
+          "rank_label": "179",
+          "country": "United Kingdom"
+        },
+        {
+          "id": "qs-17",
+          "name": "Yale University",
+          "rank": 16,
+          "rank_label": "16",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18497v1",
+      "affiliation_text": "The Fin AI, USA | Yale University, USA | Cardiff University, UK Correspondence: {wy2266336,lfqian94}@gmail.com",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18529": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-190",
+          "name": "Harbin Institute of Technology",
+          "rank": 190,
+          "rank_label": "190",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18529v1",
+      "affiliation_text": "Harbin Institute of Technology | Ant Group",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18579": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-55",
+          "name": "Carnegie Mellon University",
+          "rank": 55,
+          "rank_label": "55",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18579v1",
+      "affiliation_text": "Carnegie Mellon University | {yubol, rk2x, rpadman}@andrew.cmu.edu",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18610": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-33",
+          "name": "The Hong Kong University of Science and Technology",
+          "rank": 33,
+          "rank_label": "33",
+          "country": "Hong Kong SAR, China"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18610v1",
+      "affiliation_text": "Xi Yang   Wenbin Hu   Huihao Jing   Chiu Yeung Tang | Changxuan Fan   Ki Sen Hung   Tsun On Kwok   Haoran Li | Department of Computer Science and Engineering | The Hong Kong University of Science and Technology | Code",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18612": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "qs-1014",
+          "name": "Beijing University of Posts and Telecommunications",
+          "rank": null,
+          "rank_label": "1001-1200",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18612v1",
+      "affiliation_text": "Key Laboratory of Trustworthy Distributed Computing and Service (MoE)Beijing University of Posts and Telecommunications | Beijing University of Posts and Telecommunications | Zhongguancun Laboratory | Institute of Computing Technology, Chinese Academy of Sciences",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18615": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2610.18615v1",
+      "affiliation_text": "NJU; JD.com; UCAS; THU; XMU; SJTU; USTC; FDU",
+      "review_note": "PDF first page lists abbreviated institutions; complete institution and campus mapping remains to be verified."
+    },
+    "2610.18773": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-10",
+          "name": "National University of Singapore (NUS)",
+          "rank": 10,
+          "rank_label": "10",
+          "country": "Singapore"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18773v1",
+      "affiliation_text": "National University of Singapore | liqi@u.nus.edu; xinchao@nus.edu.sg",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.18780": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-463",
+          "name": "University of Connecticut",
+          "rank": 458,
+          "rank_label": "458",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.18780v1",
+      "affiliation_text": "University of Connecticut",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.19118": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-92",
+          "name": "Pennsylvania State University",
+          "rank": 92,
+          "rank_label": "92",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.19118v1",
+      "affiliation_text": "Yongkang Du   Lu Lin   Jinghui Chen | The Pennsylvania State University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.19478": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-255",
+          "name": "University of Minnesota (System)",
+          "rank": 255,
+          "rank_label": "255",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.19478v1",
+      "affiliation_text": "University of Minnesota Twin Cities",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.19536": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-chinese-university-of-hong-kong-shenzhen",
+          "name": "Chinese University of Hong Kong Shenzhen",
+          "rank": null,
+          "rank_label": null
+        },
+        {
+          "id": "qs-132",
+          "name": "University of Wisconsin-Madison",
+          "rank": 131,
+          "rank_label": "131",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-490",
+          "name": "Jilin University",
+          "rank": 488,
+          "rank_label": "488",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.19536v1",
+      "affiliation_text": "University of Wisconsin Madison; Jilin University; Chinese University of Hong Kong Shenzhen",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.19596": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-265",
+          "name": "Vanderbilt University",
+          "rank": 265,
+          "rank_label": "265",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.19596v1",
+      "affiliation_text": "Vanderbilt University, Nashville, Tennessee, USA",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.19619": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-bocconi-university",
+          "name": "Bocconi University",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.19619v1",
+      "affiliation_text": "Adam Eric Greenberg   Alessandro Romano | Bocconi University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.19644": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-493",
+          "name": "University of Electronic Science and Technology of China",
+          "rank": 488,
+          "rank_label": "488",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/pdf/2610.19644v1",
+      "affiliation_text": "University of Electronic Science and Technology of China",
+      "review_note": "Declared affiliations checked on PDF first page."
+    },
+    "2610.19811": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-universite-de-technologie-de-compiegne",
+          "name": "Universite de Technologie de Compiegne",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.19811v1",
+      "affiliation_text": "Heudiasyc - UMR CNRS 7253 | Université de Technologie de Compiègne | Independent Researcher | France",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.19856": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [
+        {
+          "id": "unverified-university-of-chinese-academy-of-sciences",
+          "name": "University of Chinese Academy of Sciences",
+          "rank": null,
+          "rank_label": null
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.19856v1",
+      "affiliation_text": "System Security Team, Li Auto Inc, China | Institute of Information Engineering,\nChinese Academy of Sciences, China | School of Cyber Security,\nUniversity of Chinese Academy of Sciences, China",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.19971": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-178",
+          "name": "National Yang Ming Chiao Tung University (NYCU Taiwan)",
+          "rank": 177,
+          "rank_label": "177",
+          "country": "Taiwan"
+        },
+        {
+          "id": "qs-12",
+          "name": "Nanyang Technological University, Singapore (NTU Singapore)",
+          "rank": 12,
+          "rank_label": "12",
+          "country": "Singapore"
+        },
+        {
+          "id": "qs-97",
+          "name": "Institute of Science Tokyo",
+          "rank": 97,
+          "rank_label": "97",
+          "country": "Japan"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.19971v1",
+      "affiliation_text": "Institute of Science Tokyo | National Yang Ming Chiao Tung University | Nanyang Technological University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.20634": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.20634v1",
+      "affiliation_text": "CustomGPT.ai",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.20665": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-13",
+          "name": "Peking University",
+          "rank": 13,
+          "rank_label": "13",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.20665v1",
+      "affiliation_text": "Peking University | Samsung Research, Beijing, China * Corresponding authors: wentao.zhang@pku.edu.cn , yehui.tang@samsung.com",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.20778": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.20778v1",
+      "affiliation_text": "LEC AI",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.20907": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.20907v1",
+      "affiliation_text": "eBay Inc.",
+      "review_note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+    },
+    "2610.20927": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-268",
+          "name": "University of Virginia",
+          "rank": 268,
+          "rank_label": "268",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.20927v1",
+      "affiliation_text": "Department of Computer Science | University of Virginia",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.20951": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-46",
+          "name": "University of British Columbia",
+          "rank": 45,
+          "rank_label": "45",
+          "country": "Canada"
+        },
+        {
+          "id": "qs-673",
+          "name": "Lehigh University",
+          "rank": 670,
+          "rank_label": "670",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.20951v1",
+      "affiliation_text": "Lehigh University | University of British Columbia | Vector Institute",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.21046": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-46",
+          "name": "University of British Columbia",
+          "rank": 45,
+          "rank_label": "45",
+          "country": "Canada"
+        },
+        {
+          "id": "qs-673",
+          "name": "Lehigh University",
+          "rank": 670,
+          "rank_label": "670",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.21046v1",
+      "affiliation_text": "Lehigh University | University of British Columbia | Vector Institute",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.21244": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-72",
+          "name": "University of Texas at Austin",
+          "rank": 72,
+          "rank_label": "72",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.21244v1",
+      "affiliation_text": "The University of Texas at Austin",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.21411": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-36",
+          "name": "Shanghai Jiao Tong University",
+          "rank": 36,
+          "rank_label": "36",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.21411v1",
+      "affiliation_text": "Shanghai Jiao Tong University , Shanghai , China",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.21412": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-74",
+          "name": "University of Illinois Urbana-Champaign",
+          "rank": 74,
+          "rank_label": "74",
+          "country": "United States of America"
+        },
+        {
+          "id": "qs-27",
+          "name": "Princeton University",
+          "rank": 27,
+          "rank_label": "27",
+          "country": "United States of America"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.21412v1",
+      "affiliation_text": "University of Illinois Urbana-Champaign | Princeton University | Google",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.21614": {
+      "edition": 2027,
+      "status": "no_university",
+      "universities": [],
+      "source": "https://arxiv.org/html/2610.21614v1",
+      "affiliation_text": "Token Foundry; Alibaba Group",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.22066": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-12",
+          "name": "Nanyang Technological University, Singapore (NTU Singapore)",
+          "rank": 12,
+          "rank_label": "12",
+          "country": "Singapore"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.22066v1",
+      "affiliation_text": "Nanyang Technological University , Singapore",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.22131": {
+      "edition": 2027,
+      "status": "verified",
+      "universities": [
+        {
+          "id": "qs-12",
+          "name": "Nanyang Technological University, Singapore (NTU Singapore)",
+          "rank": 12,
+          "rank_label": "12",
+          "country": "Singapore"
+        },
+        {
+          "id": "qs-36",
+          "name": "Shanghai Jiao Tong University",
+          "rank": 36,
+          "rank_label": "36",
+          "country": "China (Mainland)"
+        },
+        {
+          "id": "qs-26",
+          "name": "Fudan University",
+          "rank": 26,
+          "rank_label": "26",
+          "country": "China (Mainland)"
+        }
+      ],
+      "source": "https://arxiv.org/html/2610.22131v1",
+      "affiliation_text": "Shanghai AI Lab | Shanghai Jiao Tong University | Fudan University | Nanyang Technological University",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    },
+    "2610.22276": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://arxiv.org/pdf/2610.22276v1",
+      "affiliation_text": "",
+      "review_note": "PDF first page lists authors and correspondence emails but no explicit university affiliations; email domains are not used to infer affiliations."
+    },
+    "doi:10.13140/RG.2.2.28606.45122": {
+      "edition": 2027,
+      "status": "pending",
+      "universities": [],
+      "source": "https://doi.org/10.13140/RG.2.2.28606.45122",
+      "affiliation_text": "",
+      "review_note": "Declared paper affiliations; missing or non-numeric ranks remain pending."
+    }
+  }
+}

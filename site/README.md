@@ -8,12 +8,16 @@ From the repository root, with Python 3.10+:
 
 ```bash
 python scripts/build_site_data.py
-python -m http.server 8765 --bind 127.0.0.1 --directory docs
+python scripts/serve_site.py
 ```
 
-Open `http://127.0.0.1:8765/?lang=zh` or `?lang=en`. Serve over HTTP; opening `index.html` through `file://` cannot load the JSON/module assets reliably. The dataset is generated offline from the latest verified snapshot and the bilingual READMEs. It does not discover new papers automatically.
+Open `http://127.0.0.1:8766/?lang=zh` or `?lang=en`. Serve over HTTP; opening `index.html` through `file://` cannot load the JSON/module assets reliably. The dataset is generated offline from the latest verified snapshot and the bilingual READMEs. It does not discover new papers automatically.
 
 ## Features / 功能
+
+- Bilingual Jev Quick Start before the research charts, with typed outputs, a threshold demo and official documentation.
+- Larger reading sizes, including 16px paper summaries and 20px titles.
+- QS 2027 university-rank-sum ordering, per-paper university details and affiliation source links. Unknown ranks and rank bands stay last. CSV includes ranking provenance.
 
 - English / 简体中文 switching, with browser-language default and locally saved preference.
 - Global / per-domain daily and cumulative publication trends with exact daily data inspection.
@@ -27,9 +31,9 @@ Open `http://127.0.0.1:8765/?lang=zh` or `?lang=en`. Serve over HTTP; opening `i
 
 ## Statistical definitions / 统计口径
 
-The source snapshot currently contains 161 included academic papers, including 160 dated arXiv records and one ResearchGate preprint with an unverified date. Academic records are counted once in their primary domain. The 13 technical articles/reports are not part of the research charts.
+The source snapshot currently contains 186 included academic papers, including 185 dated arXiv records and one ResearchGate preprint with an unverified date. Academic records are counted once in their primary domain. The 13 technical articles/reports are not part of the research charts.
 
-Time-series count arXiv **v1 dates in UTC**, not revision dates or repository addition dates. Cumulative counts reset to zero at the selected window's start and accumulate only the selected papers. The verification cutoff is recorded in Asia/Shanghai; its corresponding last UTC day may be incomplete. A zero cell means no included record, not proof of no publication.
+Time-series count arXiv **v1 dates in UTC**, not revision dates or repository addition dates. Cumulative counts reset to zero at the selected window's start and accumulate only the selected papers. The verification cutoff is recorded in Asia/Shanghai; its corresponding last UTC day may be incomplete. A zero cell means no included record, not proof of no publication. Two newly discovered revisions have v1 dates before Jev launched; these dates describe the paper history, not when Jev appeared in the paper.
 
 Undated papers appear in full-window composition charts and the library; shortening the date window excludes them. The heatmap and growth plots always exclude undated papers. Tier A describes direct Jev / Jev-style research; Tier B describes an evaluation or explicit comparison. These are inclusion roles, not quality ratings. Team-size bins count credited authors per paper, not unique researchers, institutions or countries.
 
@@ -52,6 +56,7 @@ docs/                # committed GitHub Pages publishing root
   index.html         # homepage entry
   style.css          # responsive visual system
   app.mjs            # UI, interactive charts and paper explorer
+  quickstart.mjs     # bilingual introduction and routing demonstration
   metrics.mjs        # pure filtering, aggregation and CSV logic
   i18n.mjs            # interface translations
   data.json          # generated metadata + bilingual summaries
@@ -97,3 +102,11 @@ python -m unittest discover -s scripts -p "test_*.py"
 [`.github/workflows/check-site.yml`](../.github/workflows/check-site.yml) regenerates data and runs validation on pushes and pull requests to `main`, or when started manually. It only checks the website: it does not deploy, commit generated files, or replace the committed `docs/data.json`. GitHub's branch-based Pages deployment runs separately and does not wait for this check, so run the checks locally before pushing. No custom deployment workflow, personal access token or external hosting service is required.
 
 If publishing fails, confirm **Deploy from a branch → main → /docs**, verify that `docs/index.html` is committed, and inspect the repository's Pages deployment run. See [GitHub's branch publishing documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-from-a-branch).
+
+## QS institution metadata / 机构排名
+
+The frozen QS 2027 lookup is in `outputs/qs-universities-2027.json`, with the official download URL and SHA-256. Paper affiliations come from arXiv HTML front matter, with PDF first-page checks where HTML omits institutions. `outputs/affiliation-review-2026-10-18.json` records reviewed corrections and ambiguous campuses; author emails are never used to infer affiliations.
+
+For each paper, deduplicate universities and sum **numeric overall ranks**, ascending. Companies and non-university institutes do not contribute. A missing institution, unresolved campus, unlisted school or rank band prevents a numeric sum; those papers and papers with no university sort last. Ties use newest v1 date, then identifier. This is a user-requested discovery order, not a paper-quality score; collaboration size affects the sum.
+
+Run `python scripts/build_qs_data.py` after reviewing affiliation changes, then `python scripts/build_site_data.py`. The site build is offline. The collection scripts are optional research helpers requiring BeautifulSoup / pypdf; no browser or API key is required by the deployed website. Source caches are excluded from Git; the curated affiliation mapping and source URLs are committed.

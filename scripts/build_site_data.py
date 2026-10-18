@@ -19,6 +19,8 @@ def build():
     trends = aggregate(record, provenance)
     english = read_summaries(ROOT / "README.md")
     chinese = read_summaries(ROOT / "README.zh-CN.md")
+    affiliations_path = ROOT / 'outputs' / f"paper-affiliations-{record['verified_on']}.json"
+    affiliations = json.loads(affiliations_path.read_text(encoding='utf-8')) if affiliations_path.exists() else {'papers': {}}
     zh_names = ["基础方法与通用决策模型", "自然语言处理与信息检索", "多模态学习与感知",
                 "具身智能与强化学习", "智能体与工作流自动化", "可信 AI 与安全",
                 "科学、医疗与教育中的 AI", "网络、数据库与工程应用", "计算社会科学与人类决策"]
@@ -39,7 +41,8 @@ def build():
                        "domain": ids[row["category"]], "tier": row["tier"],
                        "date": dated.get(row["id"]), "year": row.get("publication_year", 2026),
                        "url": row["url"], "source": "ResearchGate" if row["id"].startswith("doi:") else "arXiv",
-                       "summary": {"en": clean(english[key]), "zh": clean(chinese[key])}})
+                       "summary": {"en": clean(english[key]), "zh": clean(chinese[key])},
+                       "qs": affiliations['papers'].get(row['id'], {"edition": 2027, "status": "pending", "universities": []})})
     output = {"title": "Awesome JEV Papers", "cutoff": record["verified_on"],
               "start": trends.dates[0].isoformat(), "repository": "https://github.com/Oscar-dzy/Awesome-jev-papers",
               "counts": record["counts"], "domains": domains, "papers": papers,
@@ -49,6 +52,11 @@ def build():
                          "cutoff_timezone": "Asia/Shanghai", "unit": "One included academic work in one primary domain",
                          "excluded": "Technical sources are excluded from charts; undated papers are excluded from time-series only",
                          "coverage": "Current curated snapshot; recent dates may be incomplete due to announcement and indexing lag"}}
+    if affiliations_path.exists():
+        output['provenance'].append({'file': affiliations_path.name, 'sha256': hashlib.sha256(affiliations_path.read_bytes()).hexdigest()})
+        output['method']['qs'] = {'edition': 2027, 'source': affiliations['ranking_source'],
+                                 'calculation': 'Sum of distinct verified university numeric ranks; ascending. Missing ranks, rank bands, incomplete affiliations and no-university papers sort last.',
+                                 'coverage': sum(p['qs']['status'] == 'verified' for p in papers)}
     path = ROOT / "docs" / "data.json"
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

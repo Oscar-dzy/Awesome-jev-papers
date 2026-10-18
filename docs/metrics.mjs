@@ -31,8 +31,38 @@ export function summarize(data, scope) {
     A: papers.filter(p => p.tier === 'A').length, B: papers.filter(p => p.tier === 'B').length};
 }
 
+// Only a complete, evidenced set of university ranks receives a numeric sum.
+// Unknown/unranked universities must never silently contribute zero.
+export function qsRankSum(paper) {
+  const qs=paper.qs;
+  if (!qs || qs.status!=='verified' || !qs.universities?.length) return null;
+  const unique=new Map(qs.universities.map(u=>[u.id,u]));
+  if ([...unique.values()].some(u=>!Number.isInteger(u.rank)||u.rank<1)) return null;
+  return [...unique.values()].reduce((sum,u)=>sum+u.rank,0);
+}
+
+export function sortPapers(papers, mode='newest') {
+  const tie=(a,b)=>(b.date||'').localeCompare(a.date||'')||a.id.localeCompare(b.id);
+  return [...papers].sort((a,b)=>{
+    if(mode==='qs') {
+      const x=qsRankSum(a),y=qsRankSum(b);
+      if(x===null&&y===null)return tie(a,b);
+      if(x===null)return 1;
+      if(y===null)return -1;
+      return x-y||tie(a,b);
+    }
+    if(mode==='team')return b.authors.length-a.authors.length||tie(a,b);
+    if(!a.date&&!b.date)return a.id.localeCompare(b.id);
+    if(!a.date)return 1;
+    if(!b.date)return -1;
+    return (mode==='oldest'?1:-1)*a.date.localeCompare(b.date)||a.id.localeCompare(b.id);
+  });
+}
+
 export function csvExport(papers) {
   const cell = value => '"' + String(value ?? '').replaceAll('"', '""') + '"';
-  const columns = ['id', 'title', 'date', 'domain', 'tier', 'source', 'authors', 'url'];
-  return '\ufeff' + [columns.join(','), ...papers.map(p => columns.map(k => cell(k === 'authors' ? p.authors.join('; ') : p[k])).join(','))].join('\r\n');
+  const columns = ['id', 'title', 'date', 'domain', 'tier', 'source', 'authors', 'url', 'qs_edition', 'qs_rank_sum', 'qs_status', 'universities', 'affiliation_source'];
+  const value=(p,k)=>({authors:p.authors.join('; '),qs_edition:p.qs?.edition,qs_rank_sum:qsRankSum(p),qs_status:p.qs?.status,
+    universities:p.qs?.universities?.map(u=>`${u.name}: ${u.rank??u.rank_label??'unverified'}`).join('; '),affiliation_source:p.qs?.source}[k]??p[k]);
+  return '\ufeff' + [columns.join(','), ...papers.map(p => columns.map(k => cell(value(p,k))).join(','))].join('\r\n');
 }

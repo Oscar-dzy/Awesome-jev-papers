@@ -1,0 +1,18 @@
+{
+  "2609.24965": {
+    "en": "The revised scientific-workflow audit compares twelve model configurations on twenty source-grounded choices across ten cases, separating semantic decisions, downstream calculations and final labels. Jev ties five other configurations on semantic correctness with the lowest observed median latency among successful responses. Seven wrong choices by comparison models alter downstream counts without changing the final label, showing why end-result accuracy alone is insufficient.",
+    "zh": "修订后的科学工作流审计在十个案例、二十项有来源的选择中比较十二组模型配置，分别衡量语义判断、下游计算与最终标签。Jev 与其他五组配置并列达到完全语义正确，成功回答的观测中位延迟最低。对照模型的七次错误选择改变了下游计数，却未改变最终标签，说明仅看最终准确率并不足够。"
+  },
+  "2609.38827": {
+    "en": "Across forty datasets and nine decision models, this revision finds systematic underuse of ordinal rating scales. Finer scales intensify compression; candidate randomization reduces but does not remove it, and larger models improve accuracy without consistently restoring scale use. Targeted training mitigates the effect, identifying scale utilization as a reliability objective separate from headline accuracy.",
+    "zh": "修订稿在四十个数据集和九个决策模型上发现系统性的序数评分尺度利用不足。更细尺度加剧压缩，随机候选顺序只能部分缓解，增大模型虽然提升准确率，却不能稳定恢复尺度使用。针对性训练可以改善这一现象，表明尺度利用率是独立于总体准确率的可靠性目标。"
+  },
+  "2610.03073": {
+    "en": "SecJev adapts Kev's candidate scorer to security decisions using fourteen tasks from eight sources. The revised evaluation finds that security specialization improves every model size; at 0.8B and 4B, accuracy and latency are close to answer-only generative fine-tuning with lower peak GPU memory. Transfer experiments support specialization on the tested injection and traffic tasks, not a universal security guarantee.",
+    "zh": "SecJev 使用八个来源、十四项任务，将 Kev 候选评分器适配到安全决策。修订评测发现各模型规模均受益于安全专门训练；0.8B 和 4B 的准确率与延迟接近仅生成答案的微调模型，GPU 峰值内存更低。迁移实验支持所测注入与流量任务上的专门化收益，并非普遍安全保证。"
+  },
+  "2610.17727": {
+    "en": "SkillScreen trains a compact decision model to screen agent skill instructions in one pass. At 99% recall on unseen attack families it flags 20–25% of benign skills, fewer than the tested word-level classifier and prompted LLM judges. Unfamiliar benign sources still sharply increase false positives. Prior full-text review established its OpenJev initialization and hosted Jev baseline; the revised claims concern task-trained screening.",
+    "zh": "SkillScreen 训练紧凑决策模型，单次前向筛查智能体技能指令。在未见攻击家族上达到 99% 召回率时，它误报 20–25% 的良性技能，少于所测词级分类器和提示式 LLM 裁判。陌生良性来源仍显著增加误报。此前全文核验已确认 OpenJev 初始化与托管 Jev 基线；修订结论针对任务专门训练后的筛查表现。"
+  }
+}

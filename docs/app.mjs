@@ -1,5 +1,6 @@
 import {copy} from './i18n.mjs';
-import {summarize, csvExport, dateRange} from './metrics.mjs';
+import {quickstart, updateRoutingDemo} from './quickstart.mjs';
+import {summarize, csvExport, dateRange, qsRankSum, sortPapers} from './metrics.mjs';
 const root = document.querySelector('#app');
 const tip = document.querySelector('#tooltip');
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
@@ -32,8 +33,8 @@ function miniChart() {
 
 function hero() {
  const days=dateRange(data.start,data.cutoff).length;
- return `<header class="topbar"><nav class="container nav-inner" aria-label="${state.lang==='zh'?'主导航':'Main navigation'}"><a class="brand" href="#"><span class="brand-symbol">J.</span><span class="brand-text">Awesome <span class="brand-slash">/</span> JEV Papers</span></a><div class="nav-links"><a href="#explore">${t.navExplore}</a><a href="#landscape">${t.navMap}</a><a href="#library">${t.navPapers}</a></div><div class="nav-actions"><div class="lang-switch" aria-label="Language / 语言"><button data-lang="en" aria-pressed="${state.lang==='en'}">EN</button><button data-lang="zh" aria-pressed="${state.lang==='zh'}">中文</button></div><a class="github-link" href="${data.repository}" target="_blank" rel="noopener noreferrer" aria-label="${t.github}">${icon('repo')}<span>GitHub</span></a></div></nav></header>
- <main><section class="hero"><div class="container"><div class="hero-grid"><div><div class="eyebrow"><span class="status-dot"></span>${t.eyebrow}</div><h1>${t.hero1}<br><em>${t.hero2}</em></h1><p class="hero-desc">${t.heroDesc}</p><div class="hero-buttons"><a class="button primary" href="#explore">${t.explore}${icon('arrow')}</a><a class="button dark-outline" href="${data.repository}" target="_blank" rel="noopener noreferrer">${t.readRepo}${icon('external')}</a></div><div class="hero-subnote"><span>${t.updated} ${data.cutoff}</span><span>↗ ${t.heroLicense}</span></div></div><div class="hero-chart"><div class="hero-chart-top"><i class="window-dot"></i><i class="window-dot"></i><i class="window-dot"></i><span>${t.miniTitle}</span></div><div class="hero-chart-meta"><div class="hero-count">${data.papers.filter(p=>p.date).length}<small>${t.datedPapers}</small></div><span class="hero-chart-badge">${t.verified}</span></div>${miniChart()}<div class="hero-chart-foot"><span>${fmtDate(data.start)} · ${t.chartFrom}</span><span>${fmtDate(data.cutoff)} · ${t.chartTo}</span></div></div></div><div class="hero-foot"><span>${t.ribbon}</span><div class="domain-ribbon"><span>${t.ribbon1}</span><span>${t.ribbon2}</span><span>${t.ribbon3}</span><span>${t.ribbon4}</span></div></div></div></section>
+ return `<header class="topbar"><nav class="container nav-inner" aria-label="${state.lang==='zh'?'主导航':'Main navigation'}"><a class="brand" href="#"><span class="brand-symbol">J.</span><span class="brand-text">Awesome <span class="brand-slash">/</span> JEV Papers</span></a><div class="nav-links"><a href="#quickstart">${state.lang==='zh'?'快速入门':'Quick start'}</a><a href="#explore">${t.navExplore}</a><a href="#landscape">${t.navMap}</a><a href="#library">${t.navPapers}</a></div><div class="nav-actions"><div class="lang-switch" aria-label="Language / 语言"><button data-lang="en" aria-pressed="${state.lang==='en'}">EN</button><button data-lang="zh" aria-pressed="${state.lang==='zh'}">中文</button></div><a class="github-link" href="${data.repository}" target="_blank" rel="noopener noreferrer" aria-label="${t.github}">${icon('repo')}<span>GitHub</span></a></div></nav></header>
+ <main><section class="hero"><div class="container"><div class="hero-grid"><div><div class="eyebrow"><span class="status-dot"></span>${t.eyebrow}</div><h1>${t.hero1}<br><em>${t.hero2}</em></h1><p class="hero-desc">${t.heroDesc}</p><div class="hero-buttons"><a class="button primary" href="#quickstart">${state.lang==='zh'?'两分钟了解 Jev':'Meet Jev in two minutes'}${icon('arrow')}</a><a class="button dark-outline" href="${data.repository}" target="_blank" rel="noopener noreferrer">${t.readRepo}${icon('external')}</a></div><div class="hero-subnote"><span>${t.updated} ${data.cutoff}</span><span>↗ ${t.heroLicense}</span></div></div><div class="hero-chart"><div class="hero-chart-top"><i class="window-dot"></i><i class="window-dot"></i><i class="window-dot"></i><span>${t.miniTitle}</span></div><div class="hero-chart-meta"><div class="hero-count">${data.papers.filter(p=>p.date).length}<small>${t.datedPapers}</small></div><span class="hero-chart-badge">${t.verified}</span></div>${miniChart()}<div class="hero-chart-foot"><span>${fmtDate(data.start)} · ${t.chartFrom}</span><span>${fmtDate(data.cutoff)} · ${t.chartTo}</span></div></div></div><div class="hero-foot"><span>${t.ribbon}</span><div class="domain-ribbon"><span>${t.ribbon1}</span><span>${t.ribbon2}</span><span>${t.ribbon3}</span><span>${t.ribbon4}</span></div></div></div></section>
  <div class="container"><div class="stat-strip">${[[data.papers.length,t.academic,t.academicDetail,'book'],[data.domains.length,t.domains,t.domainDetail,'grid'],[days,t.days,t.daysDetail,'calendar'],[data.papers.filter(p=>!p.date).length,t.pending,t.pendingDetail,'clock']].map(([value,label,detail,ico])=>`<div class="stat"><div class="stat-top"><div class="stat-value">${value}</div><span class="stat-icon">${icon(ico)}</span></div><div class="stat-label">${label}</div><div class="stat-detail">${detail}</div></div>`).join('')}</div>`;
 }
 
@@ -95,19 +96,23 @@ function teamChart() {
 
 function libraryRows() {
  const term=state.search.trim().toLocaleLowerCase();
- const rows=stats.papers.filter(p=>!term||[p.title,p.authors.join(' '),p.summary.en,p.summary.zh].some(v=>v.toLocaleLowerCase().includes(term)));
- return rows.sort((a,b) => {
-  if (state.sort === 'team') return b.authors.length - a.authors.length;
-  if (!a.date) return 1;
-  if (!b.date) return -1;
-  return (state.sort === 'oldest' ? 1 : -1) * a.date.localeCompare(b.date);
- });
+ const rows=stats.papers.filter(p=>!term||[p.title,p.authors.join(' '),p.summary.en,p.summary.zh,...(p.qs?.universities||[]).map(u=>u.name)].some(v=>v.toLocaleLowerCase().includes(term)));
+ return sortPapers(rows,state.sort);
+}
+function qsExplanation() {
+ const covered=data.papers.filter(p=>qsRankSum(p)!==null).length;
+ return `<details class="qs-method"><summary>${state.lang==='zh'?'QS 排序规则与覆盖范围':'QS sorting method and coverage'} · ${covered}/${data.papers.length}</summary><p>${state.lang==='zh'?'采用 QS 2027 世界大学综合排名。按论文署名单位核对学校，同一学校只计一次，名次相加后升序排列；并列按论文日期从新到旧，再按编号排列。公司与独立研究者不计分。任一学校名次未核实、排名仅为区间或机构信息不完整时，不计算总和并置于末尾，不以 0 补齐。没有学校署名的论文也置于末尾。原始名次加和会受学校数量影响，不代表论文质量。':'Uses QS World University Rankings 2027. Universities are taken from paper affiliations, deduplicated, and their numeric ranks summed in ascending order. Ties use newest date, then identifier. Companies and independent researchers do not contribute. Missing ranks, rank bands or incomplete affiliations yield no sum and sort last, never zero. Papers without university affiliations also sort last. Raw rank sums depend on the number of universities and are not a measure of paper quality.'}</p><a href="https://www.topuniversities.com/qs-top-uni-wur" target="_blank" rel="noopener noreferrer">QS 2027 ↗</a></details>`;
+}
+function qsDetails(p) {
+ const qs=p.qs, sum=qsRankSum(p), zh=state.lang==='zh';
+ const status=qs?.status==='no_university'?(zh?'无学校署名':'No university affiliation'):(zh?'机构／排名待核实':'Affiliations / ranks pending');
+ return `<div class="paper-qs"><strong>${sum===null?`QS 2027 · ${status}`:`QS 2027 Σ = ${sum}`}</strong>${qs?.universities?.length?`<ul>${qs.universities.map(u=>`<li>${esc(u.name)} · ${u.rank?`#${u.rank}`:(u.rank_label?esc(u.rank_label):(zh?'排名待核实':'Rank pending'))}</li>`).join('')}</ul>`:''}${qs?.source?`<a href="${esc(qs.source)}" target="_blank" rel="noopener noreferrer">${zh?'论文机构来源':'Paper affiliation source'} ↗</a>`:''}</div>`;
 }
 function library() {
  const papers=libraryRows(), pageCount=Math.max(1,Math.ceil(papers.length/6));
  state.page=Math.max(1,Math.min(state.page,pageCount));
  const subset=papers.slice((state.page-1)*6,state.page*6);
- return `${sectionHead(t.section3,t.libraryTitle,t.libraryDesc)}<div class="library-toolbar"><label class="search-box">${icon('search')}<input id="search" type="search" placeholder="${t.search}" aria-label="${t.searchLabel}" value="${esc(state.search)}"></label><select class="sort-select" id="sort" aria-label="${t.sortLabel}">${[['newest',t.newest],['oldest',t.oldest],['team',t.teamSort]].map(([value,label])=>`<option value="${value}" ${value===state.sort?'selected':''}>${label}</option>`).join('')}</select><button class="button light" data-export>${icon('download')}${t.export}</button></div><div class="scope-summary"><strong class="library-count">${papers.length} ${t.matching}</strong><span>${t.libraryScope}</span></div><div class="paper-grid">${subset.length?subset.map(p=>`<article class="paper-card"><div class="paper-meta"><span class="tag ${p.tier==='B'?'b':''}">TIER ${p.tier}</span><span>${p.source} · ${t.preprint}</span><time ${p.date?`datetime="${p.date}"`:''}>${p.date?fullDate(p.date):t.unknown}</time></div><h3><a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a></h3><p class="paper-authors" title="${esc(p.authors.join(', '))}">${esc(p.authors.join(', '))}</p><p class="paper-summary">${esc(p.summary[state.lang])}</p><details><summary>${t.abstract}</summary><p class="full-summary">${esc(p.summary[state.lang])}</p></details><div class="paper-bottom"><div class="paper-card-foot"><span>${name(getDomain(p.domain))}</span><a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${t.readPaper}${icon('external')}</a></div></div></article>`).join(''):`<div class="empty-state"><strong>${t.empty}</strong><br>${t.emptyHelp}</div>`}</div><div class="pagination"><span>${t.page} ${state.page} ${t.of} ${pageCount}</span><div class="pagination-buttons"><button data-page="${state.page-1}" ${state.page===1?'disabled':''}>${t.previous}</button><button data-page="${state.page+1}" ${state.page===pageCount?'disabled':''}>${t.next}${icon('chevron')}</button></div></div>`;
+ return `${sectionHead(t.section3,t.libraryTitle,t.libraryDesc)}<div class="library-toolbar"><label class="search-box">${icon('search')}<input id="search" type="search" placeholder="${t.search}" aria-label="${t.searchLabel}" value="${esc(state.search)}"></label><select class="sort-select" id="sort" aria-label="${t.sortLabel}">${[['newest',t.newest],['oldest',t.oldest],['team',t.teamSort],['qs',state.lang==='zh'?'学校 QS 名次加和 ↑':'University QS rank sum ↑']].map(([value,label])=>`<option value="${value}" ${value===state.sort?'selected':''}>${label}</option>`).join('')}</select><button class="button light" data-export>${icon('download')}${t.export}</button></div><div class="scope-summary"><strong class="library-count">${papers.length} ${t.matching}</strong><span>${t.libraryScope}</span></div>${qsExplanation()}<div class="paper-grid">${subset.length?subset.map(p=>`<article class="paper-card"><div class="paper-meta"><span class="tag ${p.tier==='B'?'b':''}">TIER ${p.tier}</span><span>${p.source} · ${t.preprint}</span><time ${p.date?`datetime="${p.date}"`:''}>${p.date?fullDate(p.date):t.unknown}</time></div><h3><a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.title)}</a></h3><p class="paper-authors" title="${esc(p.authors.join(', '))}">${esc(p.authors.join(', '))}</p>${qsDetails(p)}<p class="paper-summary">${esc(p.summary[state.lang])}</p><details><summary>${t.abstract}</summary><p class="full-summary">${esc(p.summary[state.lang])}</p></details><div class="paper-bottom"><div class="paper-card-foot"><span>${name(getDomain(p.domain))}</span><a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer">${t.readPaper}${icon('external')}</a></div></div></article>`).join(''):`<div class="empty-state"><strong>${t.empty}</strong><br>${t.emptyHelp}</div>`}</div><div class="pagination"><span>${t.page} ${state.page} ${t.of} ${pageCount}</span><div class="pagination-buttons"><button data-page="${state.page-1}" ${state.page===1?'disabled':''}>${t.previous}</button><button data-page="${state.page+1}" ${state.page===pageCount?'disabled':''}>${t.next}${icon('chevron')}</button></div></div>`;
 }
 
 function method() {
@@ -120,7 +125,7 @@ function render(preserveFocus=false) {
  t=copy[state.lang];stats=summarize(data,state);
  document.documentElement.lang=state.lang==='zh'?'zh-CN':'en';
  document.title=state.lang==='zh'?'Awesome JEV Papers · 交互式研究图谱':'Awesome JEV Papers · Research Atlas';
- root.innerHTML=hero()+`<section class="section" id="explore">${sectionHead(t.section1,t.growthTitle,t.growthDesc)}${filters()}${trajectory()}</section><section class="section" id="landscape">${sectionHead(t.section2,t.mapTitle,t.mapDesc)}${domainCharts()}${heatmap()}${teamChart()}</section><section class="section" id="library">${library()}</section>`+method();
+ root.innerHTML=hero()+quickstart(state.lang)+`<section class="section" id="explore">${sectionHead(t.section1,t.growthTitle,t.growthDesc)}${filters()}${trajectory()}</section><section class="section" id="landscape">${sectionHead(t.section2,t.mapTitle,t.mapDesc)}${domainCharts()}${heatmap()}${teamChart()}</section><section class="section" id="library">${library()}</section>`+method();
  tip.hidden=true;
  if(focus){const input=document.getElementById(focus);input?.focus({preventScroll:true});if(selection!==null) input?.setSelectionRange(selection,selection);}
  document.querySelector('#announcer').textContent=`${t.results}: ${stats.papers.length} ${t.papers}`;
@@ -129,6 +134,7 @@ function render(preserveFocus=false) {
  if(state.start!==data.start)params.set('start',state.start);
  if(state.end!==data.cutoff)params.set('end',state.end);
  if(state.mode!=='cumulative')params.set('mode',state.mode);
+ if(state.sort!=='newest')params.set('sort',state.sort);
  history.replaceState(null,'',`${location.pathname}?${params}${location.hash}`);
 }
 
@@ -155,6 +161,7 @@ root.addEventListener('change',event=>{
  state.page=1;render(true);
 });
 root.addEventListener('input',event=>{
+ if(event.target.id==='routing-threshold'){updateRoutingDemo(event.target.value);return;}
  if(event.target.id==='search'){
   state.search=event.target.value;state.page=1;
   const selection=event.target.selectionStart;
@@ -177,7 +184,7 @@ window.addEventListener('keydown',event=>{if(event.key==='Escape')tip.hidden=tru
 try {
  const response=await fetch('./data.json');if(!response.ok)throw new Error(`HTTP ${response.status}`);
  data=await response.json();
- state={lang:lang==='zh'?'zh':'en',domain:data.domains.some(d=>d.id===initialParams.get('domain'))?initialParams.get('domain'):'',tier:['A','B'].includes(initialParams.get('tier'))?initialParams.get('tier'):'',start:data.start,end:data.cutoff,mode:initialParams.get('mode')==='daily'?'daily':'cumulative',search:'',sort:'newest',page:1,error:false};
+ state={lang:lang==='zh'?'zh':'en',domain:data.domains.some(d=>d.id===initialParams.get('domain'))?initialParams.get('domain'):'',tier:['A','B'].includes(initialParams.get('tier'))?initialParams.get('tier'):'',start:data.start,end:data.cutoff,mode:initialParams.get('mode')==='daily'?'daily':'cumulative',search:'',sort:['newest','oldest','team','qs'].includes(initialParams.get('sort'))?initialParams.get('sort'):'newest',page:1,error:false};
  const start=initialParams.get('start'),end=initialParams.get('end');
  if(start&&/^\d{4}-\d{2}-\d{2}$/.test(start)&&start>=data.start&&start<=data.cutoff)state.start=start;
  if(end&&/^\d{4}-\d{2}-\d{2}$/.test(end)&&end>=data.start&&end<=data.cutoff)state.end=end;

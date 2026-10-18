@@ -1,2 +1,11 @@
 __pycache__/
 *.py[cod]
+
+# Local research downloads; reviewed facts and source URLs are versioned.
+outputs/arxiv-*-2026-10-18.xml
+outputs/discovery-2026-10-18.json
+outputs/pdf-affiliation-evidence-2026-10-18.json
+outputs/qs-world-2027.xlsx
+outputs/qs-sheet-rows.json
+outputs/qs-2027-source*.txt
+outputs/sample.html

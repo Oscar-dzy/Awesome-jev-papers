@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import test from 'node:test';
-import {summarize,selectPapers,csvExport,dateRange} from '../docs/metrics.mjs';
+import {summarize,selectPapers,csvExport,dateRange,qsRankSum,sortPapers} from '../docs/metrics.mjs';
 import {copy} from '../docs/i18n.mjs';
 const data=JSON.parse(readFileSync(new URL('../docs/data.json',import.meta.url),'utf8'));
 const scope={domain:'',tier:'',start:data.start,end:data.cutoff};
@@ -40,3 +40,25 @@ test('CSV keeps quote and comma-containing fields intact',()=>{
 });
 test('language dictionaries cover the same interface',()=>{assert.deepEqual(Object.keys(copy.en).sort(),Object.keys(copy.zh).sort());assert.ok(data.papers.every(p=>p.summary.en&&p.summary.zh));});
 test('calendar bins cross month boundaries in UTC',()=>{assert.deepEqual(dateRange('2026-09-30','2026-10-02'),['2026-09-30','2026-10-01','2026-10-02']);});
+
+test('QS sums deduplicate schools and refuse partial or missing ranks',()=>{
+ const p={qs:{status:'verified',universities:[{id:'a',rank:10},{id:'a',rank:10},{id:'b',rank:20}]}};
+ assert.equal(qsRankSum(p),30);
+ assert.equal(qsRankSum({...p,qs:{...p.qs,status:'pending'}}),null);
+ assert.equal(qsRankSum({qs:{status:'verified',universities:[{id:'a',rank:null}]}}),null);
+ assert.equal(qsRankSum({qs:{status:'verified',universities:[]}}),null);
+ assert.equal(qsRankSum({}),null);
+});
+test('QS ordering keeps missing values last, resolves ties, and does not mutate input',()=>{
+ const p=(id,date,rank)=>({id,date,authors:[],qs:{status:rank?'verified':'pending',universities:[{id:'u',rank}]}});
+ const rows=[p('missing','2026-10-18',null),p('older','2026-10-14',30),p('z','2026-10-15',30),p('a','2026-10-15',30),p('best',null,4)];
+ assert.deepEqual(sortPapers(rows,'qs').map(p=>p.id),['best','a','z','older','missing']);
+ assert.equal(rows[0].id,'missing');
+ assert.equal(sortPapers(rows,'oldest').at(-1).id,'best');
+ const csv=csvExport(rows);assert.ok(csv.includes('qs_rank_sum'));assert.ok(csv.includes('pending'));
+});
+test('every numeric QS sum has a source and complete positive ranks',()=>{
+ for(const p of data.papers){
+  if(qsRankSum(p)!==null){assert.ok(p.qs.source.startsWith('https://arxiv.org/'));assert.equal(p.qs.edition,2027);assert.ok(p.qs.universities.every(u=>u.name&&u.id&&u.rank>0));}
+ }
+});

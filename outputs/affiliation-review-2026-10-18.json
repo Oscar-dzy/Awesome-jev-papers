@@ -1,0 +1,407 @@
+{
+  "2609.23886": {
+    "text": "University of Oxford; FLock.io",
+    "reviewed": true
+  },
+  "2609.25845": {
+    "text": "Independent Research; Carnegie Mellon University",
+    "reviewed": true
+  },
+  "2609.27607": {
+    "text": "Macao Polytechnic University; Netherlands Cancer Institute; Radboud University",
+    "reviewed": true,
+    "note": "Radboud University Medical Center normalized to Radboud University; Macao rank band prevents numeric sum."
+  },
+  "2609.27678": {
+    "text": "The University of Tokyo; MBZUAI; McGill University; Hong Kong Baptist University; Fudan University; University of Illinois Urbana-Champaign; UCloud; Columbia University; The University of Hong Kong; University of Illinois Chicago; Quantell Capital",
+    "reviewed": true
+  },
+  "2609.29429": {
+    "text": "Griffith University; Nanyang Technological University; UNSW; Independent Researcher; Deakin University; George Mason University; Wake Forest University",
+    "reviewed": true
+  },
+  "2609.33689": {
+    "text": "National Centre for Scientific Research Demokritos",
+    "reviewed": true,
+    "no_university": true
+  },
+  "2609.34736": {
+    "text": "Indigma Innovations; Democritus University of Thrace; Athena Research Center",
+    "reviewed": true
+  },
+  "2609.34862": {
+    "text": "University of Science and Technology of China",
+    "reviewed": true,
+    "note": "Paper affiliation spells China as Chine; normalized evident typographic error."
+  },
+  "2610.01834": {
+    "text": "The Chinese University of Hong Kong; Tianjin University; Shanxi University; Independent Researcher; CAIR, Chinese Academy of Sciences; Nanjing University",
+    "reviewed": true
+  },
+  "2610.04345": {
+    "text": "Sharif University of Technology",
+    "reviewed": true
+  },
+  "2610.04985": {
+    "text": "University of Technology Sydney; City University of Macau",
+    "reviewed": true
+  },
+  "2610.06625": {
+    "text": "Leiden University",
+    "reviewed": true
+  },
+  "2610.09328": {
+    "text": "Beijing University of Posts and Telecommunications",
+    "reviewed": true
+  },
+  "2610.10978": {
+    "text": "Universidad Torcuato Di Tella",
+    "reviewed": true
+  },
+  "2610.11901": {
+    "text": "Dalian Maritime University; Dalian University of Technology",
+    "reviewed": true
+  },
+  "2610.14449": {
+    "text": "University of Waterloo",
+    "reviewed": true
+  },
+  "2610.17113": {
+    "text": "University of Manchester; Mayo Clinic; Shanghai University of Finance and Economics",
+    "reviewed": true
+  },
+  "2610.18780": {
+    "text": "University of Connecticut",
+    "reviewed": true
+  },
+  "2610.21614": {
+    "text": "Token Foundry; Alibaba Group",
+    "reviewed": true,
+    "no_university": true
+  },
+  "2609.08183": {
+    "text": "NeoHorse Team",
+    "reviewed": true,
+    "no_university": true,
+    "note": "Team credit only; no university declared in reviewed front matter."
+  },
+  "2609.33209": {
+    "text": "Northeastern University China",
+    "reviewed": true,
+    "note": "Shenyang location identifies Chinese institution, not US Northeastern."
+  },
+  "2610.08675": {
+    "text": "Sofia University (California); Indiana University; University of California San Diego; Northeastern University; Michigan State University",
+    "reviewed": true,
+    "note": "sofia.edu identifies US Sofia University, not Bulgarian Sofia University; rank unverified."
+  },
+  "2610.18326": {
+    "text": "HKUST; ModeIO; CUHK Shenzhen",
+    "reviewed": true
+  },
+  "2610.19536": {
+    "text": "University of Wisconsin Madison; Jilin University; Chinese University of Hong Kong Shenzhen",
+    "reviewed": true
+  },
+  "2609.23959": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2609.24395": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2609.27331": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2609.28940": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2609.33874": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2609.34024": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2609.34180": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2609.34227": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2609.37470": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2609.37832": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.01006": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.01601": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.02293": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.06744": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.07177": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.07327": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.07953": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.09683": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.11316": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.11436": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.16550": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.16655": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.20907": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.20778": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2610.20634": {
+    "reviewed": true,
+    "no_university": true,
+    "note": "Reviewed declared affiliations are companies, independent researchers or non-university institutes."
+  },
+  "2609.35342": {
+    "text": "little-g.ai; Sant Anna School of Advanced Studies; University of Pisa",
+    "reviewed": true
+  },
+  "2609.39111": {
+    "text": "AgentBull Pte Ltd",
+    "reviewed": true,
+    "no_university": true
+  },
+  "2610.00831": {
+    "text": "Nokia; Tencent Hunyuan; The Hong Kong Polytechnic University",
+    "reviewed": true
+  },
+  "2610.02046": {
+    "text": "Purdue University; University of Utah",
+    "reviewed": true
+  },
+  "2610.03324": {
+    "text": "University of Cyprus",
+    "reviewed": true
+  },
+  "2609.32160": {
+    "text": "Northeastern University (campus unverified)",
+    "reviewed": false,
+    "note": "Paper does not disambiguate US Northeastern from the Chinese institution; no rank sum."
+  },
+  "2610.17016": {
+    "text": "Florida State University; The University of Tokyo; RIKEN AIP; The University of Osaka",
+    "reviewed": true
+  },
+  "2610.18389": {
+    "text": "Massachusetts Institute of Technology; Sakana AI",
+    "reviewed": true
+  },
+  "2610.15537": {
+    "text": "Monash University; Singapore University of Technology and Design; Shanghai Ocean University",
+    "reviewed": true
+  },
+  "2610.15742": {
+    "text": "Anhui University of Science and Technology; Tianjin University; Guangxi Normal University",
+    "reviewed": true
+  },
+  "2609.30243": {
+    "text": "University of Southern California; Mohamed bin Zayed University of Artificial Intelligence; Independent Researcher; Arizona State University",
+    "reviewed": true,
+    "source": "https://arxiv.org/pdf/2609.30243v2",
+    "note": "University affiliations checked against PDF first page."
+  },
+  "2609.30922": {
+    "text": "Beijing University of Posts and Telecommunications; Universiti Malaya; Georgian College; Huazhong University of Science and Technology",
+    "reviewed": true,
+    "source": "https://arxiv.org/pdf/2609.30922v1",
+    "note": "University affiliations checked against PDF first page."
+  },
+  "2610.00437": {
+    "text": "Fudan University; Shanghai Jiao Tong University; Shanghai Innovation Institute",
+    "reviewed": true,
+    "source": "https://arxiv.org/pdf/2610.00437v1",
+    "note": "Institutions checked against PDF first page."
+  },
+  "2610.02048": {
+    "text": "Shenyang Jianzhu University; Guangzhou Institute of Industrial Intelligence; Shenyang Institute of Automation, Chinese Academy of Sciences; Shenyang University; Donghua University",
+    "reviewed": true,
+    "source": "https://arxiv.org/pdf/2610.02048v1",
+    "note": "Institutions checked against PDF first page."
+  },
+  "2610.06354": {
+    "text": "Microsoft; Beijing University of Technology",
+    "reviewed": true,
+    "source": "https://arxiv.org/pdf/2610.06354v3",
+    "note": "Institutions checked against PDF first page."
+  },
+  "2610.08155": {
+    "text": "University of Electronic Science and Technology of China; Southwestern University of Finance and Economics",
+    "reviewed": true,
+    "source": "https://arxiv.org/pdf/2610.08155v1",
+    "note": "Institutions checked against PDF first page."
+  },
+  "2610.08775": {
+    "text": "University of Tubingen; ELLIS Institute Tubingen; Max Planck Institute for Intelligent Systems; Tubingen AI Center; Institut Polytechnique de Paris; CNRS; KAIST",
+    "reviewed": true,
+    "source": "https://arxiv.org/pdf/2610.08775v1",
+    "note": "Institutions checked against PDF first page."
+  },
+  "2610.14112": {
+    "text": "Universitas Budi Luhur",
+    "reviewed": true,
+    "source": "https://arxiv.org/pdf/2610.14112v1",
+    "note": "Institutions checked against PDF first page."
+  },
+  "2609.30186": {
+    "text": "",
+    "reviewed": false,
+    "source": "https://arxiv.org/pdf/2609.30186v1",
+    "note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+  },
+  "2609.30706": {
+    "text": "",
+    "reviewed": false,
+    "source": "https://arxiv.org/pdf/2609.30706v1",
+    "note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+  },
+  "2609.33538": {
+    "text": "",
+    "reviewed": false,
+    "source": "https://arxiv.org/pdf/2609.33538v1",
+    "note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+  },
+  "2609.33843": {
+    "text": "",
+    "reviewed": false,
+    "source": "https://arxiv.org/pdf/2609.33843v1",
+    "note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+  },
+  "2609.35286": {
+    "text": "",
+    "reviewed": false,
+    "source": "https://arxiv.org/pdf/2609.35286v1",
+    "note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+  },
+  "2609.36059": {
+    "text": "",
+    "reviewed": false,
+    "source": "https://arxiv.org/pdf/2609.36059v1",
+    "note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+  },
+  "2609.38850": {
+    "text": "",
+    "reviewed": false,
+    "source": "https://arxiv.org/pdf/2609.38850v1",
+    "note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+  },
+  "2610.02267": {
+    "text": "",
+    "reviewed": false,
+    "source": "https://arxiv.org/pdf/2610.02267v1",
+    "note": "No institutional declaration on checked PDF first page. Do not infer affiliation from author email."
+  },
+  "2610.02076": {
+    "text": "Microsoft Corporation",
+    "reviewed": true,
+    "no_university": true,
+    "source": "https://arxiv.org/pdf/2610.02076v3",
+    "note": "Microsoft copyright and correspondence on PDF first page; no university declared."
+  },
+  "2610.16967": {
+    "text": "Harbin Institute of Technology; Guanxing Technology",
+    "reviewed": true,
+    "source": "https://arxiv.org/pdf/2610.16967v1",
+    "note": "Declared affiliations checked on PDF first page."
+  },
+  "2610.17175": {
+    "text": "Fundamental AI",
+    "reviewed": true,
+    "source": "https://arxiv.org/pdf/2610.17175v1",
+    "note": "Declared affiliations checked on PDF first page.",
+    "no_university": true
+  },
+  "2610.19644": {
+    "text": "University of Electronic Science and Technology of China",
+    "reviewed": true,
+    "source": "https://arxiv.org/pdf/2610.19644v1",
+    "note": "Declared affiliations checked on PDF first page."
+  },
+  "2610.22276": {
+    "text": "",
+    "reviewed": false,
+    "source": "https://arxiv.org/pdf/2610.22276v1",
+    "note": "PDF first page lists authors and correspondence emails but no explicit university affiliations; email domains are not used to infer affiliations."
+  },
+  "2610.18615": {
+    "text": "NJU; JD.com; UCAS; THU; XMU; SJTU; USTC; FDU",
+    "reviewed": false,
+    "source": "https://arxiv.org/pdf/2610.18615v1",
+    "note": "PDF first page lists abbreviated institutions; complete institution and campus mapping remains to be verified."
+  }
+}
