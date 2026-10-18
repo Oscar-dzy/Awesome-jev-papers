@@ -6,7 +6,8 @@ import {copy} from '../docs/i18n.mjs';
 const data=JSON.parse(readFileSync(new URL('../docs/data.json',import.meta.url),'utf8'));
 const scope={domain:'',tier:'',start:data.start,end:data.cutoff};
 test('global population, dated exclusions and additive charts reconcile',()=>{
- const total=data.counts.academic_included, dated=data.papers.filter(p=>p.date).length;
+ const selected=data.papers.filter(p=>!p.date||(p.date>=data.start&&p.date<=data.cutoff));
+ const total=selected.length, dated=selected.filter(p=>p.date).length;
  const s=summarize(data,scope);assert.equal(s.papers.length,total);assert.equal(s.dated,dated);assert.equal(s.undated,total-dated);
  assert.equal(s.timeline.at(-1).cumulative,dated);assert.equal(s.domains.reduce((n,d)=>n+d.count,0),total);
  assert.equal(s.A+s.B,total);assert.equal(s.teamBins.reduce((n,b)=>n+b.count,0),total);
@@ -19,7 +20,17 @@ test('independent date count matches every plotted day',()=>{
 });
 test('every domain reconciles separately and date bins retain zeroes',()=>{
  const days=(Date.parse(data.cutoff)-Date.parse(data.start))/86400000+1;
- for(const domain of data.domains){const s=summarize(data,{...scope,domain:domain.id});assert.equal(s.papers.length,data.papers.filter(p=>p.domain===domain.id).length);assert.equal(s.timeline.at(-1).cumulative,s.dated);assert.equal(s.dates.length,days);}
+ for(const domain of data.domains){const s=summarize(data,{...scope,domain:domain.id});assert.equal(s.papers.length,data.papers.filter(p=>p.domain===domain.id&&(!p.date||(p.date>=data.start&&p.date<=data.cutoff))).length);assert.equal(s.timeline.at(-1).cumulative,s.dated);assert.equal(s.dates.length,days);}
+});
+
+test('website observation window starts September 15 without rewriting earlier publication dates',()=>{
+ assert.equal(data.start,'2026-09-15');
+ const s=summarize(data,scope);
+ assert.equal(s.timeline[0].date,'2026-09-15');
+ assert.equal(s.timeline[0].cumulative,0);
+ assert.ok(data.papers.some(p=>p.date&&p.date<data.start));
+ assert.ok(s.papers.every(p=>!p.date||p.date>=data.start));
+ assert.equal(data.papers.find(p=>p.id==='2605.29893').date,'2026-05-28');
 });
 test('combined date domain and tier filters use intersection',()=>{
  const s=summarize(data,{...scope,domain:'trustworthy-ai-security',tier:'B',start:'2026-09-27',end:'2026-09-27'});

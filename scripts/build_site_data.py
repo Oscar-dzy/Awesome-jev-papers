@@ -44,11 +44,12 @@ def build():
                        "summary": {"en": clean(english[key]), "zh": clean(chinese[key])},
                        "qs": affiliations['papers'].get(row['id'], {"edition": 2027, "status": "pending", "universities": []})})
     output = {"title": "Awesome JEV Papers", "cutoff": record["verified_on"],
-              "start": trends.dates[0].isoformat(), "repository": "https://github.com/Oscar-dzy/Awesome-jev-papers",
+              "start": "2026-09-15", "repository": "https://github.com/Oscar-dzy/Awesome-jev-papers",
               "counts": record["counts"], "domains": domains, "papers": papers,
               "provenance": provenance + [{"file": name, "sha256": hashlib.sha256((ROOT / name).read_bytes()).hexdigest()}
                                            for name in ["README.md", "README.zh-CN.md"]],
               "method": {"date_basis": "arXiv v1 submission date in UTC; verified publication date otherwise",
+                         "window_start": "2026-09-15; earlier records retain their original dates in source data but are outside the website observation window",
                          "cutoff_timezone": "Asia/Shanghai", "unit": "One included academic work in one primary domain",
                          "excluded": "Technical sources are excluded from charts; undated papers are excluded from time-series only",
                          "coverage": "Current curated snapshot; recent dates may be incomplete due to announcement and indexing lag"}}

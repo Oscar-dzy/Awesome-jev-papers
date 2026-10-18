@@ -1,7 +1,7 @@
 {
   "title": "Awesome JEV Papers",
   "cutoff": "2026-10-18",
-  "start": "2026-05-28",
+  "start": "2026-09-15",
   "repository": "https://github.com/Oscar-dzy/Awesome-jev-papers",
   "counts": {
     "distinct_academic_candidates": 220,
@@ -7151,6 +7151,7 @@
   ],
   "method": {
     "date_basis": "arXiv v1 submission date in UTC; verified publication date otherwise",
+    "window_start": "2026-09-15; earlier records retain their original dates in source data but are outside the website observation window",
     "cutoff_timezone": "Asia/Shanghai",
     "unit": "One included academic work in one primary domain",
     "excluded": "Technical sources are excluded from charts; undated papers are excluded from time-series only",
