@@ -20,7 +20,14 @@ def build():
     english = read_summaries(ROOT / "README.md")
     chinese = read_summaries(ROOT / "README.zh-CN.md")
     affiliations_path = ROOT / 'outputs' / f"paper-affiliations-{record['verified_on']}.json"
-    affiliations = json.loads(affiliations_path.read_text(encoding='utf-8')) if affiliations_path.exists() else {'papers': {}}
+    if not affiliations_path.exists():
+        older_affiliations = sorted(
+            path for path in (ROOT / "outputs").glob("paper-affiliations-????-??-??.json")
+            if path.stem.removeprefix("paper-affiliations-") <= record["verified_on"]
+        )
+        if older_affiliations:
+            affiliations_path = older_affiliations[-1]
+    affiliations = json.loads(affiliations_path.read_text(encoding="utf-8")) if affiliations_path.exists() else {"papers": {}}
     zh_names = ["基础方法与通用决策模型", "自然语言处理与信息检索", "多模态学习与感知",
                 "具身智能与强化学习", "智能体与工作流自动化", "可信 AI 与安全",
                 "科学、医疗与教育中的 AI", "网络、数据库与工程应用", "计算社会科学与人类决策"]
@@ -40,7 +47,8 @@ def build():
         papers.append({"id": row["id"], "title": row["title"], "authors": row["authors"],
                        "domain": ids[row["category"]], "tier": row["tier"],
                        "date": dated.get(row["id"]), "year": row.get("publication_year", 2026),
-                       "url": row["url"], "source": "ResearchGate" if row["id"].startswith("doi:") else "arXiv",
+                       "url": row["url"], "source": row.get("source", "arXiv"),
+                       "published": row.get("publication_status") == "Published article",
                        "summary": {"en": clean(english[key]), "zh": clean(chinese[key])},
                        "qs": affiliations['papers'].get(row['id'], {"edition": 2027, "status": "pending", "universities": []})})
     output = {"title": "Awesome JEV Papers", "cutoff": record["verified_on"],

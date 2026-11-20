@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <strong>199 entries</strong> · <strong>186 academic preprints</strong> · Last verified <strong>2026-10-18</strong> · <a href="LICENSE">CC0 1.0</a>
+  <strong>403 entries</strong> · <strong>390 academic papers</strong> · Last verified <strong>2026-11-20</strong> · <a href="LICENSE">CC0 1.0</a>
 </p>
 
 A curated collection of papers, preprints, technical reports, evaluations, and research-oriented articles about **Jev**, TypeSafe AI's first **System One Model**, and the research questions around typed probabilistic decisions.
@@ -25,7 +25,7 @@ Jev is not an acronym. The name refers to economist William Stanley Jevons. Type
 
 > **Scope.** This repository collects research literature, not implementations. Standalone GitHub repositories, model pages, demos, videos, generic news, and marketing-only posts are excluded. A code or model link may appear only as supplementary material for an included paper.
 
-> **Evidence status.** Jev is a very new, closed-weight commercial model. As of 18 October 2026, no peer-reviewed TypeSafe architecture or Reinforcement Learning for Calibrated Decisions (RLCD) paper was located. Independent work such as OpenJev-RLCD studies its own training method and does not disclose Jev's proprietary algorithm. Academic items below are preprints: 185 on arXiv and one on ResearchGate. First-party performance claims remain author- or vendor-reported unless independently reproduced.
+> **Evidence status.** Jev is a very new, closed-weight commercial model. The November search located no peer-reviewed TypeSafe paper disclosing Jev’s architecture or Reinforcement Learning for Calibrated Decisions (RLCD). Independent work such as OpenJev-RLCD studies its own training method and does not disclose Jev's proprietary algorithm. The academic collection includes 382 arXiv preprints, 5 other preprints and 3 published articles. First-party performance claims remain author- or vendor-reported unless independently reproduced.
 
 ## Contents
 
@@ -60,20 +60,20 @@ Jev is not an acronym. The name refers to economist William Stanley Jevons. Type
 
 | Research domain | Entries |
 |---|---:|
-| [Foundations & General Decision Models](#foundations-decision-models) | 40 |
-| [Natural Language Processing & Information Retrieval](#nlp-information-retrieval) | 23 |
-| [Multimodal Learning & Perception](#multimodal-perception) | 13 |
-| [Embodied AI & Reinforcement Learning](#embodied-ai-reinforcement-learning) | 13 |
-| [Agents & Workflow Automation](#agents-workflow-automation) | 25 |
-| [Trustworthy AI & Security](#trustworthy-ai-security) | 46 |
-| [AI for Science, Healthcare & Education](#science-healthcare-education) | 15 |
-| [Networks, Databases & Engineering](#networks-databases-engineering) | 12 |
-| [Computational Social Science & Human Decisions](#social-science-human-decisions) | 12 |
-| **Total** | **199** |
+| [Foundations & General Decision Models](#foundations-decision-models) | 73 |
+| [Natural Language Processing & Information Retrieval](#nlp-information-retrieval) | 52 |
+| [Multimodal Learning & Perception](#multimodal-perception) | 25 |
+| [Embodied AI & Reinforcement Learning](#embodied-ai-reinforcement-learning) | 24 |
+| [Agents & Workflow Automation](#agents-workflow-automation) | 45 |
+| [Trustworthy AI & Security](#trustworthy-ai-security) | 83 |
+| [AI for Science, Healthcare & Education](#science-healthcare-education) | 50 |
+| [Networks, Databases & Engineering](#networks-databases-engineering) | 28 |
+| [Computational Social Science & Human Decisions](#social-science-human-decisions) | 23 |
+| **Total** | **403** |
 
-Of the 199 entries, **186 are Jev-specific or Jev-style academic preprints** (185 on arXiv and one on ResearchGate) and **13 are research-oriented technical articles or reports**.
+Of the 403 entries, **390 are Jev-specific or Jev-style academic papers** and **13 are research-oriented technical articles or reports**.
 
-All **185 arXiv entries** include their **v1** submission timestamp in UTC, displayed to the minute. The ResearchGate preprint has a verified year but no verified exact publication date. Domain counts include all source types and count each work once.
+All **382 arXiv entries** include their **v1** submission timestamp in UTC, displayed to the minute. The ResearchGate preprint has a verified year but no verified exact publication date. Domain counts include all source types and count each work once.
 
 <a id="paper-growth"></a>
 
@@ -88,9 +88,9 @@ Explore the collection through the **[interactive website on GitHub Pages](https
 - **Review statistics:** compare domain distribution, Tier A/B composition, daily domain activity, and authors per paper. Select a domain bar or heatmap cell to inspect its papers.
 - **Paper library:** search titles, authors, and bilingual summaries; sort, paginate, inspect primary sources, and export the matching papers as CSV.
 
-The current snapshot contains **186 academic papers**, of which **185 have verified dates**. Time-series use arXiv v1 UTC submission dates and exclude the undated WaterSheep preprint. Composition charts and the full-window library retain it. Technical articles are excluded from all research charts. Recent dates may be incomplete because of announcement and indexing delays; these plots describe the current curated collection, not a field-wide census or repository addition history.
+The current snapshot contains **390 academic papers**, of which **389 have verified dates**. Time-series use arXiv v1 UTC submission dates and verified publication dates from other sources. They exclude the undated WaterSheep preprint. Composition charts and the full-window library retain it. Technical articles are excluded from all research charts. Recent dates may be incomplete because of announcement and indexing delays; these plots describe the current curated collection, not a field-wide census or repository addition history.
 
-[Frontend source](docs/) · [Rebuild website data](scripts/build_site_data.py) · [Verification snapshot](outputs/jev-literature-2026-10-18.json)
+[Frontend source](docs/) · [Rebuild website data](scripts/build_site_data.py) · [Verification snapshot](outputs/jev-literature-2026-11-20.json)
 
 <a id="foundations-decision-models"></a>
 
@@ -217,6 +217,105 @@ Model architectures, training and inference methods, ecosystem overviews, and ev
 - **[Prism-1: Position- and Rival-Independent Scoring for System One Models](https://arxiv.org/abs/2610.22066)**<br>📅 <strong>2026-10-15 15:28 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yao Long Teng, Jianguo Huang, Yanchen Deng, Jiayi Cai, Bo An
   - Prism-1 isolates candidate attention blocks and shares positions to enforce option-order invariance and independence from rival options. On five benchmark sets it stays close to a matched trained baseline while retaining decisions under reordering. The guarantees concern the scoring construction and choice axioms, rather than correctness or calibration of the resulting decisions.
 
+- **[What Can't Jev Decide? Probing the Limits of One-Pass Decision Models](https://arxiv.org/abs/2610.24929)**<br>📅 <strong>2026-10-18 00:50 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Wang Yang, Xinpeng Li, Yanyan Zhang, Chuang Ma, Shouren Wang, Jianzhe Wei, Liqin Ye, Xiaoran Cai, Mohsen Hariri, Vipin Chaudhary, Xiaotian Han
+  - The authors probe where hosted Jev and open replicas fail at one-pass choice. Jev solves most items a reference LLM can answer without deliberation, but accuracy falls on items requiring more reasoning. Confidence is especially unreliable when the supplied agent state is stale.
+
+- **[System X: An LLM Decision Model That Replies from Its Own KV Cache](https://arxiv.org/abs/2610.25456)**<br>📅 <strong>2026-10-18 18:40 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Syed Usama Khalid Bukhari, Syed Safwan Khalid, Muhammad Aamir
+  - System X adds a reply option to an LLM-based Jev-style readout and reuses the decision context's KV cache when that option is selected. Matched tests show reduced latency. Reply-quality comparisons have prompt and output-budget differences, and unsupported details remain a failure mode.
+
+- **[P(Yes): 15$\times$ Improvements via Test-Time Scaling of Decision Models](https://arxiv.org/abs/2610.25474)**<br>📅 <strong>2026-10-18 19:01 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Lev Stambler
+  - The study uses binary probabilities from frozen decision models to score complete puzzle solutions during test-time search. Jev, Clef and other hosted systems solve more puzzles with this extra computation. The results quantify a quality–compute trade-off on the tested puzzle family.
+
+- **[Narrow Decision Models: A System-1 Architecture for Calibrated, Typed Decisions](https://arxiv.org/abs/2610.25553)**<br>📅 <strong>2026-10-18 21:49 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Carlos André Antunes, Aldry Albuquerque, Gabriel de Melo Schmith, Natã Batista, Pedro Oziel Escobar da Silva, Stefano Benko Rossi, Lingrid Dietrich Lorenz da Silva, Flávia Cristina da Costa, Thiago Bertotto, Luis Fernando Fausto
+  - This paper proposes a narrower System One architecture for caller-defined choices and scores, emphasizing invariance to option order. The authors verify the invariances numerically and test routing and legal classification. Agreement with the production legal classifier is a proxy for task performance.
+
+- **[Truncated Reasoning Under a Budget: Evaluating System-1 Models as Decision-Makers](https://arxiv.org/abs/2610.25768)**<br>📅 <strong>2026-10-19 04:29 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Zhongyin Wang, Zhaoqian Xue, Junting Mu, Haozheng Liu, Ye Yuan, Haolun Wu, Lingyao Li
+  - The authors ask Jev to answer from a reasoning model's unfinished trace, measuring when a cheap decision can replace further generation. A policy chosen on training folds saves an estimated 71.3% of full-run cost on held-out folds at a 0.58-point accuracy loss.
+
+- **[TimesJev: Thinking Fast on Time Series with System 1 Sufficiency](https://arxiv.org/abs/2610.26002)**<br>📅 <strong>2026-10-19 08:26 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Chenghao Liu, Wei Fan, Jindong Han, Dongjie Wang, Aniket Mahanti, Pengyang Wang, Hao Liu
+  - TimesJev learns to retain enough information from a time series for a short, typed decision. It compresses the sequence and aligns the selected representation with a decision model's embeddings. The authors compare accuracy and inference time with reasoning models across thirteen datasets.
+
+- **[Teacher Supervision, Fixed Representations and Calibration: Exact Risk Calculations for Candidate-Scoring Decision Models](https://arxiv.org/abs/2610.26797)**<br>📅 <strong>2026-10-19 17:42 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Agus Sudjianto, Denis Burakov
+  - Using Jev and JevAny as motivating examples, the paper studies how teacher targets affect probabilities from candidate-scoring models. The analysis and empirical comparison indicate that recalibration can improve the probability scale while systematic teacher error still calls for validation against outcomes.
+
+- **[DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems](https://arxiv.org/abs/2610.28522)**<br>📅 <strong>2026-10-20 16:57 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Xialie Zhuang, Mingcong Lei, Zunhai Su, Ri Liu, Jianjin Li, Peixian Ma, Jia Pan, Ngai Wong, Guanhua Chen, Chuan-Wei Kuo
+  - DecisionPivot groups examples that differ in details intended to change the correct choice. This makes it possible to assess consistent reasoning and high-confidence errors alongside item accuracy. The benchmark reveals differences between decision models with otherwise similar aggregate scores.
+
+- **[Our Own Jev: Typed Decisions in One Forward Pass, from an In-House Judge to Open LoRA Models](https://arxiv.org/abs/2610.29052)**<br>📅 <strong>2026-10-21 01:28 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yuchuan Weng, Chi Liu, Xin Chen, Srinivasan Manoharan
+  - The authors develop open one-pass decision models from an internal judge and compare LoRA variants with hosted Jev and open alternatives. A small test finds the best model near the commercial reference, while retraining results expose sensitivity to the data release.
+
+- **[Which Differences Matter? Controlled Tests of Rule Transfer, Joint Reliability, and Information Use in Decision Models](https://arxiv.org/abs/2610.30045)**<br>📅 <strong>2026-10-21 17:04 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Tianyou Lai, Wentao Yue, Zhiwei Zuo, Qilei Li
+  - Controlled changes to rules, wording and table entries let the authors test what drives typed choices beyond overall accuracy. Equivalent rewrites sometimes change outputs more than repeated identical inputs. Altering task-relevant table values more often shifts decisions in the expected direction.
+
+- **[Jev-DLC: Decision-Level Continual Learning from Typed Feedback](https://arxiv.org/abs/2610.31521)**<br>📅 <strong>2026-10-22 16:33 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yangyang Feng, Jianle Gan, Zhuoyan Feng, Chengwei Qin
+  - Jev-DLC records accepted and revoked choices as feedback for updating a compact personalization state. A chronological benchmark measures the effect of those events on later typed decisions. The reported gain over replay grows after the model observes more corrections.
+
+- **[The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS](https://arxiv.org/abs/2610.33775)**<br>📅 <strong>2026-10-24 16:26 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Haggai Roitman
+  - This tutorial surveys System One models, the caller-defined decision interface and practical evaluation topics such as calibration. It synthesizes prior work and includes a model inventory and worked examples. Its role is to orient readers to the literature and implementations.
+
+- **[RubriX: A Fast, Fine-Tunable Non-Autoregressive Rubric Judge](https://arxiv.org/abs/2610.34875)**<br>📅 <strong>2026-10-26 05:45 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Balamurugan Paramasivam, Sudalai Rajkumar
+  - RubriX is a non-autoregressive judge for choices among rubric levels. The authors compare its cached-response latency with Jev and a generative model as rubric descriptions grow. Its latency advantage is largest at the longest rubric lengths measured.
+
+- **[Decision Model Factory: Building Specialized Sovereign Decision Models](https://arxiv.org/abs/2610.34956)**<br>📅 <strong>2026-10-26 07:23 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yuma Ichikawa
+  - The paper describes a workflow for building specialized decision models and a runner that computes probabilities over permitted answers while sharing context across questions. Experiments report throughput gains in matched multi-question workloads with similar decision scores.
+
+- **[ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions](https://arxiv.org/abs/2610.37732)**<br>📅 <strong>2026-10-27 12:53 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xiaolu Ding, Kai Yang, Dongdong Liu
+  - ThinkJev learns to supply a decision with different amounts of intermediate reasoning. The experiments separate low confidence from the expected benefit of thinking, which do not reliably align. Comparisons on public JevBench items are reported as exploratory.
+
+- **[DecisionUnlearn-Bench: Unlearning Probabilistic Decisions under Changing Schemas](https://arxiv.org/abs/2610.38431)**<br>📅 <strong>2026-10-28 08:13 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Tiantong Wu, Wei Yang Bryan Lim
+  - DecisionUnlearn-Bench evaluates unlearning in models that return probabilities over changing option schemas. It compares with a retraining reference and measures forgetting, retained utility and subsequent adaptation separately. Conclusions differ according to the architecture and the selected metric.
+
+- **[To Jev or Not to Jev: When Can System-1 Decision Models Replace LLM Judges?](https://arxiv.org/abs/2611.00505)**<br>📅 <strong>2026-10-31 00:51 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Shreyas Subramanian
+  - This benchmark asks when Jev and other decision-only systems can replace generative judges. It distinguishes simple preferences from correctness tasks requiring reasoning and measures a cascade that sends difficult items to a stronger judge. Capability and serving trade-offs vary by evaluation.
+
+- **[IJev: Order-Invariant Decisions via Iterated Cyclic Reordering](https://arxiv.org/abs/2611.01015)**<br>📅 <strong>2026-10-31 14:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Youzhi Zhang
+  - IJev combines decisions across cyclic arrangements of the same option set. The authors evaluate accuracy, calibration and option-order flips across five models and five benchmarks. The method removes measured flips in these tests, with extra calls as its main cost.
+
+- **[Extending Reasoning in Typed Decision Models via Looping](https://arxiv.org/abs/2611.07736)**<br>📅 <strong>2026-11-05 09:46 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · David Berghaus, Arber Zela, Behzad Shomali, Markus Frey, Mehdi Ali, Rafet Sifa, Volkan Cevher
+  - This study evaluates repeated processing in typed decision models on problems that require longer reasoning. It compares parameter sharing, additional training compute and adaptive execution. The reported improvements vary with problem length and the architecture of the decision backbone.
+
+- **[Towards Foundation Decision Models: Drex](https://arxiv.org/abs/2611.07854)**<br>📅 <strong>2026-11-05 11:31 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Nischay Dhankhar, Alisher Amantay, Zhanibek Datbayev, Darkhan Akhmetov, Yash Shah, Nurmukhamed Ubaidullayev, Raman Saparkhan, Dos Baha, Abulhair Saparov
+  - Drex introduces open decision checkpoints and evaluates native typed outputs, speed and option-order stability. It includes comparisons with generative frontier models and systems from the same decision category. The reported timing refers to the authors' request workload and deployment.
+
+- **[Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes](https://arxiv.org/abs/2611.08439)**<br>📅 <strong>2026-11-05 18:31 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Vladimir Beskorovainyi
+  - The authors compare versions of a typed-decision encoder trained with varied option wording. They test unfamiliar labels, abbreviations and codes, with gains concentrated in some language variations. Checkpoint rankings also differ across held-out datasets, complicating model selection.
+
+- **[Deciding Without Generating: A Survey of Typed Decision Models, from Jev to Open Decision LLMs](https://www.preprints.org/manuscript/202611.0760/v1)**<br>📅 <strong>2026-11-06</strong> · Preprints.org preprint · <strong>Tier A</strong> · Shangquan Sun
+  - This survey formalizes typed decisions and reviews the training, serving and evaluation literature around Jev and open alternatives. It distinguishes probabilities used for routing from empirical correctness and examines how fallback decisions affect overall accuracy. Findings synthesize evidence from the surveyed work.
+
+- **[AbductionBench: Benchmarking Abductive Reasoning in Large Language Models](https://arxiv.org/abs/2611.10705)**<br>📅 <strong>2026-11-07 12:56 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Moein Salimi, Amir Qeysarbeigi, Babak Hosseini Mohtasham, Faraz Doagoye Tehrani, Mahdi Naieni, Hanieh Sartipi, Ali Nouri, Amin Aghakasiri, Reyhane Khayatzade Mahani, Mahdi Jafari Siavoshani, Mohammad Hossein Rohban
+  - AbductionBench evaluates inference to plausible explanations, including whether agents request useful evidence and revise hypotheses. The study includes decision-model comparisons and analyzes behavior alongside final-answer accuracy. Models can retain an early hypothesis even as new observations arrive.
+
+- **[ZeroPoint: Lightweight Energy-Based Decision Model](https://arxiv.org/abs/2611.12992)**<br>📅 <strong>2026-11-08 11:45 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Javier Marín
+  - ZeroPoint trains a lightweight energy-based decision model to handle menus containing no acceptable answer. It compares a fixed rejection reference with a learned class and thresholded softmax. The results show the importance of training on examples in which no option fits.
+
+- **[MMDM: Measuring Massive Multitask Decision Making](https://arxiv.org/abs/2611.14309)**<br>📅 <strong>2026-11-10 16:40 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Junhao Shen, Qing Zong, Yue Guo, Zhanqiu Zhang, Yiwen Guo, Hong Cheng
+  - MMDM evaluates decision models on a broad suite with joint constraints and tasks requiring more than one selected option. Some performance measures depend on recovering the complete valid set. The authors report that constraint planning and strict multiselect remain difficult.
+
+- **[Learning a calibrated decision head from logged bandit feedback](https://arxiv.org/abs/2611.15572)**<br>📅 <strong>2026-11-11 14:55 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ye Yuan
+  - This paper trains a calibrated decision head from selectively logged outcomes and evaluates calibration under simulated label noise. The authors test correction and validation-based stopping on held-out records. Noise experiments use a limited number of runs per rate.
+
+- **[Small Heads, Strong Decisions: A Controlled Study of Typed-Decision Models](https://arxiv.org/abs/2611.15592)**<br>📅 <strong>2026-11-11 15:10 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ritvik Rastogi
+  - Five typed decision heads are trained with a common backbone, datasets and protocol. They show similar in-domain accuracy while inference costs differ. Increasing the backbone from 0.6B to 4B yields larger gains, particularly on held-out data, in the reported comparison.
+
+- **[SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models](https://arxiv.org/abs/2611.15777)**<br>📅 <strong>2026-11-11 17:53 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Lichen Li, Ziping Dong, Sicheng Feng, Qi Li, Xinchao Wang
+  - SO-Arena benchmarks System One models across task capabilities and separately measures reliability of their responses. The model with the best performance is not the most reliable across tested conditions. The benchmark highlights model-selection trade-offs that a single score conceals.
+
+- **[From Large Language Models to Efficient System One Models via Adaptive Computation](https://arxiv.org/abs/2611.16321)**<br>📅 <strong>2026-11-12 05:40 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Minh-Anh Nguyen
+  - This method adapts larger models into System One decision models with several possible exit depths. Confidence signals determine whether to compute additional layers. The paper compares accuracy and compute across seven benchmarks against models trained at fixed depths.
+
+- **[The Value of Thinking: Learning When to Reason in Hybrid Decision Models](https://arxiv.org/abs/2611.16961)**<br>📅 <strong>2026-11-12 15:32 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Zhengxu Yu, Ke Xu, Meng Fang, Haitham Ammar, Weilin Luo, Jun Wang
+  - The hybrid decision model learns when the expected benefit of reasoning justifies further generation. Evaluation spans decision benchmarks and an agent environment. The paper reports several accuracy, latency and token-cost comparisons, including a direct comparison with hosted Jev on JevBench.
+
+- **[UltraBERT-JEV: Encoder models for System One Applications](https://arxiv.org/abs/2611.17867)**<br>📅 <strong>2026-11-13 07:58 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Astarag Mohapatra
+  - UltraBERT-JEV explores encoder architectures for single-pass decision workloads. The authors compare serving time and memory with an alternative and add an auxiliary readout for supporting sentences. Results show that lower latency can come with higher peak memory in the tested configuration.
+
+- **[AdaMenu: Query-Adaptive Menus for Decision Models over Large Label Spaces](https://arxiv.org/abs/2611.19005)**<br>📅 <strong>2026-11-13 23:08 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jiangze Yan, Yi Shen, Jieyun Huang, Wenjing Zhang, Zhaoxiang Liu, Ning Wang, Kai Wang, Shiguo Lian
+  - AdaMenu selects a query-specific subset of labels before invoking a decision model. The authors compare accuracy and input-token consumption with full and hierarchical option sets. The approach also covers settings where a provider cannot accept the full label menu.
+
+- **[When Should Decision Models Compare Candidates?](https://arxiv.org/abs/2611.20335)**<br>📅 <strong>2026-11-16 00:00 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Fangzhi Li, Quan Shi, Wenting Yang, Yueqiao Chen, Jiayu Chang, Shuting Zhao, Zhaowei Xu, Yizhao Chen, Guanchu Wu, Han Xu
+  - The paper tests when a typed decision model benefits from representing relationships among options. It compares independent, attention-based and setwise approaches under varying supervision. Access to the candidate set is insufficient by itself, and useful transfer depends on task and training.
+
 ### Publication Date Unverified
 
 - **[WaterSheep 0.1.0: Typed Decisions with Calibrated Probabilities from a Single Encoder Pass](https://doi.org/10.13140/RG.2.2.28606.45122)**<br>◉ <strong>2026 · Exact date unverified</strong> · ResearchGate preprint · <strong>Tier A</strong> · Samrat Dutta
@@ -299,6 +398,94 @@ Text classification, multilingual understanding, document reasoning, language-mo
 - **[PRISM: Calibrating Black-Box Judges with Counterfactual Probes](https://arxiv.org/abs/2610.18389)**<br>📅 <strong>2026-10-13 13:39 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Kakei Yamamoto and So Kuroki
   - PRISM perturbs evaluative emphasis while keeping judged content fixed, then learns a correction from human labels using the resulting score sensitivities. Jev and Sol experiments on SummEval and HANNA improve agreement with human rankings and test quality-based versus style-based probes. It is included as a direct Jev-judge calibration method, whose supervised corrections and dataset-specific agreement gains do not establish unbiased judgments or transfer without local validation.
 
+- **[One Confidence Threshold, Unequal Coverage: Language Gaps in Typed Decision Interfaces and How Translating Inputs Reduces Them](https://arxiv.org/abs/2610.37688)**<br>📅 <strong>2026-10-17 21:53 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Junwei Yao, Yongxi Zhou, Zike Yang, Zhijun Wang, Jianan Liu, Yanxian Chen, Wenbo Ye
+  - This preregistered comparison applies a shared confidence threshold to three typed decision services across 51 languages. Correct English inputs clear the threshold more often than equivalent non-English inputs. Translation reduces much of the gap at the tested threshold, with residual differences at matched error targets.
+
+- **[Multimodal Reranking Is a System One Decision](https://arxiv.org/abs/2610.28435)**<br>📅 <strong>2026-10-20 16:00 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Zhuchenyang Liu, Yao Zhang, Yu Xiao
+  - The authors cast visual reranking as a typed decision and compare a pair of large vision-language decision models with dedicated rerankers. Gains vary across document pages and natural images. Differences in model scale and generation preclude attribution to decision training alone.
+
+- **[Scan or Index? large Evidence Coverage, Answer Quality, and Cost in Long-Document RAG](https://arxiv.org/abs/2610.28957)**<br>📅 <strong>2026-10-20 22:11 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Juan Terven, Diana-Margarita Córdova-Esparza, Julio-Alejandro Romero-González, Edgar Chavez-Urbiola, Juan Irving Vasquez, Julian Andres Ramirez-Bautista, Silvia L. Chaparro-Cárdenas, Gendry Alfonso-Francia
+  - The paper compares full-document decision-model scanning with lexical, dense and hybrid retrieval for long-document question answering. Evidence retention and answer quality are measured separately. Reusable indexes show a cost advantage as queries accumulate, while scanning incurs more latency on books.
+
+- **[How Well Do Decision Models Transfer to Vietnamese? An Empirical Study of Text Classification](https://arxiv.org/abs/2610.31422)**<br>📅 <strong>2026-10-22 15:24 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Phat Huu Ha, Nguyen Xuan Phuc, Nong Nhut Quy, Trinh Tran Tran, Nguyen Minh Triet, Dang Van Thin
+  - Four decision models are evaluated across thirteen Vietnamese zero-shot classification settings. The paper tests labels and input corruption as well as aggregate accuracy. Removing accents has a larger effect than the tested slang and typo modifications, showing the importance of language-specific robustness checks.
+
+- **[System One models Are Not Better Rerankers](https://arxiv.org/abs/2610.32318)**<br>📅 <strong>2026-10-23 08:16 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Michael Dinzinger, Kanishka Ghosh Dastidar, Michael Granitzer
+  - Matched comparisons ask whether System One training transfers to passage reranking better than reranker-specific adaptation. Specialized rerankers usually retain an advantage in ranking quality. Decision-model calibration depends on how relevance is phrased and does not consistently offset inferior ranking.
+
+- **[Decision-Native Recommendation with Large Language Models](https://arxiv.org/abs/2610.34124)**<br>📅 <strong>2026-10-25 07:46 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Daoxuan Liu, Jiayi Liao, Jiancan Wu, An Zhang, Xiang Wang, Xiangnan He
+  - A recommender scores a supplied menu directly as a decision task. The authors test reorderings, inference latency and whether confidence can route difficult examples to additional computation. The speed advantage is measured against the paper's evaluated generation-based methods.
+
+- **[Entity Matching using Decision Models](https://arxiv.org/abs/2610.34626)**<br>📅 <strong>2026-10-25 22:48 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Aaron Steiner, Ralph Peeters, Christian Bizer
+  - The authors test decision models on entity matching and send uncertain record pairs to generative judges. The cascade improves mean F1 for several stronger decision models. Results vary with the matching collection and prompt, and strongest published scores are exceeded on some benchmarks.
+
+- **[Can System-1-Style Decision Models Replace Dedicated Rerankers in RAG? A Systems Evaluation](https://arxiv.org/abs/2610.34816)**<br>📅 <strong>2026-10-26 04:00 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Qiaomu Li, Ying Xie
+  - A systems evaluation compares decision-model reranking with dedicated rerankers on quality, latency and memory. Rankings change with the workload, and a tuned reranker is faster and more memory efficient in the tested setups. The paper documents conditions for a competitive alternative.
+
+- **[Improving JEV Entailment Reranking with Span Readouts and Selective Adaptation](https://arxiv.org/abs/2610.35654)**<br>📅 <strong>2026-10-26 16:02 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Haocheng Mei, Yuchuan Tian, Ye Yuan, Enhua Wu, Chao Xu, Allen Chen, Kai Han, Yunhe Wang
+  - This study adapts NeoHorse decision models for entailment reranking. It compares selective adapter training and span-level aggregation with broader fine-tuning. The combined approach improves the reported aggregate benchmark while requiring fewer trained parameters than the all-module comparison.
+
+- **[Retriever-Free Retrieval: Navigating Documents with Decision Models](https://arxiv.org/abs/2610.35868)**<br>📅 <strong>2026-10-26 17:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Chao Wan, Paul Jünger, Beixi Du, Bodong Liu, Navaneetha Krishnan, Kilian Q. Weinberger
+  - DecisionRAG navigates document structures using decision-model judgments without training a first-stage retriever. The authors compare retrieval accuracy and latency with dense systems and rerankers across four benchmarks, including a large Wikipedia paragraph corpus.
+
+- **[Do We Need an LLM to Know Why Sources Conflict? Decision Models for Knowledge-Conflict Typing in RAG](https://arxiv.org/abs/2610.36915)**<br>📅 <strong>2026-10-27 09:43 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Parv Khatri, Harshul Jain, Mehak Kapoor, Tanya Sah
+  - The authors test decision models on labeling conflicts among sources in retrieval-augmented generation. They analyze order sensitivity and distinguish hard labels from the usefulness of the underlying scores. The generative comparison is stronger at identifying planted false sources as hard labels.
+
+- **[JevRec: Linguistic Encoding with Jev-like Decision Modeling for LLM-based Generative Recommendation](https://arxiv.org/abs/2610.36937)**<br>📅 <strong>2026-10-27 09:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Qiyong Zhong, Jiajie Su, Ming Yang, Li Zhang
+  - JevRec uses a Jev-like decision head to separate item-code length decisions from content prediction while sharing the user's interaction representation. The study reports recommendation gains on three public datasets and investigates runtime and gradient interference relative to TIGER.
+
+- **[Predicting What Answer Engines Cite: Open Decision Models, Rerankers and a Distilled 4B Student on Ten Engines under Controlled Retrieval](https://arxiv.org/abs/2610.38090)**<br>📅 <strong>2026-10-28 00:11 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Elisha Bajemon, Andre-Louis Rochet
+  - The study predicts which retrieved passages answer engines will cite under controlled retrieval. It compares rerankers, Jev and students trained on model or observed labels. Part of the apparent student advantage disappears when Jev uses the same pointwise scoring format.
+
+- **[DecisionRank: On-Policy Distillation for Decision-Model Rerankers](https://arxiv.org/abs/2610.42128)**<br>📅 <strong>2026-10-30 17:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yanran Wu, Dian Yu, Chongyang Bai, Jieyi Zhang, Rui Liu, Tianyi Chen, Shike Mei, Hang Cui, Frank Shyu, Sandeep Pandey, Luke Simon, Chunwei Liu, Xi Liu
+  - DecisionRank distills a generative ranking teacher into models that score supplied candidates directly. The authors evaluate on several retrieval benchmarks and compare both trained objectives and serving speed. Reported gains include settings where the student exceeds its larger teacher.
+
+- **[Can Jev Improve Demonstration Retrieval for In-Context Learning?](https://arxiv.org/abs/2611.00737)**<br>📅 <strong>2026-10-31 08:31 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Rui Song, Yingji Li, Hao Xu
+  - The authors apply Jev's probabilistic judgments to choosing demonstrations for in-context learning and distill those judgments into a smaller ranking model. The study assesses how the selected demonstrations affect downstream performance and compares efficient retrieval with repeated direct Jev calls.
+
+- **[Do GEO Gains Survive the Live Web? Evaluating In-the-Wild Visibility Gains of Generative Engine Optimization via LIVE-GEO](https://arxiv.org/abs/2611.01126)**<br>📅 <strong>2026-10-31 17:15 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Runze Kong, Haibo Jin, Xucheng Yu, Xiaoqi Wang, Huimin Zeng, Haohan Wang
+  - LIVE-GEO tests whether content optimization gains survive live retrieval. It also uses Jev to verify the numerical faithfulness of rewritten descriptions. The authors check a subset against human labels and report that a substantial number of rewrites are flagged.
+
+- **[XDecideBench: Evaluating Typed Decision Models and Confidence Policies Across Languages](https://arxiv.org/abs/2611.01370)**<br>📅 <strong>2026-11-01 00:11 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Marek Šuppa, Jaroslav Kopčan
+  - XDecideBench compares typed decisions and confidence policies across languages and benchmarks. Model rankings can change considerably with language and task. Thresholds chosen on English also fail to preserve the intended error rate on several transferred test settings.
+
+- **[Every Clause Counts: Instruction-Following Reranking by Multiplying Small, Answerable Questions](https://arxiv.org/abs/2611.03179)**<br>📅 <strong>2026-11-02 14:15 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · S. M. Mahbub Uddin Ahmed, Abdullah Al Musaddiq
+  - This reranking method divides instructions into individual clauses and combines separately judged probabilities. The paper evaluates instruction sensitivity and rank quality, showing that the measured effect depends partly on whether an evaluation compares raw scores or induced ranks.
+
+- **[Zuse: A Decision Model for European Languages](https://arxiv.org/abs/2611.06238)**<br>📅 <strong>2026-11-04 09:45 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Umair Mehmood Imam
+  - Zuse is a decision model designed for European languages. The authors compare it with hosted Jev and Kev and investigate data-integration issues such as collisions between label schemes. Strong performance in targeted categories is weighed against broader benchmark results.
+
+- **[Probabilistic Relevance Decisions for Semantic Retrieval](https://arxiv.org/abs/2611.08014)**<br>📅 <strong>2026-11-05 13:36 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Bahadır Tatar, Cevat Şener
+  - The authors use probabilistic relevance judgments to complement dense search and compare several candidate depths. Their protocol measures ranking and serving latency. Differences in runtime environments and the exploratory analysis limit broader calibration and efficiency claims.
+
+- **[Evaluating Jev on Arabic: Comparing Decision Models and LLMs Across Arabic Tasks and Dialects](https://arxiv.org/abs/2611.10802)**<br>📅 <strong>2026-11-07 15:30 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Hossam Elsafty, Tobias Deußer, Lorenz Sparrenberg, Rajkumar Ramamurthy, Rafet Sifa
+  - The authors compare Jev with decision and generative alternatives on Arabic tasks and dialects. Task-family and matched-language breakdowns reveal variation obscured by aggregate scores. Some dialect comparisons remain inconclusive, limiting claims about a universal order of models.
+
+- **[Beyond Ranking: Are Decision Models Calibrated Relevance Scorers?](https://arxiv.org/abs/2611.11480)**<br>📅 <strong>2026-11-08 16:22 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Shengyao Zhuang, Xueguang Ma, Matthias Petri, Jimmy Lin
+  - The paper evaluates decision models as relevance probability estimators as well as rerankers. It compares discrimination and Brier scores with generative and cross-encoder baselines, then uses calibrated probabilities to choose a cutoff per query. The conclusions apply to the evaluated retrieval sets.
+
+- **[PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard](https://arxiv.org/abs/2611.13843)**<br>📅 <strong>2026-11-10 10:04 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mohammed Nayeem Khan, Sarun Kumar K S
+  - PolyRoute benchmarks typed routing in twelve languages and code-mixed input. It compares multilingual and English-derived decision models, including held-out languages. All texts and labels are generated, and statistical resolution is limited for small model differences.
+
+- **[Is Jev a Good Multilingual Judge?](https://arxiv.org/abs/2611.14861)**<br>📅 <strong>2026-11-11 00:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Wei Liu, Yi Fan, Xiyan Fu
+  - This work evaluates Jev as a judge across languages and task types, analyzing agreement alongside option probabilities. It reports weaker performance in some low-resource languages and examines whether probability outputs can help select which multilingual judgments deserve further review.
+
+- **[Decision Models as L2 Rerankers for Content-Based Recommendation: A Pre-Registered Evaluation](https://www.mdpi.com/2078-2489/17/11/1141)**<br>📅 <strong>2026-11-12</strong> · Information · <strong>Tier B</strong> · Purva Bangad, Harikrishnan Girikumar
+  - This preregistered evaluation uses hosted Jev as a second-stage product reranker. It compares retrieved and more completely judged lists on Amazon ESCI and Wayfair WANDS. Jev improves on embedding order, while stronger trained cross-encoders erase most of its advantage in the tested settings.
+
+- **[CURATOR: Scalable Fine-grained Evidence Selection for Retrieval-Augmented Generation using Decision Models](https://arxiv.org/abs/2611.16366)**<br>📅 <strong>2026-11-12 06:29 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Shib Dasgupta, Bandish Parikh, Rashmi Gangadharaiah
+  - CURATOR applies decision models to fine-grained evidence selection for retrieval-augmented generation. The authors test discrimination as the number of candidates grows and measure downstream answers across domains. Reported gains are particularly relevant when the generator's context budget is small.
+
+- **[Do We Still Need Fine-Tuned Classifiers? Swapping Typed Decision Models into 24 ACL-Venue Papers](https://arxiv.org/abs/2611.20191)**<br>📅 <strong>2026-11-15 18:44 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Marek Šuppa, Jaroslav Kopčan
+  - TDM-Gauntlet reuses splits, labels and metrics from 24 NLP papers to compare Jev and other typed decision models with task-trained classifiers. Jev matches the original model on 12 of 46 test sets zero-shot. Prompt optimization narrows the gap on others, with fine-tuning often stronger.
+
+- **[Nano-jev: Calibrated Cross-Encoder Micro-Decisions for Retrieval-Augmented Generation with Confidence Cascading](https://www.icck.org/article/abs/tis.2026.197904)**<br>📅 <strong>2026-11-16</strong> · ICCK Transactions on Intelligent Systematics · <strong>Tier A</strong> · Subham Divakar, Rojalina Priyadarshini
+  - Nano-jev uses a small cross-encoder to score relevance, evidence sufficiency and answer groundedness as typed decisions. The authors compare it with specialized checkers and test a confidence cascade. Transfer to unseen datasets reduces both accuracy and calibration quality.
+
+- **[RagHarnessDebugger: Jev-Guided Agentic RAG in Contract Inference Repair Auditing](https://arxiv.org/abs/2611.22991)**<br>📅 <strong>2026-11-17 16:07 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Moriya Dechtiar, Daniel Martin Katz, Michael J. Bommarito II, Hongming Wang, Sylvain Jaume
+  - RagHarnessDebugger records repair decisions made by a Jev-guided contract-inference pipeline. The audit checks the completeness and linkage of traces and examines how missed repairs affect answers on ContractNLI. The work treats decision visibility as an evaluation target alongside final accuracy.
+
+
 <a id="multimodal-perception"></a>
 
 ## 👁 Multimodal Learning & Perception
@@ -344,6 +531,42 @@ Computer vision, visual and video decisions, multimodal representations, sensor-
 
 - **[MJev-Spatial: System One Spatial Intelligence via Native Attention Matching](https://arxiv.org/abs/2610.22276)**<br>📅 <strong>2026-10-15 17:37 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Luozheng Qin, Yuhan Zhu, Changhai Zhou, Qian Qiao, Jun Gao, Yuhua Zhou, Harry Zhang, Xiangyu Zeng, Yuxuan Liu, Kaijie Chen, Andrew Chen, Pony Ma
   - MJev-Spatial uses native attention projections to score spatial choices, numeric bins and image regions without adding parameters. Trained on 12.3 million converted spatial question-answer pairs, it leads seven of twelve evaluated benchmarks and reports faster inference than autoregressive baselines. Numeric and point outputs use coarse-to-fine decisions, so a prediction can require several decision stages.
+
+- **[UniJev: Separating Accuracy from Calibration in Trimodal System One Decision Models](https://arxiv.org/abs/2610.25784)**<br>📅 <strong>2026-10-19 04:49 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jianing Wang, Youwen Jian, Derong Wang, Jinyang Yu, Qingyi Si, Chuanyu Qin, Yanghua Xiao, Hongcheng Guo
+  - UniJev trains typed decisions across text, images and video and compares accuracy and calibration effects of its training stages. The proposed confidence objective aligns scores with empirical accuracy within confidence bins. At 2B and 9B, the authors report better visual calibration with similar accuracy.
+
+- **[EditJev: System One Routing for Image Editing Models](https://arxiv.org/abs/2610.32635)**<br>📅 <strong>2026-10-23 13:46 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Zhile Guan, Xu Jiang, Yule Duan, Gongbo Zhang, Shuyu Wang, Xiao Chen, Jian Zhang
+  - EditJev selects an image editor based on the input image and edit request, combining predicted preferences with editor speed. Two evaluations show small average quality gains over the strongest fixed editor and lower estimated end-to-end latency under the authors' configuration.
+
+- **[Seeing the Options: What Should a Visual Candidate See?](https://arxiv.org/abs/2610.33702)**<br>📅 <strong>2026-10-24 14:32 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Fengxin Li
+  - The authors compare ways to encode visual options for a single-pass decision, including state-conditioned candidate representations. The latter is order-stable in the reported tests, with some loss in ranking performance relative to joint encoding. Abstention thresholds can drift across settings.
+
+- **[Beyond CLIP: Calibrated (Few-Shot) Defect Detection With System One Decision Models](https://arxiv.org/abs/2610.41199)**<br>📅 <strong>2026-10-30 03:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Fadel M. Megahed, Ying-Ju Chen
+  - The authors evaluate System One models and CLIP on visual defect detection, testing small numbers of labeled examples and calibration. Calibration improves Brier scores in most of the reported setups. The experiments document model and application combinations rather than one universal threshold.
+
+- **[VerdictAD: Few-Shot Anomaly Detection via Decision-Guided Refinement](https://arxiv.org/abs/2611.02654)**<br>📅 <strong>2026-11-02 07:15 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Shangquan Sun, Wenjun Luo, Yuanzhi Wang, Ruiqi Li, Ruoyu Chen, Jiachen Liu, Shijian Lu
+  - VerdictAD uses a decision model to refine scores from visual anomaly detectors with few labeled examples. The authors test the refinement across three industrial inspection datasets and compare several detector backbones, reporting consistent improvements in their evaluated settings.
+
+- **[ReListen: Training-Free Evidence Localization in Hour-Long Audio with Frozen Audio Language Models](https://arxiv.org/abs/2611.04480)**<br>📅 <strong>2026-11-03 08:12 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ming-Hao Hsu, Shujie Liu, Yuxuan Hu, Yuxiang Wang, Yingda Shen, Jinyu Li, Zhizheng Wu
+  - ReListen uses a frozen audio model to make bounded judgments about candidate segments when searching long recordings. It compares evidence localization, answering latency and memory with transcript-based approaches. The study demonstrates a decision-oriented use of audio models without additional training.
+
+- **[AffordJEV: Affordance Grounding by Confirming Candidate Regions](https://arxiv.org/abs/2611.07896)**<br>📅 <strong>2026-11-05 12:17 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jincheng Li, Yutian Zhang, Jianyu Zhang, Xinshun Wang, Mengyuan Liu
+  - AffordJEV asks a System One judge to confirm which candidate image regions support a requested action. The authors compare decision and chain-of-thought approaches on affordance grounding, testing both in-domain performance and transfer to other image collections.
+
+- **[Omni-JEV: Text and Dual-Stream Speech Decisions](https://arxiv.org/abs/2611.13777)**<br>📅 <strong>2026-11-10 09:15 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Shengzhou Kong
+  - Omni-JEV maps text and two streams of speech to typed decisions about turn taking in voice interfaces. The authors compare classification accuracy and probability quality across alternatives. Its candidate actions include continuing, interrupting and resuming within the evaluated interaction protocol.
+
+- **[JEV-VAD: Efficient Semantic Endpointing via Task-First Conditioning and Decoder-Prefix Pruning](https://arxiv.org/abs/2611.15362)**<br>📅 <strong>2026-11-11 11:42 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jintao Liang, Nan Li, Longbiao Wang, Tubin Huang, Min Xu
+  - JEV-VAD applies an efficient decision readout to detecting when a speaker has finished an utterance. It compares decoder depth and conditioning choices on endpointing tasks, including cross-language transfer. Shallow computation can retain useful signal at lower resource use.
+
+- **[FaceJev: Direct Visual Decisions for Face Forgery Detection](https://arxiv.org/abs/2611.21604)**<br>📅 <strong>2026-11-16 18:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Siran Peng, Tianshuo Zhang, Yibo Xue, Ajian Liu, Haoyuan Zhang, Weisong Zhao, Shuhuan Chen, Xiangyu Zhu, Zhen Lei
+  - FaceJev makes a direct visual decision about possible face forgery and supplies structured judgments about image regions. The authors compare performance on held-out manipulations and ablate the training components. The evaluation measures detection within the benchmark's image distributions.
+
+- **[Deciding Without Pointing: A Case Study of Whether a Decision Model Localizes the Anomalies It Detects](https://arxiv.org/abs/2611.21995)**<br>📅 <strong>2026-11-16 23:27 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Hsiang-Hung Lee
+  - The authors test whether decision models localize the visual abnormalities that they classify correctly. Built-in decision scores do not necessarily imply useful spatial maps. The paper compares several sources of localization signal with dedicated few-shot localizers.
+
+- **[Jeveration: System One Models Now Generate](https://arxiv.org/abs/2611.24738)**<br>📅 <strong>2026-11-18 16:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yuhe Liu, Qi Li, Shihua Zhang, Xinchao Wang
+  - Jeveration extends a System One-oriented architecture to support image generation, visual understanding and dense prediction in one checkpoint. The authors compare quality, speed and predictive performance of its single-pass approach with prior unified systems on designated tasks.
 
 
 <a id="embodied-ai-reinforcement-learning"></a>
@@ -391,6 +614,39 @@ Robotics, navigation, game control, GUI interaction, environment planning, and d
   - ProAgent couples StreamingJev, a Jev-style intervention-timing model, with a response model that communicates or invokes physical devices. Video-derived supervision trains the system to detect emerging needs under explicit goals or standing roles, and real-robot experiments test physical responses. It is included as a proactive embodied decision architecture, with reported timing and false-trigger improvements tied to its evaluated objectives, backbone comparisons, and robot settings.
 - **[The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock](https://arxiv.org/abs/2610.20665)**<br>📅 <strong>2026-10-14 09:35 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ningxin Pan, Hanyu Li, Yeqing Shen, Ning Ding, Yehui Tang, Wentao Zhang
   - RealtimeBench evaluates 180 tasks while the environment continues evolving during inference. A slower model leads Jev in paused games but loses its advantage under a live clock; offline teacher-written instructions raise Jev's average progress score from 13.51 to 24.19. The result concerns latency-sensitive game environments and does not imply general superiority over reasoning models.
+
+- **[CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation](https://arxiv.org/abs/2610.27677)**<br>📅 <strong>2026-10-20 05:47 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Pengying Wu, Zhejia Wen, Kang Ding, Kangjie Zhou, Chunxuan Jiao, Wei Pan, Xiangli Nie, Chang Liu
+  - CovNav tests adaptive model inference for object-goal navigation. A conformal rule invokes slow reasoning when a fast decision is uncertain. The study reports small navigation success gains on two HM3D versions, occasional escalation and additional experiments with a physical mobile robot.
+
+- **[RoboJev: An Open Vision-Language Judge for Robot Success Detection](https://arxiv.org/abs/2610.33718)**<br>📅 <strong>2026-10-24 15:06 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Josef Liyanjun Chen
+  - RoboJev uses a vision-language decision model to judge whether a robot has completed its goal. The authors release evaluation materials and compare against hosted vision models. The hosted baselines receive fewer frames, making that comparison sensitive to the input budget.
+
+- **[JevVLA: Jev-Inspired Energy-Based Adaptation for Vision-Language-Action Policies](https://arxiv.org/abs/2610.35010)**<br>📅 <strong>2026-10-26 08:21 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Wei Wang, Wenqiao Zhang, Zheqi Lv, Zheng Dong, Yingjie Niu, Jiaqi Zhu, Jun Xiao, Chao Li, Yueting Zhuang
+  - JevVLA applies a Jev-inspired energy-based decision layer to vision-language-action policies. The same framing covers discrete candidate actions and continuous guidance. The authors compare policy performance across several robot manipulation suites, with gains depending on the environment.
+
+- **[Learning to Formalize: Bridging Open-Ended Workloads and Fast Decision Models](https://arxiv.org/abs/2610.36595)**<br>📅 <strong>2026-10-27 03:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Chengxuan Pei, Ziyao Wang, Teng Mei, Zhe Li
+  - A learned formalizer translates open-ended workloads into questions a fast decision model can answer. The study tests this division of labor in robot-task evaluation using privileged states. Reported gains depend on the formalizer, with success remaining limited on the evaluated split.
+
+- **[RLiD: Reinforcement Learning in the Decision Plane for Language Agents and LLMs](https://arxiv.org/abs/2611.02455)**<br>📅 <strong>2026-11-02 03:17 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ziyi Chen, Yan Zhang, Jianhui Wei, Jianing Yin, Daoan Zhang
+  - RLiD trains an agent's decision model with reinforcement learning over actions and transfers the policy to a generative model. ALFWorld experiments compare success and training compute with token-level reinforcement learning, with additional results for a version that uses compiled memory.
+
+- **[Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model](https://arxiv.org/abs/2611.05448)**<br>📅 <strong>2026-11-03 17:36 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yansong Qu, Jiancong Chen, Samuel Labi
+  - Jev-AD pairs typed interpretation of passenger requests with forecasts from a language world model. Jev compares potential driving actions with forecast consequences. The authors report fewer collisions in simulation and recorded-traffic replay, with no direct deployment evidence in the study.
+
+- **[The Blindfolded Controller: Decision Model-Guided Training for Reinforcement Learning](https://arxiv.org/abs/2611.07934)**<br>📅 <strong>2026-11-05 12:38 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Muhammad Ibrahim Khan, Aniket Dixit, Faizan Ahmed, James Brusey
+  - This reinforcement-learning study uses a decision model to guide training while allowing the learned policy to act independently. The paper compares the learned policy, conventional reinforcement learning and the standalone decision model across seven tasks, with gains depending on the test.
+
+- **[LEASH: Stay Safe in Agentic Robotics](https://arxiv.org/abs/2611.14115)**<br>📅 <strong>2026-11-10 14:06 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Qinfeng Zhu, Weiguang Zhao, Ke Sun, Xihao Guo, Yunxi Jiang, Rui Zhang, Lei Fan, Kaizhu Huang
+  - LEASH uses several decision gates to monitor potentially unsafe robot plans and actions against a shared policy. The authors test simulation and physical robots across multiple model backbones, reporting reductions in adverse outcomes while measuring task completion and overhead.
+
+- **[SuperGlance: Driving at a Glance with a Vision-Language Model](https://arxiv.org/abs/2611.19138)**<br>📅 <strong>2026-11-14 03:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jieyuan Pei, Xin Yan, Mingwei Xu, Haiyi Zhang, Siyu Zou, Zhangyi Hu, Zhuoxuan Li, Yuguang Yang, Rongjunchen Zhang, Cheng Chi, Hui Xiong, Yan Wang
+  - SuperGlance evaluates a fast vision-language decision architecture for driving. Experiments include open-loop prediction and closed-loop simulation with controlled inference delays. Driving performance depends on the delay charged to the planner and the simulation's measured operating conditions.
+
+- **[Program Distillation: Transferring LLM Capability from System 2 to System 0](https://arxiv.org/abs/2611.19461)**<br>📅 <strong>2026-11-14 15:33 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Pujun Zheng, Wanying Ren, Guoxiu He
+  - Program Distillation transfers policies from deliberative language models into executable student programs. PDBench compares those programs with reinforcement learning and Jev-like decision models on bounded control tasks. The paper reports both performance and deployment computation, including CPU-only operation.
+
+- **[AgenticJevNav: Agentic Object Search and Navigation via Event-Driven Verification](https://arxiv.org/abs/2611.19912)**<br>📅 <strong>2026-11-15 09:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Shuning Zhang, Shuli Zhang, Yunheng Wang, Wei Lu, Jiaxi Zhang, Yihang Kang, Tao Wang, Xiangyu Chen, Yixiao Feng, Kai Sheng, Renjing Xu
+  - AgenticJevNav verifies events with a decision model while searching for objects. The authors evaluate task completion in simulation and on a physical quadruped, with failures tied to visual grounding, approach planning and runtime. The real-robot experiment covers thirty trials.
 
 
 <a id="agents-workflow-automation"></a>
@@ -472,6 +728,66 @@ Agent memory, model routing, multi-agent coordination, selective execution, and 
 
 - **[JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs](https://arxiv.org/abs/2610.21412)**<br>📅 <strong>2026-10-15 07:27 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Kunlun Zhu, Tao Feng, Xu Han, Heng Wang, Ling Yang, Xiangru Tang, Jiaxuan You, Heng Ji
   - JevAgentHarness calibrates delegation thresholds on agent trajectories and falls back to an LLM for uncertain choices. AgentDecisionBench separates isolated accuracy from closed-loop success, and AgentDecision-4B learns from states reached after mistakes using Jev labels. Reported cost and speed benefits depend on task similarity and fitted thresholds; isolated decision accuracy does not reliably predict agent success.
+
+- **[NIOCIS: Typed-Decision Next-Hop Routing with Node-Conditioned Option Spaces for Tool-Use Agents](https://arxiv.org/abs/2610.25985)**<br>📅 <strong>2026-10-19 08:10 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jin Han, Mingfeng Xin, Feng Liang, Jingtao Yu
+  - NIOCIS restricts each tool-selection decision to actions associated with the current node in an execution graph. Ablations credit the narrower menu for improved agreement with reference actions. A confidence cascade performs worse when its escalation model is a weak zero-shot substitute.
+
+- **[Decision4Rec: A Jev-Inspired Framework of Decision Models on Knowledge and Active Graphs for Multi-Agent Recommender Systems](https://arxiv.org/abs/2610.26035)**<br>📅 <strong>2026-10-19 08:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Marco Polignano, Het Darshan Mehta, Pasquale Lops, Ernesto William De Luca, Giovanni Semeraro
+  - Decision4Rec uses knowledge and activity graphs to generate recommendation candidates and asks Jev-style models to score them. The authors compare hosted Jev with a trained 0.8B model and analyze where the gains originate. The trained model is competitive across the reported settings.
+
+- **[SOMA: Continuous Monitoring and Intervention for System Two Reasoning with System One Models](https://arxiv.org/abs/2610.26793)**<br>📅 <strong>2026-10-19 17:40 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ruizhi Qian, Lei Shi, Tianyu Hu, Bo Yan, Song Wang, Yu Tian
+  - SOMA observes partial reasoning and calls a fast System One judge to signal when a slower model should stop or reconsider. A shared controller reduces reasoning length on overthinking tasks and raises abstention on unanswerable questions in the reported tests.
+
+- **[Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox](https://arxiv.org/abs/2610.32955)**<br>📅 <strong>2026-10-23 17:49 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Federico Lucca
+  - A multilingual inbox study compares a hosted decision model with a classical classifier and a generative model under explicit costs for missed messages. Results change with the decision threshold and error cost. A later revision corrects threshold estimates based on incomplete data.
+
+- **[Predict the Reward, Not the World: World Reward Models for ML Agents](https://arxiv.org/abs/2610.38439)**<br>📅 <strong>2026-10-28 08:20 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yuxiao Lee, Zherui Yang, Fan Liu, Hao Liu
+  - The authors train a decision-based reward model to compare candidate machine-learning programs using outcomes from executed examples. It is evaluated on held-out task pairs and embedded in several research agents. The authors report faster task completion with similar or better average scores.
+
+- **[Think Before You Act: Decision Gate for LLM Agents](https://arxiv.org/abs/2610.38620)**<br>📅 <strong>2026-10-28 10:40 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Iftach Shoham, Yuval David, Offer Akrabi, Erez Bilgory, Ido Levy, Sami Marreed, Sergey Zeltyn, Segev Shlomov
+  - The paper adds a typed decision gate and executable verification to tool-using agents. It compares the effect on task reliability across model and benchmark combinations. Gains are more consistent on the telecommunications and function-calling evaluations than on the airline tasks.
+
+- **[Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350)**<br>📅 <strong>2026-10-30 07:07 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Genoria AI Team, Yuejie Hou, Yueyuxiao Yang, Weiting Tang, Meng Yang
+  - Operon-S1 studies a fast typed controller for long-horizon scientific agents. The authors treat controller judgments as an independently measurable part of the workflow and assess how it can steer a slower model across bounded decisions in biomedical research tasks.
+
+- **[Trail: Accurate Local Smart Home Control Using Decision Models](https://arxiv.org/abs/2611.00610)**<br>📅 <strong>2026-10-31 04:13 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Maleeha Masood, Deepak Vasisht, Indranil Gupta
+  - Trail uses hierarchical typed decisions to resolve room, device and operation in a local smart-home registry. The study compares the method with a fine-tuned generative baseline, including robust and conversational requests. Memory particularly helps when an instruction depends on earlier exchanges.
+
+- **[SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in E-commerce Tool Use](https://arxiv.org/abs/2611.03982)**<br>📅 <strong>2026-11-02 21:22 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Rongzhe Wei, Ge Shi, Min Cheng, Sarthak Ghosh, Vaibhav Gorde, Leman Akoglu, Pan Li, Na Zhang
+  - SLATE measures long-horizon selection of e-commerce APIs in a simulator. The benchmark compares decision models with the backbones they use and records end-to-end task completion, which is low even for the strongest tested system.
+
+- **[TandemBench: Benchmarking Decision Models for Multi-Agent Collaboration](https://arxiv.org/abs/2611.05827)**<br>📅 <strong>2026-11-04 02:08 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Baohang Li, Xiaocheng Feng, Bing Qin
+  - TandemBench tests decision models on multi-agent coordination and separately asks whether the supplied options contain a good team plan. The authors find that overall selection accuracy can conceal systematic mistakes about the availability of an optimal arrangement.
+
+- **[RouteAlign: Aligning Task Requirements with Model Profiles for LLM Service Selection](https://arxiv.org/abs/2611.08162)**<br>📅 <strong>2026-11-05 15:21 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jihao Zhao, Ding Chen, Yanfang Chen, Bo Tang, Feiyu Xiong, Junchi Yan, Zhiyu Li
+  - RouteAlign matches typed task requirements with model capability profiles to choose an LLM service. The authors test routing quality and cost, including a changing service catalog. Ablations highlight the role of observed local performance evidence in the fitted scorer.
+
+- **[DM-Call: Decision-Model-Guided Function Calling with Cumulative Verification Feedback](https://arxiv.org/abs/2611.10977)**<br>📅 <strong>2026-11-07 21:29 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Minhyeong Yu, Wonduk Seo, Seunghyun Lee
+  - DM-Call uses typed decision feedback to check and revise proposed function calls without executing them. The feedback combines probabilities with correctness labels. On the tested function-calling benchmarks, the method improves on direct generation while making additional model calls.
+
+- **[LoMASA: A Local Multi-Agent Sales Assistant with Confidence-Gated Delegation for B2B Quoting](https://arxiv.org/abs/2611.11234)**<br>📅 <strong>2026-11-08 08:42 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yu Liu, Xingbang Du
+  - LoMASA uses a local decision model to delegate B2B quoting tasks according to confidence. The study measures calibration and the rate of low-margin deals alongside escalation workload. Gains depend on the model and the cost assigned to manager review.
+
+- **[Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents](https://arxiv.org/abs/2611.17167)**<br>📅 <strong>2026-11-12 17:42 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Haochen Liu, Qianhao Zhu, Zixuan Wang, Dingming Li, Tongbo Chen, Peng Qiu, Yingqi Qu, Weiming Lu, Jun Xiao, Yongliang Shen
+  - The authors compare decision models as actors, judges and teachers for long-horizon agents. They find weaknesses in direct action selection can coexist with useful retrospective feedback. Experiments on ALFWorld and WebShop measure the benefit of that feedback to an agent trained by reinforcement learning.
+
+- **[System 1 agents: a method for local, reliable and fast agentic AI](https://arxiv.org/abs/2611.21053)**<br>📅 <strong>2026-11-16 13:05 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Eleftherios Tzanis, Michail E. Klontzas
+  - The System 1 Agents approach resolves local tool calls using typed decisions and a constrained argument interface. Its evaluation measures intent selection, stated argument completion and invented values against local generative agents. Results refer to the paper's tool and instruction set.
+
+- **[Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?](https://arxiv.org/abs/2611.21155)**<br>📅 <strong>2026-11-16 14:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Daisuke Kikuta
+  - The paper evaluates whether a model can predict that a user will request an edit and judge when a suggestion is worth showing. A learned decision gate improves accuracy among surfaced suggestions, with coverage controlled by the selected threshold.
+
+- **[Train After You Measure: a Pre-Registered Learning Curve for Fine-Tuning Typed Decision Models on One User's Labels](https://arxiv.org/abs/2611.21393)**<br>📅 <strong>2026-11-16 16:49 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Federico Lucca
+  - This preregistered study measures whether additional personal email labels improve a typed decision classifier. Its learning curves compare adaptation seeds and report limitations on rare classes. Improvements in detecting minority categories are inconsistent across runs.
+
+- **[Jetriever: Shifting Agent Memory Retrieval from Similarity to Utility](https://arxiv.org/abs/2611.21478)**<br>📅 <strong>2026-11-16 17:50 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ruizhe Li, Licheng Zhang, Mingxuan Du, Zhendong Mao
+  - Jetriever uses Jev probabilities to rank agent memories by their expected usefulness for a query, in place of similarity alone. It tests full-pool utility scoring on two memory benchmarks and reports answer gains alongside per-query retrieval costs.
+
+- **[Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness](https://arxiv.org/abs/2611.22432)**<br>📅 <strong>2026-11-17 09:06 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Siqi Lai, Haitao Li, Hao Liu
+  - This study uses a slower model to refine a harness that executes fast typed decisions. It evaluates performance, serving delay and the cost of intermediate development interventions. The authors report that the need for those interventions falls over successive harness updates.
+
+- **[Can Decision Models Replace LLMs in Real-World Contact Center Classification and Judging Tasks?](https://arxiv.org/abs/2611.22949)**<br>📅 <strong>2026-11-17 15:39 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Md Tahmid Rahman Laskar, Xue-Yong Fu, Shashi Bhushan TN
+  - The authors compare decision and generative models for contact-center classification and judging. Besides aggregate accuracy, they analyze cost, abstention and option-position effects. Smaller decision models show particularly large losses on some judging tasks in the tested workflows.
 
 ### Undated Live Reports
 
@@ -623,6 +939,117 @@ Calibration, uncertainty, probability coherence, robustness, alignment, content 
 - **[From Detection to Decision: Calibration and Deferral for Prompt-Injection Detection](https://arxiv.org/abs/2610.20907)**<br>📅 <strong>2026-10-14 20:34 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Qianlong Lan, Anuj Kaul, Vinothini Pandurangan, Indranil Sanyal
   - This prompt-injection audit compares Jev, Prompt Guard classifiers and an LLM judge on 47,611 held-out inputs. Native Jev probabilities do not consistently beat post-hoc calibration, and a 1% false-negative target requires over 91.8% escalation across the tested gate-reviewer systems. The findings link calibration to operational deferral costs under distribution shift.
 
+- **[A Cue's Hidden Price: Auditing Seller Influence on AI Shoppers](https://arxiv.org/abs/2610.25843)**<br>📅 <strong>2026-10-19 05:57 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Felix Buecheler, Gerardo Berbeglia, Mingyu Guo
+  - This audit measures how seller-controlled presentation shifts recommendations made by shopping agents. The authors compare cues across generative models and hosted Jev using controlled stimuli. Jev is relatively insensitive to many tested cues but remains responsive to strong social proof.
+
+- **[Claim Laundering: When Agent Decision Models Trust Records Over Reality](https://arxiv.org/abs/2610.25947)**<br>📅 <strong>2026-10-19 07:40 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Tina Khezresmaeilzadeh, Seyedarmin Azizi, Erfan Baghaei Potraghloo, Mehdi Kamal, Massoud Pedram
+  - The authors evaluate how decision models respond when logged actions conflict with observed outcomes. A lightweight evidence check improves task completion in several agent environments with simulated silent failures. The study also finds that thresholds calibrated offline can transfer poorly to live trajectories.
+
+- **[Typed Decision Models under Prevalence Shift and Label Budgets: Decision Training, Calibration, and Implicit Priors](https://arxiv.org/abs/2610.26325)**<br>📅 <strong>2026-10-19 13:01 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Abdul Rahman Iqbal, Muhammad Fawad Nasim, Amir Saleem
+  - The study checks whether decision-specific training improves on the underlying model and how thresholds behave when class prevalence changes. It compares Jev and other decision models with recalibration and label-budget baselines. The useful option varies with both the task and available labels.
+
+- **[When Multiple Choices Are Correct: Asymmetric Probability Allocation in Jev and Other Decision Models](https://arxiv.org/abs/2610.29217)**<br>📅 <strong>2026-10-21 05:18 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Rushab Munot
+  - This evaluation tests how Jev and other models distribute mass when more than one option is correct. Even identical correct options can receive very different probabilities. The resulting asymmetry can materially affect a pipeline that uses a threshold to recover multiple answers.
+
+- **[Commit or Abstain? System One Decision Models, LLMs, and Missing Legal Authority](https://arxiv.org/abs/2610.29961)**<br>📅 <strong>2026-10-21 16:17 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · M. Mikail Demir
+  - The study compares System One decisions with generative models on legal cases in which a correct authority may be absent. Standard benchmark accuracy, abstention and wrong citations lead to different conclusions. Cross-model agreement reduces wrong citations in one tested policy.
+
+- **[VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage](https://arxiv.org/abs/2610.30090)**<br>📅 <strong>2026-10-21 17:39 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Juan S. Santillana
+  - VX-One measures compact typed decision heads for defensive network-traffic triage. The authors compare classification and calibration with conventional detectors and check how performance changes over time. Probability calibration degrades sharply under temporal drift even where ranking retains some utility.
+
+- **[ReDence: A Hybrid Agentic and Decision-Model Framework for Rapid, Evidence-Grounded Detection of Modern Social Engineering Scams](https://arxiv.org/abs/2610.30963)**<br>📅 <strong>2026-10-22 09:08 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jaishnoor Kaur, Josef Horáček, Ian Waskom, Sayak Saha Roy
+  - ReDence combines a decision model with an investigative agent for defensive scam detection. It tests classification and latency on website workflows while producing reports that record supporting and contradictory evidence. The paper evaluates the approach as an aid for analyst review.
+
+- **[Two Uncertainties Are Not One: Disagreement versus Decision-Risk in Cheap Structured Content Moderation](https://arxiv.org/abs/2610.33258)**<br>📅 <strong>2026-10-23 20:08 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Karan Yadav
+  - This moderation study separates annotator disagreement from the chance a model will make a wrong binary decision. The authors compare confidence signals and find that evaluating targeted subquestions can recover disagreement information for some models. Results depend on task decomposition and distribution.
+
+- **[SHIFT-JEV: Certified Abstention and Gain-Gated Continual Adaptation for LLM-Based Decision Models under Distribution Shift](https://arxiv.org/abs/2610.34329)**<br>📅 <strong>2026-10-25 14:38 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Muhammad Atif Saeed, Azka Atiq, Adarsh Kumar, Akhtar Jamil, Uzair Iqbal, Roland Aydin
+  - SHIFT-JEV combines selective prediction with adaptation when data distributions change. It tests prior-shift detection and compares gated adaptation with continual-learning baselines. Gains on a smaller backbone do not transfer uniformly to the larger backbone used in the paper.
+
+- **[TrustJev: Separating Policy Authority from Untrusted Evidence in LLM-Based Decisions](https://arxiv.org/abs/2610.34826)**<br>📅 <strong>2026-10-26 04:17 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Zhiwei Xu, Xuyang Liu, Xiaolin Peng, Weixian Deng, Jiabao Gao, Zirui Li, Tian Qiu, Boya Zhou, Wei Jiao, Hai Wan, Xibin Zhao
+  - TrustJev studies how a typed decision model can distinguish policy authority from untrusted evidence. The evaluation reports better reliability on an authorization benchmark and modest improvements on other tasks while maintaining similar median serving latency in the measured setting.
+
+- **[Understanding Jev-Style System One Models: Does Structure Reduce Selection Bias?](https://arxiv.org/abs/2610.35826)**<br>📅 <strong>2026-10-26 17:48 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mingyang Song, Mao Zheng, Zhiyuan Ma, Xinpeng Zhou
+  - The authors test whether structured output protects Jev-style decisions from equivalent changes in presentation. Repeated calls can be stable even when equivalent presentations change selections. Voting brings limited gains, and unanimous decisions can still be incorrect in the tested conditions.
+
+- **[Confidence Is Not a Promise: A Reference Audit of Typed Decision Models](https://arxiv.org/abs/2610.36311)**<br>📅 <strong>2026-10-26 21:33 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Pedro Carvalho Brom
+  - A comparison of hosted Jev and Laya separates confidence calibration, selective accuracy and explanation fidelity. Point-estimate thresholds frequently miss their stated accuracy target across the reported evaluations. Validation using lower bounds supports more conservative decisions about when to abstain.
+
+- **[Decision Models as Judges for Hallucination Detection](https://arxiv.org/abs/2610.37229)**<br>📅 <strong>2026-10-27 13:38 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Haozheng Liu, Zhaoqian Xue, Zhongyin Wang, Junting Mu, Zihui Ma, Shuya Feng, Lingyao Li
+  - This paper compares decision models with generative judges on several hallucination categories. A confidence-based cascade improves the strongest single decision model on some categories at lower reported cost than a frontier judge. Accuracy and confidence discrimination vary by category.
+
+- **[Cross-Primitive Consistency in Jev](https://arxiv.org/abs/2610.38623)**<br>📅 <strong>2026-10-28 10:44 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Xu Liu, Guikun Chen, Kanzhi Wu, Wenguan Wang
+  - The authors evaluate whether Jev gives mutually consistent answers when the same judgment is cast as different decision primitives. They introduce an evaluation suite and a consistency method, examining both agreement and task accuracy across in-domain and transferred settings.
+
+- **[FlipJev: Fast Black-Box Red Teaming Finds Universal Adversarial Suffixes for Typed Decision Models](https://arxiv.org/abs/2610.38895)**<br>📅 <strong>2026-10-28 20:53 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Xiaogeng Liu, Xinyan Wang, Chaowei Xiao
+  - FlipJev is a robustness evaluation of typed decision models under adversarial inputs. The study finds that observed failures can persist beyond the original task and argues for stronger evaluation. This entry records the security finding at the benchmark level.
+
+- **[Lev-3B: A Data Recipe for Compact Probabilistic Log Decision Models](https://arxiv.org/abs/2610.38915)**<br>📅 <strong>2026-10-28 21:06 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Leo Betthauser, Yingqi Liu, Uday Shah, Jishang Wei, Sainyam Galhotra, Liang Gou, Vedant Dharnidharka, Hao Yang
+  - Lev-3B is a compact decision model for defensive analysis of system logs. The paper evaluates anomaly detection, behavior classification and confidence on familiar and held-out logging sources. Strong aggregate detection can coexist with confident misses on an excluded source.
+
+- **[Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In](https://arxiv.org/abs/2610.40588)**<br>📅 <strong>2026-10-29 17:47 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Leonidas Raghav
+  - This study evaluates whether an automated overseer can identify when an agent is about to breach an assigned policy. The reported warnings have limited lead time and frequent benign triggers. The results characterize trade-offs for oversight rather than demonstrating reliable automatic intervention.
+
+- **[Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers](https://arxiv.org/abs/2611.00359)**<br>📅 <strong>2026-10-30 20:36 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Ziyuan Wang, Genliang Zhu, Xiaobo Chen
+  - The authors assess whether rewriting AI text to sound more human preserves facts and changes detector judgments. Decision-model judging is evaluated alongside other detectors. Detection performance falls sharply on some controlled rewrites, so evaluations using only original text can overstate reliability.
+
+- **[Decision Models as Policy Gates for Coding Agents: Explicit Policy Boundaries Improve Detection and Reduce False Alarms](https://arxiv.org/abs/2611.02155)**<br>📅 <strong>2026-11-01 19:40 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · James P. Beno
+  - The authors evaluate decision models as policy gates for coding agents. They compare explicit boundary descriptions with less specific policies and measure recall and unnecessary interruptions. The follow-up uses new scenarios, supporting the value of stating policy boundaries clearly.
+
+- **[Ranked but Not Stopped: Detecting Prompt-Injection Hijacks from Typed Decision Models' Output Probabilities](https://arxiv.org/abs/2611.02522)**<br>📅 <strong>2026-11-02 04:49 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Junwei Yao, Jianan Liu, Yongxi Zhou, Zike Yang
+  - This security audit assesses whether confidence can identify compromised typed decisions. Model scores can retain useful ranking information even when a monitor misses cases at its selected alarm budget. The distinction matters when interpreting AUROC for a deployed screening policy.
+
+- **[Cyber-JEV: Matched Contrastive Fine-Tuning of Language Models for Fast Source-Code Vulnerability Triage](https://arxiv.org/abs/2611.02957)**<br>📅 <strong>2026-11-02 11:24 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Zhuyi Zhao, Shengjie Yuan, Shengyu Wang, Kang Wei, Wang Yang, Wenchao Xu, Fushuo Huo
+  - Cyber-JEV studies decision models for prioritizing code review and compares learned rankings for paired vulnerable and fixed versions. The reported tests measure whether changed functions can be ranked for analyst follow-up when review capacity is limited.
+
+- **[JevBreak: Your Model, Their Decision](https://arxiv.org/abs/2611.03759)**<br>📅 <strong>2026-11-02 13:05 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Nitin Aravind Birur, Divyanshu Kumar, Sahil Agarwal, Prashanth Harshangi
+  - JevBreak measures how reliably Jev and other typed decision models preserve intended judgments under adversarial inputs. It finds material differences between models and evaluates the limits of confidence thresholding. Results concern benchmark robustness rather than any guarantee of downstream safety.
+
+- **[Presentation Sensitivity in Typed Decision Models for Subjective Text Evaluation](https://arxiv.org/abs/2611.06384)**<br>📅 <strong>2026-11-04 11:48 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Jatin Agrawal, Radhika Mamidi
+  - The study compares Jev, Clef Flash and Perplexity Decider on subjective text evaluation. Controlled presentation changes can shift scores and selections while leaving text unchanged. Agreement with people, repeatability and robustness to equivalent presentations are analyzed as separate properties.
+
+- **[Escalate or Close: How Fast-Tier Models Handle Held-Out Web Attack Families in Two-Tier Triage](https://arxiv.org/abs/2611.08229)**<br>📅 <strong>2026-11-05 16:13 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Maciej Kisielewicz, Michał Kędziora, Ngoc Thanh Nguyen
+  - This defensive triage study compares fast models including Jev on previously unseen web-traffic categories. It examines which cases should reach a slower tier and whether evaluations transfer beyond known patterns. Overlapping benign traffic and repeat-call variation complicate deployment estimates.
+
+- **[Decision Models as Retrieval Gates Against Injection and Pollution](https://arxiv.org/abs/2611.08325)**<br>📅 <strong>2026-11-05 17:19 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mahdi Ghadamyari, Reza Habibi
+  - The paper evaluates open decision models as defensive gates for retrieved web evidence. It measures filtering quality, answer coverage and cost under different candidate budgets and evidence formats. Narrow filtering can remove information the generator needs to produce an answer.
+
+- **[Jev as an LLM Safety Guardrail: An Empirical Study of Input Filtering, Selective Output Review, and Over-Refusal](https://arxiv.org/abs/2611.08845)**<br>📅 <strong>2026-11-06 01:03 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Olivia Cognetti, Bhaskar Krishnamachari
+  - The authors test Jev for screening LLM prompts and selectively reviewing outputs. They compare safety outcomes, benign refusals and review workload under matched budgets. Adding an output stage helps some configurations, but the gains do not consistently transfer to held-out cases.
+
+- **[Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision Model](https://arxiv.org/abs/2611.09803)**<br>📅 <strong>2026-11-06 17:54 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mohammed Nayeem Khan, Logesh L
+  - The authors evaluate how Maya a1 responds to reordered options and compare order aggregation with architectural choices intended to reduce sensitivity. The report quantifies additional compute alongside accuracy and flip rates. Model-generated labels and teacher-filtered datasets limit the evidence.
+
+- **[Can the Confidence and Decisions of System 1 Models Be Trusted? An Explainability and Perturbation Audit of Jev-Style Decision Models](https://arxiv.org/abs/2611.12521)**<br>📅 <strong>2026-11-09 14:58 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Julien Delaunay
+  - This audit compares five open Jev-style systems and generative baselines across confidence, stability and explanations. Reported provider confidence reflects the shape of the option distribution rather than observed correctness. Bundling questions can also alter answers, motivating separate validation of those interface properties.
+
+- **[Browser Immune System (BIS): Innate and Adaptive Threat Detection in the Browser with a Cybersecurity Transformer](https://arxiv.org/abs/2611.15302)**<br>📅 <strong>2026-11-11 10:36 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Víctor Mayoral-Vilches, Eduardo Worrel
+  - BIS explores defensive browser classification through a set of structured decisions about page content. Tests on a small public-page sample reveal false alarms on ordinary pages. The authors distinguish evaluation of the research checkpoint from evidence for a deployed browser extension.
+
+- **[Recalibrating a Typed-Decision Model in an Afternoon: A Hands-On Recipe for Laya's Confidence Scores](https://arxiv.org/abs/2611.16499)**<br>📅 <strong>2026-11-12 09:02 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Mohammed Nayeem Khan, Aliyas Ahmad Misri
+  - The authors examine confidence recalibration across Laya checkpoints and identify differences between stored settings and values used at runtime. Refit temperatures improve many checkpoints under random splits, with smaller gains on held-out sets. The experiments share an underlying labeling process.
+
+- **[Look Here, Then Decide: Small Decision Models in a Harness Find Memory-Safety Vulnerabilities at Scale on Commodity GPUs](https://arxiv.org/abs/2611.16565)**<br>📅 <strong>2026-11-12 09:51 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Tim De Wachter, Kyryl Volkov, Myrto Eleftheria Gkogkou, Mathieu Huysman
+  - The authors evaluate small decision models as prioritization aids for defensive code review. They distinguish model judgments from independently verified findings and compare the resource requirements of evaluated deployments. Confirmed issues were handled through coordinated disclosure.
+
+- **[S1-Evo: Experience-Guided Evidence Competition Attacks on Typed System-1 Decision Models](https://arxiv.org/abs/2611.16937)**<br>📅 <strong>2026-11-12 15:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Kaixiang Wang, Junjie Li, Zhaojiacheng Zhou, Jiong Lou, Jie Li
+  - This robustness study evaluates Jev and other System One models under adversarial evidence in benchmark tasks. The results include failures assigned high confidence and effects on downstream agent decisions, demonstrating that confidence alone can miss compromised judgments.
+
+- **[A First Look at System One Decision Models for Malware Detection](https://arxiv.org/abs/2611.20699)**<br>📅 <strong>2026-11-16 08:08 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Pier Mattia Basciano, Giovanni Farina, Salvatore Monteleone
+  - This defensive benchmark compares System One models for malware classification using structured evidence. The authors report detection rates at several false-positive levels and inspect the judgments behind aggregate predictions. The measured rates depend on the chosen threshold and benchmark.
+
+- **[Jev-as-a-Reward: Validating Probabilistic Safety Judges for Reinforcement Learning](https://arxiv.org/abs/2611.20955)**<br>📅 <strong>2026-11-16 12:01 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Eunkyeong Lee, Junhyung Moon, Seunggwan Hong, Dongsuk Oh
+  - The authors test Jev probabilities as a safety reward for language-model training. They compare guard judgments and track confident errors as well as aggregate safety outcomes. The results show that a useful reward can still contain blind spots on difficult judgments.
+
+- **[JEV vs. LLMs: A Comparative Analysis for Phishing Email Detection](https://arxiv.org/abs/2611.23683)**<br>📅 <strong>2026-11-18 01:17 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Muhammad Mahir Malik, Muhammad Moiz Khalid, Hussain Ahmad, Faheem Ullah
+  - This phishing-email benchmark compares Jev with generative models on classification, latency and probability calibration. Jev performs well on several measured triage dimensions. The study does not evaluate generated explanations, and the tested dataset supports only a bounded comparison.
+
+- **[VisualJevBench: A Benchmark and Black-Box Attacks for Visual Typed Decision Models](https://arxiv.org/abs/2611.25435)**<br>📅 <strong>2026-11-19 03:16 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Li Zeng, Yeqi Zeng, Hengkai Liang, Shiguo Wang, Meng Xie, Zeyu Ye, Jinheng Zhang, Xianlong Wang, Ziqi Zhou, Hangtao Zhang
+  - VisualJevBench evaluates visual typed decisions with Jev and documents robustness under altered input images. The reported failures vary by evaluation condition and by transfer setting. Its benchmark makes it possible to evaluate visual decision reliability separately from clean-input accuracy.
+
+- **[MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models](https://arxiv.org/abs/2611.26557)**<br>📅 <strong>2026-11-19 18:25 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Jinzhe Li, Qi Wang, Dandan Guo, Li Liu, Yuan Wu, Yi Chang
+  - The study evaluates multimodal System One models for bias when answer evidence and supplied descriptions vary. The authors examine both changes in chosen answers and probability shifts for cases where the answer stays the same. Accuracy alone can obscure differences between inputs.
+
 
 <a id="science-healthcare-education"></a>
 
@@ -676,6 +1103,111 @@ Scientific reasoning, biomedical models, clinical evaluation, public-health and 
 - **[PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews](https://arxiv.org/abs/2610.21046)**<br>📅 <strong>2026-10-15 00:42 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Dingjie Song, Zhiling Yan, Ziqian Zhang, Yuxuan Zhang, Lichao Sun
   - PremiseCheck decomposes review comments into explicit premises with an LLM, then uses Jev to check each premise against the paper. ReviewFact covers NLP, machine learning and natural-science reviews; the framework reports comparable accuracy to GPT-5.5 with lower per-comment cost. It checks factual claims about a manuscript, not the validity of a reviewer's scientific judgment.
 
+- **[A general-purpose System One decision model for clinical records](https://arxiv.org/abs/2610.27099)**<br>📅 <strong>2026-10-19 18:00 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Andrew Zhang, Trinh T.L. Vuong, Sophia J. Wagner, Dongmin Bang, Tong Ding, Yuchang Su, Mary Cipperman, Christina S. Chen, Judith Lefkes, Ramin Kahidi, Ming Y. Lu, Caiwei Tian, Tianhao Luo, Jingnan Ma, Rowland Pettit, Long Phi Le, Faisal Mahmood
+  - Clinical System One is trained to answer structured questions about patient records at scale. In a retrospective trial-screening experiment, its top-ranked records included more judged-eligible candidates than keyword search and required fewer language-model tokens than reading every record with an LLM.
+
+- **[Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI](https://arxiv.org/abs/2610.28826)**<br>📅 <strong>2026-10-20 18:46 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Rotem Gershon, Seffi Cohen, Dean Ariel, Havatzelet Bilavsky-Yarden, Amiel Sberro, Shai Yitzhaki, Osnat Tausky, Naama Golan, Maayan Rabinovitch, Ariel Avraham Hasidim, Itay Arianu, Maya Dagan, Ran Balicer, Noa Dagan
+  - The authors compare Jev with generative judges on three clinical evaluation suites. They report similar criterion agreement and substantially lower fees and latency in the tested configuration. Agreement with another judge serves as the reference in some comparisons.
+
+- **[RetiJev: Fast and Source-Grounded Ophthalmic Decision Models](https://arxiv.org/abs/2610.30947)**<br>📅 <strong>2026-10-22 08:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Bo Liu, Lianyu Wang, Meng Wang, Ching-Yu Cheng, Huazhu Fu
+  - RetiJev specializes a one-pass model for ophthalmic diagnosis, clinical choices and guideline grading. The authors report higher guideline-grading scores than a generative model and hosted Jev, plus faster inference. These are evaluations of bounded tasks using the paper's sources.
+
+- **[The Value of System 1 Models in Medicine](https://arxiv.org/abs/2610.31315)**<br>📅 <strong>2026-10-22 14:08 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Xiufeng Yang, Konstantinos Vrettos, Zeineb Ben Chaaben, Fabian Drexel, Jannik Lübberstedt, Johannes Moll, Anirudh Narayanan, Frederike Stumpf, Cosmin I. Bercea, Jiawen Wang, Evangelia E. Vassalou, Krischan Braitsch, Aymen Meddeb, Sebastian Ziegelmayer, Markus Graf, Marcus R. Makowski, Lisa Adams, Nassir Navab, Michail E. Klontzas, Keno Bressem
+  - This medical benchmark compares System One models with generative relatives on structured decisions. Latency is consistently lower in the reported runs, but performance varies across languages and input types. Image interpretation and judgment-heavy tasks show larger limitations than text-based recall.
+
+- **[PathJev: Decision-Native Vision-Language Modelling for Histopathology](https://arxiv.org/abs/2610.32478)**<br>📅 <strong>2026-10-23 10:47 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Cristian Tommasino, Antonio M. Rinaldi
+  - PathJev learns to distribute probability over runtime-specified histopathology choices. The authors evaluate recognition, calibration and case abstention, including a whole-slide demonstration. Calibration can deteriorate on unseen organs, and a supervised pathology baseline is better calibrated in the reported settings.
+
+- **[Decision-only medical AI: early evidence and pairing with language models](https://www.medrxiv.org/content/10.64898/2026.10.21.26366149)**<br>📅 <strong>2026-10-24</strong> · medRxiv preprint · <strong>Tier B</strong> · Mahmud Omar, Ashwin Ramaswamy, Ankit Sakhuja, Benjamin S. Glicksberg, Alon Gorenshtein, Jonathan B. Kruskal, Muneeb Ahmed, Olga Rachel Brook, Raja-Elie E. Abdulnour, Alvira Tyagi, Dhaval Patel, Alexander W. Charney, Yiftach Barash, Eyal Klang, Girish N. Nadkarni
+  - This medRxiv preprint tests Jev and another decision service on clinical examples with altered framing, then measures a paired workflow using a generative model. Pairing reduces some framing effects while maintaining similar triage accuracy in the controlled evaluation.
+
+- **[Scoring the NIH Stroke Scale from bedside exam transcripts: a synthetic benchmark of a decision model and a large language model](https://www.medrxiv.org/content/10.64898/2026.10.23.26366376)**<br>📅 <strong>2026-10-26</strong> · medRxiv preprint · <strong>Tier B</strong> · Noor Abdulla, Waleed Abood
+  - The authors compare a decision model with a language model for scoring stroke-scale items from synthetic examination transcripts. The generative model is more accurate, while the decision model is faster and cheaper. A simulated cascade tests whether lower-confidence items can be escalated selectively.
+
+- **[MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine](https://arxiv.org/abs/2610.36006)**<br>📅 <strong>2026-10-26 16:08 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Simon A. Lee, Jiahang Sha, Moonseong Jeong, Yunbei Pan, Jeffrey N. Chiang
+  - This MedJev study benchmarks available System One models on zero-shot clinical decisions. It measures predictive performance, serving cost and calibration, including a small-label recalibration experiment. The evaluation supports research baselines for local assessment across clinical populations.
+
+- **[Can JEV Support Clinical Trial Criteria Assessment?](https://arxiv.org/abs/2610.35721)**<br>📅 <strong>2026-10-26 16:41 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mengxian He, Ziyue Gao, Chun Li, Shunyi Zhang, Hao Wei, Minqing Zhang, Wu Yuan
+  - The paper evaluates Jev on clinical-trial eligibility criteria, including judgments about missing information. It measures criterion-level performance and cost. Reported interpretation errors motivate checking flagged criteria against the underlying patient record in any review workflow.
+
+- **[PsyJev: Psychological Analysis via System-1 Judgment](https://arxiv.org/abs/2610.36689)**<br>📅 <strong>2026-10-27 06:03 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Fangyuan Liu, Sirui Zhao, Xiaohao Wang, Guo Cheng, Peng Zhang, Enhong Chen
+  - PsyJev trains compact decision models to make structured judgments for psychological-analysis tasks. The authors compare model sizes and examine the effects of training stages on F1 and probability quality. The findings apply to the paper's benchmark rather than clinical diagnosis.
+
+- **[CausalGrade: Evidence-Guided Causal Graph Scoring with Jev](https://arxiv.org/abs/2610.40692)**<br>📅 <strong>2026-10-28 07:33 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jiangming Zhong, Jiawei Zhu, Guanting Wu, Qiaoxi Cai, Wanyi Chen, Jiale Li
+  - CausalGrade uses Jev to score candidate causal graphs against supplied evidence. Synthetic experiments relate scores to known structural errors and compare graph selection with a self-compatibility metric. The reported hit rate improves but leaves substantial room for incorrect selection.
+
+- **[Benchmarking decision models against generative large language models on medical multiple-choice questions](https://arxiv.org/abs/2610.38448)**<br>📅 <strong>2026-10-28 08:25 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Oscar Freyer, Daniel Glauert, Moritz Hofmann, Max Ostermann, Stephen Gilbert, Jakob Nikolas Kather
+  - This evaluation compares decision and generative models on medical multiple-choice questions, including repeated runs and probability reliability. Decision models reduce compute and serving costs in the test, while the best generative model achieves higher accuracy. Repeatable labels can accompany differing probabilities.
+
+- **[Decision and System One models in rheumatology: accuracy and calibration on specialty-training examination questions and diagnostic case vignettes](https://arxiv.org/abs/2610.40318)**<br>📅 <strong>2026-10-29 15:53 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Alfredo Madrid-García, Diego Benavent, Fabian Lechner, Phillip Kremer, Johannes Knitza, Beatriz Merino-Barbancho
+  - The authors compare Jev-style and generative systems on rheumatology examination items and diagnostic vignettes. Strong decision scores on examination items do not carry over to vignettes. Jev's likelihood of being correct at high confidence also differs between the two settings.
+
+- **[Radiology Guideline-derived Decision Graph for Efficient Clinical Decision Support](https://arxiv.org/abs/2610.40327)**<br>📅 <strong>2026-10-29 15:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xuewen Zhou, Zhen Chen
+  - GDGraph represents radiology guidelines as decision graphs and guides a System One model through bounded decisions. The authors compare this workflow with unstructured and graph-guided generative baselines on selected categories of incidental findings, reporting gains in accuracy and serving efficiency.
+
+- **[PathoJev: Efficient Pathology Decisions from Shared Visual Context](https://arxiv.org/abs/2610.40752)**<br>📅 <strong>2026-10-29 16:14 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Chengyang Zhang, Wenchuan Zhang, Bo Li, Xinyu Liu, Jiaming Yang, Mengran Li, Jie Chen, Wei Ju, Yuhao Yi, Hong Bu, Jiancheng Lv
+  - PathoJev reuses visual context when answering multiple pathology questions as typed judgments. The authors compare it with a whole-slide baseline and measure shared encoding across workload sizes. The strongest speedups are reported for the larger batches of questions.
+
+- **[EDU-Jev Training System-One Decision Models for Education](https://arxiv.org/abs/2610.41079)**<br>📅 <strong>2026-10-29 23:48 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jiazheng Li, Yulan He
+  - EDU-Jev trains decision models at three sizes for rubric judgments and other educational assessment tasks. The 4B checkpoint leads the reported in-domain education comparison. The strongest commercial baseline remains more capable on general decision and reasoning tasks.
+
+- **[Do Multimodal Models Decide Consistently on Equivalent Optical Spectra?](https://arxiv.org/abs/2611.00428)**<br>📅 <strong>2026-10-30 22:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Ziyuan Wang, Genliang Zhu, Xiaobo Chen
+  - This study tests scientific judgments on optical spectra presented in equivalent forms, and checks how models respond when essential evidence is missing. Its comparison includes decision-model baselines and reports that good performance on fully specified spectra can mask reliance on shortcuts.
+
+- **[Decision-Centric Research: A Calibrated Decision Model and Benchmark for Scientific Agents](https://arxiv.org/abs/2611.00774)**<br>📅 <strong>2026-10-31 09:34 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Shaoning Zeng, Wen Huang, Xinzhong Zhu, Yi Duan, Jianhang Zhou, Jianping Gou
+  - DCRM studies scientific-agent decisions conditioned on the current research state. Its benchmark evaluates prediction and uncertainty, including conformal sets that can retain several candidates. In the reported holdout, using the state reduces set size at similar empirical coverage.
+
+- **[Zero-shot evaluation of open vision-language models as System 1 decision models on radiology tasks](https://arxiv.org/abs/2611.01631)**<br>📅 <strong>2026-11-01 06:32 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Bradley J Erickson, Sara Salehi
+  - The paper uses single-token readouts from open vision-language models to evaluate zero-shot System One-style decisions in radiology. It compares response bias and accuracy among tasks. No tested model leads on every task, and answer preferences can be strongly task-specific.
+
+- **[EarthJev: Calibrated, Non-Generative Answers to Natural-Language Questions about Sentinel-2 Land Cover](https://arxiv.org/abs/2611.02096)**<br>📅 <strong>2026-11-01 18:11 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Domenico Benfenati, Antonio Maria Rinaldi, Cristian Tommasino
+  - This EarthJev model answers Sentinel-2 land-cover questions by selecting among supplied options and estimating probabilities. Ablations test how much non-RGB spectral information contributes. The authors report both calibration and accuracy, including a comparison with end-to-end visual adaptation.
+
+- **[A decision-only model as a low-cost judge of medical AI answers](https://www.medrxiv.org/content/10.64898/2026.10.30.26366939)**<br>📅 <strong>2026-11-02</strong> · medRxiv preprint · <strong>Tier B</strong> · Mahmud Omar, Benjamin S. Glicksberg, Ankit Sakhuja, Yiftach Barash, Alexander W. Charney, Eyal Klang, Girish N. Nadkarni
+  - This medRxiv study evaluates Jev as a low-cost judge of generated medical answers against other models and expert agreement. The authors report lower serving cost and competitive results on many evaluated tasks, with weaker performance on some error-detection tests.
+
+- **[Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry](https://arxiv.org/abs/2611.03360)**<br>📅 <strong>2026-11-02 16:09 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Moein Heidari, Junbo Rao, Yudan Chen, Yasamin Medghalchi, River Jiang, Wenjin Chen, David J. Foran, Jasmine Grewal, Ilker Hacihaliloglu
+  - Kev-Bio frames ultrasound landmark localization as a decision over image positions. The authors evaluate the approach for several anatomical views and measure both landmark detection and downstream biometry. The comparison is confined to the datasets and tasks studied.
+
+- **[EO-Jev: Decision Model for Earth Observation](https://arxiv.org/abs/2611.03371)**<br>📅 <strong>2026-11-02 16:16 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Mohamed Atef Abouelhadid, Diaa Addeen Abuhani, Muhammad Akhtar Munir, Fahad Shahbaz Khan, Salman Khan
+  - EO-Jev adapts general-purpose decision models to Earth observation and evaluates trade-offs with general ability. The paper tests perception, option consistency and calibration under shifts. The reported adapted models remain challenged by quantitative questions and distribution changes.
+
+- **[Structured Clinical Memory as Context for Probabilistic Decision Models: A Synthetic Evaluation with Jev](https://arxiv.org/abs/2611.04101)**<br>📅 <strong>2026-11-03 00:22 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Jash Sayani, Gaurang Karwande, Achinth Bharadwaj
+  - This synthetic pilot tests Jev with structured patient memory as the input state. It compares decisions under alternative context configurations. The labels come from one author and the memory represents an optimistic upper bound, limiting implications for clinical practice.
+
+- **[A Systematic Comparison of In-Context Learning Strategies for Peptide Property Prediction in Low-Data Regimes](https://arxiv.org/abs/2611.09994)**<br>📅 <strong>2026-11-03 09:02 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Jiantao Zhao, Andrei Voinea, Mathijs F.J. Mabesoone
+  - This benchmark compares typed decision models, language models and tabular foundation models with gradient-boosted trees on low-data peptide property classification. The authors report performance that varies by task and no significant overall advantage over classical baselines for in-context learning.
+
+- **[EarthJev: Efficient Visual Evidence Acquisition and Decision for UHR Remote Sensing Understanding](https://arxiv.org/abs/2611.10005)**<br>📅 <strong>2026-11-04 09:00 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Pengyu Dai, Yao Zhang, Jian Song, Junjue Wang, Yafei Ou, Yuzeng Chen, Junshi Xia, Hongruixuan Chen, Naoto Yokoya
+  - This EarthJev system decides where to acquire additional visual evidence for ultra-high-resolution remote-sensing questions. Experiments with several frozen answering models compare the controller with single-pass baselines. The reported gains use model-specific fitting and calibration.
+
+- **[GeoJeV: Unified Spatial Probability for Training-Free Efficient Evidence Acquisition in Ultra-High-Resolution Remote Sensing](https://arxiv.org/abs/2611.08879)**<br>📅 <strong>2026-11-06 02:12 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xinyi Niu, Lingfeng Chen, Jiehua Zhang, Panhe Hu, Li Liu, Zhen Liu, Yongxiang Liu
+  - GeoJeV uses spatial probability to choose which regions of very high-resolution remote-sensing imagery merit additional inspection. The authors report accuracy and latency across three benchmarks, comparing with both a single-pass base model and a slower evidence-acquisition method.
+
+- **[TrialJev: Open-Weight Single Pass Eligibility Scoring for Patient Trial Screening](https://arxiv.org/abs/2611.10145)**<br>📅 <strong>2026-11-06 19:11 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Omar Ibrahim, Grant Hamblin, Benjamin Haibe-Kains
+  - TrialJev scores patient–trial eligibility with an open single-pass architecture. The study measures ranking, decision accuracy and inference cost on synthetic cases. The authors position it as a prioritization aid for subsequent review and report timing for their specific implementation.
+
+- **[NuJEV: Structured Visual Judgments for Consistent Nuclei Quantification](https://arxiv.org/abs/2611.11359)**<br>📅 <strong>2026-11-08 13:05 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yonghuang Wu, Pengfei Wang, Zhenyang Liang, Yize Ma, Pengfei Song, Guoqing Wu, Jinhua Yu
+  - NuJEV combines candidate localization with typed visual judgments to count and classify cell nuclei. The authors evaluate dense images and natural-language requests and compare visual adaptation with matched alternatives. Measurements include localization and counting errors rather than only answer accuracy.
+
+- **[S1Pert: Scalable Target-Specific Gene Response Prediction with System-One Intelligence](https://arxiv.org/abs/2611.17705)**<br>📅 <strong>2026-11-13 03:35 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xiaoqi Sheng, Hou wang, Yan Liang, Yutong Li, Wenhao Du, Tinghe Zhang, Jiawen Liu, Hongmin Cai
+  - S1Pert evaluates a System One-inspired model in a gene-response prediction benchmark. The authors compare predictive performance and inference efficiency across held-out cellular contexts, using historical response tendencies as a reference for assessing generalization in the studied datasets.
+
+- **[Can decision models extract clinical data from cancer pathology reports? An evaluation of accuracy, calibration, and failure modes](https://arxiv.org/abs/2611.20129)**<br>📅 <strong>2026-11-15 16:57 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Indranil Mallick, Paromita Roy
+  - The study measures accuracy, calibration and latency when decision models extract fields from cancer pathology reports. Explicit textual fields and numeric measurements present different difficulties. The paper reports field-specific errors and emphasizes validating the configuration used in the evaluation.
+
+- **[MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding](https://arxiv.org/abs/2611.20992)**<br>📅 <strong>2026-11-16 12:21 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Fan Zhang, Hao Wu, Jinyang Wu, Hongyu Qu, Zheng Lian, Dongfu Yin, Qingsong Wen, Pheng-Ann Heng
+  - This MedJev model uses a vision-language backbone for single-pass decisions on medical images. The authors compare accuracy and end-to-end inference time with general and medical vision-language baselines. Its scope differs from the earlier MedJev zero-shot benchmark paper.
+
+- **[Title and Abstract Screening for Systematic Reviews with Jev, a Decision Model: Comparison with Generative Large Language Models](https://www.mdpi.com/2078-2489/17/11/1160)**<br>📅 <strong>2026-11-17</strong> · Information · <strong>Tier B</strong> · Kentaro Matsui, Yoshikazu Takaesu
+  - The authors compare Jev with generative models on title and abstract screening for two reviews of bipolar disorder treatments. Jev retained every ultimately included report in the tested runs at low measured cost. It still excluded some records flagged for human full-text review.
+
+- **[Right Diagnosis, Unsafe Route: Auditing Clinical AI Decision Trajectories and Corrective Oversight for Validity and Potential Harm](https://arxiv.org/abs/2611.22612)**<br>📅 <strong>2026-11-17 11:26 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Guanqiao Chen, Wei Jiang, Shu Zhang, Qian Lin, Guanxu Yu, Siran Li, Chunhui Wang, Tianyu Shi
+  - The study evaluates clinical decision trajectories alongside their final diagnoses and compares different forms of oversight. Correcting an early error can improve the next decision while introducing new risk later in the trace. The evaluation distinguishes final accuracy from trajectory safety.
+
+- **[SlideJev: Order-Stable and Tissue-Grounded Jev Decisions for Whole-Slide Pathology](https://arxiv.org/abs/2611.22879)**<br>📅 <strong>2026-11-17 14:53 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Lei Wu, Jiashuai Liu, Di Zhang, Chunze Yang, Jiusong Ge, Junbo Lu, Yongqi Liang, Wenjie Zhao, Ni Zhang, Chen Li, Zeyu Gao, Qidong Liu
+  - SlideJev answers typed questions about whole-slide pathology using tissue grounding and order-stable candidate processing. The evaluation changes option order and uses mismatched or missing images as controls. The reported accuracy gains are tied to using the appropriate tissue evidence.
+
 
 <a id="networks-databases-engineering"></a>
 
@@ -719,6 +1251,54 @@ Communication networks, edge control, semantic databases, physical infrastructur
   - This study compares Jev, open language models, and a supervised model on 128 HVAC fault days from four real-equipment datasets, varying physical features, topology, and deployment conditions. Jev diagnoses faults supported by individual physical features but struggles when operating context is required; under shifts it is more stable than the supervised comparator. It is included as a bounded diagnostic application, with weak detection and probabilities requiring correction limiting autonomous use.
 - **[Typed Decision Models on Tabular Data](https://arxiv.org/abs/2610.19536)**<br>📅 <strong>2026-10-14 03:54 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Baowen Zhang, Hangting Ye, Hongyuan Zha
   - This tabular-data audit compares four decision models and three LLMs on classification, verification and anomaly detection under twenty-one content-preserving rewrites. Decision models achieve competitive accuracy at lower cost, but no tested model is robust to table organization. At least one rewrite changes a third or more of each model's row decisions, exposing interface sensitivity.
+
+- **[One Pretrained Decision Model Is Enough for Training-Free Generalist Graph Anomaly Detection](https://arxiv.org/abs/2610.30777)**<br>📅 <strong>2026-10-22 05:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xinyu Zhao, Qingyun Sun, Ziwei Zhang, Tianchen Zhu, Daqing Li, Jianxin Li
+  - Jev-GAD uses a pretrained decision model to judge node-level graph evidence and fuses its rankings with statistical anomaly scores. Tests across citation, social and review graphs evaluate whether the approach can generalize without fitting parameters to each anomaly dataset.
+
+- **[OneCodeReviewBench: Typed Decisions for Code Review and Search](https://arxiv.org/abs/2610.33389)**<br>📅 <strong>2026-10-24 01:40 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mohamad Mohebifar, Alex Bit
+  - OneCodeReviewBench evaluates bounded software-review and code-search decisions against engineered references and a smaller reviewer-checked subset. The reported experiments cover typed judgments and evidence retrieval with scope and agreement limitations. Repository-scale generalization remains outside the evidence.
+
+- **[Benchmarking System One Models for Time-Series Decision Making: A Case Study of Jev](https://arxiv.org/abs/2610.33410)**<br>📅 <strong>2026-10-24 02:58 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Jianye Wang, Kexin Zhang, Jiayin Xiong, Hao Xue
+  - This study evaluates hosted Jev on time-series tasks covering event prediction, numerical classification and market direction. Jev performs unevenly across the tasks, and candidate rankings can be stronger than final decisions. The authors identify temporal representations as a limitation worth testing.
+
+- **[DFIP: Decision-Focused Inference Path for System One Models](https://arxiv.org/abs/2610.36804)**<br>📅 <strong>2026-10-27 08:05 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ismail Pelaseyed, Alan Zabihi
+  - DFIP investigates serving optimizations for System One model inference, comparing fixed-shape replay with diverse request arrivals. Some optimizations accelerate narrowly matched workloads, while mixed traffic exposes latency, numerical and reliability limitations. The reported gains depend on serving conditions.
+
+- **[SatOps-Decision: Low-Latency Discriminative Decisions for Onboard Satellite Communication Operations](https://arxiv.org/abs/2610.38697)**<br>📅 <strong>2026-10-28 19:00 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Lifan Mei, Yuxuan Li, Jiaxian Tu, Shenghe Xu
+  - SatOps-Decision trains a compact decision model for bounded satellite communications operations. Local timing and accuracy experiments compare decision-only models with a generative backbone and use hosted Jev versions as accuracy references. The paper reports latency for the tested hardware and implementation.
+
+- **[Flide: Accelerating Decision Inference with Exact State Forking](https://arxiv.org/abs/2610.42148)**<br>📅 <strong>2026-10-30 17:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Bobo Li, Jiajia Song, Hao Fei, Wynne Hsu, Mong Li Lee
+  - Flide specializes decision serving by sharing the computation of common input state across choices. The study compares throughput and agreement with a numerical reference against general inference engines. Reported speedups depend on how much candidate inputs can share.
+
+- **[DIMWIT: Directly Invoking Models Without Intensive Tuning](https://arxiv.org/abs/2611.01463)**<br>📅 <strong>2026-11-01 02:53 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Saarth Deshpande, Neeraja J. Yadwadkar, Venkat Arun
+  - DIMWIT uses model calls for individual resource-management decisions and evaluates the trade-off between execution time and output quality. The authors report faster encoding in one video workload with a small drop in the measured perceptual quality score.
+
+- **[Honest Small Decision Models for Finance: Scale, Specialization Collapse, and Mixed-Corpus Remediation](https://arxiv.org/abs/2611.03755)**<br>📅 <strong>2026-11-02 11:18 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ajitabh Kumar
+  - The authors train compact decision models for financial policy and realized outcomes. The study measures specialization costs across model sizes and tests mixed training data. Outcome predictions can be well calibrated around the base rate while carrying little discrimination.
+
+- **[Thinking Fast, Trading Late: System One Decision Models vs the Market](https://arxiv.org/abs/2611.03985)**<br>📅 <strong>2026-11-02 21:24 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Amir Dehkordi, Alireza Kargarzadeh, Nariman Khaledian, Navid Parvini, Sid Ghatak, Arman Khaledian
+  - The paper tests decision models on news-based market judgments under a preregistered protocol. Strategy results are evaluated after costs and robustness adjustments. The authors also find that identity masking can leave enough context for models to recover which company is involved.
+
+- **[Reproducible LoRA Inference Through Deterministic Split-K Reduction](https://arxiv.org/abs/2611.10334)**<br>📅 <strong>2026-11-07 00:03 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Dhayaneshwar Balusamy, Ankur Mohan
+  - The authors measure reproducibility in LoRA serving when different numerical reduction schedules propagate differences into decisions. A deterministic implementation maintains much of the latency advantage in the tested hardware setting. The study connects numerical variation to observable changes in outputs.
+
+- **[Track or Follow? A Jev-Compatible Multi-Agent Trading System When Web News Lags the Market](https://arxiv.org/abs/2611.10414)**<br>📅 <strong>2026-11-07 02:47 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yebo Feng, Guangyan Gan, Liangrui Pan, Ruichao Liang, Cong Wu, Jiahua Xu, Yang Liu
+  - This Jev-compatible trading simulation examines whether web news provides information beyond numerical features when publication lags market events. Its confirmatory test finds no incremental ranking information at the specified horizon. The paper also examines how decision records help audit results.
+
+- **[The Noise Floor of a Quantization Comparison: Engine, restart, batch and kernel drift, measured against 8-bit and 4-bit effects in two decision models](https://arxiv.org/abs/2611.15671)**<br>📅 <strong>2026-11-11 16:15 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Aleks Blagojevich, Trevor Sunderland
+  - The study compares quantization effects with output drift from engines, restarts, batches and kernels in two decision models. Aggregate accuracy can stay close while individual answers change. The authors report per-record outputs to support comparisons below the benchmark-average level.
+
+- **[LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent](https://arxiv.org/abs/2611.17780)**<br>📅 <strong>2026-11-13 05:44 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ibrahim Memon, Armin Karamzade, M. Hanif Jhaveri, Roy Fox
+  - LuthorSQL generates a candidate SQL query with a short decision-oriented path for use by a slower model. The study compares performance on standard and altered database schemas and probes memorization of public reference queries. Newly released databases provide a separate transfer check.
+
+- **[Budgeted Decision-Model-Guided Joint-Action Search for Satellite Edge Computing](https://arxiv.org/abs/2611.19225)**<br>📅 <strong>2026-11-14 07:35 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ziming Liu, Minghao Sun, Ran Tao, Xiaoli Chu
+  - This study uses a decision model to guide budgeted joint-action search for satellite edge-computing workloads. The simulation compares solver time and completion delay with several optimization baselines. Reported gains apply to the tested offloading scenarios and computational budget.
+
+- **[SpecSearch: Towards Hardware-Aware Efficient Speculative Decoding](https://arxiv.org/abs/2611.22296)**<br>📅 <strong>2026-11-17 06:53 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Selin Yildirim, Ali Zeyrek, Deming Chen
+  - SpecSearch compares search and Jev-based prediction of efficient speculative-decoding settings across hardware. The decision-guided version approaches the throughput from full measurement while avoiding a held-out hardware calibration stage in the reported experiments.
+
+- **[When Do Typed Decision Models Work in Transportation? Evidence from Travel Choice and Traffic Signal Control](https://arxiv.org/abs/2611.22926)**<br>📅 <strong>2026-11-17 15:24 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Hongyang Zhang, Boyuan Deng, Siyuan Feng, Kai Chen, Junbo Zhang
+  - The paper evaluates typed decision models in two transportation settings, travel choice and traffic signal control. Experiments assess how input descriptions and task requirements affect zero-shot choices. The authors report distinct limitations and opportunities for the two applications.
 
 
 <a id="social-science-human-decisions"></a>
@@ -764,12 +1344,47 @@ Social-science annotation and replication, cultural values, population simulatio
 - **[Are AI Decision Models Biased? A Case Study of Jev](https://arxiv.org/abs/2610.19619)**<br>📅 <strong>2026-10-14 05:42 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Ilaria Imperatrice, Taisia Kameneva, Adam Eric Greenberg, Alessandro Romano
   - This audit measures cognitive and demographic biases in 41,500 Jev responses and follows up with 15,000 responses on conjunction tasks. Selected answers often avoid familiar human biases, yet irrelevant numbers, option order and probability-rule violations expose weaknesses. The tested pricing scenario shows small demographic differences, which should not be generalized to broad fairness guarantees.
 
+- **[S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with a 500-Million-Persona Resource](https://arxiv.org/abs/2610.27746)**<br>📅 <strong>2026-10-20 07:05 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yang Li, Yike Wang, Di Wan, Chujun He, Zongsi Xu, Yitao Yu, Shuai Zhong, Minghao Pan, Quanfeng Lu, Xiyu Chen, Sheng Zhong, Deng Binjie, Yichen Guo, Zhenwei Guo, Hou Jun, Kunhan Guo, Weihao Lin, Tuo Zhou, Hai Liu, Chenwei Wu, Jianyuan Zhong, Xilin Dai, Ye Luo
+  - This household simulation combines a large synthetic persona resource with learned decision policies and explicit financial accounting. The authors evaluate prospective consumption predictions and sensitivity to information timing. Lower absolute error in one comparison coexists with an underestimated population mean.
+
+- **[When the Top Answer Decides: Gender Bias in Decision Models](https://arxiv.org/abs/2610.39747)**<br>📅 <strong>2026-10-29 10:06 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Yeb Havinga
+  - The authors audit demographic bias in hosted Jev and other decision models. They compare disparities in selected answers with disparities in the full probability distribution and find that the two views can disagree. Students of Jev also differ from it on this audit.
+
+- **[When Disclosure Is Compulsory: Evaluating Ride-Hailing Rebalancing Policies with Self-Interested LLM Driver Agents](https://arxiv.org/abs/2610.41132)**<br>📅 <strong>2026-10-30 01:37 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xinyu Wang, Andres Fielbaum
+  - This ride-hailing simulation uses decision-capable driver agents to evaluate rebalancing under compulsory disclosure. Driver responses alter economic and service outcomes relative to full compliance. Simulated results depend on the modeled driver incentives and the tested platform policies.
+
+- **[Swap, Replicate, Read the Mass: A Protocol for Auditing Demographic Bias in System One Decision Models](https://arxiv.org/abs/2611.00496)**<br>📅 <strong>2026-10-31 00:36 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Alejandro Mozo Quesada, Sergio Gálvez Rojas, Francisco López Valverde
+  - The authors audit demographic disparities in System One models while varying question framing and option order. They distinguish final selections from probability mass and use multiple runs. The observed disparities can depend strongly on both presentation and how decisions are aggregated.
+
+- **[S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments](https://arxiv.org/abs/2611.00911)**<br>📅 <strong>2026-10-31 13:09 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Dengzhe Hou, Kazunori D Yamada
+  - S1CogBench evaluates System One models on tasks drawn from cognitive experiments. The study separates capability differences from latency associated with output generation and includes matched short-output comparisons. Its task-level results characterize how far the decision format generalizes across tested cognitive settings.
+
+- **[Fast, Cheap, and Fair? Evaluating Decision Models](https://arxiv.org/abs/2611.04510)**<br>📅 <strong>2026-11-03 08:34 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Muhammad Uzair Ul Haq, Davide Rigoni, Alessandro Sperduti, Flavia Fabris
+  - This hiring audit measures how counterfactual changes to CVs affect decision-model ratings and shortlists. It benchmarks those changes against variation from names and typos, and measures service costs. The observed disparities are tied to the tasks and model configurations tested.
+
+- **[Decision Models as Scalable Economic Surrogates that Capture Human Variation](https://arxiv.org/abs/2611.05553)**<br>📅 <strong>2026-11-03 19:47 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Maxime Saxena, Fabio Caccioli, R. Maria del Rio-Chanona
+  - The authors compare decision and generative models as surrogates for human choices in economic games. They assess variation across people alongside aggregate agreement and inference costs. Decision models capture more of the tested variation while reducing the cost of repeated simulation.
+
+- **[TACT: A Pragmatic Approach to Qualitative Analysis with an AI Council](https://arxiv.org/abs/2611.05702)**<br>📅 <strong>2026-11-03 22:30 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Rudrajit Choudhuri, Christian Bird, Carmen Badea, Anita Sarma
+  - TACT combines several AI roles for qualitative analysis, using decision judgments as part of the workflow. It compares the outputs and costs of lighter and fuller configurations and discusses how researchers can inspect and validate thematic findings.
+
+- **[Same Facts, Different Remedy: Linguistic Profiling and Arbitrariness in LLM and System One Decisions](https://arxiv.org/abs/2611.08995)**<br>📅 <strong>2026-11-06 05:10 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Colin Priest
+  - This audit compares the effect of stylistic rewrites on individual decisions and aggregate group disparities in generative and System One models. Auditors check whether rewrites preserve material facts. Decision instability persists even when those checks do not flag a rewrite.
+
+- **[Nudging Decision Models: Do Digital Nudges Steer Fast, Generation-Free AI Agents?](https://arxiv.org/abs/2611.09264)**<br>📅 <strong>2026-11-06 10:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Sascha Kaltenpoth, Haya Halimeh, Kevin Bösch, Oliver Müller
+  - The authors compare how digital nudges affect generation-free decision agents and reasoning-capable language agents. They find the strength of particular tested nudges depends on the agent class. The results concern behavior on the paper's choice tasks.
+
+- **[Can Model Answer Probabilities Represent Survey Populations? Conditional Prediction and Joint Validity in Jev Survey Simulation](https://arxiv.org/abs/2611.15576)**<br>📅 <strong>2026-11-11 14:59 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Zengqing Wu, Chuan Xiao
+  - The authors evaluate whether Jev probabilities can represent population survey responses, distinguishing conditional predictions from joint events. Marginal checks can constrain possible results, while joint validity requires linked answers. Evidence is limited to selected binary questions and one model version.
+
 
 ## Search and Verification Notes
 
-**Cutoff:** 18 October 2026 (Asia/Shanghai).
+**Cutoff:** 20 November 2026 (Asia/Shanghai).
 
-**Organization:** the list is grouped by primary research domain and contains 199 entries as of the 18 October verification cutoff: 186 academic preprints and 13 technical articles or reports.
+**Organization:** the list is grouped by primary research domain and contains 403 entries as of the 20 November verification cutoff: 390 academic papers and 13 technical articles or reports.
+
+The 20 November update adds **204 academic papers** after searching for work from 18 October through 20 November 2026. It uses original arXiv submission histories and publisher or DOI metadata, with abstracts and targeted full-text checks to establish relevance. Deduplication uses arXiv IDs, DOIs and normalized titles. The new records include 197 arXiv preprints, 4 preprints from other sources and 3 published articles. Unchanged entries retain their earlier verification. Search coverage is limited by indexing and accessible primary sources. See the [20 November verification record](outputs/jev-literature-2026-11-20.json).
 
 <!-- review-marker-18 -->
 The 18 October update adds **25 academic papers** and revises **4 retained entries**, after screening 32 new candidates and excluding 7 unrelated keyword hits. The collection now contains **185 arXiv preprints, one ResearchGate preprint and 13 technical sources (199 entries)**. Metadata and abstracts were checked through the official arXiv API, with targeted full-text scope checks. The newest included v1 is 15 October; indexing delays mean the cutoff is not a completeness guarantee. NeoHorse-1 and RedundancyBench retain pre-launch v1 dates: their later revisions introduce Jev. Existing technical reviews are inherited. The Jev 1.14 announcement informs the website introduction but is not counted as a paper. See the [18 October verification record](outputs/jev-literature-2026-10-18.json).

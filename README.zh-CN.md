@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <strong>199 条文献</strong> · <strong>186 篇学术预印本</strong> · 最近核验 <strong>2026-10-18</strong> · <a href="LICENSE">CC0 1.0</a>
+  <strong>403 条文献</strong> · <strong>390 篇学术论文</strong> · 最近核验 <strong>2026-11-20</strong> · <a href="LICENSE">CC0 1.0</a>
 </p>
 
 本仓库精选与 **Jev**（TypeSafe AI 的首个 **System One Model**）及类型化概率决策相关的论文、预印本、技术报告、评测和研究性文章。
@@ -25,7 +25,7 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 > **收录范围。** 本仓库收集研究文献，不收录独立实现。独立 GitHub 仓库、模型页面、演示、视频、普通新闻和纯营销文章均不在范围内。代码或模型链接仅可作为已收录论文的补充材料。
 
-> **证据状态。** Jev 是近期推出的闭源权重商业模型。截至 2026 年 10 月 18 日，尚未找到经过同行评审的 TypeSafe 架构论文或 Reinforcement Learning for Calibrated Decisions（RLCD，面向校准决策的强化学习）论文。OpenJev-RLCD 等独立研究探索的是各自的训练方法，并未披露 Jev 的专有算法。下列学术条目均为预印本，其中 185 篇来自 arXiv，1 篇来自 ResearchGate。第一方性能结论在获得独立复现前，仍属于作者或厂商报告。
+> **证据状态。** Jev 是近期推出的闭源权重商业模型。11 月检索中，仍未找到由 TypeSafe 发表并披露 Jev 架构或 Reinforcement Learning for Calibrated Decisions（RLCD，面向校准决策的强化学习）的同行评审论文。OpenJev-RLCD 等独立研究探索的是各自的训练方法，并未披露 Jev 的专有算法。学术条目包含 382 篇 arXiv 预印本、5 篇其他来源的预印本及 3 篇正式发表论文。第一方性能结论在获得独立复现前，仍属于作者或厂商报告。
 
 > **阅读语言。** 本页提供完整中文摘要和说明。论文或文章的正式题名与作者姓名保留原文，便于检索和引用。中英文版本的分类、顺序、日期和来源链接保持一致。
 
@@ -66,20 +66,20 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 | 研究领域 | 条目数 |
 |---|---:|
-| [基础方法与通用决策模型](#foundations-decision-models) | 40 |
-| [自然语言处理与信息检索](#nlp-information-retrieval) | 23 |
-| [多模态学习与感知](#multimodal-perception) | 13 |
-| [具身智能与强化学习](#embodied-ai-reinforcement-learning) | 13 |
-| [智能体与工作流自动化](#agents-workflow-automation) | 25 |
-| [可信 AI 与安全](#trustworthy-ai-security) | 46 |
-| [科学、医疗与教育中的 AI](#science-healthcare-education) | 15 |
-| [网络、数据库与工程应用](#networks-databases-engineering) | 12 |
-| [计算社会科学与人类决策](#social-science-human-decisions) | 12 |
-| **总计** | **199** |
+| [基础方法与通用决策模型](#foundations-decision-models) | 73 |
+| [自然语言处理与信息检索](#nlp-information-retrieval) | 52 |
+| [多模态学习与感知](#multimodal-perception) | 25 |
+| [具身智能与强化学习](#embodied-ai-reinforcement-learning) | 24 |
+| [智能体与工作流自动化](#agents-workflow-automation) | 45 |
+| [可信 AI 与安全](#trustworthy-ai-security) | 83 |
+| [科学、医疗与教育中的 AI](#science-healthcare-education) | 50 |
+| [网络、数据库与工程应用](#networks-databases-engineering) | 28 |
+| [计算社会科学与人类决策](#social-science-human-decisions) | 23 |
+| **总计** | **403** |
 
-199 条文献中，**186 篇为 Jev 专题或 Jev 风格的学术预印本**（185 篇来自 arXiv，1 篇来自 ResearchGate），**13 篇为研究性技术文章或报告**。
+403 条文献中，**390 篇为 Jev 专题或 Jev 风格的学术论文**，**13 篇为研究性技术文章或报告**。
 
-全部 **185 篇 arXiv 文献**均列出 **v1** 的 UTC 提交时间，精确到分钟。ResearchGate 预印本已核实年份，尚未核实具体发布日期。领域统计包含所有来源类型，每项工作只计数一次。
+全部 **382 篇 arXiv 文献**均列出 **v1** 的 UTC 提交时间，精确到分钟。ResearchGate 预印本已核实年份，尚未核实具体发布日期。领域统计包含所有来源类型，每项工作只计数一次。
 
 <a id="paper-growth"></a>
 
@@ -94,9 +94,9 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 - **综述统计分析：** 比较领域分布、Tier A/B 构成、领域每日活跃度与每篇论文的作者人数；点击领域条形或热力图单元格可查看对应论文。
 - **论文目录：** 搜索题名、作者及双语摘要，支持排序、分页、原始来源跳转及匹配结果的 CSV 导出。
 
-当前快照包含 **186 篇学术论文**，其中 **185 篇具有明确日期**。时间序列按 arXiv v1 的 UTC 提交日期统计，排除日期未核实的 WaterSheep；构成统计与完整时间窗口下的目录仍保留该论文。所有研究图表均排除技术文章。近期日期可能受公告与索引延迟影响；图表反映当前精选文献集，不代表全领域穷尽统计或仓库每日新增历史。
+当前快照包含 **390 篇学术论文**，其中 **389 篇具有明确日期**。时间序列采用 arXiv v1 的 UTC 提交日期及其他来源的已核实发布日期，排除日期未核实的 WaterSheep；构成统计与完整时间窗口下的目录仍保留该论文。所有研究图表均排除技术文章。近期日期可能受公告与索引延迟影响；图表反映当前精选文献集，不代表全领域穷尽统计或仓库每日新增历史。
 
-[前端源码](docs/) · [网站数据生成脚本](scripts/build_site_data.py) · [核验快照](outputs/jev-literature-2026-10-18.json)
+[前端源码](docs/) · [网站数据生成脚本](scripts/build_site_data.py) · [核验快照](outputs/jev-literature-2026-11-20.json)
 
 <a id="foundations-decision-models"></a>
 
@@ -223,6 +223,105 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 - **[Prism-1: Position- and Rival-Independent Scoring for System One Models](https://arxiv.org/abs/2610.22066)**<br>📅 <strong>2026-10-15 15:28 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yao Long Teng, Jianguo Huang, Yanchen Deng, Jiayi Cai, Bo An
   - Prism-1 隔离候选项注意力块并共享位置，保证选项顺序不变性与相对竞争项独立性。在五组基准上，它接近匹配训练基线，并在重排时保持决策。保证针对评分结构与选择公理，不等于所得判断一定正确或概率已校准。
 
+- **[What Can't Jev Decide? Probing the Limits of One-Pass Decision Models](https://arxiv.org/abs/2610.24929)**<br>📅 <strong>2026-10-18 00:50 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Wang Yang, Xinpeng Li, Yanyan Zhang, Chuang Ma, Shouren Wang, Jianzhe Wei, Liqin Ye, Xiaoran Cai, Mohsen Hariri, Vipin Chaudhary, Xiaotian Han
+  - 作者评估托管 Jev 与开源同类模型的单次选择能力。参考大模型无需推理即可回答的题目，Jev 大多能解决；需要更多推理时，准确率下滑。若智能体传入的状态已过时，置信度尤其难以预警。
+
+- **[System X: An LLM Decision Model That Replies from Its Own KV Cache](https://arxiv.org/abs/2610.25456)**<br>📅 <strong>2026-10-18 18:40 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Syed Usama Khalid Bukhari, Syed Safwan Khalid, Muhammad Aamir
+  - System X 在基于大模型的 Jev 式读出中增加回复选项，选中后复用决策上下文的 KV 缓存。匹配实验显示延迟降低。回复质量对比受提示和输出预算差异影响，且仍可能生成缺乏依据的细节。
+
+- **[P(Yes): 15$\times$ Improvements via Test-Time Scaling of Decision Models](https://arxiv.org/abs/2610.25474)**<br>📅 <strong>2026-10-18 19:01 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Lev Stambler
+  - 该研究用冻结决策模型的二元概率评价完整谜题解，在测试时展开搜索。Jev、Clef 等托管模型借此解出更多谜题。实验量化了这类谜题上计算开销与解题质量的权衡。
+
+- **[Narrow Decision Models: A System-1 Architecture for Calibrated, Typed Decisions](https://arxiv.org/abs/2610.25553)**<br>📅 <strong>2026-10-18 21:49 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Carlos André Antunes, Aldry Albuquerque, Gabriel de Melo Schmith, Natã Batista, Pedro Oziel Escobar da Silva, Stefano Benko Rossi, Lingrid Dietrich Lorenz da Silva, Flávia Cristina da Costa, Thiago Bertotto, Luis Fernando Fausto
+  - 论文提出用于调用方自定义选项和评分的窄型 System One 架构，重点考察选项顺序不变性。作者进行数值验证，并测试路由和法律文本分类。在法律任务中，与现有生产分类器的一致性仅是任务表现的代理指标。
+
+- **[Truncated Reasoning Under a Budget: Evaluating System-1 Models as Decision-Makers](https://arxiv.org/abs/2610.25768)**<br>📅 <strong>2026-10-19 04:29 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Zhongyin Wang, Zhaoqian Xue, Junting Mu, Haozheng Liu, Ye Yuan, Haolun Wu, Lingyao Li
+  - 作者让 Jev 根据大模型未完成的推理轨迹作答，衡量低成本决策何时可以替代后续生成。基于训练折选出的策略在留出折上估计节省 71.3% 的完整运行费用，准确率下降 0.58 个百分点。
+
+- **[TimesJev: Thinking Fast on Time Series with System 1 Sufficiency](https://arxiv.org/abs/2610.26002)**<br>📅 <strong>2026-10-19 08:26 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Chenghao Liu, Wei Fan, Jindong Han, Dongjie Wang, Aniket Mahanti, Pengyang Wang, Hao Liu
+  - TimesJev 学习保留序列中足以支持高效类型化决策的信息。它压缩时间序列，再将选出的表示与决策模型的嵌入空间对齐。作者在 13 个数据集上比较其与推理模型的准确率和推断耗时。
+
+- **[Teacher Supervision, Fixed Representations and Calibration: Exact Risk Calculations for Candidate-Scoring Decision Models](https://arxiv.org/abs/2610.26797)**<br>📅 <strong>2026-10-19 17:42 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Agus Sudjianto, Denis Burakov
+  - 论文以 Jev 与 JevAny 为例，研究教师监督信号如何影响候选打分模型的输出概率。理论分析与实证比较表明，再校准可以改善概率尺度，而教师的系统性偏差仍需用实际结果检验。
+
+- **[DecisionPivot: A Diagnostic Benchmark for Decision Models in LLM Systems](https://arxiv.org/abs/2610.28522)**<br>📅 <strong>2026-10-20 16:57 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Xialie Zhuang, Mingcong Lei, Zunhai Su, Ri Liu, Jianjin Li, Peixian Ma, Jia Pan, Ngai Wong, Guanhua Chen, Chuan-Wei Kuo
+  - DecisionPivot 将仅在关键细节上有所不同且正确选项应随之变化的样例分组，从而同时衡量单题准确率、判断一致性和高置信度错误。该基准揭示了总体成绩相近的决策模型之间的差异。
+
+- **[Our Own Jev: Typed Decisions in One Forward Pass, from an In-House Judge to Open LoRA Models](https://arxiv.org/abs/2610.29052)**<br>📅 <strong>2026-10-21 01:28 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yuchuan Weng, Chi Liu, Xin Chen, Srinivasan Manoharan
+  - 作者以内部评判模型为起点开发开放的单次前向决策模型，并比较多种 LoRA 变体、托管 Jev 和开源替代模型。在小规模测试中最佳模型接近商业参照，重训结果则显示其对数据版本敏感。
+
+- **[Which Differences Matter? Controlled Tests of Rule Transfer, Joint Reliability, and Information Use in Decision Models](https://arxiv.org/abs/2610.30045)**<br>📅 <strong>2026-10-21 17:04 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Tianyou Lai, Wentao Yue, Zhiwei Zuo, Qilei Li
+  - 作者通过受控修改规则、表述与表内数值，检验总体准确率之外的类型化决策依据。同义改写引起的变化有时大于相同输入的重复调用；修改与任务有关的表内数值后，决策较常朝预期方向变化。
+
+- **[Jev-DLC: Decision-Level Continual Learning from Typed Feedback](https://arxiv.org/abs/2610.31521)**<br>📅 <strong>2026-10-22 16:33 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yangyang Feng, Jianle Gan, Zhuoyan Feng, Chengwei Qin
+  - Jev-DLC 将接受和撤销的选择记录为反馈，以更新紧凑的个性化状态。按时间排序的基准衡量反馈事件对后续类型化决策的影响。看到更多纠正后，相对于重放历史的优势有所扩大。
+
+- **[The Hitchhiker's Guide to System 1 Models: Fast Decision-Making Beyond LLMS](https://arxiv.org/abs/2610.33775)**<br>📅 <strong>2026-10-24 16:26 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Haggai Roitman
+  - 这篇教程综述 System One 模型、调用方定义的决策接口及校准等实际评测议题，并提供模型清单和实例。它综合既有文献，帮助读者了解研究和实现。
+
+- **[RubriX: A Fast, Fine-Tunable Non-Autoregressive Rubric Judge](https://arxiv.org/abs/2610.34875)**<br>📅 <strong>2026-10-26 05:45 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Balamurugan Paramasivam, Sudalai Rajkumar
+  - RubriX 是对量规等级进行选择的非自回归评判模型。作者比较其在使用缓存时与 Jev、生成模型的延迟，并拉长等级描述。其速度优势在受测最长量规上最明显。
+
+- **[Decision Model Factory: Building Specialized Sovereign Decision Models](https://arxiv.org/abs/2610.34956)**<br>📅 <strong>2026-10-26 07:23 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yuma Ichikawa
+  - 论文提出构建专用决策模型的流程及配套执行器。执行器计算允许答案的概率并在多个问题间复用上下文。匹配的多问题工作负载实验显示吞吐量增加，决策分数基本保持。
+
+- **[ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions](https://arxiv.org/abs/2610.37732)**<br>📅 <strong>2026-10-27 12:53 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xiaolu Ding, Kai Yang, Dongdong Liu
+  - ThinkJev 学习以不同长度的中间推理辅助决策。实验分别衡量低置信度和追加推理的预期收益，两者并不稳定一致。公开 JevBench 题目上的对比属于探索性结果。
+
+- **[DecisionUnlearn-Bench: Unlearning Probabilistic Decisions under Changing Schemas](https://arxiv.org/abs/2610.38431)**<br>📅 <strong>2026-10-28 08:13 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Tiantong Wu, Wei Yang Bryan Lim
+  - DecisionUnlearn-Bench 评估在选项模式变化时输出概率的决策模型遗忘能力。研究以重训模型为参照，分别测量遗忘、保留能力和后续适应。结论随架构和所用指标变化。
+
+- **[To Jev or Not to Jev: When Can System-1 Decision Models Replace LLM Judges?](https://arxiv.org/abs/2611.00505)**<br>📅 <strong>2026-10-31 00:51 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Shreyas Subramanian
+  - 该基准考察 Jev 等决策模型何时可替代生成式评判者，区分简单偏好与需要推理的正确性任务，并测量将困难样例交给更强模型的级联。能力与服务开销的权衡因评测而异。
+
+- **[IJev: Order-Invariant Decisions via Iterated Cyclic Reordering](https://arxiv.org/abs/2611.01015)**<br>📅 <strong>2026-10-31 14:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Youzhi Zhang
+  - IJev 汇总同一候选集合在不同循环排列下的判断。作者在五种模型和五个基准上评估准确率、校准和换序翻转。受测设置中的翻转被消除，主要代价是增加模型调用。
+
+- **[Extending Reasoning in Typed Decision Models via Looping](https://arxiv.org/abs/2611.07736)**<br>📅 <strong>2026-11-05 09:46 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · David Berghaus, Arber Zela, Behzad Shomali, Markus Frey, Mehdi Ali, Rafet Sifa, Volkan Cevher
+  - 研究在需要较长推理的问题上评估类型化决策模型的循环处理，比较参数共享、额外训练计算与自适应执行。报告的收益随题目长度和决策骨干架构而变化。
+
+- **[Towards Foundation Decision Models: Drex](https://arxiv.org/abs/2611.07854)**<br>📅 <strong>2026-11-05 11:31 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Nischay Dhankhar, Alisher Amantay, Zhanibek Datbayev, Darkhan Akhmetov, Yash Shah, Nurmukhamed Ubaidullayev, Raman Saparkhan, Dos Baha, Abulhair Saparov
+  - Drex 提出开放决策模型版本，评估原生类型化输出、速度和顺序稳定性，并与生成式前沿模型及同类决策系统比较。报告的耗时适用于作者的请求负载与部署环境。
+
+- **[Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes](https://arxiv.org/abs/2611.08439)**<br>📅 <strong>2026-11-05 18:31 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Vladimir Beskorovainyi
+  - 作者比较用不同候选措辞训练的类型化决策编码器，测试陌生标签、缩写和代码。收益集中在部分语言变化上。不同留出数据的检查点排名也不一致，增加模型选择难度。
+
+- **[Deciding Without Generating: A Survey of Typed Decision Models, from Jev to Open Decision LLMs](https://www.preprints.org/manuscript/202611.0760/v1)**<br>📅 <strong>2026-11-06</strong> · Preprints.org 预印本 · <strong>Tier A</strong> · Shangquan Sun
+  - 该综述形式化定义类型化决策，回顾 Jev 及开放替代模型的训练、服务和评测文献。作者区分用于路由的概率与实测正确性，并分析后备模型的决定如何影响整体准确率。结论综合自所述文献。
+
+- **[AbductionBench: Benchmarking Abductive Reasoning in Large Language Models](https://arxiv.org/abs/2611.10705)**<br>📅 <strong>2026-11-07 12:56 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Moein Salimi, Amir Qeysarbeigi, Babak Hosseini Mohtasham, Faraz Doagoye Tehrani, Mahdi Naieni, Hanieh Sartipi, Ali Nouri, Amin Aghakasiri, Reyhane Khayatzade Mahani, Mahdi Jafari Siavoshani, Mohammad Hossein Rohban
+  - AbductionBench 评估模型推断合理解释的能力，包括智能体是否请求有用证据及修正假设。研究加入决策模型对比，将行为过程与最终答案准确率并列分析。新观察到来后，模型仍可能坚持早期假设。
+
+- **[ZeroPoint: Lightweight Energy-Based Decision Model](https://arxiv.org/abs/2611.12992)**<br>📅 <strong>2026-11-08 11:45 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Javier Marín
+  - ZeroPoint 训练轻量能量式决策模型，处理所有候选均不合适的菜单。论文比较固定拒判参照、学习得到的拒判类和设置阈值的 softmax。结果表明，使用无合适选项的样例进行训练很重要。
+
+- **[MMDM: Measuring Massive Multitask Decision Making](https://arxiv.org/abs/2611.14309)**<br>📅 <strong>2026-11-10 16:40 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Junhao Shen, Qing Zong, Yue Guo, Zhanqiu Zhang, Yiwen Guo, Hong Cheng
+  - MMDM 用大型任务集评估决策模型，包括联合约束和多选题。部分指标要求完整找出有效选项集合。作者报告，约束规划和严格多选仍然较难。
+
+- **[Learning a calibrated decision head from logged bandit feedback](https://arxiv.org/abs/2611.15572)**<br>📅 <strong>2026-11-11 14:55 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ye Yuan
+  - 本文从选择性记录的结果训练校准决策头，并在模拟标签噪声下评估校准。作者在留出记录上测试修正方法和依赖验证集的早停。每种噪声率的实验运行次数有限。
+
+- **[Small Heads, Strong Decisions: A Controlled Study of Typed-Decision Models](https://arxiv.org/abs/2611.15592)**<br>📅 <strong>2026-11-11 15:10 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ritvik Rastogi
+  - 研究以共同骨干、数据集和流程训练五种类型化决策头。各决策头的域内准确率相近，推断成本不同。报告中，将骨干从 0.6B 增至 4B 带来的收益更大，尤其是在留出数据上。
+
+- **[SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models](https://arxiv.org/abs/2611.15777)**<br>📅 <strong>2026-11-11 17:53 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Lichen Li, Ziping Dong, Sicheng Feng, Qi Li, Xinchao Wang
+  - SO-Arena 在不同任务能力维度上评估 System One 模型，并单独衡量回答可靠性。受测条件下，任务表现最佳的模型在可靠性上未居首。基准呈现了单一分数掩盖的选型权衡。
+
+- **[From Large Language Models to Efficient System One Models via Adaptive Computation](https://arxiv.org/abs/2611.16321)**<br>📅 <strong>2026-11-12 05:40 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Minh-Anh Nguyen
+  - 该方法将较大的模型适配为可从不同深度退出的 System One 决策模型，由置信信号决定是否继续计算。论文在七个基准上与固定深度训练模型比较准确率和计算开销。
+
+- **[The Value of Thinking: Learning When to Reason in Hybrid Decision Models](https://arxiv.org/abs/2611.16961)**<br>📅 <strong>2026-11-12 15:32 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Zhengxu Yu, Ke Xu, Meng Fang, Haitham Ammar, Weilin Luo, Jun Wang
+  - 该混合决策模型学习何时推理的预期收益值得继续生成。评估覆盖决策基准及一个智能体环境。论文报告准确率、延迟与词元成本对比，并在 JevBench 上直接比较托管 Jev。
+
+- **[UltraBERT-JEV: Encoder models for System One Applications](https://arxiv.org/abs/2611.17867)**<br>📅 <strong>2026-11-13 07:58 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Astarag Mohapatra
+  - UltraBERT-JEV 探索用于单次前向决策的编码器架构。作者比较服务耗时和内存，并加入预测支持证据句的辅助读出。受测配置中，较低延迟可能伴随较高的峰值内存。
+
+- **[AdaMenu: Query-Adaptive Menus for Decision Models over Large Label Spaces](https://arxiv.org/abs/2611.19005)**<br>📅 <strong>2026-11-13 23:08 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jiangze Yan, Yi Shen, Jieyun Huang, Wenjing Zhang, Zhaoxiang Liu, Ning Wang, Kai Wang, Shiguo Lian
+  - AdaMenu 调用决策模型前先按查询挑选标签子集。作者与完整菜单和层级菜单比较准确率及输入词元量。该方法也覆盖服务无法接受完整标签集合的设置。
+
+- **[When Should Decision Models Compare Candidates?](https://arxiv.org/abs/2611.20335)**<br>📅 <strong>2026-11-16 00:00 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Fangzhi Li, Quan Shi, Wenting Yang, Yueqiao Chen, Jiayu Chang, Shuting Zhao, Zhaowei Xu, Yizhao Chen, Guanchu Wu, Han Xu
+  - 论文检验类型化决策模型何时受益于表示候选之间的关系，对比独立打分、注意力和集合式方法在不同监督下的表现。只有候选访问权限并不足以保证有效比较，迁移效果取决于任务和训练。
+
 ### 发布日期待核实
 
 - **[WaterSheep 0.1.0: Typed Decisions with Calibrated Probabilities from a Single Encoder Pass](https://doi.org/10.13140/RG.2.2.28606.45122)**<br>◉ <strong>2026 · 具体日期待核实</strong> · ResearchGate 预印本 · <strong>Tier A</strong> · Samrat Dutta
@@ -305,6 +404,94 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 - **[PRISM: Calibrating Black-Box Judges with Counterfactual Probes](https://arxiv.org/abs/2610.18389)**<br>📅 <strong>2026-10-13 13:39 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Kakei Yamamoto and So Kuroki
   - PRISM 保持被评内容不变，改变评价侧重点，再根据分数敏感性及人工标签学习校正。在 SummEval 和 HANNA 上，Jev 与 Sol 的实验改善了与人工排序的一致性，并比较质量与风格探针。本文作为直接面向 Jev 评判模型的校准方法收录；有监督校正和特定数据集上的一致性收益，并不能证明判断无偏或无需本地验证即可迁移。
 
+- **[One Confidence Threshold, Unequal Coverage: Language Gaps in Typed Decision Interfaces and How Translating Inputs Reduces Them](https://arxiv.org/abs/2610.37688)**<br>📅 <strong>2026-10-17 21:53 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Junwei Yao, Yongxi Zhou, Zike Yang, Zhijun Wang, Jianan Liu, Yanxian Chen, Wenbo Ye
+  - 这项预注册研究在 51 种语言和三种类型化决策服务上采用共同置信阈值。正确回答的英语输入比等价非英语输入更常通过阈值。翻译缩小受测阈值下的大部分差距，但匹配错误率时仍有差异。
+
+- **[Multimodal Reranking Is a System One Decision](https://arxiv.org/abs/2610.28435)**<br>📅 <strong>2026-10-20 16:00 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Zhuchenyang Liu, Yao Zhang, Yu Xiao
+  - 作者将视觉重排表示为类型化决策，并用两个大型视觉语言决策模型与专用重排器比较。收益随文档页面和自然图像任务变化。模型规模与代际不同，结果难以归因于决策训练本身。
+
+- **[Scan or Index? large Evidence Coverage, Answer Quality, and Cost in Long-Document RAG](https://arxiv.org/abs/2610.28957)**<br>📅 <strong>2026-10-20 22:11 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Juan Terven, Diana-Margarita Córdova-Esparza, Julio-Alejandro Romero-González, Edgar Chavez-Urbiola, Juan Irving Vasquez, Julian Andres Ramirez-Bautista, Silvia L. Chaparro-Cárdenas, Gendry Alfonso-Francia
+  - 论文在长文档问答中比较决策模型全扫描与词法、稠密、混合检索，并分别测量证据保留率和回答质量。查询累计时，可复用索引更具成本优势；在书籍上，全扫描的延迟较高。
+
+- **[How Well Do Decision Models Transfer to Vietnamese? An Empirical Study of Text Classification](https://arxiv.org/abs/2610.31422)**<br>📅 <strong>2026-10-22 15:24 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Phat Huu Ha, Nguyen Xuan Phuc, Nong Nhut Quy, Trinh Tran Tran, Nguyen Minh Triet, Dang Van Thin
+  - 作者在 13 种越南语零样本分类情境中评估四种决策模型，比较标签设计和输入扰动。去除变音符号比受测网络用语和拼写错误造成更大降幅，凸显语言特定稳健性检验的价值。
+
+- **[System One models Are Not Better Rerankers](https://arxiv.org/abs/2610.32318)**<br>📅 <strong>2026-10-23 08:16 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Michael Dinzinger, Kanishka Ghosh Dastidar, Michael Granitzer
+  - 匹配对比检验 System One 训练能否比重排专用微调更好地迁移到段落重排。专用重排器通常在排序质量上占优。决策模型的校准表现随相关性问题的表述而变化，无法稳定弥补排序劣势。
+
+- **[Decision-Native Recommendation with Large Language Models](https://arxiv.org/abs/2610.34124)**<br>📅 <strong>2026-10-25 07:46 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Daoxuan Liu, Jiayi Liao, Jiancan Wu, An Zhang, Xiang Wang, Xiangnan He
+  - 论文将推荐表述为对给定菜单直接打分的决策任务，检验候选重排、推断延迟以及能否按置信度为困难样例分配额外计算。速度优势参照论文所测试的生成式方法。
+
+- **[Entity Matching using Decision Models](https://arxiv.org/abs/2610.34626)**<br>📅 <strong>2026-10-25 22:48 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Aaron Steiner, Ralph Peeters, Christian Bizer
+  - 作者评估决策模型对记录实体的匹配能力，并将置信度较低的记录对交给生成式评判模型。级联提高了若干强决策模型的平均 F1。结果随数据集和提示变化，部分基准超过已发表最高分。
+
+- **[Can System-1-Style Decision Models Replace Dedicated Rerankers in RAG? A Systems Evaluation](https://arxiv.org/abs/2610.34816)**<br>📅 <strong>2026-10-26 04:00 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Qiaomu Li, Ying Xie
+  - 这项系统评估比较决策模型与专用重排器的排序质量、延迟和显存。质量排序随工作负载变化，实验配置下调优后的重排器更快、更省显存。论文记录了决策模型具有竞争力的条件。
+
+- **[Improving JEV Entailment Reranking with Span Readouts and Selective Adaptation](https://arxiv.org/abs/2610.35654)**<br>📅 <strong>2026-10-26 16:02 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Haocheng Mei, Yuchuan Tian, Ye Yuan, Enhua Wu, Chao Xu, Allen Chen, Kai Han, Yunhe Wang
+  - 研究将 NeoHorse 决策模型适配到蕴含重排，比较选择性适配器训练、片段聚合与更广范围微调。两者结合改善了报告中的综合基准得分，且需训练的参数少于全模块对照。
+
+- **[Retriever-Free Retrieval: Navigating Documents with Decision Models](https://arxiv.org/abs/2610.35868)**<br>📅 <strong>2026-10-26 17:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Chao Wan, Paul Jünger, Beixi Du, Bodong Liu, Navaneetha Krishnan, Kilian Q. Weinberger
+  - DecisionRAG 用决策模型判断在文档结构中导航，无需另训首阶段检索器。作者在四个基准上与稠密检索系统和重排器比较召回表现与延迟，其中包括大规模维基百科段落集。
+
+- **[Do We Need an LLM to Know Why Sources Conflict? Decision Models for Knowledge-Conflict Typing in RAG](https://arxiv.org/abs/2610.36915)**<br>📅 <strong>2026-10-27 09:43 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Parv Khatri, Harshul Jain, Mehak Kapoor, Tanya Sah
+  - 作者评估决策模型在检索增强生成中的来源冲突分类能力，分析顺序敏感性，并分别考察硬标签和底层分数。对预先植入的错误来源，生成式对照的硬分类表现更好。
+
+- **[JevRec: Linguistic Encoding with Jev-like Decision Modeling for LLM-based Generative Recommendation](https://arxiv.org/abs/2610.36937)**<br>📅 <strong>2026-10-27 09:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Qiyong Zhong, Jiajie Su, Ming Yang, Li Zhang
+  - JevRec 用类似 Jev 的决策头将物品编码长度判断与内容预测分开，两者共享用户历史表示。研究在三个公开数据集上报告推荐收益，并与 TIGER 比较运行时间和梯度干扰。
+
+- **[Predicting What Answer Engines Cite: Open Decision Models, Rerankers and a Distilled 4B Student on Ten Engines under Controlled Retrieval](https://arxiv.org/abs/2610.38090)**<br>📅 <strong>2026-10-28 00:11 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Elisha Bajemon, Andre-Louis Rochet
+  - 研究在受控检索条件下预测答案引擎会引用哪些段落，比较重排器、Jev 和使用模型标签或观察标签训练的学生。当 Jev 采用相同的逐段打分格式时，学生的部分表面优势消失。
+
+- **[DecisionRank: On-Policy Distillation for Decision-Model Rerankers](https://arxiv.org/abs/2610.42128)**<br>📅 <strong>2026-10-30 17:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yanran Wu, Dian Yu, Chongyang Bai, Jieyi Zhang, Rui Liu, Tianyi Chen, Shike Mei, Hang Cui, Frank Shyu, Sandeep Pandey, Luke Simon, Chunwei Liu, Xi Liu
+  - DecisionRank 将生成式排序教师蒸馏为可直接为给定候选打分的模型。作者在多个检索基准上评估训练目标与服务速度。报告的收益包括学生超过更大教师的设置。
+
+- **[Can Jev Improve Demonstration Retrieval for In-Context Learning?](https://arxiv.org/abs/2611.00737)**<br>📅 <strong>2026-10-31 08:31 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Rui Song, Yingji Li, Hao Xu
+  - 作者用 Jev 的概率判断为上下文学习选择示例，并将这些判断蒸馏到较小的排序模型。研究检验所选示例对下游表现的影响，并比较高效检索和重复调用 Jev。
+
+- **[Do GEO Gains Survive the Live Web? Evaluating In-the-Wild Visibility Gains of Generative Engine Optimization via LIVE-GEO](https://arxiv.org/abs/2611.01126)**<br>📅 <strong>2026-10-31 17:15 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Runze Kong, Haibo Jin, Xucheng Yu, Xiaoqi Wang, Huimin Zeng, Haohan Wang
+  - LIVE-GEO 检验内容优化的收益能否延续到在线检索，并用 Jev 核验改写描述中的数值忠实度。作者用人工标签检查部分样例，报告有相当数量的改写被标记为存疑。
+
+- **[XDecideBench: Evaluating Typed Decision Models and Confidence Policies Across Languages](https://arxiv.org/abs/2611.01370)**<br>📅 <strong>2026-11-01 00:11 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Marek Šuppa, Jaroslav Kopčan
+  - XDecideBench 跨语言、跨基准比较类型化决策和置信度策略。模型排名会随语言与任务明显变化。在英语数据上选定的阈值也难以在多个迁移设置中维持目标错误率。
+
+- **[Every Clause Counts: Instruction-Following Reranking by Multiplying Small, Answerable Questions](https://arxiv.org/abs/2611.03179)**<br>📅 <strong>2026-11-02 14:15 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · S. M. Mahbub Uddin Ahmed, Abdullah Al Musaddiq
+  - 该重排方法将指令拆成独立子句，再合并逐项判断的概率。论文评估指令敏感性和排序质量，发现部分效果取决于评测使用原始分数还是由其产生的排序。
+
+- **[Zuse: A Decision Model for European Languages](https://arxiv.org/abs/2611.06238)**<br>📅 <strong>2026-11-04 09:45 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Umair Mehmood Imam
+  - Zuse 是面向欧洲语言的决策模型。作者与托管 Jev 和 Kev 比较，并调查多源数据整合中标签体系冲突等问题。评测同时衡量目标类别与更宽泛基准上的表现。
+
+- **[Probabilistic Relevance Decisions for Semantic Retrieval](https://arxiv.org/abs/2611.08014)**<br>📅 <strong>2026-11-05 13:36 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Bahadır Tatar, Cevat Şener
+  - 作者用概率相关性判断补充稠密搜索，并比较多种候选深度。实验衡量排序质量与服务延迟。由于运行环境差异及分析的探索性质，更广泛的校准和效率结论仍有限。
+
+- **[Evaluating Jev on Arabic: Comparing Decision Models and LLMs Across Arabic Tasks and Dialects](https://arxiv.org/abs/2611.10802)**<br>📅 <strong>2026-11-07 15:30 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Hossam Elsafty, Tobias Deußer, Lorenz Sparrenberg, Rajkumar Ramamurthy, Rafet Sifa
+  - 作者在阿拉伯语任务和方言上比较 Jev、其他决策模型及生成模型。分任务和匹配语言比较揭示总体分数未体现的差异。部分方言对比仍缺乏确定结果，难以给出普适模型排名。
+
+- **[Beyond Ranking: Are Decision Models Calibrated Relevance Scorers?](https://arxiv.org/abs/2611.11480)**<br>📅 <strong>2026-11-08 16:22 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Shengyao Zhuang, Xueguang Ma, Matthias Petri, Jimmy Lin
+  - 论文将决策模型同时作为相关性概率估计器和重排器评估。作者与生成模型和交叉编码器比较区分能力与 Brier 分数，再用校准后的概率为每个查询选择截断位置。结论适用于受测检索集。
+
+- **[PolyRoute: A Twelve-Language and Code-Mixed Benchmark for Typed-Decision Routing, with Baselines and a Leaderboard](https://arxiv.org/abs/2611.13843)**<br>📅 <strong>2026-11-10 10:04 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mohammed Nayeem Khan, Sarun Kumar K S
+  - PolyRoute 评估 12 种语言及混合语言输入上的类型化路由，比较多语和源自英语的决策模型，并包含留出语言。所有文本与标签均为生成数据，对较小模型差异的统计分辨力有限。
+
+- **[Is Jev a Good Multilingual Judge?](https://arxiv.org/abs/2611.14861)**<br>📅 <strong>2026-11-11 00:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Wei Liu, Yi Fan, Xiyan Fu
+  - 论文按语言和任务评估 Jev 作为评判模型的表现，同时分析一致性与选项概率。作者报告部分低资源语言上的效果较弱，并检验概率是否能辅助筛选需要进一步复核的多语判断。
+
+- **[Decision Models as L2 Rerankers for Content-Based Recommendation: A Pre-Registered Evaluation](https://www.mdpi.com/2078-2489/17/11/1141)**<br>📅 <strong>2026-11-12</strong> · Information · <strong>Tier B</strong> · Purva Bangad, Harikrishnan Girikumar
+  - 该预注册评测用托管 Jev 对商品进行第二阶段重排，在 Amazon ESCI 和 Wayfair WANDS 上比较检索候选及标注更完整的列表。Jev 优于嵌入排序，但在受测设置中较强的已训练交叉编码器抵消了大部分优势。
+
+- **[CURATOR: Scalable Fine-grained Evidence Selection for Retrieval-Augmented Generation using Decision Models](https://arxiv.org/abs/2611.16366)**<br>📅 <strong>2026-11-12 06:29 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Shib Dasgupta, Bandish Parikh, Rashmi Gangadharaiah
+  - CURATOR 用决策模型完成检索增强生成中的细粒度证据选择。作者检验候选数增加时的区分能力，并跨领域衡量下游回答。生成器上下文预算较小时，报告中的收益尤其明显。
+
+- **[Do We Still Need Fine-Tuned Classifiers? Swapping Typed Decision Models into 24 ACL-Venue Papers](https://arxiv.org/abs/2611.20191)**<br>📅 <strong>2026-11-15 18:44 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Marek Šuppa, Jaroslav Kopčan
+  - TDM-Gauntlet 沿用 24 篇 NLP 论文的数据划分、标签和指标，比较 Jev 等类型化决策模型与任务微调分类器。零样本 Jev 在 46 个测试集中的 12 个达到原模型水平。提示优化能缩小部分差距，微调往往仍更强。
+
+- **[Nano-jev: Calibrated Cross-Encoder Micro-Decisions for Retrieval-Augmented Generation with Confidence Cascading](https://www.icck.org/article/abs/tis.2026.197904)**<br>📅 <strong>2026-11-16</strong> · ICCK Transactions on Intelligent Systematics · <strong>Tier A</strong> · Subham Divakar, Rojalina Priyadarshini
+  - Nano-jev 用小型交叉编码器对相关性、证据充分性和回答依据作类型化判断。作者与专用检查器比较，并测试置信度级联。迁移到未见数据时，准确率和校准质量均下降。
+
+- **[RagHarnessDebugger: Jev-Guided Agentic RAG in Contract Inference Repair Auditing](https://arxiv.org/abs/2611.22991)**<br>📅 <strong>2026-11-17 16:07 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Moriya Dechtiar, Daniel Martin Katz, Michael J. Bommarito II, Hongming Wang, Sylvain Jaume
+  - RagHarnessDebugger 记录 Jev 引导的合同推断流程中的修复决策。审计检查轨迹是否完整、关联是否正确，并观察修复遗漏如何影响 ContractNLI 回答。研究将决策可见性与最终准确率一并评估。
+
+
 <a id="multimodal-perception"></a>
 
 ## 👁 多模态学习与感知
@@ -350,6 +537,42 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 - **[MJev-Spatial: System One Spatial Intelligence via Native Attention Matching](https://arxiv.org/abs/2610.22276)**<br>📅 <strong>2026-10-15 17:37 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Luozheng Qin, Yuhan Zhu, Changhai Zhou, Qian Qiao, Jun Gao, Yuhua Zhou, Harry Zhang, Xiangyu Zeng, Yuxuan Liu, Kaijie Chen, Andrew Chen, Pony Ma
   - MJev-Spatial 利用原生注意力投影评分空间选项、数值区间和图像区域，不增加参数。模型使用 1,230 万条转换后的空间问答训练，在十二个基准中的七个领先，并报告相对自回归基线更快的推理。数值与点位预测采用由粗到细的决策，因此一次预测可能包含多个决策阶段。
+
+- **[UniJev: Separating Accuracy from Calibration in Trimodal System One Decision Models](https://arxiv.org/abs/2610.25784)**<br>📅 <strong>2026-10-19 04:49 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jianing Wang, Youwen Jian, Derong Wang, Jinyang Yu, Qingyi Si, Chuanyu Qin, Yanghua Xiao, Hongcheng Guo
+  - UniJev 在文本、图像和视频上训练类型化决策，并比较各训练阶段对准确率与校准的影响。置信度目标使区间内的评分贴近实测准确率。作者报告 2B 与 9B 模型的视觉校准改善，准确率基本保持。
+
+- **[EditJev: System One Routing for Image Editing Models](https://arxiv.org/abs/2610.32635)**<br>📅 <strong>2026-10-23 13:46 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Zhile Guan, Xu Jiang, Yule Duan, Gongbo Zhang, Shuyu Wang, Xiao Chen, Jian Zhang
+  - EditJev 根据输入图像和编辑指令选择编辑器，综合预测偏好与编辑器运行速度。两项评测中，平均质量略优于最强固定编辑器，在作者采用的配置下，端到端估计延迟也有所降低。
+
+- **[Seeing the Options: What Should a Visual Candidate See?](https://arxiv.org/abs/2610.33702)**<br>📅 <strong>2026-10-24 14:32 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Fengxin Li
+  - 作者比较单次前向视觉决策的候选编码方式，包括由状态条件化的候选表示。报告中，该方式对顺序稳定，但相较联合编码损失部分排序性能。拒判阈值也可能随设置漂移。
+
+- **[Beyond CLIP: Calibrated (Few-Shot) Defect Detection With System One Decision Models](https://arxiv.org/abs/2610.41199)**<br>📅 <strong>2026-10-30 03:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Fadel M. Megahed, Ying-Ju Chen
+  - 作者在视觉缺陷检测中评估 System One 模型与 CLIP，考察少样本标注与校准。报告中，多数受测配置的 Brier 分数因校准而改善。实验记录了不同模型和应用组合的表现。
+
+- **[VerdictAD: Few-Shot Anomaly Detection via Decision-Guided Refinement](https://arxiv.org/abs/2611.02654)**<br>📅 <strong>2026-11-02 07:15 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Shangquan Sun, Wenjun Luo, Yuanzhi Wang, Ruiqi Li, Ruoyu Chen, Jiachen Liu, Shijian Lu
+  - VerdictAD 用决策模型在少量标签下细化视觉异常检测器的分数。作者在三组工业质检数据上测试，并比较多种检测骨干。受测设置中报告了稳定收益。
+
+- **[ReListen: Training-Free Evidence Localization in Hour-Long Audio with Frozen Audio Language Models](https://arxiv.org/abs/2611.04480)**<br>📅 <strong>2026-11-03 08:12 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ming-Hao Hsu, Shujie Liu, Yuxuan Hu, Yuxiang Wang, Yingda Shen, Jinyu Li, Zhizheng Wu
+  - ReListen 用冻结音频模型对候选片段作有界判断，在长录音中寻找证据。它与转录式方案比较证据定位、作答延迟和内存占用，展示无需追加训练的音频决策应用。
+
+- **[AffordJEV: Affordance Grounding by Confirming Candidate Regions](https://arxiv.org/abs/2611.07896)**<br>📅 <strong>2026-11-05 12:17 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jincheng Li, Yutian Zhang, Jianyu Zhang, Xinshun Wang, Mengyuan Liu
+  - AffordJEV 用 System One 模型确认候选图像区域中哪些支持给定动作。作者在可供性定位中比较决策与思维链方法，测试域内表现以及对其他图像集合的迁移。
+
+- **[Omni-JEV: Text and Dual-Stream Speech Decisions](https://arxiv.org/abs/2611.13777)**<br>📅 <strong>2026-11-10 09:15 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Shengzhou Kong
+  - Omni-JEV 将文本与两路语音映射为语音界面的轮次决策。作者比较不同方案的分类准确率和概率质量。受测交互协议的候选动作包括继续、打断和恢复。
+
+- **[JEV-VAD: Efficient Semantic Endpointing via Task-First Conditioning and Decoder-Prefix Pruning](https://arxiv.org/abs/2611.15362)**<br>📅 <strong>2026-11-11 11:42 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jintao Liang, Nan Li, Longbiao Wang, Tubin Huang, Min Xu
+  - JEV-VAD 用高效决策读出检测说话者何时结束一句话。论文比较端点检测任务中的解码深度和条件设置，并测试跨语言迁移。较浅的计算可降低资源占用，同时保留有用的辨别信号。
+
+- **[FaceJev: Direct Visual Decisions for Face Forgery Detection](https://arxiv.org/abs/2611.21604)**<br>📅 <strong>2026-11-16 18:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Siran Peng, Tianshuo Zhang, Yibo Xue, Ajian Liu, Haoyuan Zhang, Weisong Zhao, Shuhuan Chen, Xiangyu Zhu, Zhen Lei
+  - FaceJev 对潜在人脸伪造进行直接视觉判断，并给出图像区域的结构化决策。作者比较留出操纵类型上的效果并消融训练组件。评测衡量基准图像分布中的检测表现。
+
+- **[Deciding Without Pointing: A Case Study of Whether a Decision Model Localizes the Anomalies It Detects](https://arxiv.org/abs/2611.21995)**<br>📅 <strong>2026-11-16 23:27 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Hsiang-Hung Lee
+  - 作者检验决策模型能否定位自己正确识别的视觉异常。内置决策分数并不必然对应可用的空间图。论文将几种定位信号与专门的少样本定位器比较。
+
+- **[Jeveration: System One Models Now Generate](https://arxiv.org/abs/2611.24738)**<br>📅 <strong>2026-11-18 16:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yuhe Liu, Qi Li, Shihua Zhang, Xinchao Wang
+  - Jeveration 扩展面向 System One 的架构，让同一检查点支持图像生成、视觉理解和密集预测。作者在指定任务上比较单次前向方案与既有统一系统的质量、速度和预测表现。
 
 
 <a id="embodied-ai-reinforcement-learning"></a>
@@ -397,6 +620,39 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
   - ProAgent 将 Jev 风格干预时机模型 StreamingJev 与负责交流或调用物理设备的响应模型结合。系统利用从视频生成的监督数据，在明确目标或持续角色要求下识别新出现的需求，并通过真实机器人实验测试物理响应。本文作为主动式具身决策架构收录，所报告的时机判断与误触发改善仍取决于已评估目标、骨干比较和机器人设置。
 - **[The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock](https://arxiv.org/abs/2610.20665)**<br>📅 <strong>2026-10-14 09:35 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ningxin Pan, Hanyu Li, Yeqing Shen, Ning Ding, Yehui Tang, Wentao Zhang
   - RealtimeBench 在推理期间持续运行的环境中评测 180 项任务。较慢模型在暂停游戏时领先 Jev，实时运行时则失去优势；离线教师生成的指令将 Jev 平均进度分数从 13.51 提升至 24.19。结果适用于延迟敏感的游戏环境，不代表对推理模型的普遍优势。
+
+- **[CovNav: Conformal Prediction-Guided Adaptive Inference for Object Goal Navigation](https://arxiv.org/abs/2610.27677)**<br>📅 <strong>2026-10-20 05:47 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Pengying Wu, Zhejia Wen, Kang Ding, Kangjie Zhou, Chunxuan Jiao, Wei Pan, Xiangli Nie, Chang Liu
+  - CovNav 在目标物体导航中测试自适应推断，由保形规则根据快速决策的不确定性触发慢速推理。作者在两个 HM3D 版本上报告小幅成功率提升，慢速推理仅偶尔触发，并补充了实体移动机器人实验。
+
+- **[RoboJev: An Open Vision-Language Judge for Robot Success Detection](https://arxiv.org/abs/2610.33718)**<br>📅 <strong>2026-10-24 15:06 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Josef Liyanjun Chen
+  - RoboJev 用视觉语言决策模型判断机器人是否完成目标。作者开放评测材料并比较托管视觉模型。由于托管基线接收的帧更少，该比较受输入预算影响。
+
+- **[JevVLA: Jev-Inspired Energy-Based Adaptation for Vision-Language-Action Policies](https://arxiv.org/abs/2610.35010)**<br>📅 <strong>2026-10-26 08:21 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Wei Wang, Wenqiao Zhang, Zheqi Lv, Zheng Dong, Yingjie Niu, Jiaqi Zhu, Jun Xiao, Chao Li, Yueting Zhuang
+  - JevVLA 将受 Jev 启发的能量式决策层用于视觉语言动作策略，覆盖离散候选动作选择与连续引导。作者在多个机器人操作基准上比较策略表现，提升幅度随环境而异。
+
+- **[Learning to Formalize: Bridging Open-Ended Workloads and Fast Decision Models](https://arxiv.org/abs/2610.36595)**<br>📅 <strong>2026-10-27 03:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Chengxuan Pei, Ziyao Wang, Teng Mei, Zhe Li
+  - 学习得到的形式化模块把开放式任务改写为快速决策模型可回答的问题。研究在使用特权状态的机器人任务中测试这一分工。报告的收益依赖该模块，评测划分上的任务成功仍有限。
+
+- **[RLiD: Reinforcement Learning in the Decision Plane for Language Agents and LLMs](https://arxiv.org/abs/2611.02455)**<br>📅 <strong>2026-11-02 03:17 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ziyi Chen, Yan Zhang, Jianhui Wei, Jianing Yin, Daoan Zhang
+  - RLiD 在动作层对智能体决策模型做强化学习，再将策略迁移给生成模型。ALFWorld 实验比较了与词元级强化学习的成功率和训练开销，还报告使用编译记忆版本的结果。
+
+- **[Jev with Foresight: Safe Language-Guided Autonomous Driving via a Language World Model](https://arxiv.org/abs/2611.05448)**<br>📅 <strong>2026-11-03 17:36 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yansong Qu, Jiancong Chen, Samuel Labi
+  - Jev-AD 将乘客指令的类型化理解与语言世界模型预测结合，由 Jev 比较候选驾驶动作及其预测后果。作者报告模拟和交通记录回放的碰撞更少，实验范围限于这些环境。
+
+- **[The Blindfolded Controller: Decision Model-Guided Training for Reinforcement Learning](https://arxiv.org/abs/2611.07934)**<br>📅 <strong>2026-11-05 12:38 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Muhammad Ibrahim Khan, Aniket Dixit, Faizan Ahmed, James Brusey
+  - 该强化学习研究用决策模型引导训练，训练后的策略可独立行动。论文在七个任务上比较学习所得策略、常规强化学习与单独决策模型，收益因任务而异。
+
+- **[LEASH: Stay Safe in Agentic Robotics](https://arxiv.org/abs/2611.14115)**<br>📅 <strong>2026-11-10 14:06 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Qinfeng Zhu, Weiguang Zhao, Ke Sun, Xihao Guo, Yunxi Jiang, Rui Zhang, Lei Fan, Kaizhu Huang
+  - LEASH 用多道决策门控依据共用策略检查可能不安全的机器人计划和动作。作者在模拟与实体机器人上测试多种骨干，报告不良结果减少，并同时测量任务完成率与开销。
+
+- **[SuperGlance: Driving at a Glance with a Vision-Language Model](https://arxiv.org/abs/2611.19138)**<br>📅 <strong>2026-11-14 03:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jieyuan Pei, Xin Yan, Mingwei Xu, Haiyi Zhang, Siyu Zou, Zhangyi Hu, Zhuoxuan Li, Yuguang Yang, Rongjunchen Zhang, Cheng Chi, Hui Xiong, Yan Wang
+  - SuperGlance 评估用于驾驶的快速视觉语言决策架构，涵盖开环预测以及控制推断延迟的闭环模拟。驾驶表现取决于计入规划器的延迟和模拟环境中的受测条件。
+
+- **[Program Distillation: Transferring LLM Capability from System 2 to System 0](https://arxiv.org/abs/2611.19461)**<br>📅 <strong>2026-11-14 15:33 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Pujun Zheng, Wanying Ren, Guoxiu He
+  - Program Distillation 将慢速推理大模型的策略传给可执行学生程序。PDBench 在有界控制任务上对比程序、强化学习和 Jev 式决策模型。论文同时报告表现与部署计算情况，包括仅用 CPU 的运行。
+
+- **[AgenticJevNav: Agentic Object Search and Navigation via Event-Driven Verification](https://arxiv.org/abs/2611.19912)**<br>📅 <strong>2026-11-15 09:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Shuning Zhang, Shuli Zhang, Yunheng Wang, Wei Lu, Jiaxi Zhang, Yihang Kang, Tao Wang, Xiangyu Chen, Yixiao Feng, Kai Sheng, Renjing Xu
+  - AgenticJevNav 在搜寻物体时用决策模型验证事件。作者在模拟和实体四足机器人中评估任务完成情况，并分析视觉定位、接近规划与运行时间相关的失败。实体试验共 30 次。
 
 
 <a id="agents-workflow-automation"></a>
@@ -478,6 +734,66 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 
 - **[JevAgentHarness: Benchmarking, Deploying and Training Decision Models That Share Control with LLMs](https://arxiv.org/abs/2610.21412)**<br>📅 <strong>2026-10-15 07:27 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Kunlun Zhu, Tao Feng, Xu Han, Heng Wang, Ling Yang, Xiangru Tang, Jiaxuan You, Heng Ji
   - JevAgentHarness 在智能体轨迹上拟合委派阈值，不确定时交由 LLM 决策。AgentDecisionBench 区分单题准确率与闭环任务成功率，AgentDecision-4B 使用 Jev 标签学习犯错后到达的状态。成本和速度收益依赖任务相似性及阈值拟合，单次判断准确率不能可靠预测智能体成功率。
+
+- **[NIOCIS: Typed-Decision Next-Hop Routing with Node-Conditioned Option Spaces for Tool-Use Agents](https://arxiv.org/abs/2610.25985)**<br>📅 <strong>2026-10-19 08:10 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jin Han, Mingfeng Xin, Feng Liang, Jingtao Yu
+  - NIOCIS 按执行图的当前节点缩小工具选择范围。消融实验将参考动作一致性的提升归于候选菜单收缩。当升级模型是较弱的零样本替代模型时，置信度级联反而降低一致性。
+
+- **[Decision4Rec: A Jev-Inspired Framework of Decision Models on Knowledge and Active Graphs for Multi-Agent Recommender Systems](https://arxiv.org/abs/2610.26035)**<br>📅 <strong>2026-10-19 08:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Marco Polignano, Het Darshan Mehta, Pasquale Lops, Ernesto William De Luca, Giovanni Semeraro
+  - Decision4Rec 通过知识图和活动图生成推荐候选，再由 Jev 式模型打分。作者比较托管 Jev 与专门训练的 0.8B 模型，并分析收益来源。小模型在报告的多种设置下具有竞争力。
+
+- **[SOMA: Continuous Monitoring and Intervention for System Two Reasoning with System One Models](https://arxiv.org/abs/2610.26793)**<br>📅 <strong>2026-10-19 17:40 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ruizhi Qian, Lei Shi, Tianyu Hu, Bo Yan, Song Wang, Yu Tian
+  - SOMA 监控尚未完成的推理，用快速 System One 模型判断慢模型何时应停止或重新考虑。实验中，共用控制器缩短了过度推理任务的轨迹，并提高了不可回答问题上的拒答率。
+
+- **[Measure Before You Train: Typed Decision Models vs. a Classical Baseline vs. a Generative LLM for Routing a Personal Multilingual Inbox](https://arxiv.org/abs/2610.32955)**<br>📅 <strong>2026-10-23 17:49 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Federico Lucca
+  - 该多语言收件箱研究比较托管决策模型、经典分类器和生成模型，并显式计算漏处理邮件的成本。结果随阈值和错误成本变化。后续修订纠正了源自不完整数据的阈值估计。
+
+- **[Predict the Reward, Not the World: World Reward Models for ML Agents](https://arxiv.org/abs/2610.38439)**<br>📅 <strong>2026-10-28 08:20 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yuxiao Lee, Zherui Yang, Fan Liu, Hao Liu
+  - 作者用已执行样例的结果训练决策式奖励模型，对候选机器学习程序进行比较。研究在留出任务对上评测，并将模型接入多个研究智能体。报告显示任务完成更快，平均成绩相近或更高。
+
+- **[Think Before You Act: Decision Gate for LLM Agents](https://arxiv.org/abs/2610.38620)**<br>📅 <strong>2026-10-28 10:40 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Iftach Shoham, Yuval David, Offer Akrabi, Erez Bilgory, Ido Levy, Sami Marreed, Sergey Zeltyn, Segev Shlomov
+  - 论文为调用工具的智能体加入类型化决策门控和可执行验证，比较多种模型与基准组合上的可靠性。相较航空任务，在电信和函数调用评测上的收益更一致。
+
+- **[Operon-S1: a fast decision controller for long-horizon biomedical agents](https://arxiv.org/abs/2610.41350)**<br>📅 <strong>2026-10-30 07:07 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Genoria AI Team, Yuejie Hou, Yueyuxiao Yang, Weiting Tang, Meng Yang
+  - Operon-S1 研究用于长程科学智能体的快速类型化控制器。作者将控制器判断作为可独立衡量的工作流环节，评估它在生物医学研究任务的有界决策中如何引导较慢模型。
+
+- **[Trail: Accurate Local Smart Home Control Using Decision Models](https://arxiv.org/abs/2611.00610)**<br>📅 <strong>2026-10-31 04:13 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Maleeha Masood, Deepak Vasisht, Indranil Gupta
+  - Trail 用层级化决策在本地智能家居注册表中依次确定房间、设备与操作。研究与微调生成基线比较，包括稳健性和多轮请求。指令依赖前序对话时，记忆模块的帮助较明显。
+
+- **[SLATE: A Large-Scale Benchmark for Long-Horizon API Selection in E-commerce Tool Use](https://arxiv.org/abs/2611.03982)**<br>📅 <strong>2026-11-02 21:22 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Rongzhe Wei, Ge Shi, Min Cheng, Sarthak Ghosh, Vaibhav Gorde, Leman Akoglu, Pan Li, Na Zhang
+  - SLATE 在模拟环境中评估长程电商 API 选择，比较决策模型及其骨干，并记录端到端任务完成率。即使最强受测系统的整体完成率也较低。
+
+- **[TandemBench: Benchmarking Decision Models for Multi-Agent Collaboration](https://arxiv.org/abs/2611.05827)**<br>📅 <strong>2026-11-04 02:08 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Baohang Li, Xiaocheng Feng, Bing Qin
+  - TandemBench 在多智能体协同中评估决策模型，并单独检查模型能否判断候选中包含好的团队方案。作者发现，总体选择准确率可能掩盖对最优方案是否可用的系统性错误。
+
+- **[RouteAlign: Aligning Task Requirements with Model Profiles for LLM Service Selection](https://arxiv.org/abs/2611.08162)**<br>📅 <strong>2026-11-05 15:21 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jihao Zhao, Ding Chen, Yanfang Chen, Bo Tang, Feiyu Xiong, Junchi Yan, Zhiyu Li
+  - RouteAlign 将类型化任务要求与模型能力档案匹配，以选择大模型服务。作者评估路由质量、成本以及服务清单变化下的复用能力。消融表明本地实测表现对拟合打分器很重要。
+
+- **[DM-Call: Decision-Model-Guided Function Calling with Cumulative Verification Feedback](https://arxiv.org/abs/2611.10977)**<br>📅 <strong>2026-11-07 21:29 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Minhyeong Yu, Wonduk Seo, Seunghyun Lee
+  - DM-Call 在无需执行函数的条件下，用类型化决策反馈检查和修改调用提案。反馈结合概率和正确性标签。在受测函数调用基准中，追加模型调用后，该方法的表现优于直接生成。
+
+- **[LoMASA: A Local Multi-Agent Sales Assistant with Confidence-Gated Delegation for B2B Quoting](https://arxiv.org/abs/2611.11234)**<br>📅 <strong>2026-11-08 08:42 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yu Liu, Xingbang Du
+  - LoMASA 用本地决策模型根据置信度分派企业报价任务。研究同时衡量校准、低利润交易比例和升级复核负担。收益取决于模型以及主管复核成本。
+
+- **[Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents](https://arxiv.org/abs/2611.17167)**<br>📅 <strong>2026-11-12 17:42 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Haochen Liu, Qianhao Zhu, Zixuan Wang, Dingming Li, Tongbo Chen, Peng Qiu, Yingqi Qu, Weiming Lu, Jun Xiao, Yongliang Shen
+  - 作者比较决策模型作为长程智能体行动者、评判者和教师的表现。直接选择动作能力较弱时，事后反馈仍可能有价值。论文在 ALFWorld 和 WebShop 上测量反馈对强化学习智能体的帮助。
+
+- **[System 1 agents: a method for local, reliable and fast agentic AI](https://arxiv.org/abs/2611.21053)**<br>📅 <strong>2026-11-16 13:05 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Eleftherios Tzanis, Michail E. Klontzas
+  - System 1 Agents 用类型化决策和受约束的参数接口解析本地工具调用。作者与本地生成智能体比较意图选择、已明确参数的填充和编造值。结果适用于论文中的工具及指令集合。
+
+- **[Edit Recommendation: Can LLMs Anticipate Edit Requests from Users, and When?](https://arxiv.org/abs/2611.21155)**<br>📅 <strong>2026-11-16 14:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Daisuke Kikuta
+  - 论文评估模型能否预测用户将提出编辑请求，并判断何时值得显示建议。学习得到的决策门控提高展示建议的准确率，覆盖量由所选阈值控制。
+
+- **[Train After You Measure: a Pre-Registered Learning Curve for Fine-Tuning Typed Decision Models on One User's Labels](https://arxiv.org/abs/2611.21393)**<br>📅 <strong>2026-11-16 16:49 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Federico Lucca
+  - 该预注册研究检验增加个人邮件标签能否改善类型化决策分类器。学习曲线比较不同适配种子，并记录稀有类别的局限。少数类检出的改善在重复运行间不稳定。
+
+- **[Jetriever: Shifting Agent Memory Retrieval from Similarity to Utility](https://arxiv.org/abs/2611.21478)**<br>📅 <strong>2026-11-16 17:50 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ruizhe Li, Licheng Zhang, Mingxuan Du, Zhendong Mao
+  - Jetriever 用 Jev 概率按对查询的预期效用排序智能体记忆。研究在两个记忆基准上测试全候选池效用打分，并同时报告回答表现收益和每次检索成本。
+
+- **[Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness](https://arxiv.org/abs/2611.22432)**<br>📅 <strong>2026-11-17 09:06 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Siqi Lai, Haitao Li, Hao Liu
+  - 该研究用慢速模型改进执行快速类型化决策的运行框架，评估任务表现、服务延迟及开发干预成本。作者报告随着框架多轮更新，需要的慢模型干预逐步减少。
+
+- **[Can Decision Models Replace LLMs in Real-World Contact Center Classification and Judging Tasks?](https://arxiv.org/abs/2611.22949)**<br>📅 <strong>2026-11-17 15:39 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Md Tahmid Rahman Laskar, Xue-Yong Fu, Shashi Bhushan TN
+  - 作者在呼叫中心分类与评判任务中比较决策模型和生成模型，除总体准确率外还分析成本、拒判和选项位置效应。在受测工作流中，较小决策模型在部分评判任务上的降幅尤其明显。
 
 ### 无日期动态报告
 
@@ -629,6 +945,117 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 - **[From Detection to Decision: Calibration and Deferral for Prompt-Injection Detection](https://arxiv.org/abs/2610.20907)**<br>📅 <strong>2026-10-14 20:34 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Qianlong Lan, Anuj Kaul, Vinothini Pandurangan, Indranil Sanyal
   - 该提示注入审计在 47,611 条留出输入上比较 Jev、Prompt Guard 分类器与 LLM 裁判。Jev 原生概率并不稳定优于事后校准；在测试的门控与复核系统中，1% 漏报目标需要超过 91.8% 的升级处理比例。研究将分布偏移下的概率校准与实际复核成本联系起来。
 
+- **[A Cue's Hidden Price: Auditing Seller Influence on AI Shoppers](https://arxiv.org/abs/2610.25843)**<br>📅 <strong>2026-10-19 05:57 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Felix Buecheler, Gerardo Berbeglia, Mingyu Guo
+  - 该审计用受控材料衡量卖家控制的商品展示如何影响购物智能体推荐，并在生成模型与托管 Jev 之间比较线索的影响。Jev 对许多受测线索较不敏感，但仍会受到较强社会认同线索的影响。
+
+- **[Claim Laundering: When Agent Decision Models Trust Records Over Reality](https://arxiv.org/abs/2610.25947)**<br>📅 <strong>2026-10-19 07:40 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Tina Khezresmaeilzadeh, Seyedarmin Azizi, Erfan Baghaei Potraghloo, Mehdi Kamal, Massoud Pedram
+  - 作者评估日志中的动作记录与实际观察结果冲突时，决策模型会如何选择。轻量证据检查提高了多个智能体环境在模拟静默失败下的任务完成率。离线校准的阈值迁移到在线轨迹时可能失效。
+
+- **[Typed Decision Models under Prevalence Shift and Label Budgets: Decision Training, Calibration, and Implicit Priors](https://arxiv.org/abs/2610.26325)**<br>📅 <strong>2026-10-19 13:01 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Abdul Rahman Iqbal, Muhammad Fawad Nasim, Amir Saleem
+  - 研究检验决策专用训练相对基础模型的收益，以及类别占比变化时阈值的表现。实验比较 Jev 等决策模型、再校准和不同标注预算的基线。合适的选择取决于任务及标注量。
+
+- **[When Multiple Choices Are Correct: Asymmetric Probability Allocation in Jev and Other Decision Models](https://arxiv.org/abs/2610.29217)**<br>📅 <strong>2026-10-21 05:18 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Rushab Munot
+  - 该评测检验多个选项均正确时 Jev 与其他模型如何分配概率。即使候选文本完全相同，模型也可能赋予截然不同的概率。这种不对称性会影响使用阈值提取多个正确答案的流程。
+
+- **[Commit or Abstain? System One Decision Models, LLMs, and Missing Legal Authority](https://arxiv.org/abs/2610.29961)**<br>📅 <strong>2026-10-21 16:17 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · M. Mikail Demir
+  - 研究比较 System One 决策与生成模型在可能缺少正确法律依据的案件中的表现。常规准确率、拒答和错误引证给出的结论各异。一项以跨模型一致性为条件的策略降低了错误引证。
+
+- **[VX-One: Typed, Calibrated Decision Heads for Real-Time Perimeter Triage](https://arxiv.org/abs/2610.30090)**<br>📅 <strong>2026-10-21 17:39 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Juan S. Santillana
+  - VX-One 评估用于防御性网络流量初筛的紧凑类型化决策头。作者比较分类、校准及传统检测器，并检验效果随时间的变化。即使排序仍有一定价值，概率校准也可能在时间漂移下显著变差。
+
+- **[ReDence: A Hybrid Agentic and Decision-Model Framework for Rapid, Evidence-Grounded Detection of Modern Social Engineering Scams](https://arxiv.org/abs/2610.30963)**<br>📅 <strong>2026-10-22 09:08 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jaishnoor Kaur, Josef Horáček, Ian Waskom, Sayak Saha Roy
+  - ReDence 将决策模型和调查型智能体结合，用于防御性的诈骗识别。系统在网站工作流上测试分类与延迟，并生成记录支持性及反向证据的报告。论文将其作为辅助分析人员复核的方法评估。
+
+- **[Two Uncertainties Are Not One: Disagreement versus Decision-Risk in Cheap Structured Content Moderation](https://arxiv.org/abs/2610.33258)**<br>📅 <strong>2026-10-23 20:08 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Karan Yadav
+  - 该内容审核研究区分标注者分歧和模型作出错误二元决策的风险。作者比较置信度信号，发现针对性子问题有助于部分模型捕捉分歧。效果取决于任务拆分方式和数据分布。
+
+- **[SHIFT-JEV: Certified Abstention and Gain-Gated Continual Adaptation for LLM-Based Decision Models under Distribution Shift](https://arxiv.org/abs/2610.34329)**<br>📅 <strong>2026-10-25 14:38 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Muhammad Atif Saeed, Azka Atiq, Adarsh Kumar, Akhtar Jamil, Uzair Iqbal, Roland Aydin
+  - SHIFT-JEV 将选择性预测与分布变化时的适应机制结合。论文测试类别先验变化检测，并与持续学习基线比较门控适应。在较小骨干上的收益未稳定迁移到论文所用的较大骨干。
+
+- **[TrustJev: Separating Policy Authority from Untrusted Evidence in LLM-Based Decisions](https://arxiv.org/abs/2610.34826)**<br>📅 <strong>2026-10-26 04:17 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Zhiwei Xu, Xuyang Liu, Xiaolin Peng, Weixian Deng, Jiabao Gao, Zirui Li, Tian Qiu, Boya Zhou, Wei Jiao, Hai Wan, Xibin Zhao
+  - TrustJev 研究类型化决策模型如何区分政策权限与不可信证据。报告中，该方法在授权基准上提高可靠性，在其他任务上有小幅收益，并在测量条件下保持接近的服务延迟中位数。
+
+- **[Understanding Jev-Style System One Models: Does Structure Reduce Selection Bias?](https://arxiv.org/abs/2610.35826)**<br>📅 <strong>2026-10-26 17:48 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mingyang Song, Mao Zheng, Zhiyuan Ma, Xinpeng Zhou
+  - 作者检验结构化输出能否使 Jev 式决策抵抗语义等价的呈现变动。相同输入重复调用可能稳定，等价变体仍可改变选择。投票收益有限，受测条件下全票一致的结果也可能出错。
+
+- **[Confidence Is Not a Promise: A Reference Audit of Typed Decision Models](https://arxiv.org/abs/2610.36311)**<br>📅 <strong>2026-10-26 21:33 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Pedro Carvalho Brom
+  - 托管 Jev 与 Laya 的对比区分置信度校准、选择性准确率和解释忠实度。在报告的评测中，仅用点估计选阈值经常达不到预定准确率。以置信下界进行验证有助于更稳妥地确定何时拒判。
+
+- **[Decision Models as Judges for Hallucination Detection](https://arxiv.org/abs/2610.37229)**<br>📅 <strong>2026-10-27 13:38 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Haozheng Liu, Zhaoqian Xue, Zhongyin Wang, Junting Mu, Zihui Ma, Shuya Feng, Lingyao Li
+  - 论文在多类幻觉上比较决策模型与生成式评判模型。以置信度触发的级联在部分类型上超过最强单一决策模型，报告成本低于前沿评判模型。准确率及置信度区分能力随类别变化。
+
+- **[Cross-Primitive Consistency in Jev](https://arxiv.org/abs/2610.38623)**<br>📅 <strong>2026-10-28 10:44 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Xu Liu, Guikun Chen, Kanzhi Wu, Wenguan Wang
+  - 作者评估同一判断表示为不同决策原语时，Jev 的答案是否相互一致。论文提出评测集和一致性方法，并在域内及迁移设置下同时衡量答案一致性与任务准确率。
+
+- **[FlipJev: Fast Black-Box Red Teaming Finds Universal Adversarial Suffixes for Typed Decision Models](https://arxiv.org/abs/2610.38895)**<br>📅 <strong>2026-10-28 20:53 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Xiaogeng Liu, Xinyan Wang, Chaowei Xiao
+  - FlipJev 在对抗性输入下评估类型化决策模型稳健性。研究发现部分失效可跨越原始任务，表明需要更严格的评估。
+
+- **[Lev-3B: A Data Recipe for Compact Probabilistic Log Decision Models](https://arxiv.org/abs/2610.38915)**<br>📅 <strong>2026-10-28 21:06 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Leo Betthauser, Yingqi Liu, Uday Shah, Jishang Wei, Sainyam Galhotra, Liang Gou, Vedant Dharnidharka, Hao Yang
+  - Lev-3B 是用于防御性系统日志分析的紧凑决策模型。论文在熟悉和留出的日志来源上评估异常检测、行为分类和置信度。总体检测表现较强时，留出来源仍可能出现高置信度漏报。
+
+- **[Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In](https://arxiv.org/abs/2610.40588)**<br>📅 <strong>2026-10-29 17:47 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Leonidas Raghav
+  - 研究评估自动监督器能否预判智能体即将偏离既定政策。报告中的预警提前量有限，且常在正常情形触发。结果揭示监督流程中的取舍。
+
+- **[Humanized but Still True? Auditing Facts and Detection in AI-Text Humanizers](https://arxiv.org/abs/2611.00359)**<br>📅 <strong>2026-10-30 20:36 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Ziyuan Wang, Genliang Zhu, Xiaobo Chen
+  - 作者评估将 AI 文本改写得更像人类表达后，事实是否保留及检测器判断是否改变，并比较决策模型评判与其他检测器。部分受控改写使检测性能明显下滑，仅用原文评测可能高估可靠性。
+
+- **[Decision Models as Policy Gates for Coding Agents: Explicit Policy Boundaries Improve Detection and Reduce False Alarms](https://arxiv.org/abs/2611.02155)**<br>📅 <strong>2026-11-01 19:40 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · James P. Beno
+  - 作者将决策模型作为编程智能体的策略门控，比较明确边界和较模糊规则对召回率及不必要干预的影响。使用新场景的后续实验支持明确表达策略边界的价值。
+
+- **[Ranked but Not Stopped: Detecting Prompt-Injection Hijacks from Typed Decision Models' Output Probabilities](https://arxiv.org/abs/2611.02522)**<br>📅 <strong>2026-11-02 04:49 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Junwei Yao, Jianan Liu, Yongxi Zhou, Zike Yang
+  - 该安全审计检验能否借助置信度识别受干扰的类型化决策。即使在设定告警预算下监控漏报，模型分数仍可能保留一定排序信息。部署筛查策略时，这一区别影响对 AUROC 的解读。
+
+- **[Cyber-JEV: Matched Contrastive Fine-Tuning of Language Models for Fast Source-Code Vulnerability Triage](https://arxiv.org/abs/2611.02957)**<br>📅 <strong>2026-11-02 11:24 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Zhuyi Zhao, Shengjie Yuan, Shengyu Wang, Kang Wei, Wang Yang, Wenchao Xu, Fushuo Huo
+  - Cyber-JEV 研究用决策模型安排代码复核优先级，比较存在漏洞与已修复版本的成对排序。实验衡量在复核容量有限的情况下，能否为分析人员安排变更函数的复查顺序。
+
+- **[JevBreak: Your Model, Their Decision](https://arxiv.org/abs/2611.03759)**<br>📅 <strong>2026-11-02 13:05 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Nitin Aravind Birur, Divyanshu Kumar, Sahil Agarwal, Prashanth Harshangi
+  - JevBreak 衡量 Jev 等类型化决策模型在对抗输入下保持预期判断的能力。它报告模型间存在明显差异，并评估置信阈值的局限。结论针对基准中的稳健性。
+
+- **[Presentation Sensitivity in Typed Decision Models for Subjective Text Evaluation](https://arxiv.org/abs/2611.06384)**<br>📅 <strong>2026-11-04 11:48 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Jatin Agrawal, Radhika Mamidi
+  - 该研究比较 Jev、Clef Flash 与 Perplexity Decider 的主观文本评价表现。即使文本不变，受控呈现变化也可能改变分数和选项。论文分别分析与人的一致性、可重复性和对等价呈现的稳健性。
+
+- **[Escalate or Close: How Fast-Tier Models Handle Held-Out Web Attack Families in Two-Tier Triage](https://arxiv.org/abs/2611.08229)**<br>📅 <strong>2026-11-05 16:13 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Maciej Kisielewicz, Michał Kędziora, Ngoc Thanh Nguyen
+  - 该防御性初筛研究比较 Jev 等快速模型在未见网页流量类别上的表现，考察何时交由慢速层以及能否迁移到已知模式之外。相似正常流量和重复调用差异使部署估计更复杂。
+
+- **[Decision Models as Retrieval Gates Against Injection and Pollution](https://arxiv.org/abs/2611.08325)**<br>📅 <strong>2026-11-05 17:19 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mahdi Ghadamyari, Reza Habibi
+  - 论文评估用开放决策模型为网页检索证据加防御门控，比较不同候选预算和证据形式下的过滤质量、回答覆盖率与成本。候选范围过窄时，可能剔除生成器作答所需的信息。
+
+- **[Jev as an LLM Safety Guardrail: An Empirical Study of Input Filtering, Selective Output Review, and Over-Refusal](https://arxiv.org/abs/2611.08845)**<br>📅 <strong>2026-11-06 01:03 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Olivia Cognetti, Bhaskar Krishnamachari
+  - 作者评估 Jev 筛查大模型提示及选择性复核输出的效果，在匹配预算下比较安全结果、正常请求误拒和复核负担。输出阶段在部分配置有帮助，但收益未稳定迁移至留出样例。
+
+- **[Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision Model](https://arxiv.org/abs/2611.09803)**<br>📅 <strong>2026-11-06 17:54 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mohammed Nayeem Khan, Logesh L
+  - 作者检验 Maya a1 对候选换序的反应，并比较多顺序汇总和减弱敏感性的架构设计。报告同时量化额外计算、准确率与翻转率。模型生成标签和经过教师筛选的数据限制了证据范围。
+
+- **[Can the Confidence and Decisions of System 1 Models Be Trusted? An Explainability and Perturbation Audit of Jev-Style Decision Models](https://arxiv.org/abs/2611.12521)**<br>📅 <strong>2026-11-09 14:58 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Julien Delaunay
+  - 该审计比较五种开放 Jev 式系统及生成基线的置信度、稳定性和解释。报告中，接口置信度反映选项分布形状，与实测正确率口径不同。合并提问也可能改变答案，值得分别核验这些接口属性。
+
+- **[Browser Immune System (BIS): Innate and Adaptive Threat Detection in the Browser with a Cybersecurity Transformer](https://arxiv.org/abs/2611.15302)**<br>📅 <strong>2026-11-11 10:36 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Víctor Mayoral-Vilches, Eduardo Worrel
+  - BIS 通过对网页内容作出一组结构化判断探索防御性浏览器分类。少量公开网页测试发现普通页面也可触发误报。作者区分研究模型版本的评测与浏览器扩展部署所需的证据。
+
+- **[Recalibrating a Typed-Decision Model in an Afternoon: A Hands-On Recipe for Laya's Confidence Scores](https://arxiv.org/abs/2611.16499)**<br>📅 <strong>2026-11-12 09:02 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Mohammed Nayeem Khan, Aliyas Ahmad Misri
+  - 作者研究不同 Laya 检查点的置信度再校准，发现存储设定与运行时取值存在差异。重新拟合温度改善了随机划分下的多个检查点，留出集合上的收益较小。实验共用底层标注流程。
+
+- **[Look Here, Then Decide: Small Decision Models in a Harness Find Memory-Safety Vulnerabilities at Scale on Commodity GPUs](https://arxiv.org/abs/2611.16565)**<br>📅 <strong>2026-11-12 09:51 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Tim De Wachter, Kyryl Volkov, Myrto Eleftheria Gkogkou, Mathieu Huysman
+  - 作者评估小型决策模型在防御性代码审查中辅助安排优先级的能力，区分模型判断与经验证的发现，并比较受测部署的资源需求。确认的问题按协调披露流程处理。
+
+- **[S1-Evo: Experience-Guided Evidence Competition Attacks on Typed System-1 Decision Models](https://arxiv.org/abs/2611.16937)**<br>📅 <strong>2026-11-12 15:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Kaixiang Wang, Junjie Li, Zhaojiacheng Zhou, Jiong Lou, Jie Li
+  - 该稳健性研究在基准任务中评估 Jev 等 System One 模型面对对抗性证据时的表现。结果包含高置信度错误及对下游智能体决定的影响，表明单靠置信度可能漏掉受干扰的判断。
+
+- **[A First Look at System One Decision Models for Malware Detection](https://arxiv.org/abs/2611.20699)**<br>📅 <strong>2026-11-16 08:08 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Pier Mattia Basciano, Giovanni Farina, Salvatore Monteleone
+  - 该防御性基准比较 System One 模型利用结构化证据分类恶意软件的能力。作者报告不同误报率下的检出率，并检查总体预测背后的分项判断。实测结果取决于所选阈值及基准。
+
+- **[Jev-as-a-Reward: Validating Probabilistic Safety Judges for Reinforcement Learning](https://arxiv.org/abs/2611.20955)**<br>📅 <strong>2026-11-16 12:01 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Eunkyeong Lee, Junhyung Moon, Seunggwan Hong, Dongsuk Oh
+  - 作者检验 Jev 概率能否作为语言模型训练的安全奖励，对比防护模型判断，并同时追踪高置信度错误与总体安全结果。实验表明，有用的奖励仍可能在困难判断上存在盲点。
+
+- **[JEV vs. LLMs: A Comparative Analysis for Phishing Email Detection](https://arxiv.org/abs/2611.23683)**<br>📅 <strong>2026-11-18 01:17 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Muhammad Mahir Malik, Muhammad Moiz Khalid, Hussain Ahmad, Faheem Ullah
+  - 该钓鱼邮件基准比较 Jev 与生成模型的分类、延迟和概率校准。Jev 在若干受测初筛指标上表现较好。生成式解释超出该评测范围，数据仅支持有界比较。
+
+- **[VisualJevBench: A Benchmark and Black-Box Attacks for Visual Typed Decision Models](https://arxiv.org/abs/2611.25435)**<br>📅 <strong>2026-11-19 03:16 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Li Zeng, Yeqi Zeng, Hengkai Liang, Shiguo Wang, Meng Xie, Zeyu Ye, Jinheng Zhang, Xianlong Wang, Ziqi Zhou, Hangtao Zhang
+  - VisualJevBench 使用 Jev 评估视觉类型化决策，并记录输入图像变化下的稳健性。报告中的失效情况随评测条件和迁移设置变化。基准可将视觉决策可靠性与干净输入准确率分别衡量。
+
+- **[MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models](https://arxiv.org/abs/2611.26557)**<br>📅 <strong>2026-11-19 18:25 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Jinzhe Li, Qi Wang, Dandan Guo, Li Liu, Yuan Wu, Yi Chang
+  - 论文在答案证据和输入描述发生变化时评估多模态 System One 模型的偏差。作者同时比较所选答案变化以及答案不变时的概率偏移。仅看准确率可能掩盖输入间的差异。
+
 
 <a id="science-healthcare-education"></a>
 
@@ -682,6 +1109,111 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 - **[PremiseCheck: Efficient Fact-Checking of Human and AI Peer Reviews](https://arxiv.org/abs/2610.21046)**<br>📅 <strong>2026-10-15 00:42 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Dingjie Song, Zhiling Yan, Ziqian Zhang, Yuxuan Zhang, Lichao Sun
   - PremiseCheck 先由 LLM 将审稿意见拆解为明确前提，再用 Jev 对照论文逐条核查。ReviewFact 覆盖 NLP、机器学习和自然科学审稿；框架报告与 GPT-5.5 接近的准确率和较低的逐条评论成本。它检查对稿件的事实陈述，不评判审稿人的科学判断是否成立。
 
+- **[A general-purpose System One decision model for clinical records](https://arxiv.org/abs/2610.27099)**<br>📅 <strong>2026-10-19 18:00 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Andrew Zhang, Trinh T.L. Vuong, Sophia J. Wagner, Dongmin Bang, Tong Ding, Yuchang Su, Mary Cipperman, Christina S. Chen, Judith Lefkes, Ramin Kahidi, Ming Y. Lu, Caiwei Tian, Tianhao Luo, Jingnan Ma, Rowland Pettit, Long Phi Le, Faisal Mahmood
+  - Clinical System One 面向大规模病历训练结构化问答。在回顾性试验筛选实验中，它排名靠前的病历比关键词搜索包含更多被判定为符合条件的候选，使用的大模型词元也少于逐份阅读病历的方案。
+
+- **[Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI](https://arxiv.org/abs/2610.28826)**<br>📅 <strong>2026-10-20 18:46 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Rotem Gershon, Seffi Cohen, Dean Ariel, Havatzelet Bilavsky-Yarden, Amiel Sberro, Shai Yitzhaki, Osnat Tausky, Naama Golan, Maayan Rabinovitch, Ariel Avraham Hasidim, Itay Arianu, Maya Dagan, Ran Balicer, Noa Dagan
+  - 作者在三组临床生成式 AI 评测中比较 Jev 和生成式评判模型。在受测配置中，Jev 的准则判断一致性相近，费用和延迟较低。部分对比以其他评判模型的判断为参照。
+
+- **[RetiJev: Fast and Source-Grounded Ophthalmic Decision Models](https://arxiv.org/abs/2610.30947)**<br>📅 <strong>2026-10-22 08:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Bo Liu, Lianyu Wang, Meng Wang, Ching-Yu Cheng, Huazhu Fu
+  - RetiJev 为眼科诊断、临床选择和指南评级训练单次前向模型。作者报告其在指南评级上超过生成模型和托管 Jev，并具有较快推断速度。评测范围限于论文所选来源和有界任务。
+
+- **[The Value of System 1 Models in Medicine](https://arxiv.org/abs/2610.31315)**<br>📅 <strong>2026-10-22 14:08 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Xiufeng Yang, Konstantinos Vrettos, Zeineb Ben Chaaben, Fabian Drexel, Jannik Lübberstedt, Johannes Moll, Anirudh Narayanan, Frederike Stumpf, Cosmin I. Bercea, Jiawen Wang, Evangelia E. Vassalou, Krischan Braitsch, Aymen Meddeb, Sebastian Ziegelmayer, Markus Graf, Marcus R. Makowski, Lisa Adams, Nassir Navab, Michail E. Klontzas, Keno Bressem
+  - 该医学基准比较 System One 模型和同系列生成模型在结构化决策中的表现。报告的运行结果中延迟更低，但成绩随语言与输入类型变化。图像解读和依赖判断的题目比文本知识回忆任务更具挑战。
+
+- **[PathJev: Decision-Native Vision-Language Modelling for Histopathology](https://arxiv.org/abs/2610.32478)**<br>📅 <strong>2026-10-23 10:47 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Cristian Tommasino, Antonio M. Rinaldi
+  - PathJev 学习为运行时指定的组织病理候选分配概率。作者评估识别、校准及拒判，并演示全切片应用。陌生器官上的校准可能恶化，报告中监督式病理基线的校准更好。
+
+- **[Decision-only medical AI: early evidence and pairing with language models](https://www.medrxiv.org/content/10.64898/2026.10.21.26366149)**<br>📅 <strong>2026-10-24</strong> · medRxiv 预印本 · <strong>Tier B</strong> · Mahmud Omar, Ashwin Ramaswamy, Ankit Sakhuja, Benjamin S. Glicksberg, Alon Gorenshtein, Jonathan B. Kruskal, Muneeb Ahmed, Olga Rachel Brook, Raja-Elie E. Abdulnour, Alvira Tyagi, Dhaval Patel, Alexander W. Charney, Yiftach Barash, Eyal Klang, Girish N. Nadkarni
+  - 这篇 medRxiv 预印本用改变表述的临床样例评估 Jev 和另一决策服务，并测试与生成模型配对的工作流。在受控实验中，配对减少部分表述影响，分诊准确率保持接近。
+
+- **[Scoring the NIH Stroke Scale from bedside exam transcripts: a synthetic benchmark of a decision model and a large language model](https://www.medrxiv.org/content/10.64898/2026.10.23.26366376)**<br>📅 <strong>2026-10-26</strong> · medRxiv 预印本 · <strong>Tier B</strong> · Noor Abdulla, Waleed Abood
+  - 作者比较决策模型和语言模型如何根据合成查体记录评定卒中量表条目。生成模型准确率较高，决策模型速度较快、费用较低。模拟级联测试能否选择性复核低置信度条目。
+
+- **[MedJev: Evaluating Zero-Shot System-One Decision Making in Medicine](https://arxiv.org/abs/2610.36006)**<br>📅 <strong>2026-10-26 16:08 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Simon A. Lee, Jiahang Sha, Moonseong Jeong, Yunbei Pan, Jeffrey N. Chiang
+  - 这项 MedJev 研究评估现有 System One 模型的零样本临床决策能力，衡量预测表现、服务成本和校准，并测试少量标注下的再校准。评测为不同临床人群的本地验证提供研究基线。
+
+- **[Can JEV Support Clinical Trial Criteria Assessment?](https://arxiv.org/abs/2610.35721)**<br>📅 <strong>2026-10-26 16:41 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mengxian He, Ziyue Gao, Chun Li, Shunyi Zhang, Hao Wei, Minqing Zhang, Wu Yuan
+  - 论文评估 Jev 对临床试验入组条件的判断，包括识别信息缺失，并按条件衡量表现和成本。报告中出现的证据解读错误表明，复核流程需将标记的条件与原始病历核对。
+
+- **[PsyJev: Psychological Analysis via System-1 Judgment](https://arxiv.org/abs/2610.36689)**<br>📅 <strong>2026-10-27 06:03 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Fangyuan Liu, Sirui Zhao, Xiaohao Wang, Guo Cheng, Peng Zhang, Enhong Chen
+  - PsyJev 训练紧凑决策模型，对心理分析任务作出结构化判断。作者比较模型规模，并检验训练阶段对 F1 和概率质量的作用。结论适用于论文基准。
+
+- **[CausalGrade: Evidence-Guided Causal Graph Scoring with Jev](https://arxiv.org/abs/2610.40692)**<br>📅 <strong>2026-10-28 07:33 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jiangming Zhong, Jiawei Zhu, Guanting Wu, Qiaoxi Cai, Wanyi Chen, Jiale Li
+  - CausalGrade 使用 Jev 依据给定证据为候选因果图打分。合成实验分析分数与已知结构误差的关系，并与自兼容指标比较图选择。报告命中率有所上升，但仍会选错较多样例。
+
+- **[Benchmarking decision models against generative large language models on medical multiple-choice questions](https://arxiv.org/abs/2610.38448)**<br>📅 <strong>2026-10-28 08:25 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Oscar Freyer, Daniel Glauert, Moritz Hofmann, Max Ostermann, Stephen Gilbert, Jakob Nikolas Kather
+  - 评测在医学选择题上比较决策与生成模型，考察重复运行及概率可靠性。受测决策模型的计算和服务成本较低，最强生成模型准确率更高。标签重复一致时，概率仍可能变化。
+
+- **[Decision and System One models in rheumatology: accuracy and calibration on specialty-training examination questions and diagnostic case vignettes](https://arxiv.org/abs/2610.40318)**<br>📅 <strong>2026-10-29 15:53 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Alfredo Madrid-García, Diego Benavent, Fabian Lechner, Phillip Kremer, Johannes Knitza, Beatriz Merino-Barbancho
+  - 作者在风湿病学考试题和诊断病例上比较 Jev 式系统与生成式模型。考试题上的较好成绩未迁移至诊断病例，Jev 高置信度判断的正确率也随两类任务变化。
+
+- **[Radiology Guideline-derived Decision Graph for Efficient Clinical Decision Support](https://arxiv.org/abs/2610.40327)**<br>📅 <strong>2026-10-29 15:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xuewen Zhou, Zhen Chen
+  - GDGraph 将放射学指南表示为决策图，引导 System One 模型完成有界判断。作者在选定的偶发发现类别上与非结构化和图引导生成基线比较，报告准确率和服务效率的收益。
+
+- **[PathoJev: Efficient Pathology Decisions from Shared Visual Context](https://arxiv.org/abs/2610.40752)**<br>📅 <strong>2026-10-29 16:14 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Chengyang Zhang, Wenchuan Zhang, Bo Li, Xinyu Liu, Jiaming Yang, Mengran Li, Jie Chen, Wei Ju, Yuhao Yi, Hong Bu, Jiancheng Lv
+  - PathoJev 利用同一视觉上下文回答多个类型化病理问题。作者与全切片基线比较，并测量不同负载规模下共享编码的效果。问题批次较大时报告的加速最明显。
+
+- **[EDU-Jev Training System-One Decision Models for Education](https://arxiv.org/abs/2610.41079)**<br>📅 <strong>2026-10-29 23:48 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Jiazheng Li, Yulan He
+  - EDU-Jev 训练三种规模的决策模型，处理量规判断等教育评估任务。4B 版本在报告的域内教育对比中领先。最强商业基线在通用决策与推理任务上仍表现更好。
+
+- **[Do Multimodal Models Decide Consistently on Equivalent Optical Spectra?](https://arxiv.org/abs/2611.00428)**<br>📅 <strong>2026-10-30 22:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Ziyuan Wang, Genliang Zhu, Xiaobo Chen
+  - 研究以等价形式呈现光谱，检验模型的科学判断是否一致，以及关键证据缺失时的表现。实验包含决策模型基线，并指出完整光谱上的良好表现可能掩盖对捷径的依赖。
+
+- **[Decision-Centric Research: A Calibrated Decision Model and Benchmark for Scientific Agents](https://arxiv.org/abs/2611.00774)**<br>📅 <strong>2026-10-31 09:34 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Shaoning Zeng, Wen Huang, Xinzhong Zhu, Yi Duan, Jianhang Zhou, Jianping Gou
+  - DCRM 研究以当前研究状态为条件的科学智能体决策。其基准评估预测与不确定性，并允许保形预测集保留多个候选。作者报告，在留出数据中，使用状态可在相近覆盖率下缩小预测集。
+
+- **[Zero-shot evaluation of open vision-language models as System 1 decision models on radiology tasks](https://arxiv.org/abs/2611.01631)**<br>📅 <strong>2026-11-01 06:32 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Bradley J Erickson, Sara Salehi
+  - 论文用开源视觉语言模型的单词元读出评估放射学零样本 System One 式决策，比较多个任务上的答案偏好和准确率。受测模型无法在所有任务中领先，答案偏好可能高度依赖任务。
+
+- **[EarthJev: Calibrated, Non-Generative Answers to Natural-Language Questions about Sentinel-2 Land Cover](https://arxiv.org/abs/2611.02096)**<br>📅 <strong>2026-11-01 18:11 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Domenico Benfenati, Antonio Maria Rinaldi, Cristian Tommasino
+  - 该 EarthJev 模型从给定候选中选择答案并估计概率，用于 Sentinel-2 土地覆盖问答。消融检验额外光谱波段的贡献，作者报告校准和准确率，并与端到端视觉适配比较。
+
+- **[A decision-only model as a low-cost judge of medical AI answers](https://www.medrxiv.org/content/10.64898/2026.10.30.26366939)**<br>📅 <strong>2026-11-02</strong> · medRxiv 预印本 · <strong>Tier B</strong> · Mahmud Omar, Benjamin S. Glicksberg, Ankit Sakhuja, Yiftach Barash, Alexander W. Charney, Eyal Klang, Girish N. Nadkarni
+  - 这项 medRxiv 研究评估 Jev 作为低成本医学答案评判模型的表现，并与其他模型和专家一致性比较。报告显示其服务成本较低，在许多任务上具有竞争力，但在部分错误检测实验中较弱。
+
+- **[Every Pixel Is an Option: A System One Model for Medical Ultrasound Biometry](https://arxiv.org/abs/2611.03360)**<br>📅 <strong>2026-11-02 16:09 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Moein Heidari, Junbo Rao, Yudan Chen, Yasamin Medghalchi, River Jiang, Wenjin Chen, David J. Foran, Jasmine Grewal, Ilker Hacihaliloglu
+  - Kev-Bio 将超声地标定位表述为对图像位置的决策。作者在多个解剖切面评估地标检测与下游生物测量指标，比较范围限于研究采用的数据集和任务。
+
+- **[EO-Jev: Decision Model for Earth Observation](https://arxiv.org/abs/2611.03371)**<br>📅 <strong>2026-11-02 16:16 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Mohamed Atef Abouelhadid, Diaa Addeen Abuhani, Muhammad Akhtar Munir, Fahad Shahbaz Khan, Salman Khan
+  - EO-Jev 将通用决策模型适配到地球观测，并评估对通用能力的影响。论文测试感知、选项一致性和分布变化下的校准。受测适配模型在定量问题和分布变化下仍面临挑战。
+
+- **[Structured Clinical Memory as Context for Probabilistic Decision Models: A Synthetic Evaluation with Jev](https://arxiv.org/abs/2611.04101)**<br>📅 <strong>2026-11-03 00:22 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Jash Sayani, Gaurang Karwande, Achinth Bharadwaj
+  - 这项合成试点评估将结构化患者记忆作为输入状态时的 Jev，比较不同上下文配置下的决策。标签由一位作者提供，记忆是理想条件下的上界，临床外推有限。
+
+- **[A Systematic Comparison of In-Context Learning Strategies for Peptide Property Prediction in Low-Data Regimes](https://arxiv.org/abs/2611.09994)**<br>📅 <strong>2026-11-03 09:02 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Jiantao Zhao, Andrei Voinea, Mathijs F.J. Mabesoone
+  - 该基准在低数据量的肽属性分类中比较类型化决策模型、语言模型、表格基础模型与梯度提升树。作者发现表现随任务变化，上下文学习相对经典基线未取得显著总体优势。
+
+- **[EarthJev: Efficient Visual Evidence Acquisition and Decision for UHR Remote Sensing Understanding](https://arxiv.org/abs/2611.10005)**<br>📅 <strong>2026-11-04 09:00 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Pengyu Dai, Yao Zhang, Jian Song, Junjue Wang, Yafei Ou, Yuzeng Chen, Junshi Xia, Hongruixuan Chen, Naoto Yokoya
+  - 这项 EarthJev 系统针对超高分辨率遥感问题决定去哪里获取补充视觉证据。实验用多种冻结回答模型比较控制器和单次前向基线。报告中的收益基于分别拟合和校准各模型。
+
+- **[GeoJeV: Unified Spatial Probability for Training-Free Efficient Evidence Acquisition in Ultra-High-Resolution Remote Sensing](https://arxiv.org/abs/2611.08879)**<br>📅 <strong>2026-11-06 02:12 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xinyi Niu, Lingfeng Chen, Jiehua Zhang, Panhe Hu, Li Liu, Zhen Liu, Yongxiang Liu
+  - GeoJeV 使用空间概率选择超高分辨率遥感图像中值得进一步查看的区域。作者在三个基准上报告准确率和延迟，并与单次前向基线及较慢的证据获取方法比较。
+
+- **[TrialJev: Open-Weight Single Pass Eligibility Scoring for Patient Trial Screening](https://arxiv.org/abs/2611.10145)**<br>📅 <strong>2026-11-06 19:11 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Omar Ibrahim, Grant Hamblin, Benjamin Haibe-Kains
+  - TrialJev 用开放的单次前向架构评估患者与试验的匹配资格。作者在合成病例上衡量排序、决策正确率和推断成本，将其定位为后续复核的优先级辅助工具，并报告特定实现的耗时。
+
+- **[NuJEV: Structured Visual Judgments for Consistent Nuclei Quantification](https://arxiv.org/abs/2611.11359)**<br>📅 <strong>2026-11-08 13:05 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yonghuang Wu, Pengfei Wang, Zhenyang Liang, Yize Ma, Pengfei Song, Guoqing Wu, Jinhua Yu
+  - NuJEV 将候选定位与类型化视觉判断结合，对细胞核进行计数和分类。作者评估密集图像和自然语言请求，并比较视觉适配与匹配基线。指标涵盖定位和计数误差。
+
+- **[S1Pert: Scalable Target-Specific Gene Response Prediction with System-One Intelligence](https://arxiv.org/abs/2611.17705)**<br>📅 <strong>2026-11-13 03:35 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xiaoqi Sheng, Hou wang, Yan Liang, Yutong Li, Wenhao Du, Tinghe Zhang, Jiawen Liu, Hongmin Cai
+  - S1Pert 在基因反应预测基准中评估受 System One 启发的模型。作者在留出细胞情境中比较预测表现与推断效率，以历史反应趋势为参照衡量受测数据集中的泛化。
+
+- **[Can decision models extract clinical data from cancer pathology reports? An evaluation of accuracy, calibration, and failure modes](https://arxiv.org/abs/2611.20129)**<br>📅 <strong>2026-11-15 16:57 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Indranil Mallick, Paromita Roy
+  - 研究衡量决策模型从癌症病理报告提取字段的准确率、校准和延迟。显式文本字段与数值测量的难度不同。论文报告具体字段的错误，并强调按实际配置验证。
+
+- **[MedJev: A System One Vision-Language Decision Model for Fast and Effective Medical Image Understanding](https://arxiv.org/abs/2611.20992)**<br>📅 <strong>2026-11-16 12:21 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Fan Zhang, Hao Wu, Jinyang Wu, Hongyu Qu, Zheng Lian, Dongfu Yin, Qingsong Wen, Pheng-Ann Heng
+  - 这一 MedJev 模型基于视觉语言骨干对医学图像进行单次前向决策。作者与通用和医学视觉语言基线比较准确率及端到端推断耗时。该工作与较早的同名零样本基准研究范围不同。
+
+- **[Title and Abstract Screening for Systematic Reviews with Jev, a Decision Model: Comparison with Generative Large Language Models](https://www.mdpi.com/2078-2489/17/11/1160)**<br>📅 <strong>2026-11-17</strong> · Information · <strong>Tier B</strong> · Kentaro Matsui, Yoshikazu Takaesu
+  - 作者在两项双相障碍治疗综述的题名和摘要筛选中比较 Jev 与生成模型。受测运行中，Jev 以较低实测成本保留所有最终纳入报告，但仍排除了部分人工筛查认为应阅读全文的记录。
+
+- **[Right Diagnosis, Unsafe Route: Auditing Clinical AI Decision Trajectories and Corrective Oversight for Validity and Potential Harm](https://arxiv.org/abs/2611.22612)**<br>📅 <strong>2026-11-17 11:26 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Guanqiao Chen, Wei Jiang, Shu Zhang, Qian Lin, Guanxu Yu, Siran Li, Chunhui Wang, Tianyu Shi
+  - 研究同时评估临床决策轨迹和最终诊断，并比较不同监督方式。纠正早期错误可以改善下一步，但轨迹后段仍可能出现新风险。评测区分最终准确率与过程安全。
+
+- **[SlideJev: Order-Stable and Tissue-Grounded Jev Decisions for Whole-Slide Pathology](https://arxiv.org/abs/2611.22879)**<br>📅 <strong>2026-11-17 14:53 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Lei Wu, Jiashuai Liu, Di Zhang, Chunze Yang, Jiusong Ge, Junbo Lu, Yongqi Liang, Wenjie Zhao, Ni Zhang, Chen Li, Zeyu Gao, Qidong Liu
+  - SlideJev 通过组织证据定位和顺序稳定的候选处理回答全切片病理问题。评测调换选项顺序，并用不匹配或缺失图像作对照。报告中的准确率收益与正确组织证据有关。
+
 
 <a id="networks-databases-engineering"></a>
 
@@ -725,6 +1257,54 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
   - 这项研究使用四个真实设备数据集中的 128 个暖通空调故障日，比较 Jev、开放语言模型和监督模型，并改变物理特征、拓扑与部署条件。Jev 能诊断由单项物理特征支持的故障，但在需要运行背景时表现欠佳；发生分布偏移时，它比监督对照模型更稳定。本文作为有限选项诊断应用被收录，但较弱的检测能力和需要修正的概率限制了其自主使用。
 - **[Typed Decision Models on Tabular Data](https://arxiv.org/abs/2610.19536)**<br>📅 <strong>2026-10-14 03:54 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Baowen Zhang, Hangting Ye, Hongyuan Zha
   - 该表格数据审计在分类、事实验证和异常检测中比较四个决策模型与三个 LLM，并施加二十一类保持内容的改写。决策模型以较低成本获得竞争性准确率，但所有模型都对表格组织方式敏感。对每个模型，至少三分之一的行判断会在某种改写下变化，揭示接口敏感性。
+
+- **[One Pretrained Decision Model Is Enough for Training-Free Generalist Graph Anomaly Detection](https://arxiv.org/abs/2610.30777)**<br>📅 <strong>2026-10-22 05:56 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xinyu Zhao, Qingyun Sun, Ziwei Zhang, Tianchen Zhu, Daqing Li, Jianxin Li
+  - Jev-GAD 用预训练决策模型判断图结构中的节点级证据，再将其排序与统计异常得分融合。作者在引文、社交及评论图上检验该方法在无需对每个异常数据集重新训练参数时的泛化性。
+
+- **[OneCodeReviewBench: Typed Decisions for Code Review and Search](https://arxiv.org/abs/2610.33389)**<br>📅 <strong>2026-10-24 01:40 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Mohamad Mohebifar, Alex Bit
+  - OneCodeReviewBench 用工程化参考答案和较小的人工复核子集评估有界代码审查及代码搜索决策。实验覆盖类型化判断和证据检索，受任务范围与评审一致性限制。结果尚未验证仓库规模上的泛化能力。
+
+- **[Benchmarking System One Models for Time-Series Decision Making: A Case Study of Jev](https://arxiv.org/abs/2610.33410)**<br>📅 <strong>2026-10-24 02:58 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Jianye Wang, Kexin Zhang, Jiayin Xiong, Hao Xue
+  - 该研究在事件预测、数值序列分类和市场方向等时间序列任务上评估托管 Jev。其表现因任务而异，候选排序有时优于最终决策。作者指出时间表示能力值得进一步检验。
+
+- **[DFIP: Decision-Focused Inference Path for System One Models](https://arxiv.org/abs/2610.36804)**<br>📅 <strong>2026-10-27 08:05 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ismail Pelaseyed, Alan Zabihi
+  - DFIP 研究 System One 模型的服务优化，比较固定形状重放与多样化请求。部分优化在特定工作负载下提速，但混合流量暴露了延迟、数值和可靠性限制。报告中的收益取决于服务条件。
+
+- **[SatOps-Decision: Low-Latency Discriminative Decisions for Onboard Satellite Communication Operations](https://arxiv.org/abs/2610.38697)**<br>📅 <strong>2026-10-28 19:00 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Lifan Mei, Yuxuan Li, Jiaxian Tu, Shenghe Xu
+  - SatOps-Decision 为有界的卫星通信操作训练紧凑决策模型。本地实验比较决策模型和生成骨干的耗时及准确率，并以托管 Jev 版本作准确率参照。延迟数据适用于受测硬件和实现。
+
+- **[Flide: Accelerating Decision Inference with Exact State Forking](https://arxiv.org/abs/2610.42148)**<br>📅 <strong>2026-10-30 17:59 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Bobo Li, Jiajia Song, Hao Fei, Wynne Hsu, Mong Li Lee
+  - Flide 通过跨选项复用共同输入状态的计算优化决策推断。研究与通用推断引擎比较吞吐量及对数值参照的吻合度。报告的加速取决于候选输入能共享多少计算。
+
+- **[DIMWIT: Directly Invoking Models Without Intensive Tuning](https://arxiv.org/abs/2611.01463)**<br>📅 <strong>2026-11-01 02:53 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Saarth Deshpande, Neeraja J. Yadwadkar, Venkat Arun
+  - DIMWIT 为单项资源管理决策调用模型，评估执行时间和输出质量之间的权衡。作者在一种视频负载上报告了编码提速，所测感知质量分数略降。
+
+- **[Honest Small Decision Models for Finance: Scale, Specialization Collapse, and Mixed-Corpus Remediation](https://arxiv.org/abs/2611.03755)**<br>📅 <strong>2026-11-02 11:18 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ajitabh Kumar
+  - 作者为金融规则判断和实际结果预测训练紧凑决策模型，跨规模衡量专业化代价，并测试混合训练数据。对实际结果的预测可能围绕基准率保持良好校准，却缺少足够的区分能力。
+
+- **[Thinking Fast, Trading Late: System One Decision Models vs the Market](https://arxiv.org/abs/2611.03985)**<br>📅 <strong>2026-11-02 21:24 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Amir Dehkordi, Alireza Kargarzadeh, Nariman Khaledian, Navid Parvini, Sid Ghatak, Arman Khaledian
+  - 论文按预注册方案评估基于新闻的市场判断，纳入成本与稳健性调整后比较策略表现。作者还发现，遮盖公司名称后，上下文仍可能泄露足以识别公司的信息。
+
+- **[Reproducible LoRA Inference Through Deterministic Split-K Reduction](https://arxiv.org/abs/2611.10334)**<br>📅 <strong>2026-11-07 00:03 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Dhayaneshwar Balusamy, Ankur Mohan
+  - 作者测量 LoRA 服务的可重复性，检验不同数值归约顺序如何使差异传导至决策。在受测硬件条件下，确定性实现保留大部分速度收益。研究将数值变化与输出变化联系起来。
+
+- **[Track or Follow? A Jev-Compatible Multi-Agent Trading System When Web News Lags the Market](https://arxiv.org/abs/2611.10414)**<br>📅 <strong>2026-11-07 02:47 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yebo Feng, Guangyan Gan, Liangrui Pan, Ruichao Liang, Cong Wu, Jiahua Xu, Yang Liu
+  - 该兼容 Jev 的交易模拟研究网页新闻晚于市场事件发布时，能否提供超出数值特征的信息。验证性实验在指定预测窗口未发现增量排序信息。论文还考察决策记录对结果审计的作用。
+
+- **[The Noise Floor of a Quantization Comparison: Engine, restart, batch and kernel drift, measured against 8-bit and 4-bit effects in two decision models](https://arxiv.org/abs/2611.15671)**<br>📅 <strong>2026-11-11 16:15 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Aleks Blagojevich, Trevor Sunderland
+  - 研究在两个决策模型上比较量化效应与推断引擎、重启、批次和内核引起的漂移。总体准确率接近时，个体答案仍可能改变。作者发布逐条输出，以支持基准均值以下层面的比较。
+
+- **[LuthorSQL: A One-Pass Text-to-SQL Model as System 1 for a Slower LLM Agent](https://arxiv.org/abs/2611.17780)**<br>📅 <strong>2026-11-13 05:44 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ibrahim Memon, Armin Karamzade, M. Hanif Jhaveri, Roy Fox
+  - LuthorSQL 用短决策路径提出 SQL 候选，供较慢的模型使用。研究比较标准与经修改的数据库模式，并检查公开参考查询的记忆效应。较晚发布的数据库提供独立迁移检验。
+
+- **[Budgeted Decision-Model-Guided Joint-Action Search for Satellite Edge Computing](https://arxiv.org/abs/2611.19225)**<br>📅 <strong>2026-11-14 07:35 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Ziming Liu, Minghao Sun, Ran Tao, Xiaoli Chu
+  - 研究用决策模型引导卫星边缘计算中受预算约束的联合动作搜索。模拟将求解耗时和任务时延与多个优化基线比较。报告收益适用于受测卸载场景与计算预算。
+
+- **[SpecSearch: Towards Hardware-Aware Efficient Speculative Decoding](https://arxiv.org/abs/2611.22296)**<br>📅 <strong>2026-11-17 06:53 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Selin Yildirim, Ali Zeyrek, Deming Chen
+  - SpecSearch 比较跨硬件搜索和用 Jev 预测高效推测解码配置的方法。报告实验中，决策引导版本的吞吐量接近完整测量，同时省去独立的硬件校准阶段。
+
+- **[When Do Typed Decision Models Work in Transportation? Evidence from Travel Choice and Traffic Signal Control](https://arxiv.org/abs/2611.22926)**<br>📅 <strong>2026-11-17 15:24 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Hongyang Zhang, Boyuan Deng, Siyuan Feng, Kai Chen, Junbo Zhang
+  - 论文在出行选择和交通信号控制中评估类型化决策模型，检验输入描述及任务要求如何影响零样本选择。作者分别报告两类应用中的机会和局限。
 
 
 <a id="social-science-human-decisions"></a>
@@ -770,14 +1350,49 @@ Jev 并非缩写，其名称源自经济学家 William Stanley Jevons。TypeSafe
 - **[Are AI Decision Models Biased? A Case Study of Jev](https://arxiv.org/abs/2610.19619)**<br>📅 <strong>2026-10-14 05:42 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Ilaria Imperatrice, Taisia Kameneva, Adam Eric Greenberg, Alessandro Romano
   - 该审计测量 41,500 次 Jev 回答中的认知与人口属性偏差，并追加 15,000 次合取任务回答。最终选项常能避免典型人类偏差，但无关数字、选项顺序和概率规则违背揭示了弱点。定价场景中较小的人口属性差异不能推广为普遍公平性保证。
 
+- **[S$^2$-MAS: A Society-Scale Multi-Agent Simulation Framework with a 500-Million-Persona Resource](https://arxiv.org/abs/2610.27746)**<br>📅 <strong>2026-10-20 07:05 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Yang Li, Yike Wang, Di Wan, Chujun He, Zongsi Xu, Yitao Yu, Shuai Zhong, Minghao Pan, Quanfeng Lu, Xiyu Chen, Sheng Zhong, Deng Binjie, Yichen Guo, Zhenwei Guo, Hou Jun, Kunhan Guo, Weihao Lin, Tuo Zhou, Hai Liu, Chenwei Wu, Jianyuan Zhong, Xilin Dai, Ye Luo
+  - 该家庭模拟结合大规模合成画像、学习所得的决策策略和显式财务记账。作者评估前瞻性消费预测及其对信息时点的敏感性。一项对比中的绝对误差有所下降，但总体均值仍被低估。
+
+- **[When the Top Answer Decides: Gender Bias in Decision Models](https://arxiv.org/abs/2610.39747)**<br>📅 <strong>2026-10-29 10:06 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Yeb Havinga
+  - 作者审计托管 Jev 及其他决策模型的人口群体偏差，比较最终选项和完整概率分布所显示的差异，发现两种视角可以得出不同结论。Jev 的学生模型在该审计中也与教师存在差异。
+
+- **[When Disclosure Is Compulsory: Evaluating Ride-Hailing Rebalancing Policies with Self-Interested LLM Driver Agents](https://arxiv.org/abs/2610.41132)**<br>📅 <strong>2026-10-30 01:37 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Xinyu Wang, Andres Fielbaum
+  - 该网约车模拟用具备决策能力的驾驶员智能体评估强制披露下的运力再平衡。与完全遵从相比，司机选择会改变经济和服务结果。模拟结论取决于所用司机激励模型及受测平台政策。
+
+- **[Swap, Replicate, Read the Mass: A Protocol for Auditing Demographic Bias in System One Decision Models](https://arxiv.org/abs/2611.00496)**<br>📅 <strong>2026-10-31 00:36 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Alejandro Mozo Quesada, Sergio Gálvez Rojas, Francisco López Valverde
+  - 作者通过改变问题表述和候选顺序来审计 System One 模型的人口群体差异，并在多次运行中分别分析最终选择和概率质量。观察到的差异会受呈现方式与决策汇总方法影响。
+
+- **[S1CogBench: What System One Decision Models Can and Cannot Do on Cognitive Experiments](https://arxiv.org/abs/2611.00911)**<br>📅 <strong>2026-10-31 13:09 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Dengzhe Hou, Kazunori D Yamada
+  - S1CogBench 在源自认知实验的任务上评估 System One 模型。研究区分能力差异和输出生成延迟，并包含匹配的短输出对照。分任务结果描述了决策形式在受测认知场景中的适用范围。
+
+- **[Fast, Cheap, and Fair? Evaluating Decision Models](https://arxiv.org/abs/2611.04510)**<br>📅 <strong>2026-11-03 08:34 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Muhammad Uzair Ul Haq, Davide Rigoni, Alessandro Sperduti, Flavia Fabris
+  - 该招聘审计衡量反事实简历变体如何影响决策模型的评分及入围结果，参照姓名和拼写扰动造成的变化，并记录服务成本。观察到的差异依赖受测任务与模型配置。
+
+- **[Decision Models as Scalable Economic Surrogates that Capture Human Variation](https://arxiv.org/abs/2611.05553)**<br>📅 <strong>2026-11-03 19:47 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Maxime Saxena, Fabio Caccioli, R. Maria del Rio-Chanona
+  - 作者比较决策模型和生成模型在经济博弈中替代人类选择的能力，同时衡量个体差异、总体一致性和推断成本。决策模型在受测任务中捕捉到更多差异，并降低重复模拟开销。
+
+- **[TACT: A Pragmatic Approach to Qualitative Analysis with an AI Council](https://arxiv.org/abs/2611.05702)**<br>📅 <strong>2026-11-03 22:30 UTC</strong> · arXiv v1 · <strong>Tier A</strong> · Rudrajit Choudhuri, Christian Bird, Carmen Badea, Anita Sarma
+  - TACT 以多个 AI 角色协作完成定性分析，并将决策判断纳入工作流。论文比较较轻与完整配置的输出和成本，并讨论研究人员如何检查和验证主题分析结果。
+
+- **[Same Facts, Different Remedy: Linguistic Profiling and Arbitrariness in LLM and System One Decisions](https://arxiv.org/abs/2611.08995)**<br>📅 <strong>2026-11-06 05:10 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Colin Priest
+  - 该审计比较文风改写对生成模型及 System One 模型的个体决策和群体差异的影响。审计模型检查改写是否保留重要事实。即使未被标记为改变事实，改写仍可能导致决策波动。
+
+- **[Nudging Decision Models: Do Digital Nudges Steer Fast, Generation-Free AI Agents?](https://arxiv.org/abs/2611.09264)**<br>📅 <strong>2026-11-06 10:21 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Sascha Kaltenpoth, Haya Halimeh, Kevin Bösch, Oliver Müller
+  - 作者比较数字助推如何影响非生成决策智能体和具备推理能力的语言智能体。部分受测助推的作用强度取决于智能体类型。结果适用于论文中的选择任务。
+
+- **[Can Model Answer Probabilities Represent Survey Populations? Conditional Prediction and Joint Validity in Jev Survey Simulation](https://arxiv.org/abs/2611.15576)**<br>📅 <strong>2026-11-11 14:59 UTC</strong> · arXiv v1 · <strong>Tier B</strong> · Zengqing Wu, Chuan Xiao
+  - 作者评估 Jev 概率能否表达人口调查回答，区分条件预测与联合事件。边际检验能约束可能结果，联合有效性仍需可关联的回答数据。证据限于选定的二元问题和一个模型版本。
+
 
 <a id="search-and-verification-notes"></a>
 
 ## 检索与核验说明
 
-**截止日期：** 2026 年 10 月 18 日（Asia/Shanghai）。
+**截止日期：** 2026 年 11 月 20 日（Asia/Shanghai）。
 
-**组织方式：** 按主要研究领域分组，截至 10 月 18 日核验时共收录 199 条文献，其中包括 186 篇学术预印本和 13 篇技术文章或报告。
+**组织方式：** 按主要研究领域分组，截至 11 月 20 日核验时共收录 403 条文献，其中包括 390 篇学术论文和 13 篇技术文章或报告。
+
+本次 **11 月 20 日更新新增 204 篇学术论文**，检索窗口为 2026 年 10 月 18 日至 11 月 20 日。通过 arXiv 原始提交历史、出版方与 DOI 元数据核对日期及版本，结合摘要和有针对性的全文检查判断相关性。按 arXiv 编号、DOI 和标准化标题去重。新增条目包括 197 篇 arXiv 预印本、4 篇其他来源预印本和 3 篇正式发表论文。未变更条目沿用此前的核验记录。覆盖范围受索引延迟和一手来源可用性影响。详见[11 月 20 日核验记录](outputs/jev-literature-2026-11-20.json)。
 
 <!-- review-marker-18 -->
 本次 **10 月 18 日更新新增 25 篇论文，修订 4 篇已有条目**；32 条新候选中排除 7 条无关关键词命中。现共 **199 条文献：185 篇 arXiv 预印本、1 篇 ResearchGate 预印本及 13 条技术来源**。通过 arXiv 官方 API 核对元数据和摘要，并对范围存疑项检查全文。最新收录的 v1 日期为 10 月 15 日；核验截止日期不保证已覆盖尚未公告或索引的投稿。NeoHorse-1 与 RedundancyBench 保留早于 Jev 发布的 v1 日期，Jev 内容来自后续修订。已有技术来源沿用先前审阅；Jev 1.14 公告用于网站介绍，不计为论文。详见[10 月 18 日核验记录](outputs/jev-literature-2026-10-18.json)。
